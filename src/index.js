@@ -3,7 +3,7 @@ import { StdioServerTransport } from "@modelcontextprotocol/sdk/server/stdio.js"
 import { z } from "zod";
 
 import { RumahSehatV2Database } from "./db.js";
-import { buildSupplierDirectReview } from "./draft.js";
+import { buildSupplierDirectReview, buildSupplierReceiptReview } from "./draft.js";
 import { loadLocalEnv } from "./env.js";
 import { rankCustomerCandidates, rankProductCandidates } from "./matching.js";
 
@@ -68,6 +68,52 @@ server.registerTool("build_supplier_direct_review", {
     supplierDeliveryFee: input.supplierDeliveryFee,
     customerDeliveryCharge: input.customerDeliveryCharge ?? input.supplierDeliveryFee,
     lines: input.lines.map((line, index) => ({ ...line, product: products[index] })),
+  }));
+});
+
+const receiptDestination = z.discriminatedUnion("kind", [
+  z.object({ kind: z.literal("auto_by_stock_tracking") }).strict(),
+  z.object({ kind: z.literal("owned_stock") }).strict(),
+  z.object({ kind: z.literal("business_or_household_use") }).strict(),
+  z.object({ kind: z.literal("unassigned_holding") }).strict(),
+  z.object({ kind: z.literal("customer_allocation"), customerId: uuid, customerNameRead: z.string().min(1).max(255) }).strict(),
+]);
+const receiptLine = z.object({
+  lineId: z.string().min(1).max(100).optional(), productNameRead: z.string().min(1).max(255), productId: uuid,
+  receivedQuantity: quantity, acceptedQuantity: quantity.optional(), totalRead: money,
+  destination: receiptDestination.default({ kind: "auto_by_stock_tracking" }),
+}).strict();
+server.registerTool("build_supplier_receipt_review", {
+  title: "Build a reviewed V2 house-receipt draft",
+  description: "Creates a form-fill-only supplierReceiptDraft. Tracked products default to owned stock; untracked products default to business/household use; titip lines may explicitly allocate to a customer. It never posts data.",
+  inputSchema: z.object({
+    sourceImage: z.string().min(1).max(500), slipIndex: z.number().int().min(1), sourceFingerprint: z.string().min(8).max(200).optional(),
+    supplierId: uuid, date, supplierReference: z.string().min(1).max(300).optional(), note: z.string().max(2000).default(""),
+    supplierDeliveryFee: money.default(0), lines: z.array(receiptLine).min(1).max(200),
+  }).strict(), annotations,
+}, async (input) => {
+  const supplier = await database.findSupplier({ supplierId: input.supplierId }, input.date);
+  if (!supplier) throw new Error("The selected supplier is not active on this date.");
+  const products = await database.findProductsByIds(supplier.id, input.lines.map((line) => line.productId), input.date, null);
+  const missing = products.findIndex((product) => !product);
+  if (missing >= 0) throw new Error(`Line ${missing + 1}: product is not active for ${supplier.name} on ${input.date}.`);
+  const customerIds = [...new Set(input.lines.flatMap((line) => line.destination.kind === "customer_allocation" ? [line.destination.customerId] : []))];
+  const customers = new Map();
+  for (const customerId of customerIds) {
+    const customer = await database.findCustomer(customerId, input.date);
+    if (!customer) throw new Error(`Customer ${customerId} is not active on ${input.date}.`);
+    customers.set(customerId, customer);
+  }
+  return response(buildSupplierReceiptReview({
+    source: { imageFile: input.sourceImage, slipIndex: input.slipIndex, ...(input.sourceFingerprint ? { fingerprint: input.sourceFingerprint } : {}) },
+    supplier, date: input.date, supplierReference: input.supplierReference, note: input.note,
+    supplierDeliveryFee: input.supplierDeliveryFee,
+    lines: input.lines.map((line, index) => ({
+      ...line, product: products[index],
+      destination: line.destination.kind === "customer_allocation"
+        ? { ...line.destination, customer: customers.get(line.destination.customerId) }
+        : line.destination,
+    })),
   }));
 });
 

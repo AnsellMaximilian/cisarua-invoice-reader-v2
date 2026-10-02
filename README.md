@@ -1,6 +1,6 @@
 # Rumah Sehat Invoice Reader V2
 
-A separate, review-first local Codex workspace for turning photographed supplier slips—initially Cisarua customer-direct slips—into JSON drafts accepted by Rumah Sehat V2.
+A separate, review-first local Codex workspace for turning photographed supplier slips into JSON drafts accepted by Rumah Sehat V2. It supports both supplier-direct customer slips and receipts delivered to the house.
 
 This project does not modify or depend on the original `invoice_reader` checkout. Its MCP reads the V2 database and exposes no mutation tools.
 
@@ -21,6 +21,7 @@ Loading JSON only fills the V2 form. The admin must review it and click **Postin
 - `resolve_customer`: ranks active customers using canonical names, aliases, addresses, and legacy references.
 - `match_product_lines`: ranks products active for the supplier using names, supplier descriptions, quantities, and handwritten totals.
 - `build_supplier_direct_review`: validates selected V2 identities and returns the review envelope and `supplierDirectDraft` consumed by the V2 form.
+- `build_supplier_receipt_review`: builds a house-receipt draft. It defaults tracked products to owned stock, untracked products to business/household use, and permits explicit customer allocations for `titip` lines.
 
 ## Commands
 
@@ -29,4 +30,4 @@ npm test
 npm start
 ```
 
-The first pass intentionally handles only supplier-direct customer slips. House receipts, `titip`, stock, and household-use imports belong in the next pass because each line needs an explicit V2 disposition.
+All generated JSON is review-only. It never posts receipts, stock, allocations, fulfillments, invoices, or supplier bills.

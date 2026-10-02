@@ -76,3 +76,63 @@ export function buildSupplierDirectReview({ source, supplier, customer, date, su
     supplierDirectDraft,
   };
 }
+
+export function buildSupplierReceiptReview({ source, supplier, date, supplierReference, note = "", lines, supplierDeliveryFee = 0 }) {
+  if (!/^\d{4}-\d{2}-\d{2}$/.test(date)) throw new Error("date must use YYYY-MM-DD.");
+  if (!lines.length) throw new Error("At least one product line is required.");
+  const warnings = [];
+  const draftLines = lines.map((line, index) => {
+    const receivedQuantity = positiveQuantity(line.receivedQuantity, `Line ${index + 1} received quantity`);
+    const acceptedQuantity = positiveQuantity(line.acceptedQuantity ?? line.receivedQuantity, `Line ${index + 1} accepted quantity`);
+    if (Number(acceptedQuantity) > Number(receivedQuantity)) throw new Error(`Line ${index + 1}: accepted quantity cannot exceed received quantity.`);
+    if (!line.product.inputUnitCode) throw new Error(`Line ${index + 1} has no usable V2 input unit.`);
+    const totalAmount = wholeRupiah(line.totalRead, `Line ${index + 1} total`);
+    const expected = line.product.expectedUnitCost === null ? null : Math.round(Number(acceptedQuantity) * Number(line.product.expectedUnitCost));
+    if (expected !== null && expected !== Number(totalAmount)) warnings.push(`${line.product.name}: handwritten supplier total Rp${totalAmount} differs from expected Rp${expected}.`);
+
+    let kind = line.destination.kind;
+    if (kind === "auto_by_stock_tracking") kind = line.product.stockTracked ? "owned_stock" : "business_or_household_use";
+    if (kind === "owned_stock" && !line.product.stockTracked) throw new Error(`Line ${index + 1}: ${line.product.name} does not track stock and cannot be assigned to owned stock.`);
+    if (kind === "business_or_household_use" && line.product.stockTracked) warnings.push(`${line.product.name}: this tracked product is intentionally being recorded as business/household use, not inventory.`);
+    if (kind === "business_or_household_use" && !line.product.stockTracked) warnings.push(`${line.product.name}: untracked product defaults to business/household use; confirm this is not a customer titip/allocation.`);
+
+    const disposition = kind === "customer_allocation"
+      ? { kind, customerId: line.destination.customer.id, customerName: line.destination.customer.name, quantity: acceptedQuantity }
+      : { kind, quantity: acceptedQuantity };
+    return {
+      clientLineKey: line.lineId || `receipt-line-${index + 1}`,
+      productId: line.product.id,
+      productName: line.product.name,
+      inputUnitCode: line.product.inputUnitCode,
+      receivedQuantity,
+      acceptedQuantity,
+      supplierDescription: line.productNameRead,
+      cost: { status: "provisional", totalAmount },
+      dispositions: [disposition],
+    };
+  });
+  const reference = supplierReference || `${source.imageFile}#${source.slipIndex}`;
+  const supplierFee = wholeRupiah(supplierDeliveryFee, "Supplier delivery fee");
+  const supplierReceiptDraft = {
+    schemaVersion: 1,
+    supplierId: supplier.id,
+    supplierName: supplier.name,
+    occurred: { date, precision: "date" },
+    supplierReference: reference,
+    ...(note.trim() ? { note: note.trim() } : {}),
+    lines: draftLines,
+    supplierDeliveryFee: { status: "provisional", amount: supplierFee, note: "Imported from reviewed supplier slip; confirm during supplier reconciliation." },
+  };
+  const supplierProductSubtotal = draftLines.reduce((sum, line) => sum + Number(line.cost.totalAmount), 0);
+  return {
+    schemaVersion: "rumah-sehat-v2-slip-review-v1",
+    readyToImport: true,
+    source,
+    extracted: { lines: lines.map((line) => ({ lineId: line.lineId ?? null, productNameRead: line.productNameRead, receivedQuantityRead: Number(line.receivedQuantity), acceptedQuantityRead: Number(line.acceptedQuantity ?? line.receivedQuantity), totalRead: Number(line.totalRead) })) },
+    resolved: { supplier },
+    warnings,
+    calculations: { supplierProductSubtotal, supplierDeliveryFee: Number(supplierFee), supplierTotal: supplierProductSubtotal + Number(supplierFee) },
+    proposedDraft: { supplierReceiptDraft },
+    supplierReceiptDraft,
+  };
+}

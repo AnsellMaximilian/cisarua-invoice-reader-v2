@@ -59,6 +59,7 @@ export class RumahSehatV2Database {
   async fetchProductsForSupplier(supplierId, effectiveOn, customerId = null) {
     const result = await this.pool.query(`
       select product.id, product.code, product.display_name as name,
+             product.stock_tracking_enabled as stock_tracked,
              option.option_code, option.display_label as option_label,
              term.expected_unit_cost::text as expected_unit_cost,
              term.supplier_description,
@@ -83,7 +84,7 @@ export class RumahSehatV2Database {
         and (term.effective_through is null or term.effective_through >= $2::date)
         and option.effective_from <= $2::date and (option.effective_through is null or option.effective_through >= $2::date)
       order by product.display_name`, [supplierId, effectiveOn, customerId]);
-    return result.rows.map((row) => ({ id: row.id, code: row.code, name: row.name, inputUnitCode: row.option_code, inputUnitLabel: row.option_label, expectedUnitCost: row.expected_unit_cost, catalogPrice: row.catalog_price, supplierDescriptions: row.supplier_description ? [row.supplier_description] : [] }));
+    return result.rows.map((row) => ({ id: row.id, code: row.code, name: row.name, stockTracked: row.stock_tracked, inputUnitCode: row.option_code, inputUnitLabel: row.option_label, expectedUnitCost: row.expected_unit_cost, catalogPrice: row.catalog_price, supplierDescriptions: row.supplier_description ? [row.supplier_description] : [] }));
   }
 
   async findCustomer(customerId, effectiveOn) {
