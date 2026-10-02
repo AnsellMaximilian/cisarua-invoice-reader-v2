@@ -1,0 +1,13 @@
+[mcp_servers.invoice-reader-v2]
+command = "C:/Users/ansel/AppData/Local/nvm/v24.11.1/node.exe"
+args = ["src/index.js"]
+cwd = "C:/Users/ansel/_projects/invoice_reader_v2"
+enabled_tools = [
+  "get_import_context",
+  "resolve_customer",
+  "match_product_lines",
+  "build_supplier_direct_review",
+]
+default_tools_approval_mode = "auto"
+startup_timeout_sec = 15
+tool_timeout_sec = 60

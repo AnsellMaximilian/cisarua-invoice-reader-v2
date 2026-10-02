@@ -1,0 +1,19 @@
+{
+  "name": "rumah-sehat-invoice-reader-v2",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Review-first Cisarua supplier-slip reader for Rumah Sehat V2.",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "1.30.0",
+    "pg": "8.23.0",
+    "zod": "4.4.3"
+  }
+}
