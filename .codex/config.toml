@@ -7,6 +7,7 @@ enabled_tools = [
   "resolve_customer",
   "match_product_lines",
   "build_supplier_direct_review",
+  "build_supplier_receipt_review",
 ]
 default_tools_approval_mode = "auto"
 startup_timeout_sec = 15
