@@ -28,14 +28,16 @@ export class RumahSehatV2Database {
     if (!supplier) throw new Error(`Active supplier not found on ${effectiveOn}: ${supplierName}`);
     const counts = await this.pool.query(`
       select count(distinct product.id)::integer as products,
-             count(distinct case when price.id is not null then product.id end)::integer as priced_products
+             count(distinct case when price.id is not null then product.id end)::integer as priced_products,
+             count(distinct alias.id)::integer as product_aliases
       from app.supplier_product_terms term
       join app.products product on product.id = term.product_id and product.active
       left join app.product_price_versions price on price.product_id = product.id
         and price.version_state = 'active' and price.price_scope = 'general' and price.effective_from <= $2::date
+      left join app.product_aliases alias on alias.product_id = product.id and alias.active
       where term.supplier_id = $1::uuid and term.effective_from <= $2::date
         and (term.effective_through is null or term.effective_through >= $2::date)`, [supplier.id, effectiveOn]);
-    return { database: await this.databaseName(), effectiveOn, supplier, counts: { activeSupplierProducts: counts.rows[0].products, productsWithCatalogPrice: counts.rows[0].priced_products }, capabilities: { readOnly: true, supplierDirectDraftV1: true } };
+    return { database: await this.databaseName(), effectiveOn, supplier, counts: { activeSupplierProducts: counts.rows[0].products, productsWithCatalogPrice: counts.rows[0].priced_products, supplierProductAliases: counts.rows[0].product_aliases }, capabilities: { readOnly: true, productAliases: true, productAliasWrites: false, supplierDirectDraftV1: true } };
   }
 
   async fetchCustomers(effectiveOn) {
@@ -59,6 +61,7 @@ export class RumahSehatV2Database {
   async fetchProductsForSupplier(supplierId, effectiveOn, customerId = null) {
     const result = await this.pool.query(`
       select product.id, product.code, product.display_name as name,
+             coalesce(alias_list.aliases, '{}') as aliases,
              product.stock_tracking_enabled as stock_tracked,
              option.option_code, option.display_label as option_label,
              term.expected_unit_cost::text as expected_unit_cost,
@@ -80,11 +83,15 @@ export class RumahSehatV2Database {
         order by case when version.price_scope = 'customer' then 0 else 1 end,
                  version.effective_from desc, version.recorded_at desc limit 1
       ) price on true
+      left join lateral (
+        select array_agg(alias.alias order by alias.alias) as aliases
+        from app.product_aliases alias where alias.product_id = product.id and alias.active
+      ) alias_list on true
       where term.supplier_id = $1::uuid and term.effective_from <= $2::date
         and (term.effective_through is null or term.effective_through >= $2::date)
         and option.effective_from <= $2::date and (option.effective_through is null or option.effective_through >= $2::date)
       order by product.display_name`, [supplierId, effectiveOn, customerId]);
-    return result.rows.map((row) => ({ id: row.id, code: row.code, name: row.name, stockTracked: row.stock_tracked, inputUnitCode: row.option_code, inputUnitLabel: row.option_label, expectedUnitCost: row.expected_unit_cost, catalogPrice: row.catalog_price, supplierDescriptions: row.supplier_description ? [row.supplier_description] : [] }));
+    return result.rows.map((row) => ({ id: row.id, code: row.code, name: row.name, aliases: row.aliases, stockTracked: row.stock_tracked, inputUnitCode: row.option_code, inputUnitLabel: row.option_label, expectedUnitCost: row.expected_unit_cost, catalogPrice: row.catalog_price, supplierDescriptions: row.supplier_description ? [row.supplier_description] : [] }));
   }
 
   async findCustomer(customerId, effectiveOn) {

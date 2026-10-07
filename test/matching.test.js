@@ -21,3 +21,14 @@ test("product matching combines supplier wording and arithmetic", () => {
   assert.equal(result.suggestedProductId, "a");
   assert.equal(result.candidates[0].totalMatches, true);
 });
+
+test("product aliases are first-class matching evidence", () => {
+  const result = rankProductCandidates({ productNameRead: "Sosis Beef", qtyRead: 1, totalRead: 123500 }, [
+    { id: "a", code: "beef-sausage", name: "Beef Sausage", aliases: ["Sosis Beef"], inputUnitCode: "pack", inputUnitLabel: "pack", expectedUnitCost: "123500", catalogPrice: "145000", supplierDescriptions: [] },
+    { id: "b", code: "pork-sausage", name: "Pork Sausage", aliases: [], inputUnitCode: "pack", inputUnitLabel: "pack", expectedUnitCost: "123500", catalogPrice: "145000", supplierDescriptions: [] },
+  ]);
+  assert.equal(result.confidence, "high");
+  assert.equal(result.suggestedProductId, "a");
+  assert.equal(result.candidates[0].matchedOn, "alias");
+  assert.equal(result.candidates[0].matchedText, "Sosis Beef");
+});

@@ -71,7 +71,7 @@ export function rankCustomerCandidates({ nameRead, addressRead }, customers, lim
 export function rankProductCandidates(line, products, candidateLimit = 5) {
   const qty = Number(line.qtyRead); const total = Number(line.totalRead);
   const ranked = products.map((product) => {
-    const choices = [{ type: "canonical_name", value: product.name }, ...(product.supplierDescriptions ?? []).map((value) => ({ type: "supplier_description", value }))];
+    const choices = [{ type: "canonical_name", value: product.name }, ...(product.aliases ?? []).map((value) => ({ type: "alias", value })), ...(product.supplierDescriptions ?? []).map((value) => ({ type: "supplier_description", value }))];
     const textMatch = choices.map((choice) => ({ ...choice, score: textSimilarity(line.productNameRead, choice.value, normalizeProductName) })).sort((a, b) => b.score - a.score)[0];
     const expectedTotal = product.expectedUnitCost === null ? null : qty * Number(product.expectedUnitCost);
     const totalDelta = expectedTotal === null ? null : Math.abs(total - expectedTotal);

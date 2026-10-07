@@ -19,7 +19,7 @@ Loading JSON only fills the V2 form. The admin must review it and click **Postin
 
 - `get_import_context`: resolves a supplier and reports current matching coverage.
 - `resolve_customer`: ranks active customers using canonical names, aliases, addresses, and legacy references.
-- `match_product_lines`: ranks products active for the supplier using names, supplier descriptions, quantities, and handwritten totals.
+- `match_product_lines`: ranks products active for the supplier using canonical names, v2 product aliases, supplier descriptions, quantities, and handwritten totals.
 - `build_supplier_direct_review`: validates selected V2 identities and returns the review envelope and `supplierDirectDraft` consumed by the V2 form.
 - `build_supplier_receipt_review`: builds a house-receipt draft. It defaults tracked products to owned stock, untracked products to business/household use, and permits explicit customer allocations for `titip` lines.
 
