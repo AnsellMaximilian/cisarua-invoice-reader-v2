@@ -1,0 +1,310 @@
+{
+  "schemaVersion": "rumah-sehat-v2-slip-review-v1",
+  "readyToImport": true,
+  "workflow": "supplier_direct_to_customer",
+  "source": {
+    "imageFile": "WhatsApp Image 2026-10-03 at 1.53.11 PM.jpeg",
+    "sourcePath": "incoming/WhatsApp Image 2026-10-03 at 1.53.11 PM.jpeg",
+    "slipIndex": 2
+  },
+  "extracted": {
+    "customerNameRead": "Wei",
+    "addressRead": "Ibu Chi-Chi 12",
+    "date": "2026-09-30",
+    "slipTotalRead": 23180,
+    "slipTotalCertain": true,
+    "lines": [
+      {
+        "lineId": "s11-l01",
+        "productNameRead": "Bit",
+        "quantityRead": 0.61,
+        "totalRead": 23180
+      }
+    ],
+    "excludedOrNotReceived": []
+  },
+  "resolved": {
+    "supplier": {
+      "id": "19f80084-3483-5e26-97f4-58884573bbde",
+      "name": "Cisarua"
+    },
+    "customer": {
+      "id": "1aee9e26-efe7-58d0-8e5e-624b0aa478ce",
+      "name": "Wei Wei",
+      "legacyCustomerId": 47,
+      "aliases": [],
+      "addresses": [
+        "Sektor 1A. Blok AG 8 No 14. Gading Serpong"
+      ],
+      "nameRead": "Wei Wei"
+    }
+  },
+  "customerResolutionEvidence": {
+    "nameRead": "Wei Wei",
+    "addressRead": null,
+    "confidence": "high",
+    "suggestedCustomerId": "1aee9e26-efe7-58d0-8e5e-624b0aa478ce",
+    "candidates": [
+      {
+        "customerId": "1aee9e26-efe7-58d0-8e5e-624b0aa478ce",
+        "legacyCustomerId": 47,
+        "fullName": "Wei Wei",
+        "aliases": [],
+        "addresses": [
+          "Sektor 1A. Blok AG 8 No 14. Gading Serpong"
+        ],
+        "matchedOn": "canonical_name",
+        "matchedText": "Wei Wei",
+        "nameScore": 1,
+        "addressScore": 0,
+        "score": 1
+      },
+      {
+        "customerId": "15134ea4-580e-5df7-b5f2-88cd0cdc685d",
+        "legacyCustomerId": 647,
+        "fullName": "Lidia Teman Wei-wei",
+        "aliases": [],
+        "addresses": [
+          "Sektor 1 B"
+        ],
+        "matchedOn": "canonical_name",
+        "matchedText": "Lidia Teman Wei-wei",
+        "nameScore": 0.8842,
+        "addressScore": 0,
+        "score": 0.8842
+      },
+      {
+        "customerId": "0de630a8-9cca-592f-869c-247b588f91e3",
+        "legacyCustomerId": 533,
+        "fullName": "Ancilla - Anak Wei Wei",
+        "aliases": [],
+        "addresses": [],
+        "matchedOn": "canonical_name",
+        "matchedText": "Ancilla - Anak Wei Wei",
+        "nameScore": 0.882,
+        "addressScore": 0,
+        "score": 0.882
+      },
+      {
+        "customerId": "50a68ab3-4ec3-52f6-9390-03ac5e9e8864",
+        "legacyCustomerId": 426,
+        "fullName": "Wiwi",
+        "aliases": [],
+        "addresses": [
+          "PIK"
+        ],
+        "matchedOn": "canonical_name",
+        "matchedText": "Wiwi",
+        "nameScore": 0.5714,
+        "addressScore": 0,
+        "score": 0.5714
+      },
+      {
+        "customerId": "833f52be-6cfb-56e9-94cf-b60f92053aa2",
+        "legacyCustomerId": 412,
+        "fullName": "Dewi Meta",
+        "aliases": [],
+        "addresses": [],
+        "matchedOn": "canonical_name",
+        "matchedText": "Dewi Meta",
+        "nameScore": 0.4444,
+        "addressScore": 0,
+        "score": 0.4444
+      }
+    ],
+    "warnings": []
+  },
+  "productMatchingEvidence": {
+    "supplier": {
+      "id": "19f80084-3483-5e26-97f4-58884573bbde",
+      "name": "Cisarua"
+    },
+    "effectiveOn": "2026-09-30",
+    "lines": [
+      {
+        "lineId": "s11-l01",
+        "productNameRead": "Bit Merah",
+        "qtyRead": 0.61,
+        "totalRead": 23180,
+        "confidence": "high",
+        "suggestedProductId": "241f5520-f0ce-5bda-a5a7-39b5d2abd0d6",
+        "candidates": [
+          {
+            "productId": "241f5520-f0ce-5bda-a5a7-39b5d2abd0d6",
+            "productCode": "legacy-rs-632",
+            "name": "Bit Merah",
+            "inputUnitCode": "kg",
+            "inputUnitLabel": "Kilogram",
+            "expectedUnitCost": "38000.000000",
+            "catalogPrice": "52000.000000",
+            "matchedOn": "canonical_name",
+            "matchedText": "Bit Merah",
+            "nameScore": 1,
+            "costScore": 1,
+            "expectedTotal": 23180,
+            "totalDelta": 0,
+            "totalMatches": true,
+            "score": 1
+          },
+          {
+            "productId": "7b66d34f-3a81-5699-9ed3-522cab6f77c2",
+            "productCode": "legacy-rs-641",
+            "name": "Lobak Merah",
+            "inputUnitCode": "kg",
+            "inputUnitLabel": "Kilogram",
+            "expectedUnitCost": "38000.000000",
+            "catalogPrice": "47000.000000",
+            "matchedOn": "canonical_name",
+            "matchedText": "Lobak Merah",
+            "nameScore": 0.6364,
+            "costScore": 1,
+            "expectedTotal": 23180,
+            "totalDelta": 0,
+            "totalMatches": true,
+            "score": 0.7164
+          },
+          {
+            "productId": "216a7799-6892-584a-893b-208ed50fcd8b",
+            "productCode": "legacy-rs-647",
+            "name": "Bayam Merah",
+            "inputUnitCode": "kg",
+            "inputUnitLabel": "Kilogram",
+            "expectedUnitCost": "40000.000000",
+            "catalogPrice": "60000.000000",
+            "matchedOn": "canonical_name",
+            "matchedText": "Bayam Merah",
+            "nameScore": 0.6364,
+            "costScore": 0.8,
+            "expectedTotal": 24400,
+            "totalDelta": 1220,
+            "totalMatches": false,
+            "score": 0.6724
+          },
+          {
+            "productId": "a1624301-ae3c-586a-9852-26411992ea6c",
+            "productCode": "legacy-rs-675",
+            "name": "Kol Merah",
+            "inputUnitCode": "kg",
+            "inputUnitLabel": "Kilogram",
+            "expectedUnitCost": "54000.000000",
+            "catalogPrice": "65000.000000",
+            "matchedOn": "canonical_name",
+            "matchedText": "Kol Merah",
+            "nameScore": 0.6667,
+            "costScore": 0,
+            "expectedTotal": 32940,
+            "totalDelta": 9760,
+            "totalMatches": false,
+            "score": 0.52
+          },
+          {
+            "productId": "d4559261-6693-550f-9657-b43a51817967",
+            "productCode": "legacy-rs-596",
+            "name": "Beras Merah",
+            "inputUnitCode": "unit",
+            "inputUnitLabel": "Satuan/paket",
+            "expectedUnitCost": "31000.000000",
+            "catalogPrice": "39000.000000",
+            "matchedOn": "canonical_name",
+            "matchedText": "Beras Merah",
+            "nameScore": 0.6364,
+            "costScore": 0.0968,
+            "expectedTotal": 18910,
+            "totalDelta": 4270,
+            "totalMatches": false,
+            "score": 0.5177
+          }
+        ],
+        "warnings": []
+      }
+    ],
+    "summary": {
+      "totalLines": 1,
+      "highConfidence": 1,
+      "needsReview": 0
+    }
+  },
+  "warnings": [],
+  "calculations": {
+    "supplierProductSubtotal": 23180,
+    "supplierDeliveryFee": 0,
+    "supplierTotal": 23180,
+    "customerDeliveryCharge": 0
+  },
+  "proposedDraft": {
+    "supplierDirectDraft": {
+      "schemaVersion": 1,
+      "supplierId": "19f80084-3483-5e26-97f4-58884573bbde",
+      "supplierName": "Cisarua",
+      "customerId": "1aee9e26-efe7-58d0-8e5e-624b0aa478ce",
+      "customerName": "Wei Wei",
+      "occurred": {
+        "date": "2026-09-30",
+        "precision": "date"
+      },
+      "supplierReference": "WhatsApp Image 2026-10-03 at 1.53.11 PM.jpeg#2",
+      "note": "Handwritten product total Rp23180. Staff-confirmed OCR and identity review completed.",
+      "lines": [
+        {
+          "clientLineKey": "s11-l01",
+          "productId": "241f5520-f0ce-5bda-a5a7-39b5d2abd0d6",
+          "productName": "Bit Merah",
+          "inputUnitCode": "kg",
+          "quantity": "0.61",
+          "supplierDescription": "Bit Merah",
+          "supplierCost": {
+            "status": "provisional",
+            "totalAmount": "23180"
+          },
+          "customerPricing": {
+            "source": "catalog"
+          }
+        }
+      ],
+      "supplierDeliveryFee": {
+        "status": "provisional",
+        "amount": "0",
+        "note": "Imported from reviewed supplier slip; confirm during supplier reconciliation."
+      },
+      "customerDeliveryCharge": "0",
+      "customerDeliveryDescription": "Biaya pengantaran supplier langsung"
+    }
+  },
+  "supplierDirectDraft": {
+    "schemaVersion": 1,
+    "supplierId": "19f80084-3483-5e26-97f4-58884573bbde",
+    "supplierName": "Cisarua",
+    "customerId": "1aee9e26-efe7-58d0-8e5e-624b0aa478ce",
+    "customerName": "Wei Wei",
+    "occurred": {
+      "date": "2026-09-30",
+      "precision": "date"
+    },
+    "supplierReference": "WhatsApp Image 2026-10-03 at 1.53.11 PM.jpeg#2",
+    "note": "Handwritten product total Rp23180. Staff-confirmed OCR and identity review completed.",
+    "lines": [
+      {
+        "clientLineKey": "s11-l01",
+        "productId": "241f5520-f0ce-5bda-a5a7-39b5d2abd0d6",
+        "productName": "Bit Merah",
+        "inputUnitCode": "kg",
+        "quantity": "0.61",
+        "supplierDescription": "Bit Merah",
+        "supplierCost": {
+          "status": "provisional",
+          "totalAmount": "23180"
+        },
+        "customerPricing": {
+          "source": "catalog"
+        }
+      }
+    ],
+    "supplierDeliveryFee": {
+      "status": "provisional",
+      "amount": "0",
+      "note": "Imported from reviewed supplier slip; confirm during supplier reconciliation."
+    },
+    "customerDeliveryCharge": "0",
+    "customerDeliveryDescription": "Biaya pengantaran supplier langsung"
+  }
+}

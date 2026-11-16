@@ -1,0 +1,455 @@
+{
+  "schemaVersion": "rumah-sehat-v2-slip-review-v1",
+  "readyToImport": true,
+  "source": {
+    "imageFile": "WhatsApp Image 2026-10-24 at 11.49.14 AM (1).jpeg",
+    "slipIndex": 1,
+    "fingerprint": "8d446801948a5d8d8bb196a6f63a11662f33b005b3e5d902470f20f8bc13fd85",
+    "sourcePath": "incoming/WhatsApp Image 2026-10-24 at 11.49.14 AM (1).jpeg"
+  },
+  "extracted": {
+    "customerNameRead": "Yenti",
+    "lines": [
+      {
+        "lineId": "s17-l01",
+        "productNameRead": "Tahu Hongkong",
+        "quantityRead": 1,
+        "totalRead": 11000
+      },
+      {
+        "lineId": "s17-l02",
+        "productNameRead": "Buncis B",
+        "quantityRead": 0.25,
+        "totalRead": 10000
+      },
+      {
+        "lineId": "s17-l03",
+        "productNameRead": "Selada K",
+        "quantityRead": 0.25,
+        "totalRead": 10000
+      },
+      {
+        "lineId": "s17-l04",
+        "productNameRead": "Tomat Cherry",
+        "quantityRead": 0.25,
+        "totalRead": 13000
+      },
+      {
+        "lineId": "s17-l05",
+        "productNameRead": "Wortel",
+        "quantityRead": 0.5,
+        "totalRead": 15000
+      },
+      {
+        "lineId": "s17-l06",
+        "productNameRead": "Sl Head",
+        "quantityRead": 0.65,
+        "totalRead": 28600
+      }
+    ],
+    "date": "2026-10-22",
+    "slipTotalRead": 87600,
+    "slipTotalCertain": true,
+    "excludedOrNotReceived": [
+      {
+        "productNameRead": "Horenso",
+        "receivedRead": "X",
+        "reason": "marked not received"
+      }
+    ]
+  },
+  "resolved": {
+    "supplier": {
+      "id": "19f80084-3483-5e26-97f4-58884573bbde",
+      "name": "Cisarua"
+    },
+    "customer": {
+      "id": "a1349402-1a12-5eb9-a5eb-3ac6d6234b47",
+      "name": "Yenti",
+      "legacyCustomerId": 72,
+      "aliases": [],
+      "addresses": [
+        "Daan Mogot Baru, kompleks Jl. Kintamani Timur I Blok LB no. 11"
+      ],
+      "nameRead": "Yenti"
+    }
+  },
+  "warnings": [],
+  "calculations": {
+    "supplierProductSubtotal": 87600,
+    "supplierDeliveryFee": 10000,
+    "supplierTotal": 97600,
+    "customerDeliveryCharge": 10000,
+    "handwrittenProductTotal": 87600,
+    "lineTotalSum": 87600,
+    "handwrittenMinusLineSum": 0
+  },
+  "proposedDraft": {
+    "supplierDirectDraft": {
+      "schemaVersion": 1,
+      "supplierId": "19f80084-3483-5e26-97f4-58884573bbde",
+      "supplierName": "Cisarua",
+      "customerId": "a1349402-1a12-5eb9-a5eb-3ac6d6234b47",
+      "customerName": "Yenti",
+      "occurred": {
+        "date": "2026-10-22",
+        "precision": "date"
+      },
+      "supplierReference": "WhatsApp Image 2026-10-24 at 11.49.14 AM (1).jpeg#1",
+      "note": "Handwritten product total Rp87600; line sum matches. Excluded not-received markings: Horenso.",
+      "lines": [
+        {
+          "clientLineKey": "s17-l01",
+          "productId": "87b0985a-fc64-5c8d-a3db-aee1f0df6825",
+          "productName": "Tahu Hong Kong",
+          "inputUnitCode": "unit",
+          "quantity": "1",
+          "supplierDescription": "Tahu Hongkong",
+          "supplierCost": {
+            "status": "provisional",
+            "totalAmount": "11000"
+          },
+          "customerPricing": {
+            "source": "catalog"
+          }
+        },
+        {
+          "clientLineKey": "s17-l02",
+          "productId": "683c8da2-b4c9-5060-a473-d9cca96f746c",
+          "productName": "Buncis Baby",
+          "inputUnitCode": "kg",
+          "quantity": "0.25",
+          "supplierDescription": "Buncis B",
+          "supplierCost": {
+            "status": "provisional",
+            "totalAmount": "10000"
+          },
+          "customerPricing": {
+            "source": "catalog"
+          }
+        },
+        {
+          "clientLineKey": "s17-l03",
+          "productId": "29588173-a186-50b5-b49f-2c72805fcaef",
+          "productName": "Selada Keriting",
+          "inputUnitCode": "kg",
+          "quantity": "0.25",
+          "supplierDescription": "Selada K",
+          "supplierCost": {
+            "status": "provisional",
+            "totalAmount": "10000"
+          },
+          "customerPricing": {
+            "source": "catalog"
+          }
+        },
+        {
+          "clientLineKey": "s17-l04",
+          "productId": "4e656e17-f659-53ac-af70-45abda618f4b",
+          "productName": "Tomat Cherry",
+          "inputUnitCode": "kg",
+          "quantity": "0.25",
+          "supplierDescription": "Tomat Cherry",
+          "supplierCost": {
+            "status": "provisional",
+            "totalAmount": "13000"
+          },
+          "customerPricing": {
+            "source": "catalog"
+          }
+        },
+        {
+          "clientLineKey": "s17-l05",
+          "productId": "8c3ef21e-febb-52e4-8f04-be3865c99073",
+          "productName": "Wortel",
+          "inputUnitCode": "kg",
+          "quantity": "0.5",
+          "supplierDescription": "Wortel",
+          "supplierCost": {
+            "status": "provisional",
+            "totalAmount": "15000"
+          },
+          "customerPricing": {
+            "source": "catalog"
+          }
+        },
+        {
+          "clientLineKey": "s17-l06",
+          "productId": "368f4a64-9736-5ce6-b48d-17c4c166c9a2",
+          "productName": "Selada Head",
+          "inputUnitCode": "kg",
+          "quantity": "0.65",
+          "supplierDescription": "Sl Head",
+          "supplierCost": {
+            "status": "provisional",
+            "totalAmount": "28600"
+          },
+          "customerPricing": {
+            "source": "catalog"
+          }
+        }
+      ],
+      "supplierDeliveryFee": {
+        "status": "provisional",
+        "amount": "10000",
+        "note": "Imported from reviewed supplier slip; confirm during supplier reconciliation."
+      },
+      "customerDeliveryCharge": "10000",
+      "customerDeliveryDescription": "Biaya pengantaran supplier langsung"
+    }
+  },
+  "supplierDirectDraft": {
+    "schemaVersion": 1,
+    "supplierId": "19f80084-3483-5e26-97f4-58884573bbde",
+    "supplierName": "Cisarua",
+    "customerId": "a1349402-1a12-5eb9-a5eb-3ac6d6234b47",
+    "customerName": "Yenti",
+    "occurred": {
+      "date": "2026-10-22",
+      "precision": "date"
+    },
+    "supplierReference": "WhatsApp Image 2026-10-24 at 11.49.14 AM (1).jpeg#1",
+    "note": "Handwritten product total Rp87600; line sum matches. Excluded not-received markings: Horenso.",
+    "lines": [
+      {
+        "clientLineKey": "s17-l01",
+        "productId": "87b0985a-fc64-5c8d-a3db-aee1f0df6825",
+        "productName": "Tahu Hong Kong",
+        "inputUnitCode": "unit",
+        "quantity": "1",
+        "supplierDescription": "Tahu Hongkong",
+        "supplierCost": {
+          "status": "provisional",
+          "totalAmount": "11000"
+        },
+        "customerPricing": {
+          "source": "catalog"
+        }
+      },
+      {
+        "clientLineKey": "s17-l02",
+        "productId": "683c8da2-b4c9-5060-a473-d9cca96f746c",
+        "productName": "Buncis Baby",
+        "inputUnitCode": "kg",
+        "quantity": "0.25",
+        "supplierDescription": "Buncis B",
+        "supplierCost": {
+          "status": "provisional",
+          "totalAmount": "10000"
+        },
+        "customerPricing": {
+          "source": "catalog"
+        }
+      },
+      {
+        "clientLineKey": "s17-l03",
+        "productId": "29588173-a186-50b5-b49f-2c72805fcaef",
+        "productName": "Selada Keriting",
+        "inputUnitCode": "kg",
+        "quantity": "0.25",
+        "supplierDescription": "Selada K",
+        "supplierCost": {
+          "status": "provisional",
+          "totalAmount": "10000"
+        },
+        "customerPricing": {
+          "source": "catalog"
+        }
+      },
+      {
+        "clientLineKey": "s17-l04",
+        "productId": "4e656e17-f659-53ac-af70-45abda618f4b",
+        "productName": "Tomat Cherry",
+        "inputUnitCode": "kg",
+        "quantity": "0.25",
+        "supplierDescription": "Tomat Cherry",
+        "supplierCost": {
+          "status": "provisional",
+          "totalAmount": "13000"
+        },
+        "customerPricing": {
+          "source": "catalog"
+        }
+      },
+      {
+        "clientLineKey": "s17-l05",
+        "productId": "8c3ef21e-febb-52e4-8f04-be3865c99073",
+        "productName": "Wortel",
+        "inputUnitCode": "kg",
+        "quantity": "0.5",
+        "supplierDescription": "Wortel",
+        "supplierCost": {
+          "status": "provisional",
+          "totalAmount": "15000"
+        },
+        "customerPricing": {
+          "source": "catalog"
+        }
+      },
+      {
+        "clientLineKey": "s17-l06",
+        "productId": "368f4a64-9736-5ce6-b48d-17c4c166c9a2",
+        "productName": "Selada Head",
+        "inputUnitCode": "kg",
+        "quantity": "0.65",
+        "supplierDescription": "Sl Head",
+        "supplierCost": {
+          "status": "provisional",
+          "totalAmount": "28600"
+        },
+        "customerPricing": {
+          "source": "catalog"
+        }
+      }
+    ],
+    "supplierDeliveryFee": {
+      "status": "provisional",
+      "amount": "10000",
+      "note": "Imported from reviewed supplier slip; confirm during supplier reconciliation."
+    },
+    "customerDeliveryCharge": "10000",
+    "customerDeliveryDescription": "Biaya pengantaran supplier langsung"
+  },
+  "workflow": "supplier_direct",
+  "staffConfirmations": [
+    "Selada K maps to Selada Keriting.",
+    "Sl Head resolves to Selada Head from wording and exact supplier-cost arithmetic."
+  ],
+  "customerResolutionEvidence": {
+    "handwrittenName": "Yenti",
+    "selectedCustomerId": "a1349402-1a12-5eb9-a5eb-3ac6d6234b47",
+    "selectedCustomerName": "Yenti",
+    "legacyCustomerId": 72,
+    "confirmation": [
+      "Selada K maps to Selada Keriting.",
+      "Sl Head resolves to Selada Head from wording and exact supplier-cost arithmetic."
+    ]
+  },
+  "productMatchingEvidence": {
+    "effectiveOn": "2026-10-22",
+    "supplierId": "19f80084-3483-5e26-97f4-58884573bbde",
+    "supplierName": "Cisarua",
+    "lines": [
+      {
+        "lineId": "s17-l01",
+        "productNameRead": "Tahu Hongkong",
+        "qtyRead": 1,
+        "totalRead": 11000,
+        "confidence": "confirmed",
+        "selectedProductId": "87b0985a-fc64-5c8d-a3db-aee1f0df6825",
+        "candidates": [
+          {
+            "productId": "87b0985a-fc64-5c8d-a3db-aee1f0df6825",
+            "name": "Tahu Hong Kong",
+            "expectedTotal": 11000,
+            "totalDelta": 0,
+            "totalMatches": true,
+            "matchedOn": "active_supplier_product_and_cost"
+          }
+        ],
+        "warnings": []
+      },
+      {
+        "lineId": "s17-l02",
+        "productNameRead": "Buncis B",
+        "qtyRead": 0.25,
+        "totalRead": 10000,
+        "confidence": "confirmed",
+        "selectedProductId": "683c8da2-b4c9-5060-a473-d9cca96f746c",
+        "candidates": [
+          {
+            "productId": "683c8da2-b4c9-5060-a473-d9cca96f746c",
+            "name": "Buncis Baby",
+            "expectedTotal": 10000,
+            "totalDelta": 0,
+            "totalMatches": true,
+            "matchedOn": "active_supplier_product_and_cost"
+          }
+        ],
+        "warnings": []
+      },
+      {
+        "lineId": "s17-l03",
+        "productNameRead": "Selada K",
+        "qtyRead": 0.25,
+        "totalRead": 10000,
+        "confidence": "confirmed",
+        "selectedProductId": "29588173-a186-50b5-b49f-2c72805fcaef",
+        "candidates": [
+          {
+            "productId": "29588173-a186-50b5-b49f-2c72805fcaef",
+            "name": "Selada Keriting",
+            "expectedTotal": 10000,
+            "totalDelta": 0,
+            "totalMatches": true,
+            "matchedOn": "active_supplier_product_and_cost"
+          }
+        ],
+        "warnings": []
+      },
+      {
+        "lineId": "s17-l04",
+        "productNameRead": "Tomat Cherry",
+        "qtyRead": 0.25,
+        "totalRead": 13000,
+        "confidence": "confirmed",
+        "selectedProductId": "4e656e17-f659-53ac-af70-45abda618f4b",
+        "candidates": [
+          {
+            "productId": "4e656e17-f659-53ac-af70-45abda618f4b",
+            "name": "Tomat Cherry",
+            "expectedTotal": 13000,
+            "totalDelta": 0,
+            "totalMatches": true,
+            "matchedOn": "active_supplier_product_and_cost"
+          }
+        ],
+        "warnings": []
+      },
+      {
+        "lineId": "s17-l05",
+        "productNameRead": "Wortel",
+        "qtyRead": 0.5,
+        "totalRead": 15000,
+        "confidence": "confirmed",
+        "selectedProductId": "8c3ef21e-febb-52e4-8f04-be3865c99073",
+        "candidates": [
+          {
+            "productId": "8c3ef21e-febb-52e4-8f04-be3865c99073",
+            "name": "Wortel",
+            "expectedTotal": 15000,
+            "totalDelta": 0,
+            "totalMatches": true,
+            "matchedOn": "active_supplier_product_and_cost"
+          }
+        ],
+        "warnings": []
+      },
+      {
+        "lineId": "s17-l06",
+        "productNameRead": "Sl Head",
+        "qtyRead": 0.65,
+        "totalRead": 28600,
+        "confidence": "confirmed",
+        "selectedProductId": "368f4a64-9736-5ce6-b48d-17c4c166c9a2",
+        "candidates": [
+          {
+            "productId": "368f4a64-9736-5ce6-b48d-17c4c166c9a2",
+            "name": "Selada Head",
+            "expectedTotal": 28600,
+            "totalDelta": 0,
+            "totalMatches": true,
+            "matchedOn": "active_supplier_product_and_cost"
+          }
+        ],
+        "warnings": []
+      }
+    ],
+    "summary": {
+      "totalLines": 6,
+      "selected": 6,
+      "withCostDiscrepancy": 0
+    }
+  }
+}
+

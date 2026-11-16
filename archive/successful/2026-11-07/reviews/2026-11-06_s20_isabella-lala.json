@@ -1,0 +1,514 @@
+{
+  "schemaVersion": "rumah-sehat-v2-slip-review-v1",
+  "readyToImport": true,
+  "source": {
+    "imageFile": "WhatsApp Image 2026-11-07 at 10.49.34 AM (1).jpeg",
+    "slipIndex": 1,
+    "fingerprint": "13b58fc7342013ee04da6da59e29a8e95c745f44c1fc53b959c816371a73cb9b",
+    "sourcePath": "incoming/WhatsApp Image 2026-11-07 at 10.49.34 AM (1).jpeg"
+  },
+  "extracted": {
+    "customerNameRead": "Isabella",
+    "lines": [
+      {
+        "lineId": "s20-l01",
+        "productNameRead": "Bayam H",
+        "quantityRead": 0.4,
+        "totalRead": 16000
+      },
+      {
+        "lineId": "s20-l02",
+        "productNameRead": "Caisim",
+        "quantityRead": 0.2,
+        "totalRead": 8000
+      },
+      {
+        "lineId": "s20-l03",
+        "productNameRead": "Kembang Kol",
+        "quantityRead": 0.66,
+        "totalRead": 29040
+      },
+      {
+        "lineId": "s20-l04",
+        "productNameRead": "Timun",
+        "quantityRead": 2.5,
+        "totalRead": 80000
+      },
+      {
+        "lineId": "s20-l05",
+        "productNameRead": "Wortel",
+        "quantityRead": 0.5,
+        "totalRead": 15000
+      },
+      {
+        "lineId": "s20-l06",
+        "productNameRead": "Ubi Ungu",
+        "quantityRead": 1,
+        "totalRead": 28000
+      },
+      {
+        "lineId": "s20-l07",
+        "productNameRead": "Wansui",
+        "quantityRead": 0.2,
+        "totalRead": 18000
+      }
+    ],
+    "date": "2026-11-06",
+    "slipTotalRead": 194040,
+    "slipTotalCertain": true,
+    "excludedOrNotReceived": []
+  },
+  "resolved": {
+    "supplier": {
+      "id": "19f80084-3483-5e26-97f4-58884573bbde",
+      "name": "Cisarua"
+    },
+    "customer": {
+      "id": "72e7b953-1d74-544a-ae90-cf95a08c54f2",
+      "name": "Isabella - Lala",
+      "legacyCustomerId": 194,
+      "aliases": [],
+      "addresses": [
+        "Jalan Janur Hijau XI TR1/10, Kelapa Gading"
+      ],
+      "nameRead": "Isabella"
+    }
+  },
+  "warnings": [],
+  "calculations": {
+    "supplierProductSubtotal": 194040,
+    "supplierDeliveryFee": 10000,
+    "supplierTotal": 204040,
+    "customerDeliveryCharge": 10000,
+    "handwrittenProductTotal": 194040,
+    "lineTotalSum": 194040,
+    "handwrittenMinusLineSum": 0
+  },
+  "proposedDraft": {
+    "supplierDirectDraft": {
+      "schemaVersion": 1,
+      "supplierId": "19f80084-3483-5e26-97f4-58884573bbde",
+      "supplierName": "Cisarua",
+      "customerId": "72e7b953-1d74-544a-ae90-cf95a08c54f2",
+      "customerName": "Isabella - Lala",
+      "occurred": {
+        "date": "2026-11-06",
+        "precision": "date"
+      },
+      "supplierReference": "WhatsApp Image 2026-11-07 at 10.49.34 AM (1).jpeg#1",
+      "note": "Handwritten product total Rp194040; line sum matches.",
+      "lines": [
+        {
+          "clientLineKey": "s20-l01",
+          "productId": "cc64524c-4c46-59b6-ad3e-b411b3376bf3",
+          "productName": "Bayam Hijau",
+          "inputUnitCode": "kg",
+          "quantity": "0.4",
+          "supplierDescription": "Bayam H",
+          "supplierCost": {
+            "status": "provisional",
+            "totalAmount": "16000"
+          },
+          "customerPricing": {
+            "source": "catalog"
+          }
+        },
+        {
+          "clientLineKey": "s20-l02",
+          "productId": "6b1c9786-c7f6-5682-86fd-ab198c6a2bb4",
+          "productName": "Caisim",
+          "inputUnitCode": "kg",
+          "quantity": "0.2",
+          "supplierDescription": "Caisim",
+          "supplierCost": {
+            "status": "provisional",
+            "totalAmount": "8000"
+          },
+          "customerPricing": {
+            "source": "catalog"
+          }
+        },
+        {
+          "clientLineKey": "s20-l03",
+          "productId": "e064d98b-36c5-5ae2-9b85-1294d3b463eb",
+          "productName": "Kembang Kol",
+          "inputUnitCode": "kg",
+          "quantity": "0.66",
+          "supplierDescription": "Kembang Kol",
+          "supplierCost": {
+            "status": "provisional",
+            "totalAmount": "29040"
+          },
+          "customerPricing": {
+            "source": "catalog"
+          }
+        },
+        {
+          "clientLineKey": "s20-l04",
+          "productId": "7f281125-1996-5b0b-a889-0602ed36d188",
+          "productName": "Timun Lokal",
+          "inputUnitCode": "kg",
+          "quantity": "2.5",
+          "supplierDescription": "Timun",
+          "supplierCost": {
+            "status": "provisional",
+            "totalAmount": "80000"
+          },
+          "customerPricing": {
+            "source": "catalog"
+          }
+        },
+        {
+          "clientLineKey": "s20-l05",
+          "productId": "8c3ef21e-febb-52e4-8f04-be3865c99073",
+          "productName": "Wortel",
+          "inputUnitCode": "kg",
+          "quantity": "0.5",
+          "supplierDescription": "Wortel",
+          "supplierCost": {
+            "status": "provisional",
+            "totalAmount": "15000"
+          },
+          "customerPricing": {
+            "source": "catalog"
+          }
+        },
+        {
+          "clientLineKey": "s20-l06",
+          "productId": "9238b614-19e4-57be-87e1-918a39be2a86",
+          "productName": "Ubi Ungu",
+          "inputUnitCode": "unit",
+          "quantity": "1",
+          "supplierDescription": "Ubi Ungu",
+          "supplierCost": {
+            "status": "provisional",
+            "totalAmount": "28000"
+          },
+          "customerPricing": {
+            "source": "catalog"
+          }
+        },
+        {
+          "clientLineKey": "s20-l07",
+          "productId": "0d2aa2f2-97e8-5fdd-8d38-237d4210f5fa",
+          "productName": "Wansui",
+          "inputUnitCode": "kg",
+          "quantity": "0.2",
+          "supplierDescription": "Wansui",
+          "supplierCost": {
+            "status": "provisional",
+            "totalAmount": "18000"
+          },
+          "customerPricing": {
+            "source": "catalog"
+          }
+        }
+      ],
+      "supplierDeliveryFee": {
+        "status": "provisional",
+        "amount": "10000",
+        "note": "Imported from reviewed supplier slip; confirm during supplier reconciliation."
+      },
+      "customerDeliveryCharge": "10000",
+      "customerDeliveryDescription": "Biaya pengantaran langsung"
+    }
+  },
+  "supplierDirectDraft": {
+    "schemaVersion": 1,
+    "supplierId": "19f80084-3483-5e26-97f4-58884573bbde",
+    "supplierName": "Cisarua",
+    "customerId": "72e7b953-1d74-544a-ae90-cf95a08c54f2",
+    "customerName": "Isabella - Lala",
+    "occurred": {
+      "date": "2026-11-06",
+      "precision": "date"
+    },
+    "supplierReference": "WhatsApp Image 2026-11-07 at 10.49.34 AM (1).jpeg#1",
+    "note": "Handwritten product total Rp194040; line sum matches.",
+    "lines": [
+      {
+        "clientLineKey": "s20-l01",
+        "productId": "cc64524c-4c46-59b6-ad3e-b411b3376bf3",
+        "productName": "Bayam Hijau",
+        "inputUnitCode": "kg",
+        "quantity": "0.4",
+        "supplierDescription": "Bayam H",
+        "supplierCost": {
+          "status": "provisional",
+          "totalAmount": "16000"
+        },
+        "customerPricing": {
+          "source": "catalog"
+        }
+      },
+      {
+        "clientLineKey": "s20-l02",
+        "productId": "6b1c9786-c7f6-5682-86fd-ab198c6a2bb4",
+        "productName": "Caisim",
+        "inputUnitCode": "kg",
+        "quantity": "0.2",
+        "supplierDescription": "Caisim",
+        "supplierCost": {
+          "status": "provisional",
+          "totalAmount": "8000"
+        },
+        "customerPricing": {
+          "source": "catalog"
+        }
+      },
+      {
+        "clientLineKey": "s20-l03",
+        "productId": "e064d98b-36c5-5ae2-9b85-1294d3b463eb",
+        "productName": "Kembang Kol",
+        "inputUnitCode": "kg",
+        "quantity": "0.66",
+        "supplierDescription": "Kembang Kol",
+        "supplierCost": {
+          "status": "provisional",
+          "totalAmount": "29040"
+        },
+        "customerPricing": {
+          "source": "catalog"
+        }
+      },
+      {
+        "clientLineKey": "s20-l04",
+        "productId": "7f281125-1996-5b0b-a889-0602ed36d188",
+        "productName": "Timun Lokal",
+        "inputUnitCode": "kg",
+        "quantity": "2.5",
+        "supplierDescription": "Timun",
+        "supplierCost": {
+          "status": "provisional",
+          "totalAmount": "80000"
+        },
+        "customerPricing": {
+          "source": "catalog"
+        }
+      },
+      {
+        "clientLineKey": "s20-l05",
+        "productId": "8c3ef21e-febb-52e4-8f04-be3865c99073",
+        "productName": "Wortel",
+        "inputUnitCode": "kg",
+        "quantity": "0.5",
+        "supplierDescription": "Wortel",
+        "supplierCost": {
+          "status": "provisional",
+          "totalAmount": "15000"
+        },
+        "customerPricing": {
+          "source": "catalog"
+        }
+      },
+      {
+        "clientLineKey": "s20-l06",
+        "productId": "9238b614-19e4-57be-87e1-918a39be2a86",
+        "productName": "Ubi Ungu",
+        "inputUnitCode": "unit",
+        "quantity": "1",
+        "supplierDescription": "Ubi Ungu",
+        "supplierCost": {
+          "status": "provisional",
+          "totalAmount": "28000"
+        },
+        "customerPricing": {
+          "source": "catalog"
+        }
+      },
+      {
+        "clientLineKey": "s20-l07",
+        "productId": "0d2aa2f2-97e8-5fdd-8d38-237d4210f5fa",
+        "productName": "Wansui",
+        "inputUnitCode": "kg",
+        "quantity": "0.2",
+        "supplierDescription": "Wansui",
+        "supplierCost": {
+          "status": "provisional",
+          "totalAmount": "18000"
+        },
+        "customerPricing": {
+          "source": "catalog"
+        }
+      }
+    ],
+    "supplierDeliveryFee": {
+      "status": "provisional",
+      "amount": "10000",
+      "note": "Imported from reviewed supplier slip; confirm during supplier reconciliation."
+    },
+    "customerDeliveryCharge": "10000",
+    "customerDeliveryDescription": "Biaya pengantaran langsung"
+  },
+  "workflow": "supplier_direct",
+  "staffConfirmations": [
+    "Operator context maps Isabella to Isabella - Lala."
+  ],
+  "customerResolutionEvidence": {
+    "handwrittenName": "Isabella",
+    "selectedCustomerId": "72e7b953-1d74-544a-ae90-cf95a08c54f2",
+    "selectedCustomerName": "Isabella - Lala",
+    "confirmation": [
+      "Operator context maps Isabella to Isabella - Lala."
+    ]
+  },
+  "productMatchingEvidence": {
+    "effectiveOn": "2026-11-06",
+    "supplierId": "19f80084-3483-5e26-97f4-58884573bbde",
+    "supplierName": "Cisarua",
+    "lines": [
+      {
+        "lineId": "s20-l01",
+        "productNameRead": "Bayam H",
+        "qtyRead": 0.4,
+        "totalRead": 16000,
+        "confidence": "confirmed",
+        "selectedProductId": "cc64524c-4c46-59b6-ad3e-b411b3376bf3",
+        "selectedProductName": "Bayam Hijau",
+        "candidates": [
+          {
+            "productId": "cc64524c-4c46-59b6-ad3e-b411b3376bf3",
+            "name": "Bayam Hijau",
+            "expectedUnitCost": 40000,
+            "expectedTotal": 16000,
+            "totalDelta": 0,
+            "totalMatches": true,
+            "matchedOn": "current_supplier_product_and_operator_context"
+          }
+        ],
+        "warnings": []
+      },
+      {
+        "lineId": "s20-l02",
+        "productNameRead": "Caisim",
+        "qtyRead": 0.2,
+        "totalRead": 8000,
+        "confidence": "confirmed",
+        "selectedProductId": "6b1c9786-c7f6-5682-86fd-ab198c6a2bb4",
+        "selectedProductName": "Caisim",
+        "candidates": [
+          {
+            "productId": "6b1c9786-c7f6-5682-86fd-ab198c6a2bb4",
+            "name": "Caisim",
+            "expectedUnitCost": 40000,
+            "expectedTotal": 8000,
+            "totalDelta": 0,
+            "totalMatches": true,
+            "matchedOn": "current_supplier_product_and_operator_context"
+          }
+        ],
+        "warnings": []
+      },
+      {
+        "lineId": "s20-l03",
+        "productNameRead": "Kembang Kol",
+        "qtyRead": 0.66,
+        "totalRead": 29040,
+        "confidence": "confirmed",
+        "selectedProductId": "e064d98b-36c5-5ae2-9b85-1294d3b463eb",
+        "selectedProductName": "Kembang Kol",
+        "candidates": [
+          {
+            "productId": "e064d98b-36c5-5ae2-9b85-1294d3b463eb",
+            "name": "Kembang Kol",
+            "expectedUnitCost": 44000,
+            "expectedTotal": 29040,
+            "totalDelta": 0,
+            "totalMatches": true,
+            "matchedOn": "current_supplier_product_and_operator_context"
+          }
+        ],
+        "warnings": []
+      },
+      {
+        "lineId": "s20-l04",
+        "productNameRead": "Timun",
+        "qtyRead": 2.5,
+        "totalRead": 80000,
+        "confidence": "confirmed",
+        "selectedProductId": "7f281125-1996-5b0b-a889-0602ed36d188",
+        "selectedProductName": "Timun Lokal",
+        "candidates": [
+          {
+            "productId": "7f281125-1996-5b0b-a889-0602ed36d188",
+            "name": "Timun Lokal",
+            "expectedUnitCost": 32000,
+            "expectedTotal": 80000,
+            "totalDelta": 0,
+            "totalMatches": true,
+            "matchedOn": "current_supplier_product_and_operator_context"
+          }
+        ],
+        "warnings": []
+      },
+      {
+        "lineId": "s20-l05",
+        "productNameRead": "Wortel",
+        "qtyRead": 0.5,
+        "totalRead": 15000,
+        "confidence": "confirmed",
+        "selectedProductId": "8c3ef21e-febb-52e4-8f04-be3865c99073",
+        "selectedProductName": "Wortel",
+        "candidates": [
+          {
+            "productId": "8c3ef21e-febb-52e4-8f04-be3865c99073",
+            "name": "Wortel",
+            "expectedUnitCost": 30000,
+            "expectedTotal": 15000,
+            "totalDelta": 0,
+            "totalMatches": true,
+            "matchedOn": "current_supplier_product_and_operator_context"
+          }
+        ],
+        "warnings": []
+      },
+      {
+        "lineId": "s20-l06",
+        "productNameRead": "Ubi Ungu",
+        "qtyRead": 1,
+        "totalRead": 28000,
+        "confidence": "confirmed",
+        "selectedProductId": "9238b614-19e4-57be-87e1-918a39be2a86",
+        "selectedProductName": "Ubi Ungu",
+        "candidates": [
+          {
+            "productId": "9238b614-19e4-57be-87e1-918a39be2a86",
+            "name": "Ubi Ungu",
+            "expectedUnitCost": 28000,
+            "expectedTotal": 28000,
+            "totalDelta": 0,
+            "totalMatches": true,
+            "matchedOn": "current_supplier_product_and_operator_context"
+          }
+        ],
+        "warnings": []
+      },
+      {
+        "lineId": "s20-l07",
+        "productNameRead": "Wansui",
+        "qtyRead": 0.2,
+        "totalRead": 18000,
+        "confidence": "confirmed",
+        "selectedProductId": "0d2aa2f2-97e8-5fdd-8d38-237d4210f5fa",
+        "selectedProductName": "Wansui",
+        "candidates": [
+          {
+            "productId": "0d2aa2f2-97e8-5fdd-8d38-237d4210f5fa",
+            "name": "Wansui",
+            "expectedUnitCost": 90000,
+            "expectedTotal": 18000,
+            "totalDelta": 0,
+            "totalMatches": true,
+            "matchedOn": "current_supplier_product_and_operator_context"
+          }
+        ],
+        "warnings": []
+      }
+    ],
+    "summary": {
+      "totalLines": 7,
+      "selected": 7,
+      "withCostDiscrepancy": 0
+    }
+  }
+}

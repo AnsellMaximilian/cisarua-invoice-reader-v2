@@ -1,0 +1,612 @@
+{
+  "schemaVersion": "rumah-sehat-v2-slip-review-v1",
+  "readyToImport": true,
+  "source": {
+    "imageFile": "WhatsApp Image 2026-10-31 at 1.18.38 PM.jpeg",
+    "slipIndex": 2,
+    "fingerprint": "5b28e6c152f00d3b5cab1771e272f6b45c97d9bb8d71ef43476914c04b3ae5fc",
+    "sourcePath": "incoming/WhatsApp Image 2026-10-31 at 1.18.38 PM.jpeg"
+  },
+  "extracted": {
+    "customerNameRead": "Aileen",
+    "lines": [
+      {
+        "lineId": "s02-l01",
+        "productNameRead": "Telur Kampung",
+        "quantityRead": 20,
+        "totalRead": 80000
+      },
+      {
+        "lineId": "s02-l02",
+        "productNameRead": "Telur Negeri",
+        "quantityRead": 20,
+        "totalRead": 60000
+      },
+      {
+        "lineId": "s02-l03",
+        "productNameRead": "Tempe",
+        "quantityRead": 1,
+        "totalRead": 17000
+      },
+      {
+        "lineId": "s02-l04",
+        "productNameRead": "Bombay",
+        "quantityRead": 0.5,
+        "totalRead": 38000
+      },
+      {
+        "lineId": "s02-l05",
+        "productNameRead": "Bayam H",
+        "quantityRead": 0.2,
+        "totalRead": 8000
+      },
+      {
+        "lineId": "s02-l06",
+        "productNameRead": "Selada Siomak",
+        "quantityRead": 0.25,
+        "totalRead": 11000
+      },
+      {
+        "lineId": "s02-l07",
+        "productNameRead": "Wortel",
+        "quantityRead": 0.5,
+        "totalRead": 15000
+      },
+      {
+        "lineId": "s02-l08",
+        "productNameRead": "Kol Putih",
+        "quantityRead": 0.47,
+        "totalRead": 15040
+      },
+      {
+        "lineId": "s02-l09",
+        "productNameRead": "Lobak Putih",
+        "quantityRead": 0.68,
+        "totalRead": 19040
+      }
+    ],
+    "date": "2026-10-27",
+    "slipTotalRead": 263080,
+    "slipTotalCertain": true,
+    "excludedOrNotReceived": []
+  },
+  "resolved": {
+    "supplier": {
+      "id": "19f80084-3483-5e26-97f4-58884573bbde",
+      "name": "Cisarua"
+    },
+    "customer": {
+      "id": "58b47bae-0576-570a-ade5-fb3b886f8472",
+      "name": "Aileen",
+      "legacyCustomerId": 436,
+      "aliases": [],
+      "addresses": [
+        "Taman Golf Imperial Drive 20 Lippo Karawaci"
+      ],
+      "nameRead": "Aileen"
+    }
+  },
+  "warnings": [],
+  "calculations": {
+    "supplierProductSubtotal": 263080,
+    "supplierDeliveryFee": 10000,
+    "supplierTotal": 273080,
+    "customerDeliveryCharge": 10000,
+    "handwrittenProductTotal": 263080,
+    "lineTotalSum": 263080,
+    "handwrittenMinusLineSum": 0
+  },
+  "proposedDraft": {
+    "supplierDirectDraft": {
+      "schemaVersion": 1,
+      "supplierId": "19f80084-3483-5e26-97f4-58884573bbde",
+      "supplierName": "Cisarua",
+      "customerId": "58b47bae-0576-570a-ade5-fb3b886f8472",
+      "customerName": "Aileen",
+      "occurred": {
+        "date": "2026-10-27",
+        "precision": "date"
+      },
+      "supplierReference": "WhatsApp Image 2026-10-31 at 1.18.38 PM.jpeg#2",
+      "note": "Handwritten product total Rp263080; line sum matches. Operator context confirms Aileen resolves to the active legacy-436 customer.",
+      "lines": [
+        {
+          "clientLineKey": "s02-l01",
+          "productId": "06e07aa2-15cb-54b0-83a5-a57fe49bb985",
+          "productName": "Telur Ayam",
+          "inputUnitCode": "unit",
+          "quantity": "20",
+          "supplierDescription": "Telur Kampung",
+          "supplierCost": {
+            "status": "provisional",
+            "totalAmount": "80000"
+          },
+          "customerPricing": {
+            "source": "catalog"
+          }
+        },
+        {
+          "clientLineKey": "s02-l02",
+          "productId": "70c8bbbc-1bb6-563a-a27a-9ff958f01824",
+          "productName": "Telur Negri Organik",
+          "inputUnitCode": "unit",
+          "quantity": "20",
+          "supplierDescription": "Telur Negeri",
+          "supplierCost": {
+            "status": "provisional",
+            "totalAmount": "60000"
+          },
+          "customerPricing": {
+            "source": "catalog"
+          }
+        },
+        {
+          "clientLineKey": "s02-l03",
+          "productId": "8602d729-7cb2-5d7f-86ea-4f96ff2d6f3f",
+          "productName": "Tempe 400gr",
+          "inputUnitCode": "unit",
+          "quantity": "1",
+          "supplierDescription": "Tempe",
+          "supplierCost": {
+            "status": "provisional",
+            "totalAmount": "17000"
+          },
+          "customerPricing": {
+            "source": "catalog"
+          }
+        },
+        {
+          "clientLineKey": "s02-l04",
+          "productId": "b8f3f290-7d45-54a8-a8b2-43053dc872c2",
+          "productName": "Bawang Bombay",
+          "inputUnitCode": "kg",
+          "quantity": "0.5",
+          "supplierDescription": "Bombay",
+          "supplierCost": {
+            "status": "provisional",
+            "totalAmount": "38000"
+          },
+          "customerPricing": {
+            "source": "catalog"
+          }
+        },
+        {
+          "clientLineKey": "s02-l05",
+          "productId": "cc64524c-4c46-59b6-ad3e-b411b3376bf3",
+          "productName": "Bayam Hijau",
+          "inputUnitCode": "kg",
+          "quantity": "0.2",
+          "supplierDescription": "Bayam H",
+          "supplierCost": {
+            "status": "provisional",
+            "totalAmount": "8000"
+          },
+          "customerPricing": {
+            "source": "catalog"
+          }
+        },
+        {
+          "clientLineKey": "s02-l06",
+          "productId": "3e41fdc8-9277-5a3a-bc22-56878b7b6644",
+          "productName": "Selada Siomak",
+          "inputUnitCode": "kg",
+          "quantity": "0.25",
+          "supplierDescription": "Selada Siomak",
+          "supplierCost": {
+            "status": "provisional",
+            "totalAmount": "11000"
+          },
+          "customerPricing": {
+            "source": "catalog"
+          }
+        },
+        {
+          "clientLineKey": "s02-l07",
+          "productId": "8c3ef21e-febb-52e4-8f04-be3865c99073",
+          "productName": "Wortel",
+          "inputUnitCode": "kg",
+          "quantity": "0.5",
+          "supplierDescription": "Wortel",
+          "supplierCost": {
+            "status": "provisional",
+            "totalAmount": "15000"
+          },
+          "customerPricing": {
+            "source": "catalog"
+          }
+        },
+        {
+          "clientLineKey": "s02-l08",
+          "productId": "629f27c1-4491-5a0a-be07-8c91609d3988",
+          "productName": "Kol Putih",
+          "inputUnitCode": "kg",
+          "quantity": "0.47",
+          "supplierDescription": "Kol Putih",
+          "supplierCost": {
+            "status": "provisional",
+            "totalAmount": "15040"
+          },
+          "customerPricing": {
+            "source": "catalog"
+          }
+        },
+        {
+          "clientLineKey": "s02-l09",
+          "productId": "c3c63545-3486-54d4-aaa3-584eb744c741",
+          "productName": "Lobak Putih",
+          "inputUnitCode": "kg",
+          "quantity": "0.68",
+          "supplierDescription": "Lobak Putih",
+          "supplierCost": {
+            "status": "provisional",
+            "totalAmount": "19040"
+          },
+          "customerPricing": {
+            "source": "catalog"
+          }
+        }
+      ],
+      "supplierDeliveryFee": {
+        "status": "provisional",
+        "amount": "10000",
+        "note": "Imported from reviewed supplier slip; confirm during supplier reconciliation."
+      },
+      "customerDeliveryCharge": "10000",
+      "customerDeliveryDescription": "Biaya pengantaran langsung"
+    }
+  },
+  "supplierDirectDraft": {
+    "schemaVersion": 1,
+    "supplierId": "19f80084-3483-5e26-97f4-58884573bbde",
+    "supplierName": "Cisarua",
+    "customerId": "58b47bae-0576-570a-ade5-fb3b886f8472",
+    "customerName": "Aileen",
+    "occurred": {
+      "date": "2026-10-27",
+      "precision": "date"
+    },
+    "supplierReference": "WhatsApp Image 2026-10-31 at 1.18.38 PM.jpeg#2",
+    "note": "Handwritten product total Rp263080; line sum matches. Operator context confirms Aileen resolves to the active legacy-436 customer.",
+    "lines": [
+      {
+        "clientLineKey": "s02-l01",
+        "productId": "06e07aa2-15cb-54b0-83a5-a57fe49bb985",
+        "productName": "Telur Ayam",
+        "inputUnitCode": "unit",
+        "quantity": "20",
+        "supplierDescription": "Telur Kampung",
+        "supplierCost": {
+          "status": "provisional",
+          "totalAmount": "80000"
+        },
+        "customerPricing": {
+          "source": "catalog"
+        }
+      },
+      {
+        "clientLineKey": "s02-l02",
+        "productId": "70c8bbbc-1bb6-563a-a27a-9ff958f01824",
+        "productName": "Telur Negri Organik",
+        "inputUnitCode": "unit",
+        "quantity": "20",
+        "supplierDescription": "Telur Negeri",
+        "supplierCost": {
+          "status": "provisional",
+          "totalAmount": "60000"
+        },
+        "customerPricing": {
+          "source": "catalog"
+        }
+      },
+      {
+        "clientLineKey": "s02-l03",
+        "productId": "8602d729-7cb2-5d7f-86ea-4f96ff2d6f3f",
+        "productName": "Tempe 400gr",
+        "inputUnitCode": "unit",
+        "quantity": "1",
+        "supplierDescription": "Tempe",
+        "supplierCost": {
+          "status": "provisional",
+          "totalAmount": "17000"
+        },
+        "customerPricing": {
+          "source": "catalog"
+        }
+      },
+      {
+        "clientLineKey": "s02-l04",
+        "productId": "b8f3f290-7d45-54a8-a8b2-43053dc872c2",
+        "productName": "Bawang Bombay",
+        "inputUnitCode": "kg",
+        "quantity": "0.5",
+        "supplierDescription": "Bombay",
+        "supplierCost": {
+          "status": "provisional",
+          "totalAmount": "38000"
+        },
+        "customerPricing": {
+          "source": "catalog"
+        }
+      },
+      {
+        "clientLineKey": "s02-l05",
+        "productId": "cc64524c-4c46-59b6-ad3e-b411b3376bf3",
+        "productName": "Bayam Hijau",
+        "inputUnitCode": "kg",
+        "quantity": "0.2",
+        "supplierDescription": "Bayam H",
+        "supplierCost": {
+          "status": "provisional",
+          "totalAmount": "8000"
+        },
+        "customerPricing": {
+          "source": "catalog"
+        }
+      },
+      {
+        "clientLineKey": "s02-l06",
+        "productId": "3e41fdc8-9277-5a3a-bc22-56878b7b6644",
+        "productName": "Selada Siomak",
+        "inputUnitCode": "kg",
+        "quantity": "0.25",
+        "supplierDescription": "Selada Siomak",
+        "supplierCost": {
+          "status": "provisional",
+          "totalAmount": "11000"
+        },
+        "customerPricing": {
+          "source": "catalog"
+        }
+      },
+      {
+        "clientLineKey": "s02-l07",
+        "productId": "8c3ef21e-febb-52e4-8f04-be3865c99073",
+        "productName": "Wortel",
+        "inputUnitCode": "kg",
+        "quantity": "0.5",
+        "supplierDescription": "Wortel",
+        "supplierCost": {
+          "status": "provisional",
+          "totalAmount": "15000"
+        },
+        "customerPricing": {
+          "source": "catalog"
+        }
+      },
+      {
+        "clientLineKey": "s02-l08",
+        "productId": "629f27c1-4491-5a0a-be07-8c91609d3988",
+        "productName": "Kol Putih",
+        "inputUnitCode": "kg",
+        "quantity": "0.47",
+        "supplierDescription": "Kol Putih",
+        "supplierCost": {
+          "status": "provisional",
+          "totalAmount": "15040"
+        },
+        "customerPricing": {
+          "source": "catalog"
+        }
+      },
+      {
+        "clientLineKey": "s02-l09",
+        "productId": "c3c63545-3486-54d4-aaa3-584eb744c741",
+        "productName": "Lobak Putih",
+        "inputUnitCode": "kg",
+        "quantity": "0.68",
+        "supplierDescription": "Lobak Putih",
+        "supplierCost": {
+          "status": "provisional",
+          "totalAmount": "19040"
+        },
+        "customerPricing": {
+          "source": "catalog"
+        }
+      }
+    ],
+    "supplierDeliveryFee": {
+      "status": "provisional",
+      "amount": "10000",
+      "note": "Imported from reviewed supplier slip; confirm during supplier reconciliation."
+    },
+    "customerDeliveryCharge": "10000",
+    "customerDeliveryDescription": "Biaya pengantaran langsung"
+  },
+  "workflow": "supplier_direct",
+  "staffConfirmations": [
+    "Operator context confirms Aileen resolves to the active legacy-436 customer."
+  ],
+  "customerResolutionEvidence": {
+    "handwrittenName": "Aileen",
+    "selectedCustomerId": "58b47bae-0576-570a-ade5-fb3b886f8472",
+    "selectedCustomerName": "Aileen",
+    "legacyCustomerId": 436,
+    "confirmation": [
+      "Operator context confirms Aileen resolves to the active legacy-436 customer."
+    ]
+  },
+  "productMatchingEvidence": {
+    "effectiveOn": "2026-10-27",
+    "supplierId": "19f80084-3483-5e26-97f4-58884573bbde",
+    "supplierName": "Cisarua",
+    "lines": [
+      {
+        "lineId": "s02-l01",
+        "productNameRead": "Telur Kampung",
+        "qtyRead": 20,
+        "totalRead": 80000,
+        "confidence": "confirmed",
+        "selectedProductId": "06e07aa2-15cb-54b0-83a5-a57fe49bb985",
+        "candidates": [
+          {
+            "productId": "06e07aa2-15cb-54b0-83a5-a57fe49bb985",
+            "name": "Telur Ayam",
+            "expectedTotal": 80000,
+            "totalDelta": 0,
+            "totalMatches": true,
+            "matchedOn": "active_supplier_product_and_cost"
+          }
+        ],
+        "warnings": []
+      },
+      {
+        "lineId": "s02-l02",
+        "productNameRead": "Telur Negeri",
+        "qtyRead": 20,
+        "totalRead": 60000,
+        "confidence": "confirmed",
+        "selectedProductId": "70c8bbbc-1bb6-563a-a27a-9ff958f01824",
+        "candidates": [
+          {
+            "productId": "70c8bbbc-1bb6-563a-a27a-9ff958f01824",
+            "name": "Telur Negri Organik",
+            "expectedTotal": 60000,
+            "totalDelta": 0,
+            "totalMatches": true,
+            "matchedOn": "active_supplier_product_and_cost"
+          }
+        ],
+        "warnings": []
+      },
+      {
+        "lineId": "s02-l03",
+        "productNameRead": "Tempe",
+        "qtyRead": 1,
+        "totalRead": 17000,
+        "confidence": "confirmed",
+        "selectedProductId": "8602d729-7cb2-5d7f-86ea-4f96ff2d6f3f",
+        "candidates": [
+          {
+            "productId": "8602d729-7cb2-5d7f-86ea-4f96ff2d6f3f",
+            "name": "Tempe 400gr",
+            "expectedTotal": 17000,
+            "totalDelta": 0,
+            "totalMatches": true,
+            "matchedOn": "active_supplier_product_and_cost"
+          }
+        ],
+        "warnings": []
+      },
+      {
+        "lineId": "s02-l04",
+        "productNameRead": "Bombay",
+        "qtyRead": 0.5,
+        "totalRead": 38000,
+        "confidence": "confirmed",
+        "selectedProductId": "b8f3f290-7d45-54a8-a8b2-43053dc872c2",
+        "candidates": [
+          {
+            "productId": "b8f3f290-7d45-54a8-a8b2-43053dc872c2",
+            "name": "Bawang Bombay",
+            "expectedTotal": 38000,
+            "totalDelta": 0,
+            "totalMatches": true,
+            "matchedOn": "active_supplier_product_and_cost"
+          }
+        ],
+        "warnings": []
+      },
+      {
+        "lineId": "s02-l05",
+        "productNameRead": "Bayam H",
+        "qtyRead": 0.2,
+        "totalRead": 8000,
+        "confidence": "confirmed",
+        "selectedProductId": "cc64524c-4c46-59b6-ad3e-b411b3376bf3",
+        "candidates": [
+          {
+            "productId": "cc64524c-4c46-59b6-ad3e-b411b3376bf3",
+            "name": "Bayam Hijau",
+            "expectedTotal": 8000,
+            "totalDelta": 0,
+            "totalMatches": true,
+            "matchedOn": "active_supplier_product_and_cost"
+          }
+        ],
+        "warnings": []
+      },
+      {
+        "lineId": "s02-l06",
+        "productNameRead": "Selada Siomak",
+        "qtyRead": 0.25,
+        "totalRead": 11000,
+        "confidence": "confirmed",
+        "selectedProductId": "3e41fdc8-9277-5a3a-bc22-56878b7b6644",
+        "candidates": [
+          {
+            "productId": "3e41fdc8-9277-5a3a-bc22-56878b7b6644",
+            "name": "Selada Siomak",
+            "expectedTotal": 11000,
+            "totalDelta": 0,
+            "totalMatches": true,
+            "matchedOn": "active_supplier_product_and_cost"
+          }
+        ],
+        "warnings": []
+      },
+      {
+        "lineId": "s02-l07",
+        "productNameRead": "Wortel",
+        "qtyRead": 0.5,
+        "totalRead": 15000,
+        "confidence": "confirmed",
+        "selectedProductId": "8c3ef21e-febb-52e4-8f04-be3865c99073",
+        "candidates": [
+          {
+            "productId": "8c3ef21e-febb-52e4-8f04-be3865c99073",
+            "name": "Wortel",
+            "expectedTotal": 15000,
+            "totalDelta": 0,
+            "totalMatches": true,
+            "matchedOn": "active_supplier_product_and_cost"
+          }
+        ],
+        "warnings": []
+      },
+      {
+        "lineId": "s02-l08",
+        "productNameRead": "Kol Putih",
+        "qtyRead": 0.47,
+        "totalRead": 15040,
+        "confidence": "confirmed",
+        "selectedProductId": "629f27c1-4491-5a0a-be07-8c91609d3988",
+        "candidates": [
+          {
+            "productId": "629f27c1-4491-5a0a-be07-8c91609d3988",
+            "name": "Kol Putih",
+            "expectedTotal": 15040,
+            "totalDelta": 0,
+            "totalMatches": true,
+            "matchedOn": "active_supplier_product_and_cost"
+          }
+        ],
+        "warnings": []
+      },
+      {
+        "lineId": "s02-l09",
+        "productNameRead": "Lobak Putih",
+        "qtyRead": 0.68,
+        "totalRead": 19040,
+        "confidence": "confirmed",
+        "selectedProductId": "c3c63545-3486-54d4-aaa3-584eb744c741",
+        "candidates": [
+          {
+            "productId": "c3c63545-3486-54d4-aaa3-584eb744c741",
+            "name": "Lobak Putih",
+            "expectedTotal": 19040,
+            "totalDelta": 0,
+            "totalMatches": true,
+            "matchedOn": "active_supplier_product_and_cost"
+          }
+        ],
+        "warnings": []
+      }
+    ],
+    "summary": {
+      "totalLines": 9,
+      "selected": 9,
+      "withCostDiscrepancy": 0
+    }
+  }
+}
+

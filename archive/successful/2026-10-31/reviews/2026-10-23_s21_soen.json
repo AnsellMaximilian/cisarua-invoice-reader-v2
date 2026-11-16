@@ -1,0 +1,612 @@
+{
+  "schemaVersion": "rumah-sehat-v2-slip-review-v1",
+  "readyToImport": true,
+  "source": {
+    "imageFile": "WhatsApp Image 2026-10-24 at 11.49.14 AM (3).jpeg",
+    "slipIndex": 1,
+    "fingerprint": "c7155b2fd3a73c236fd2bf8cb84403f68c083b7289febc6e5f6dbec647ee1f51",
+    "sourcePath": "incoming/WhatsApp Image 2026-10-24 at 11.49.14 AM (3).jpeg"
+  },
+  "extracted": {
+    "customerNameRead": "Soen",
+    "lines": [
+      {
+        "lineId": "s21-l01",
+        "productNameRead": "Tahu Hongkong",
+        "quantityRead": 1,
+        "totalRead": 11000
+      },
+      {
+        "lineId": "s21-l02",
+        "productNameRead": "Buncis B",
+        "quantityRead": 0.25,
+        "totalRead": 10000
+      },
+      {
+        "lineId": "s21-l03",
+        "productNameRead": "Kembang Kol",
+        "quantityRead": 0.52,
+        "totalRead": 22880
+      },
+      {
+        "lineId": "s21-l04",
+        "productNameRead": "Timun Jepang",
+        "quantityRead": 0.56,
+        "totalRead": 19040
+      },
+      {
+        "lineId": "s21-l05",
+        "productNameRead": "Tomat Cherry",
+        "quantityRead": 0.25,
+        "totalRead": 13000
+      },
+      {
+        "lineId": "s21-l06",
+        "productNameRead": "Wortel",
+        "quantityRead": 0.5,
+        "totalRead": 15000
+      },
+      {
+        "lineId": "s21-l07",
+        "productNameRead": "S. Pagoda",
+        "quantityRead": 0.5,
+        "totalRead": 27500
+      },
+      {
+        "lineId": "s21-l08",
+        "productNameRead": "Kol Putih",
+        "quantityRead": 0.52,
+        "totalRead": 16640
+      },
+      {
+        "lineId": "s21-l09",
+        "productNameRead": "Sawi Putih",
+        "quantityRead": 0.45,
+        "totalRead": 14400
+      }
+    ],
+    "date": "2026-10-23",
+    "slipTotalRead": 149460,
+    "slipTotalCertain": true,
+    "excludedOrNotReceived": []
+  },
+  "resolved": {
+    "supplier": {
+      "id": "19f80084-3483-5e26-97f4-58884573bbde",
+      "name": "Cisarua"
+    },
+    "customer": {
+      "id": "54f315ea-f0a0-5e46-a44e-1e2f888d5c7a",
+      "name": "Soen",
+      "legacyCustomerId": 200,
+      "aliases": [],
+      "addresses": [
+        "Jl. Jatinegara Barat II no 13 RT 13/RW 03 Jaktim 1"
+      ],
+      "nameRead": "Soen"
+    }
+  },
+  "warnings": [],
+  "calculations": {
+    "supplierProductSubtotal": 149460,
+    "supplierDeliveryFee": 10000,
+    "supplierTotal": 159460,
+    "customerDeliveryCharge": 10000,
+    "handwrittenProductTotal": 149460,
+    "lineTotalSum": 149460,
+    "handwrittenMinusLineSum": 0
+  },
+  "proposedDraft": {
+    "supplierDirectDraft": {
+      "schemaVersion": 1,
+      "supplierId": "19f80084-3483-5e26-97f4-58884573bbde",
+      "supplierName": "Cisarua",
+      "customerId": "54f315ea-f0a0-5e46-a44e-1e2f888d5c7a",
+      "customerName": "Soen",
+      "occurred": {
+        "date": "2026-10-23",
+        "precision": "date"
+      },
+      "supplierReference": "WhatsApp Image 2026-10-24 at 11.49.14 AM (3).jpeg#1",
+      "note": "Handwritten product total Rp149460; line sum matches.",
+      "lines": [
+        {
+          "clientLineKey": "s21-l01",
+          "productId": "87b0985a-fc64-5c8d-a3db-aee1f0df6825",
+          "productName": "Tahu Hong Kong",
+          "inputUnitCode": "unit",
+          "quantity": "1",
+          "supplierDescription": "Tahu Hongkong",
+          "supplierCost": {
+            "status": "provisional",
+            "totalAmount": "11000"
+          },
+          "customerPricing": {
+            "source": "catalog"
+          }
+        },
+        {
+          "clientLineKey": "s21-l02",
+          "productId": "683c8da2-b4c9-5060-a473-d9cca96f746c",
+          "productName": "Buncis Baby",
+          "inputUnitCode": "kg",
+          "quantity": "0.25",
+          "supplierDescription": "Buncis B",
+          "supplierCost": {
+            "status": "provisional",
+            "totalAmount": "10000"
+          },
+          "customerPricing": {
+            "source": "catalog"
+          }
+        },
+        {
+          "clientLineKey": "s21-l03",
+          "productId": "e064d98b-36c5-5ae2-9b85-1294d3b463eb",
+          "productName": "Kembang Kol",
+          "inputUnitCode": "kg",
+          "quantity": "0.52",
+          "supplierDescription": "Kembang Kol",
+          "supplierCost": {
+            "status": "provisional",
+            "totalAmount": "22880"
+          },
+          "customerPricing": {
+            "source": "catalog"
+          }
+        },
+        {
+          "clientLineKey": "s21-l04",
+          "productId": "d22ce659-2cdc-5731-8c96-8d58e9b9a6eb",
+          "productName": "Timun Jepang",
+          "inputUnitCode": "kg",
+          "quantity": "0.56",
+          "supplierDescription": "Timun Jepang",
+          "supplierCost": {
+            "status": "provisional",
+            "totalAmount": "19040"
+          },
+          "customerPricing": {
+            "source": "catalog"
+          }
+        },
+        {
+          "clientLineKey": "s21-l05",
+          "productId": "4e656e17-f659-53ac-af70-45abda618f4b",
+          "productName": "Tomat Cherry",
+          "inputUnitCode": "kg",
+          "quantity": "0.25",
+          "supplierDescription": "Tomat Cherry",
+          "supplierCost": {
+            "status": "provisional",
+            "totalAmount": "13000"
+          },
+          "customerPricing": {
+            "source": "catalog"
+          }
+        },
+        {
+          "clientLineKey": "s21-l06",
+          "productId": "8c3ef21e-febb-52e4-8f04-be3865c99073",
+          "productName": "Wortel",
+          "inputUnitCode": "kg",
+          "quantity": "0.5",
+          "supplierDescription": "Wortel",
+          "supplierCost": {
+            "status": "provisional",
+            "totalAmount": "15000"
+          },
+          "customerPricing": {
+            "source": "catalog"
+          }
+        },
+        {
+          "clientLineKey": "s21-l07",
+          "productId": "79cc60ea-71de-57dd-8643-8d039591e9ba",
+          "productName": "Sawi Pagoda",
+          "inputUnitCode": "kg",
+          "quantity": "0.5",
+          "supplierDescription": "S. Pagoda",
+          "supplierCost": {
+            "status": "provisional",
+            "totalAmount": "27500"
+          },
+          "customerPricing": {
+            "source": "catalog"
+          }
+        },
+        {
+          "clientLineKey": "s21-l08",
+          "productId": "629f27c1-4491-5a0a-be07-8c91609d3988",
+          "productName": "Kol Putih",
+          "inputUnitCode": "kg",
+          "quantity": "0.52",
+          "supplierDescription": "Kol Putih",
+          "supplierCost": {
+            "status": "provisional",
+            "totalAmount": "16640"
+          },
+          "customerPricing": {
+            "source": "catalog"
+          }
+        },
+        {
+          "clientLineKey": "s21-l09",
+          "productId": "b4e9d275-c2b5-585f-9c9e-e91cfdd75800",
+          "productName": "Sawi Putih",
+          "inputUnitCode": "kg",
+          "quantity": "0.45",
+          "supplierDescription": "Sawi Putih",
+          "supplierCost": {
+            "status": "provisional",
+            "totalAmount": "14400"
+          },
+          "customerPricing": {
+            "source": "catalog"
+          }
+        }
+      ],
+      "supplierDeliveryFee": {
+        "status": "provisional",
+        "amount": "10000",
+        "note": "Imported from reviewed supplier slip; confirm during supplier reconciliation."
+      },
+      "customerDeliveryCharge": "10000",
+      "customerDeliveryDescription": "Biaya pengantaran supplier langsung"
+    }
+  },
+  "supplierDirectDraft": {
+    "schemaVersion": 1,
+    "supplierId": "19f80084-3483-5e26-97f4-58884573bbde",
+    "supplierName": "Cisarua",
+    "customerId": "54f315ea-f0a0-5e46-a44e-1e2f888d5c7a",
+    "customerName": "Soen",
+    "occurred": {
+      "date": "2026-10-23",
+      "precision": "date"
+    },
+    "supplierReference": "WhatsApp Image 2026-10-24 at 11.49.14 AM (3).jpeg#1",
+    "note": "Handwritten product total Rp149460; line sum matches.",
+    "lines": [
+      {
+        "clientLineKey": "s21-l01",
+        "productId": "87b0985a-fc64-5c8d-a3db-aee1f0df6825",
+        "productName": "Tahu Hong Kong",
+        "inputUnitCode": "unit",
+        "quantity": "1",
+        "supplierDescription": "Tahu Hongkong",
+        "supplierCost": {
+          "status": "provisional",
+          "totalAmount": "11000"
+        },
+        "customerPricing": {
+          "source": "catalog"
+        }
+      },
+      {
+        "clientLineKey": "s21-l02",
+        "productId": "683c8da2-b4c9-5060-a473-d9cca96f746c",
+        "productName": "Buncis Baby",
+        "inputUnitCode": "kg",
+        "quantity": "0.25",
+        "supplierDescription": "Buncis B",
+        "supplierCost": {
+          "status": "provisional",
+          "totalAmount": "10000"
+        },
+        "customerPricing": {
+          "source": "catalog"
+        }
+      },
+      {
+        "clientLineKey": "s21-l03",
+        "productId": "e064d98b-36c5-5ae2-9b85-1294d3b463eb",
+        "productName": "Kembang Kol",
+        "inputUnitCode": "kg",
+        "quantity": "0.52",
+        "supplierDescription": "Kembang Kol",
+        "supplierCost": {
+          "status": "provisional",
+          "totalAmount": "22880"
+        },
+        "customerPricing": {
+          "source": "catalog"
+        }
+      },
+      {
+        "clientLineKey": "s21-l04",
+        "productId": "d22ce659-2cdc-5731-8c96-8d58e9b9a6eb",
+        "productName": "Timun Jepang",
+        "inputUnitCode": "kg",
+        "quantity": "0.56",
+        "supplierDescription": "Timun Jepang",
+        "supplierCost": {
+          "status": "provisional",
+          "totalAmount": "19040"
+        },
+        "customerPricing": {
+          "source": "catalog"
+        }
+      },
+      {
+        "clientLineKey": "s21-l05",
+        "productId": "4e656e17-f659-53ac-af70-45abda618f4b",
+        "productName": "Tomat Cherry",
+        "inputUnitCode": "kg",
+        "quantity": "0.25",
+        "supplierDescription": "Tomat Cherry",
+        "supplierCost": {
+          "status": "provisional",
+          "totalAmount": "13000"
+        },
+        "customerPricing": {
+          "source": "catalog"
+        }
+      },
+      {
+        "clientLineKey": "s21-l06",
+        "productId": "8c3ef21e-febb-52e4-8f04-be3865c99073",
+        "productName": "Wortel",
+        "inputUnitCode": "kg",
+        "quantity": "0.5",
+        "supplierDescription": "Wortel",
+        "supplierCost": {
+          "status": "provisional",
+          "totalAmount": "15000"
+        },
+        "customerPricing": {
+          "source": "catalog"
+        }
+      },
+      {
+        "clientLineKey": "s21-l07",
+        "productId": "79cc60ea-71de-57dd-8643-8d039591e9ba",
+        "productName": "Sawi Pagoda",
+        "inputUnitCode": "kg",
+        "quantity": "0.5",
+        "supplierDescription": "S. Pagoda",
+        "supplierCost": {
+          "status": "provisional",
+          "totalAmount": "27500"
+        },
+        "customerPricing": {
+          "source": "catalog"
+        }
+      },
+      {
+        "clientLineKey": "s21-l08",
+        "productId": "629f27c1-4491-5a0a-be07-8c91609d3988",
+        "productName": "Kol Putih",
+        "inputUnitCode": "kg",
+        "quantity": "0.52",
+        "supplierDescription": "Kol Putih",
+        "supplierCost": {
+          "status": "provisional",
+          "totalAmount": "16640"
+        },
+        "customerPricing": {
+          "source": "catalog"
+        }
+      },
+      {
+        "clientLineKey": "s21-l09",
+        "productId": "b4e9d275-c2b5-585f-9c9e-e91cfdd75800",
+        "productName": "Sawi Putih",
+        "inputUnitCode": "kg",
+        "quantity": "0.45",
+        "supplierDescription": "Sawi Putih",
+        "supplierCost": {
+          "status": "provisional",
+          "totalAmount": "14400"
+        },
+        "customerPricing": {
+          "source": "catalog"
+        }
+      }
+    ],
+    "supplierDeliveryFee": {
+      "status": "provisional",
+      "amount": "10000",
+      "note": "Imported from reviewed supplier slip; confirm during supplier reconciliation."
+    },
+    "customerDeliveryCharge": "10000",
+    "customerDeliveryDescription": "Biaya pengantaran supplier langsung"
+  },
+  "workflow": "supplier_direct",
+  "staffConfirmations": [
+    "S. Pagoda resolves to Sawi Pagoda from wording and exact supplier-cost arithmetic."
+  ],
+  "customerResolutionEvidence": {
+    "handwrittenName": "Soen",
+    "selectedCustomerId": "54f315ea-f0a0-5e46-a44e-1e2f888d5c7a",
+    "selectedCustomerName": "Soen",
+    "legacyCustomerId": 200,
+    "confirmation": [
+      "S. Pagoda resolves to Sawi Pagoda from wording and exact supplier-cost arithmetic."
+    ]
+  },
+  "productMatchingEvidence": {
+    "effectiveOn": "2026-10-23",
+    "supplierId": "19f80084-3483-5e26-97f4-58884573bbde",
+    "supplierName": "Cisarua",
+    "lines": [
+      {
+        "lineId": "s21-l01",
+        "productNameRead": "Tahu Hongkong",
+        "qtyRead": 1,
+        "totalRead": 11000,
+        "confidence": "confirmed",
+        "selectedProductId": "87b0985a-fc64-5c8d-a3db-aee1f0df6825",
+        "candidates": [
+          {
+            "productId": "87b0985a-fc64-5c8d-a3db-aee1f0df6825",
+            "name": "Tahu Hong Kong",
+            "expectedTotal": 11000,
+            "totalDelta": 0,
+            "totalMatches": true,
+            "matchedOn": "active_supplier_product_and_cost"
+          }
+        ],
+        "warnings": []
+      },
+      {
+        "lineId": "s21-l02",
+        "productNameRead": "Buncis B",
+        "qtyRead": 0.25,
+        "totalRead": 10000,
+        "confidence": "confirmed",
+        "selectedProductId": "683c8da2-b4c9-5060-a473-d9cca96f746c",
+        "candidates": [
+          {
+            "productId": "683c8da2-b4c9-5060-a473-d9cca96f746c",
+            "name": "Buncis Baby",
+            "expectedTotal": 10000,
+            "totalDelta": 0,
+            "totalMatches": true,
+            "matchedOn": "active_supplier_product_and_cost"
+          }
+        ],
+        "warnings": []
+      },
+      {
+        "lineId": "s21-l03",
+        "productNameRead": "Kembang Kol",
+        "qtyRead": 0.52,
+        "totalRead": 22880,
+        "confidence": "confirmed",
+        "selectedProductId": "e064d98b-36c5-5ae2-9b85-1294d3b463eb",
+        "candidates": [
+          {
+            "productId": "e064d98b-36c5-5ae2-9b85-1294d3b463eb",
+            "name": "Kembang Kol",
+            "expectedTotal": 22880,
+            "totalDelta": 0,
+            "totalMatches": true,
+            "matchedOn": "active_supplier_product_and_cost"
+          }
+        ],
+        "warnings": []
+      },
+      {
+        "lineId": "s21-l04",
+        "productNameRead": "Timun Jepang",
+        "qtyRead": 0.56,
+        "totalRead": 19040,
+        "confidence": "confirmed",
+        "selectedProductId": "d22ce659-2cdc-5731-8c96-8d58e9b9a6eb",
+        "candidates": [
+          {
+            "productId": "d22ce659-2cdc-5731-8c96-8d58e9b9a6eb",
+            "name": "Timun Jepang",
+            "expectedTotal": 19040,
+            "totalDelta": 0,
+            "totalMatches": true,
+            "matchedOn": "active_supplier_product_and_cost"
+          }
+        ],
+        "warnings": []
+      },
+      {
+        "lineId": "s21-l05",
+        "productNameRead": "Tomat Cherry",
+        "qtyRead": 0.25,
+        "totalRead": 13000,
+        "confidence": "confirmed",
+        "selectedProductId": "4e656e17-f659-53ac-af70-45abda618f4b",
+        "candidates": [
+          {
+            "productId": "4e656e17-f659-53ac-af70-45abda618f4b",
+            "name": "Tomat Cherry",
+            "expectedTotal": 13000,
+            "totalDelta": 0,
+            "totalMatches": true,
+            "matchedOn": "active_supplier_product_and_cost"
+          }
+        ],
+        "warnings": []
+      },
+      {
+        "lineId": "s21-l06",
+        "productNameRead": "Wortel",
+        "qtyRead": 0.5,
+        "totalRead": 15000,
+        "confidence": "confirmed",
+        "selectedProductId": "8c3ef21e-febb-52e4-8f04-be3865c99073",
+        "candidates": [
+          {
+            "productId": "8c3ef21e-febb-52e4-8f04-be3865c99073",
+            "name": "Wortel",
+            "expectedTotal": 15000,
+            "totalDelta": 0,
+            "totalMatches": true,
+            "matchedOn": "active_supplier_product_and_cost"
+          }
+        ],
+        "warnings": []
+      },
+      {
+        "lineId": "s21-l07",
+        "productNameRead": "S. Pagoda",
+        "qtyRead": 0.5,
+        "totalRead": 27500,
+        "confidence": "confirmed",
+        "selectedProductId": "79cc60ea-71de-57dd-8643-8d039591e9ba",
+        "candidates": [
+          {
+            "productId": "79cc60ea-71de-57dd-8643-8d039591e9ba",
+            "name": "Sawi Pagoda",
+            "expectedTotal": 27500,
+            "totalDelta": 0,
+            "totalMatches": true,
+            "matchedOn": "active_supplier_product_and_cost"
+          }
+        ],
+        "warnings": []
+      },
+      {
+        "lineId": "s21-l08",
+        "productNameRead": "Kol Putih",
+        "qtyRead": 0.52,
+        "totalRead": 16640,
+        "confidence": "confirmed",
+        "selectedProductId": "629f27c1-4491-5a0a-be07-8c91609d3988",
+        "candidates": [
+          {
+            "productId": "629f27c1-4491-5a0a-be07-8c91609d3988",
+            "name": "Kol Putih",
+            "expectedTotal": 16640,
+            "totalDelta": 0,
+            "totalMatches": true,
+            "matchedOn": "active_supplier_product_and_cost"
+          }
+        ],
+        "warnings": []
+      },
+      {
+        "lineId": "s21-l09",
+        "productNameRead": "Sawi Putih",
+        "qtyRead": 0.45,
+        "totalRead": 14400,
+        "confidence": "confirmed",
+        "selectedProductId": "b4e9d275-c2b5-585f-9c9e-e91cfdd75800",
+        "candidates": [
+          {
+            "productId": "b4e9d275-c2b5-585f-9c9e-e91cfdd75800",
+            "name": "Sawi Putih",
+            "expectedTotal": 14400,
+            "totalDelta": 0,
+            "totalMatches": true,
+            "matchedOn": "active_supplier_product_and_cost"
+          }
+        ],
+        "warnings": []
+      }
+    ],
+    "summary": {
+      "totalLines": 9,
+      "selected": 9,
+      "withCostDiscrepancy": 0
+    }
+  }
+}
+

@@ -1,0 +1,1259 @@
+{
+  "schemaVersion": "rumah-sehat-v2-slip-review-v1",
+  "readyToImport": true,
+  "source": {
+    "imageFile": "WhatsApp Image 2026-10-10 at 7.08.03 PM (2).jpeg",
+    "sourcePath": "incoming/WhatsApp Image 2026-10-10 at 7.08.03 PM (2).jpeg",
+    "slipIndex": 2
+  },
+  "extracted": {
+    "customerNameRead": "Andrea",
+    "addressRead": "Citra Puri Park Residence, Cedar 3-21",
+    "date": "2026-10-08",
+    "slipTotalRead": 127000,
+    "slipTotalCertain": true,
+    "lines": [
+      {
+        "lineId": "s12-l01",
+        "productNameRead": "Telur Kampung",
+        "quantity": 20,
+        "totalRead": 80000
+      },
+      {
+        "lineId": "s12-l02",
+        "productNameRead": "Labusiam B",
+        "quantity": 0.5,
+        "totalRead": 16000
+      },
+      {
+        "lineId": "s12-l03",
+        "productNameRead": "Timun",
+        "quantity": 0.5,
+        "totalRead": 16000
+      },
+      {
+        "lineId": "s12-l04",
+        "productNameRead": "Wortel",
+        "quantity": 0.5,
+        "totalRead": 15000
+      }
+    ],
+    "excludedOrNotReceived": []
+  },
+  "resolved": {
+    "supplier": {
+      "id": "19f80084-3483-5e26-97f4-58884573bbde",
+      "name": "Cisarua"
+    },
+    "customer": {
+      "id": "f24b7259-7486-5bde-a682-4a07c0f1c43d",
+      "name": "Andrea Anak Anas",
+      "legacyCustomerId": 654,
+      "aliases": [],
+      "addresses": [],
+      "nameRead": "Andrea Anak Anas"
+    }
+  },
+  "warnings": [],
+  "calculations": {
+    "supplierProductSubtotal": 127000,
+    "supplierDeliveryFee": 10000,
+    "supplierTotal": 137000,
+    "customerDeliveryCharge": 10000,
+    "handwrittenProductTotal": 127000,
+    "lineTotalSum": 127000,
+    "handwrittenMinusLineSum": 0
+  },
+  "proposedDraft": {
+    "supplierDirectDraft": {
+      "schemaVersion": 1,
+      "supplierId": "19f80084-3483-5e26-97f4-58884573bbde",
+      "supplierName": "Cisarua",
+      "customerId": "f24b7259-7486-5bde-a682-4a07c0f1c43d",
+      "customerName": "Andrea Anak Anas",
+      "occurred": {
+        "date": "2026-10-08",
+        "precision": "date"
+      },
+      "supplierReference": "WhatsApp Image 2026-10-10 at 7.08.03 PM (2).jpeg#2",
+      "note": "Handwritten product total Rp127000; line sum matches. Staff confirmed handwritten Andrea is Andrea Anak Anas, legacy 654.",
+      "lines": [
+        {
+          "clientLineKey": "s12-l01",
+          "productId": "06e07aa2-15cb-54b0-83a5-a57fe49bb985",
+          "productName": "Telur Ayam",
+          "inputUnitCode": "unit",
+          "quantity": "20",
+          "supplierDescription": "Telur Ayam",
+          "supplierCost": {
+            "status": "provisional",
+            "totalAmount": "80000"
+          },
+          "customerPricing": {
+            "source": "catalog"
+          }
+        },
+        {
+          "clientLineKey": "s12-l02",
+          "productId": "28284f97-0f37-5c4e-a7fb-294c3beed4a3",
+          "productName": "Labu Siam Baby",
+          "inputUnitCode": "kg",
+          "quantity": "0.5",
+          "supplierDescription": "Labu Siam Baby",
+          "supplierCost": {
+            "status": "provisional",
+            "totalAmount": "16000"
+          },
+          "customerPricing": {
+            "source": "catalog"
+          }
+        },
+        {
+          "clientLineKey": "s12-l03",
+          "productId": "7f281125-1996-5b0b-a889-0602ed36d188",
+          "productName": "Timun Lokal",
+          "inputUnitCode": "kg",
+          "quantity": "0.5",
+          "supplierDescription": "Timun Lokal",
+          "supplierCost": {
+            "status": "provisional",
+            "totalAmount": "16000"
+          },
+          "customerPricing": {
+            "source": "catalog"
+          }
+        },
+        {
+          "clientLineKey": "s12-l04",
+          "productId": "8c3ef21e-febb-52e4-8f04-be3865c99073",
+          "productName": "Wortel",
+          "inputUnitCode": "kg",
+          "quantity": "0.5",
+          "supplierDescription": "Wortel",
+          "supplierCost": {
+            "status": "provisional",
+            "totalAmount": "15000"
+          },
+          "customerPricing": {
+            "source": "catalog"
+          }
+        }
+      ],
+      "supplierDeliveryFee": {
+        "status": "provisional",
+        "amount": "10000",
+        "note": "Imported from reviewed supplier slip; confirm during supplier reconciliation."
+      },
+      "customerDeliveryCharge": "10000",
+      "customerDeliveryDescription": "Biaya pengantaran supplier langsung"
+    }
+  },
+  "supplierDirectDraft": {
+    "schemaVersion": 1,
+    "supplierId": "19f80084-3483-5e26-97f4-58884573bbde",
+    "supplierName": "Cisarua",
+    "customerId": "f24b7259-7486-5bde-a682-4a07c0f1c43d",
+    "customerName": "Andrea Anak Anas",
+    "occurred": {
+      "date": "2026-10-08",
+      "precision": "date"
+    },
+    "supplierReference": "WhatsApp Image 2026-10-10 at 7.08.03 PM (2).jpeg#2",
+    "note": "Handwritten product total Rp127000; line sum matches. Staff confirmed handwritten Andrea is Andrea Anak Anas, legacy 654.",
+    "lines": [
+      {
+        "clientLineKey": "s12-l01",
+        "productId": "06e07aa2-15cb-54b0-83a5-a57fe49bb985",
+        "productName": "Telur Ayam",
+        "inputUnitCode": "unit",
+        "quantity": "20",
+        "supplierDescription": "Telur Ayam",
+        "supplierCost": {
+          "status": "provisional",
+          "totalAmount": "80000"
+        },
+        "customerPricing": {
+          "source": "catalog"
+        }
+      },
+      {
+        "clientLineKey": "s12-l02",
+        "productId": "28284f97-0f37-5c4e-a7fb-294c3beed4a3",
+        "productName": "Labu Siam Baby",
+        "inputUnitCode": "kg",
+        "quantity": "0.5",
+        "supplierDescription": "Labu Siam Baby",
+        "supplierCost": {
+          "status": "provisional",
+          "totalAmount": "16000"
+        },
+        "customerPricing": {
+          "source": "catalog"
+        }
+      },
+      {
+        "clientLineKey": "s12-l03",
+        "productId": "7f281125-1996-5b0b-a889-0602ed36d188",
+        "productName": "Timun Lokal",
+        "inputUnitCode": "kg",
+        "quantity": "0.5",
+        "supplierDescription": "Timun Lokal",
+        "supplierCost": {
+          "status": "provisional",
+          "totalAmount": "16000"
+        },
+        "customerPricing": {
+          "source": "catalog"
+        }
+      },
+      {
+        "clientLineKey": "s12-l04",
+        "productId": "8c3ef21e-febb-52e4-8f04-be3865c99073",
+        "productName": "Wortel",
+        "inputUnitCode": "kg",
+        "quantity": "0.5",
+        "supplierDescription": "Wortel",
+        "supplierCost": {
+          "status": "provisional",
+          "totalAmount": "15000"
+        },
+        "customerPricing": {
+          "source": "catalog"
+        }
+      }
+    ],
+    "supplierDeliveryFee": {
+      "status": "provisional",
+      "amount": "10000",
+      "note": "Imported from reviewed supplier slip; confirm during supplier reconciliation."
+    },
+    "customerDeliveryCharge": "10000",
+    "customerDeliveryDescription": "Biaya pengantaran supplier langsung"
+  },
+  "workflow": "supplier_direct",
+  "staffConfirmations": [
+    "Staff confirmed handwritten Andrea is Andrea Anak Anas, legacy 654."
+  ],
+  "customerResolutionEvidence": {
+    "handwrittenQuery": {
+      "nameRead": "Andrea",
+      "addressRead": "Citra Puri Park Residence, Cedar 3-21",
+      "confidence": "medium",
+      "suggestedCustomerId": null,
+      "candidates": [
+        {
+          "customerId": "6cfa75cc-cd7d-5045-b232-2a55c2922cf5",
+          "legacyCustomerId": 351,
+          "fullName": "Andrea Lukman",
+          "aliases": [],
+          "addresses": [
+            "St Moritz OR APT Puri Park Residence Cedar 2-21"
+          ],
+          "matchedOn": "canonical_name",
+          "matchedText": "Andrea Lukman",
+          "nameScore": 0.8954,
+          "addressScore": 0.7234,
+          "score": 0.8747
+        },
+        {
+          "customerId": "51f4a29d-b11d-5462-af8d-042e006062df",
+          "legacyCustomerId": 129,
+          "fullName": "Andrea Adik Ika",
+          "aliases": [],
+          "addresses": [
+            "Taman Bromo Gunung Putri No. 21"
+          ],
+          "matchedOn": "canonical_name",
+          "matchedText": "Andrea Adik Ika",
+          "nameScore": 0.888,
+          "addressScore": 0.25,
+          "score": 0.8114
+        },
+        {
+          "customerId": "f24b7259-7486-5bde-a682-4a07c0f1c43d",
+          "legacyCustomerId": 654,
+          "fullName": "Andrea Anak Anas",
+          "aliases": [],
+          "addresses": [],
+          "matchedOn": "canonical_name",
+          "matchedText": "Andrea Anak Anas",
+          "nameScore": 0.885,
+          "addressScore": 0,
+          "score": 0.7788
+        },
+        {
+          "customerId": "652feac3-d3ac-50d0-b3b4-9fc0ad88a98a",
+          "legacyCustomerId": 437,
+          "fullName": "Kiandra",
+          "aliases": [],
+          "addresses": [
+            "Jalan Puri Permai II Blok w1/5 Puri Indah"
+          ],
+          "matchedOn": "canonical_name",
+          "matchedText": "Kiandra",
+          "nameScore": 0.5714,
+          "addressScore": 0.2927,
+          "score": 0.538
+        },
+        {
+          "customerId": "412a542e-dc26-5962-b934-de40643bbcb1",
+          "legacyCustomerId": 90,
+          "fullName": "Indri",
+          "aliases": [],
+          "addresses": [
+            "Taman Permata Buana. Buana Biru Besar 2 No 36."
+          ],
+          "matchedOn": "canonical_name",
+          "matchedText": "Indri",
+          "nameScore": 0.5,
+          "addressScore": 0.2727,
+          "score": 0.4727
+        },
+        {
+          "customerId": "d7215487-5f54-52bf-81b8-f6cb88223d43",
+          "legacyCustomerId": 268,
+          "fullName": "Annie",
+          "aliases": [],
+          "addresses": [
+            "Serpong Garden Cluster Freen Harmoni Blok B1/7 Cisauk"
+          ],
+          "matchedOn": "canonical_name",
+          "matchedText": "Annie",
+          "nameScore": 0.5,
+          "addressScore": 0.1887,
+          "score": 0.4626
+        },
+        {
+          "customerId": "b01c1c8c-4bff-51a2-ad23-373cb9f474c2",
+          "legacyCustomerId": 503,
+          "fullName": "Anya",
+          "aliases": [],
+          "addresses": [],
+          "matchedOn": "canonical_name",
+          "matchedText": "Anya",
+          "nameScore": 0.5,
+          "addressScore": 0,
+          "score": 0.44
+        },
+        {
+          "customerId": "4ec98bf7-a5d2-57e9-9066-7aed45930e98",
+          "legacyCustomerId": 356,
+          "fullName": "Arma",
+          "aliases": [],
+          "addresses": [],
+          "matchedOn": "canonical_name",
+          "matchedText": "Arma",
+          "nameScore": 0.5,
+          "addressScore": 0,
+          "score": 0.44
+        },
+        {
+          "customerId": "1765bfc5-b553-5827-97f3-0bf3237c6528",
+          "legacyCustomerId": 615,
+          "fullName": "Dea",
+          "aliases": [],
+          "addresses": [],
+          "matchedOn": "canonical_name",
+          "matchedText": "Dea",
+          "nameScore": 0.5,
+          "addressScore": 0,
+          "score": 0.44
+        },
+        {
+          "customerId": "b8042483-af14-57e4-b60a-9a979d05ae9c",
+          "legacyCustomerId": 347,
+          "fullName": "Andrew Saputro",
+          "aliases": [],
+          "addresses": [
+            "Cikupa Tangerang"
+          ],
+          "matchedOn": "canonical_name",
+          "matchedText": "Andrew Saputro",
+          "nameScore": 0.4286,
+          "addressScore": 0.25,
+          "score": 0.4071
+        }
+      ],
+      "warnings": [
+        "Customer was not auto-selected; review the ranked candidates."
+      ]
+    },
+    "confirmedIdentityQuery": {
+      "nameRead": "Andrea Anak Anas",
+      "addressRead": null,
+      "confidence": "high",
+      "suggestedCustomerId": "f24b7259-7486-5bde-a682-4a07c0f1c43d",
+      "candidates": [
+        {
+          "customerId": "f24b7259-7486-5bde-a682-4a07c0f1c43d",
+          "legacyCustomerId": 654,
+          "fullName": "Andrea Anak Anas",
+          "aliases": [],
+          "addresses": [],
+          "matchedOn": "canonical_name",
+          "matchedText": "Andrea Anak Anas",
+          "nameScore": 1,
+          "addressScore": 0,
+          "score": 1
+        },
+        {
+          "customerId": "b9e133ec-9f28-55a0-b0c2-22ab38037d2e",
+          "legacyCustomerId": 96,
+          "fullName": "Anas",
+          "aliases": [],
+          "addresses": [
+            "Sutera Asri 2 No 11A. Alam Sutera."
+          ],
+          "matchedOn": "canonical_name",
+          "matchedText": "Anas",
+          "nameScore": 0.87,
+          "addressScore": 0,
+          "score": 0.87
+        },
+        {
+          "customerId": "51f4a29d-b11d-5462-af8d-042e006062df",
+          "legacyCustomerId": 129,
+          "fullName": "Andrea Adik Ika",
+          "aliases": [],
+          "addresses": [
+            "Taman Bromo Gunung Putri No. 21"
+          ],
+          "matchedOn": "canonical_name",
+          "matchedText": "Andrea Adik Ika",
+          "nameScore": 0.6875,
+          "addressScore": 0,
+          "score": 0.6875
+        },
+        {
+          "customerId": "6cfa75cc-cd7d-5045-b232-2a55c2922cf5",
+          "legacyCustomerId": 351,
+          "fullName": "Andrea Lukman",
+          "aliases": [],
+          "addresses": [
+            "St Moritz OR APT Puri Park Residence Cedar 2-21"
+          ],
+          "matchedOn": "canonical_name",
+          "matchedText": "Andrea Lukman",
+          "nameScore": 0.625,
+          "addressScore": 0,
+          "score": 0.625
+        },
+        {
+          "customerId": "0de630a8-9cca-592f-869c-247b588f91e3",
+          "legacyCustomerId": 533,
+          "fullName": "Ancilla - Anak Wei Wei",
+          "aliases": [],
+          "addresses": [],
+          "matchedOn": "canonical_name",
+          "matchedText": "Ancilla - Anak Wei Wei",
+          "nameScore": 0.45,
+          "addressScore": 0,
+          "score": 0.45
+        },
+        {
+          "customerId": "b8042483-af14-57e4-b60a-9a979d05ae9c",
+          "legacyCustomerId": 347,
+          "fullName": "Andrew Saputro",
+          "aliases": [],
+          "addresses": [
+            "Cikupa Tangerang"
+          ],
+          "matchedOn": "canonical_name",
+          "matchedText": "Andrew Saputro",
+          "nameScore": 0.4375,
+          "addressScore": 0,
+          "score": 0.4375
+        },
+        {
+          "customerId": "cadf1fb9-346b-5b98-926a-123024d0b90c",
+          "legacyCustomerId": 234,
+          "fullName": "Maria Angelina",
+          "aliases": [],
+          "addresses": [],
+          "matchedOn": "canonical_name",
+          "matchedText": "Maria Angelina",
+          "nameScore": 0.4375,
+          "addressScore": 0,
+          "score": 0.4375
+        },
+        {
+          "customerId": "38f250aa-bcf4-50c3-9cd0-b4a6505520de",
+          "legacyCustomerId": 542,
+          "fullName": "Angelina Linda Yanny",
+          "aliases": [],
+          "addresses": [],
+          "matchedOn": "canonical_name",
+          "matchedText": "Angelina Linda Yanny",
+          "nameScore": 0.4,
+          "addressScore": 0,
+          "score": 0.4
+        },
+        {
+          "customerId": "611834d3-579b-549a-82a4-7d8ce51ae1b3",
+          "legacyCustomerId": 584,
+          "fullName": "Ani Teman Susan Tanandika",
+          "aliases": [],
+          "addresses": [],
+          "matchedOn": "canonical_name",
+          "matchedText": "Ani Teman Susan Tanandika",
+          "nameScore": 0.4,
+          "addressScore": 0,
+          "score": 0.4
+        },
+        {
+          "customerId": "f32d6c5c-6a22-51b5-85ba-6be951263972",
+          "legacyCustomerId": 548,
+          "fullName": "Angel Muara Karang",
+          "aliases": [],
+          "addresses": [],
+          "matchedOn": "canonical_name",
+          "matchedText": "Angel Muara Karang",
+          "nameScore": 0.3889,
+          "addressScore": 0,
+          "score": 0.3889
+        }
+      ],
+      "warnings": []
+    }
+  },
+  "productMatchingEvidence": {
+    "supplier": {
+      "id": "19f80084-3483-5e26-97f4-58884573bbde",
+      "name": "Cisarua"
+    },
+    "effectiveOn": "2026-10-08",
+    "lines": [
+      {
+        "lineId": "s12-l01",
+        "productNameRead": "Telur Kampung",
+        "qtyRead": 20,
+        "totalRead": 80000,
+        "confidence": "low",
+        "suggestedProductId": null,
+        "candidates": [
+          {
+            "productId": "06e07aa2-15cb-54b0-83a5-a57fe49bb985",
+            "productCode": "legacy-rs-1062",
+            "name": "Telur Ayam",
+            "inputUnitCode": "unit",
+            "inputUnitLabel": "Satuan/paket",
+            "expectedUnitCost": "4000.000000",
+            "catalogPrice": "5000.000000",
+            "matchedOn": "canonical_name",
+            "matchedText": "Telur Ayam",
+            "nameScore": 0.5385,
+            "costScore": 1,
+            "expectedTotal": 80000,
+            "totalDelta": 0,
+            "totalMatches": true,
+            "score": 0.64
+          },
+          {
+            "productId": "15113276-9494-53e8-a49f-51331fd86a88",
+            "productCode": "legacy-rs-620",
+            "name": "Tahu Kuning",
+            "inputUnitCode": "unit",
+            "inputUnitLabel": "Satuan/paket",
+            "expectedUnitCost": "32000.000000",
+            "catalogPrice": "37000.000000",
+            "matchedOn": "canonical_name",
+            "matchedText": "Tahu Kuning",
+            "nameScore": 0.4615,
+            "costScore": 0,
+            "expectedTotal": 640000,
+            "totalDelta": 560000,
+            "totalMatches": false,
+            "score": 0.36
+          },
+          {
+            "productId": "d22ce659-2cdc-5731-8c96-8d58e9b9a6eb",
+            "productCode": "legacy-rs-625",
+            "name": "Timun Jepang",
+            "inputUnitCode": "kg",
+            "inputUnitLabel": "Kilogram",
+            "expectedUnitCost": "34000.000000",
+            "catalogPrice": "45000.000000",
+            "matchedOn": "canonical_name",
+            "matchedText": "Timun Jepang",
+            "nameScore": 0.4615,
+            "costScore": 0,
+            "expectedTotal": 680000,
+            "totalDelta": 600000,
+            "totalMatches": false,
+            "score": 0.36
+          },
+          {
+            "productId": "a5b4ee65-4e63-55a5-bfcd-2ad4e54d1f2d",
+            "productCode": "legacy-rs-606",
+            "name": "Talas Belitung",
+            "inputUnitCode": "unit",
+            "inputUnitLabel": "Satuan/paket",
+            "expectedUnitCost": "28000.000000",
+            "catalogPrice": "33000.000000",
+            "matchedOn": "canonical_name",
+            "matchedText": "Talas Belitung",
+            "nameScore": 0.4286,
+            "costScore": 0,
+            "expectedTotal": 560000,
+            "totalDelta": 480000,
+            "totalMatches": false,
+            "score": 0.3343
+          },
+          {
+            "productId": "29588173-a186-50b5-b49f-2c72805fcaef",
+            "productCode": "legacy-rs-635",
+            "name": "Selada Keriting",
+            "inputUnitCode": "kg",
+            "inputUnitLabel": "Kilogram",
+            "expectedUnitCost": "40000.000000",
+            "catalogPrice": "55000.000000",
+            "matchedOn": "canonical_name",
+            "matchedText": "Selada Keriting",
+            "nameScore": 0.4,
+            "costScore": 0,
+            "expectedTotal": 800000,
+            "totalDelta": 720000,
+            "totalMatches": false,
+            "score": 0.312
+          },
+          {
+            "productId": "53be9183-6302-5eb8-b106-a9cdc43dc69b",
+            "productCode": "legacy-rs-621",
+            "name": "Terong Ungu",
+            "inputUnitCode": "kg",
+            "inputUnitLabel": "Kilogram",
+            "expectedUnitCost": "32000.000000",
+            "catalogPrice": "42000.000000",
+            "matchedOn": "canonical_name",
+            "matchedText": "Terong Ungu",
+            "nameScore": 0.3846,
+            "costScore": 0,
+            "expectedTotal": 640000,
+            "totalDelta": 560000,
+            "totalMatches": false,
+            "score": 0.3
+          },
+          {
+            "productId": "be5bd210-16a3-5124-82f0-db8b4d3359de",
+            "productCode": "legacy-rs-649",
+            "name": "Daun Bawang",
+            "inputUnitCode": "kg",
+            "inputUnitLabel": "Kilogram",
+            "expectedUnitCost": "40000.000000",
+            "catalogPrice": "55000.000000",
+            "matchedOn": "canonical_name",
+            "matchedText": "Daun Bawang",
+            "nameScore": 0.3846,
+            "costScore": 0,
+            "expectedTotal": 800000,
+            "totalDelta": 720000,
+            "totalMatches": false,
+            "score": 0.3
+          },
+          {
+            "productId": "4fffbb34-c3e7-538b-8f6e-29c0ce26e3e2",
+            "productCode": "legacy-rs-642",
+            "name": "Selada Romaine",
+            "inputUnitCode": "kg",
+            "inputUnitLabel": "Kilogram",
+            "expectedUnitCost": "48000.000000",
+            "catalogPrice": "70000.000000",
+            "matchedOn": "canonical_name",
+            "matchedText": "Selada Romaine",
+            "nameScore": 0.3571,
+            "costScore": 0,
+            "expectedTotal": 960000,
+            "totalDelta": 880000,
+            "totalMatches": false,
+            "score": 0.2786
+          },
+          {
+            "productId": "70c8bbbc-1bb6-563a-a27a-9ff958f01824",
+            "productCode": "legacy-rs-1063",
+            "name": "Telur Negri Organik",
+            "inputUnitCode": "unit",
+            "inputUnitLabel": "Satuan/paket",
+            "expectedUnitCost": "3000.000000",
+            "catalogPrice": "3700.000000",
+            "matchedOn": "canonical_name",
+            "matchedText": "Telur Negri Organik",
+            "nameScore": 0.35,
+            "costScore": 0,
+            "expectedTotal": 60000,
+            "totalDelta": 20000,
+            "totalMatches": false,
+            "score": 0.273
+          },
+          {
+            "productId": "6b1d1840-3ae4-5904-82da-95503d942de3",
+            "productCode": "legacy-rs-683",
+            "name": "Ayam Kampung Organic",
+            "inputUnitCode": "unit",
+            "inputUnitLabel": "Satuan/paket",
+            "expectedUnitCost": "65000.000000",
+            "catalogPrice": "80000.000000",
+            "matchedOn": "canonical_name",
+            "matchedText": "Ayam Kampung Organic",
+            "nameScore": 0.35,
+            "costScore": 0,
+            "expectedTotal": 1300000,
+            "totalDelta": 1220000,
+            "totalMatches": false,
+            "score": 0.273
+          }
+        ],
+        "warnings": [
+          "Product was not auto-selected."
+        ]
+      },
+      {
+        "lineId": "s12-l02",
+        "productNameRead": "Labusiam B",
+        "qtyRead": 0.5,
+        "totalRead": 16000,
+        "confidence": "high",
+        "suggestedProductId": "28284f97-0f37-5c4e-a7fb-294c3beed4a3",
+        "candidates": [
+          {
+            "productId": "28284f97-0f37-5c4e-a7fb-294c3beed4a3",
+            "productCode": "legacy-rs-618",
+            "name": "Labu Siam Baby",
+            "inputUnitCode": "kg",
+            "inputUnitLabel": "Kilogram",
+            "expectedUnitCost": "32000.000000",
+            "catalogPrice": "42000.000000",
+            "matchedOn": "canonical_name",
+            "matchedText": "Labu Siam Baby",
+            "nameScore": 0.9343,
+            "costScore": 1,
+            "expectedTotal": 16000,
+            "totalDelta": 0,
+            "totalMatches": true,
+            "score": 0.9487
+          },
+          {
+            "productId": "e5c5ca78-901c-5e4f-b4af-44e9437ed6e7",
+            "productCode": "legacy-rs-597",
+            "name": "Labu Siam",
+            "inputUnitCode": "kg",
+            "inputUnitLabel": "Kilogram",
+            "expectedUnitCost": "28000.000000",
+            "catalogPrice": "40000.000000",
+            "matchedOn": "canonical_name",
+            "matchedText": "Labu Siam",
+            "nameScore": 0.9382,
+            "costScore": 0.4286,
+            "expectedTotal": 14000,
+            "totalDelta": 2000,
+            "totalMatches": false,
+            "score": 0.8261
+          },
+          {
+            "productId": "af8d38af-daaa-508d-bb12-e21c0b0b3e73",
+            "productCode": "legacy-rs-628",
+            "name": "Labu Kabocha",
+            "inputUnitCode": "kg",
+            "inputUnitLabel": "Kilogram",
+            "expectedUnitCost": "34000.000000",
+            "catalogPrice": "40000.000000",
+            "matchedOn": "canonical_name",
+            "matchedText": "Labu Kabocha",
+            "nameScore": 0.4167,
+            "costScore": 0.7647,
+            "expectedTotal": 17000,
+            "totalDelta": 1000,
+            "totalMatches": false,
+            "score": 0.4932
+          },
+          {
+            "productId": "3641853f-1fdd-5567-a763-3f61b6ca048e",
+            "productCode": "legacy-rs-630",
+            "name": "Sawi Pahit",
+            "inputUnitCode": "kg",
+            "inputUnitLabel": "Kilogram",
+            "expectedUnitCost": "32000.000000",
+            "catalogPrice": "42000.000000",
+            "matchedOn": "canonical_name",
+            "matchedText": "Sawi Pahit",
+            "nameScore": 0.2727,
+            "costScore": 1,
+            "expectedTotal": 16000,
+            "totalDelta": 0,
+            "totalMatches": true,
+            "score": 0.4327
+          },
+          {
+            "productId": "15113276-9494-53e8-a49f-51331fd86a88",
+            "productCode": "legacy-rs-620",
+            "name": "Tahu Kuning",
+            "inputUnitCode": "unit",
+            "inputUnitLabel": "Satuan/paket",
+            "expectedUnitCost": "32000.000000",
+            "catalogPrice": "37000.000000",
+            "matchedOn": "canonical_name",
+            "matchedText": "Tahu Kuning",
+            "nameScore": 0.2727,
+            "costScore": 1,
+            "expectedTotal": 16000,
+            "totalDelta": 0,
+            "totalMatches": true,
+            "score": 0.4327
+          },
+          {
+            "productId": "cfb5a0ff-0df0-5d76-bcc4-75e451fc37a8",
+            "productCode": "legacy-rs-611",
+            "name": "Tahu Putih",
+            "inputUnitCode": "unit",
+            "inputUnitLabel": "Satuan/paket",
+            "expectedUnitCost": "30000.000000",
+            "catalogPrice": "38000.000000",
+            "matchedOn": "canonical_name",
+            "matchedText": "Tahu Putih",
+            "nameScore": 0.2727,
+            "costScore": 0.7333,
+            "expectedTotal": 15000,
+            "totalDelta": 1000,
+            "totalMatches": false,
+            "score": 0.3741
+          },
+          {
+            "productId": "52aed7ec-cba5-5947-ab31-c9c6abc983f2",
+            "productCode": "legacy-rs-631",
+            "name": "Kol Hijau",
+            "inputUnitCode": "kg",
+            "inputUnitLabel": "Kilogram",
+            "expectedUnitCost": "32000.000000",
+            "catalogPrice": "42000.000000",
+            "matchedOn": "canonical_name",
+            "matchedText": "Kol Hijau",
+            "nameScore": 0.1818,
+            "costScore": 1,
+            "expectedTotal": 16000,
+            "totalDelta": 0,
+            "totalMatches": true,
+            "score": 0.3618
+          },
+          {
+            "productId": "b4e9d275-c2b5-585f-9c9e-e91cfdd75800",
+            "productCode": "legacy-rs-595",
+            "name": "Sawi Putih",
+            "inputUnitCode": "kg",
+            "inputUnitLabel": "Kilogram",
+            "expectedUnitCost": "32000.000000",
+            "catalogPrice": "45000.000000",
+            "matchedOn": "canonical_name",
+            "matchedText": "Sawi Putih",
+            "nameScore": 0.1818,
+            "costScore": 1,
+            "expectedTotal": 16000,
+            "totalDelta": 0,
+            "totalMatches": true,
+            "score": 0.3618
+          },
+          {
+            "productId": "3e41fdc8-9277-5a3a-bc22-56878b7b6644",
+            "productCode": "legacy-rs-643",
+            "name": "Selada Siomak",
+            "inputUnitCode": "kg",
+            "inputUnitLabel": "Kilogram",
+            "expectedUnitCost": "44000.000000",
+            "catalogPrice": "55000.000000",
+            "matchedOn": "canonical_name",
+            "matchedText": "Selada Siomak",
+            "nameScore": 0.4615,
+            "costScore": 0,
+            "expectedTotal": 22000,
+            "totalDelta": 6000,
+            "totalMatches": false,
+            "score": 0.36
+          },
+          {
+            "productId": "dc3006fa-40b7-5b8f-bea1-c2ada363e57d",
+            "productCode": "legacy-rs-615",
+            "name": "Jagung Manis",
+            "inputUnitCode": "kg",
+            "inputUnitLabel": "Kilogram",
+            "expectedUnitCost": "30000.000000",
+            "catalogPrice": "35000.000000",
+            "matchedOn": "canonical_name",
+            "matchedText": "Jagung Manis",
+            "nameScore": 0.25,
+            "costScore": 0.7333,
+            "expectedTotal": 15000,
+            "totalDelta": 1000,
+            "totalMatches": false,
+            "score": 0.3563
+          }
+        ],
+        "warnings": []
+      },
+      {
+        "lineId": "s12-l03",
+        "productNameRead": "Timun",
+        "qtyRead": 0.5,
+        "totalRead": 16000,
+        "confidence": "high",
+        "suggestedProductId": "7f281125-1996-5b0b-a889-0602ed36d188",
+        "candidates": [
+          {
+            "productId": "7f281125-1996-5b0b-a889-0602ed36d188",
+            "productCode": "legacy-rs-622",
+            "name": "Timun Lokal",
+            "inputUnitCode": "kg",
+            "inputUnitLabel": "Kilogram",
+            "expectedUnitCost": "32000.000000",
+            "catalogPrice": "43000.000000",
+            "matchedOn": "canonical_name",
+            "matchedText": "Timun Lokal",
+            "nameScore": 0.8945,
+            "costScore": 1,
+            "expectedTotal": 16000,
+            "totalDelta": 0,
+            "totalMatches": true,
+            "score": 0.9177
+          },
+          {
+            "productId": "d22ce659-2cdc-5731-8c96-8d58e9b9a6eb",
+            "productCode": "legacy-rs-625",
+            "name": "Timun Jepang",
+            "inputUnitCode": "kg",
+            "inputUnitLabel": "Kilogram",
+            "expectedUnitCost": "34000.000000",
+            "catalogPrice": "45000.000000",
+            "matchedOn": "canonical_name",
+            "matchedText": "Timun Jepang",
+            "nameScore": 0.89,
+            "costScore": 0.7647,
+            "expectedTotal": 17000,
+            "totalDelta": 1000,
+            "totalMatches": false,
+            "score": 0.8624
+          },
+          {
+            "productId": "22c9f15d-fe9e-5607-bebf-fafbc227fa3b",
+            "productCode": "legacy-rs-612",
+            "name": "Tomat",
+            "inputUnitCode": "kg",
+            "inputUnitLabel": "Kilogram",
+            "expectedUnitCost": "32000.000000",
+            "catalogPrice": "42000.000000",
+            "matchedOn": "canonical_name",
+            "matchedText": "Tomat",
+            "nameScore": 0.4,
+            "costScore": 1,
+            "expectedTotal": 16000,
+            "totalDelta": 0,
+            "totalMatches": true,
+            "score": 0.532
+          },
+          {
+            "productId": "15113276-9494-53e8-a49f-51331fd86a88",
+            "productCode": "legacy-rs-620",
+            "name": "Tahu Kuning",
+            "inputUnitCode": "unit",
+            "inputUnitLabel": "Satuan/paket",
+            "expectedUnitCost": "32000.000000",
+            "catalogPrice": "37000.000000",
+            "matchedOn": "canonical_name",
+            "matchedText": "Tahu Kuning",
+            "nameScore": 0.2727,
+            "costScore": 1,
+            "expectedTotal": 16000,
+            "totalDelta": 0,
+            "totalMatches": true,
+            "score": 0.4327
+          },
+          {
+            "productId": "53be9183-6302-5eb8-b106-a9cdc43dc69b",
+            "productCode": "legacy-rs-621",
+            "name": "Terong Ungu",
+            "inputUnitCode": "kg",
+            "inputUnitLabel": "Kilogram",
+            "expectedUnitCost": "32000.000000",
+            "catalogPrice": "42000.000000",
+            "matchedOn": "canonical_name",
+            "matchedText": "Terong Ungu",
+            "nameScore": 0.2727,
+            "costScore": 1,
+            "expectedTotal": 16000,
+            "totalDelta": 0,
+            "totalMatches": true,
+            "score": 0.4327
+          },
+          {
+            "productId": "f090d374-e1a4-50ae-80f0-8401beb2364d",
+            "productCode": "legacy-rs-637",
+            "name": "Lemon",
+            "inputUnitCode": "kg",
+            "inputUnitLabel": "Kilogram",
+            "expectedUnitCost": "37000.000000",
+            "catalogPrice": "48000.000000",
+            "matchedOn": "canonical_name",
+            "matchedText": "Lemon",
+            "nameScore": 0.4,
+            "costScore": 0.4595,
+            "expectedTotal": 18500,
+            "totalDelta": 2500,
+            "totalMatches": false,
+            "score": 0.4131
+          },
+          {
+            "productId": "9238b614-19e4-57be-87e1-918a39be2a86",
+            "productCode": "legacy-rs-604",
+            "name": "Ubi Ungu",
+            "inputUnitCode": "unit",
+            "inputUnitLabel": "Satuan/paket",
+            "expectedUnitCost": "28000.000000",
+            "catalogPrice": "34000.000000",
+            "matchedOn": "canonical_name",
+            "matchedText": "Ubi Ungu",
+            "nameScore": 0.375,
+            "costScore": 0.4286,
+            "expectedTotal": 14000,
+            "totalDelta": 2000,
+            "totalMatches": false,
+            "score": 0.3868
+          },
+          {
+            "productId": "b4e9d275-c2b5-585f-9c9e-e91cfdd75800",
+            "productCode": "legacy-rs-595",
+            "name": "Sawi Putih",
+            "inputUnitCode": "kg",
+            "inputUnitLabel": "Kilogram",
+            "expectedUnitCost": "32000.000000",
+            "catalogPrice": "45000.000000",
+            "matchedOn": "canonical_name",
+            "matchedText": "Sawi Putih",
+            "nameScore": 0.2,
+            "costScore": 1,
+            "expectedTotal": 16000,
+            "totalDelta": 0,
+            "totalMatches": true,
+            "score": 0.376
+          },
+          {
+            "productId": "28284f97-0f37-5c4e-a7fb-294c3beed4a3",
+            "productCode": "legacy-rs-618",
+            "name": "Labu Siam Baby",
+            "inputUnitCode": "kg",
+            "inputUnitLabel": "Kilogram",
+            "expectedUnitCost": "32000.000000",
+            "catalogPrice": "42000.000000",
+            "matchedOn": "canonical_name",
+            "matchedText": "Labu Siam Baby",
+            "nameScore": 0.1429,
+            "costScore": 1,
+            "expectedTotal": 16000,
+            "totalDelta": 0,
+            "totalMatches": true,
+            "score": 0.3314
+          },
+          {
+            "productId": "c7166ff2-855e-5231-8d8e-37072b0ef773",
+            "productCode": "legacy-rs-605",
+            "name": "Ubi Kuning",
+            "inputUnitCode": "unit",
+            "inputUnitLabel": "Satuan/paket",
+            "expectedUnitCost": "28000.000000",
+            "catalogPrice": "34000.000000",
+            "matchedOn": "canonical_name",
+            "matchedText": "Ubi Kuning",
+            "nameScore": 0.3,
+            "costScore": 0.4286,
+            "expectedTotal": 14000,
+            "totalDelta": 2000,
+            "totalMatches": false,
+            "score": 0.3283
+          }
+        ],
+        "warnings": []
+      },
+      {
+        "lineId": "s12-l04",
+        "productNameRead": "Wortel",
+        "qtyRead": 0.5,
+        "totalRead": 15000,
+        "confidence": "high",
+        "suggestedProductId": "8c3ef21e-febb-52e4-8f04-be3865c99073",
+        "candidates": [
+          {
+            "productId": "8c3ef21e-febb-52e4-8f04-be3865c99073",
+            "productCode": "legacy-rs-613",
+            "name": "Wortel",
+            "inputUnitCode": "kg",
+            "inputUnitLabel": "Kilogram",
+            "expectedUnitCost": "30000.000000",
+            "catalogPrice": "40000.000000",
+            "matchedOn": "canonical_name",
+            "matchedText": "Wortel",
+            "nameScore": 1,
+            "costScore": 1,
+            "expectedTotal": 15000,
+            "totalDelta": 0,
+            "totalMatches": true,
+            "score": 1
+          },
+          {
+            "productId": "94595720-1a18-5513-8d09-ace2a3a5bbfd",
+            "productCode": "legacy-rs-610",
+            "name": "Pare",
+            "inputUnitCode": "kg",
+            "inputUnitLabel": "Kilogram",
+            "expectedUnitCost": "30000.000000",
+            "catalogPrice": "40000.000000",
+            "matchedOn": "canonical_name",
+            "matchedText": "Pare",
+            "nameScore": 0.3333,
+            "costScore": 1,
+            "expectedTotal": 15000,
+            "totalDelta": 0,
+            "totalMatches": true,
+            "score": 0.48
+          },
+          {
+            "productId": "02ae31af-edc4-54e1-bd4b-1a42cb131744",
+            "productCode": "legacy-rs-593",
+            "name": "Sereh",
+            "inputUnitCode": "kg",
+            "inputUnitLabel": "Kilogram",
+            "expectedUnitCost": "32000.000000",
+            "catalogPrice": "40000.000000",
+            "matchedOn": "canonical_name",
+            "matchedText": "Sereh",
+            "nameScore": 0.3333,
+            "costScore": 0.75,
+            "expectedTotal": 16000,
+            "totalDelta": 1000,
+            "totalMatches": false,
+            "score": 0.425
+          },
+          {
+            "productId": "629f27c1-4491-5a0a-be07-8c91609d3988",
+            "productCode": "legacy-rs-627",
+            "name": "Kol Putih",
+            "inputUnitCode": "kg",
+            "inputUnitLabel": "Kilogram",
+            "expectedUnitCost": "32000.000000",
+            "catalogPrice": "42000.000000",
+            "matchedOn": "canonical_name",
+            "matchedText": "Kol Putih",
+            "nameScore": 0.2222,
+            "costScore": 0.75,
+            "expectedTotal": 16000,
+            "totalDelta": 1000,
+            "totalMatches": false,
+            "score": 0.3383
+          },
+          {
+            "productId": "d4559261-6693-550f-9657-b43a51817967",
+            "productCode": "legacy-rs-596",
+            "name": "Beras Merah",
+            "inputUnitCode": "unit",
+            "inputUnitLabel": "Satuan/paket",
+            "expectedUnitCost": "31000.000000",
+            "catalogPrice": "39000.000000",
+            "matchedOn": "canonical_name",
+            "matchedText": "Beras Merah",
+            "nameScore": 0.1818,
+            "costScore": 0.871,
+            "expectedTotal": 15500,
+            "totalDelta": 500,
+            "totalMatches": false,
+            "score": 0.3334
+          },
+          {
+            "productId": "f132d827-8ce1-5c7a-ad54-2eb6e5cb2ff7",
+            "productCode": "legacy-rs-592",
+            "name": "Beras Putih",
+            "inputUnitCode": "unit",
+            "inputUnitLabel": "Satuan/paket",
+            "expectedUnitCost": "29000.000000",
+            "catalogPrice": "35000.000000",
+            "matchedOn": "canonical_name",
+            "matchedText": "Beras Putih",
+            "nameScore": 0.1818,
+            "costScore": 0.8621,
+            "expectedTotal": 14500,
+            "totalDelta": 500,
+            "totalMatches": false,
+            "score": 0.3315
+          },
+          {
+            "productId": "b9c6bba5-e72c-5fe5-9fa7-6d21771e7d06",
+            "productCode": "legacy-rs-598",
+            "name": "Beras Coklat",
+            "inputUnitCode": "unit",
+            "inputUnitLabel": "Satuan/paket",
+            "expectedUnitCost": "31000.000000",
+            "catalogPrice": "39000.000000",
+            "matchedOn": "canonical_name",
+            "matchedText": "Beras Coklat",
+            "nameScore": 0.1667,
+            "costScore": 0.871,
+            "expectedTotal": 15500,
+            "totalDelta": 500,
+            "totalMatches": false,
+            "score": 0.3216
+          },
+          {
+            "productId": "1feb473a-6d29-568b-8e97-73fd16d06fc2",
+            "productCode": "legacy-rs-607",
+            "name": "Beras Meru",
+            "inputUnitCode": "unit",
+            "inputUnitLabel": "Satuan/paket",
+            "expectedUnitCost": "32000.000000",
+            "catalogPrice": "39000.000000",
+            "matchedOn": "canonical_name",
+            "matchedText": "Beras Meru",
+            "nameScore": 0.2,
+            "costScore": 0.75,
+            "expectedTotal": 16000,
+            "totalDelta": 1000,
+            "totalMatches": false,
+            "score": 0.321
+          },
+          {
+            "productId": "b4e9d275-c2b5-585f-9c9e-e91cfdd75800",
+            "productCode": "legacy-rs-595",
+            "name": "Sawi Putih",
+            "inputUnitCode": "kg",
+            "inputUnitLabel": "Kilogram",
+            "expectedUnitCost": "32000.000000",
+            "catalogPrice": "45000.000000",
+            "matchedOn": "canonical_name",
+            "matchedText": "Sawi Putih",
+            "nameScore": 0.2,
+            "costScore": 0.75,
+            "expectedTotal": 16000,
+            "totalDelta": 1000,
+            "totalMatches": false,
+            "score": 0.321
+          },
+          {
+            "productId": "c3c63545-3486-54d4-aaa3-584eb744c741",
+            "productCode": "legacy-rs-599",
+            "name": "Lobak Putih",
+            "inputUnitCode": "kg",
+            "inputUnitLabel": "Kilogram",
+            "expectedUnitCost": "28000.000000",
+            "catalogPrice": "38000.000000",
+            "matchedOn": "canonical_name",
+            "matchedText": "Lobak Putih",
+            "nameScore": 0.1818,
+            "costScore": 0.7143,
+            "expectedTotal": 14000,
+            "totalDelta": 1000,
+            "totalMatches": false,
+            "score": 0.299
+          }
+        ],
+        "warnings": []
+      }
+    ],
+    "summary": {
+      "totalLines": 4,
+      "highConfidence": 3,
+      "needsReview": 1
+    }
+  }
+}

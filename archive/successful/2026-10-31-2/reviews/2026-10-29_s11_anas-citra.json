@@ -1,0 +1,337 @@
+{
+  "schemaVersion": "rumah-sehat-v2-slip-review-v1",
+  "readyToImport": true,
+  "source": {
+    "imageFile": "WhatsApp Image 2026-10-31 at 1.18.39 PM (2).jpeg",
+    "slipIndex": 1,
+    "fingerprint": "7f2add0c4dc61671cc4dfbe7b9e76a150c36df1ebbeea0a68e3585f10bbf3e92",
+    "sourcePath": "incoming/WhatsApp Image 2026-10-31 at 1.18.39 PM (2).jpeg"
+  },
+  "extracted": {
+    "customerNameRead": "Anas",
+    "lines": [
+      {
+        "lineId": "s11-l01",
+        "productNameRead": "Telur Kampung",
+        "quantityRead": 35,
+        "totalRead": 140000
+      },
+      {
+        "lineId": "s11-l02",
+        "productNameRead": "Bombay",
+        "quantityRead": 0.5,
+        "totalRead": 38000
+      },
+      {
+        "lineId": "s11-l03",
+        "productNameRead": "Timun",
+        "quantityRead": 0.5,
+        "totalRead": 16000
+      },
+      {
+        "lineId": "s11-l04",
+        "productNameRead": "Tomat",
+        "quantityRead": 0.5,
+        "totalRead": 16000
+      }
+    ],
+    "date": "2026-10-29",
+    "slipTotalRead": 210000,
+    "slipTotalCertain": true,
+    "excludedOrNotReceived": []
+  },
+  "resolved": {
+    "supplier": {
+      "id": "19f80084-3483-5e26-97f4-58884573bbde",
+      "name": "Cisarua"
+    },
+    "customer": {
+      "id": "a96c8384-be77-5b71-be78-0b04c5b280d1",
+      "name": "Anas Citra",
+      "legacyCustomerId": 160,
+      "aliases": [],
+      "addresses": [
+        "Citra Garden 3 Block a7 no 31 Kalideres"
+      ],
+      "nameRead": "Anas"
+    }
+  },
+  "warnings": [],
+  "calculations": {
+    "supplierProductSubtotal": 210000,
+    "supplierDeliveryFee": 10000,
+    "supplierTotal": 220000,
+    "customerDeliveryCharge": 10000,
+    "handwrittenProductTotal": 210000,
+    "lineTotalSum": 210000,
+    "handwrittenMinusLineSum": 0
+  },
+  "proposedDraft": {
+    "supplierDirectDraft": {
+      "schemaVersion": 1,
+      "supplierId": "19f80084-3483-5e26-97f4-58884573bbde",
+      "supplierName": "Cisarua",
+      "customerId": "a96c8384-be77-5b71-be78-0b04c5b280d1",
+      "customerName": "Anas Citra",
+      "occurred": {
+        "date": "2026-10-29",
+        "precision": "date"
+      },
+      "supplierReference": "WhatsApp Image 2026-10-31 at 1.18.39 PM (2).jpeg#1",
+      "note": "Handwritten product total Rp210000; line sum matches. Operator context and the Citra address resolve Anas to Anas Citra.",
+      "lines": [
+        {
+          "clientLineKey": "s11-l01",
+          "productId": "06e07aa2-15cb-54b0-83a5-a57fe49bb985",
+          "productName": "Telur Ayam",
+          "inputUnitCode": "unit",
+          "quantity": "35",
+          "supplierDescription": "Telur Kampung",
+          "supplierCost": {
+            "status": "provisional",
+            "totalAmount": "140000"
+          },
+          "customerPricing": {
+            "source": "catalog"
+          }
+        },
+        {
+          "clientLineKey": "s11-l02",
+          "productId": "b8f3f290-7d45-54a8-a8b2-43053dc872c2",
+          "productName": "Bawang Bombay",
+          "inputUnitCode": "kg",
+          "quantity": "0.5",
+          "supplierDescription": "Bombay",
+          "supplierCost": {
+            "status": "provisional",
+            "totalAmount": "38000"
+          },
+          "customerPricing": {
+            "source": "catalog"
+          }
+        },
+        {
+          "clientLineKey": "s11-l03",
+          "productId": "7f281125-1996-5b0b-a889-0602ed36d188",
+          "productName": "Timun Lokal",
+          "inputUnitCode": "kg",
+          "quantity": "0.5",
+          "supplierDescription": "Timun",
+          "supplierCost": {
+            "status": "provisional",
+            "totalAmount": "16000"
+          },
+          "customerPricing": {
+            "source": "catalog"
+          }
+        },
+        {
+          "clientLineKey": "s11-l04",
+          "productId": "22c9f15d-fe9e-5607-bebf-fafbc227fa3b",
+          "productName": "Tomat",
+          "inputUnitCode": "kg",
+          "quantity": "0.5",
+          "supplierDescription": "Tomat",
+          "supplierCost": {
+            "status": "provisional",
+            "totalAmount": "16000"
+          },
+          "customerPricing": {
+            "source": "catalog"
+          }
+        }
+      ],
+      "supplierDeliveryFee": {
+        "status": "provisional",
+        "amount": "10000",
+        "note": "Imported from reviewed supplier slip; confirm during supplier reconciliation."
+      },
+      "customerDeliveryCharge": "10000",
+      "customerDeliveryDescription": "Biaya pengantaran langsung"
+    }
+  },
+  "supplierDirectDraft": {
+    "schemaVersion": 1,
+    "supplierId": "19f80084-3483-5e26-97f4-58884573bbde",
+    "supplierName": "Cisarua",
+    "customerId": "a96c8384-be77-5b71-be78-0b04c5b280d1",
+    "customerName": "Anas Citra",
+    "occurred": {
+      "date": "2026-10-29",
+      "precision": "date"
+    },
+    "supplierReference": "WhatsApp Image 2026-10-31 at 1.18.39 PM (2).jpeg#1",
+    "note": "Handwritten product total Rp210000; line sum matches. Operator context and the Citra address resolve Anas to Anas Citra.",
+    "lines": [
+      {
+        "clientLineKey": "s11-l01",
+        "productId": "06e07aa2-15cb-54b0-83a5-a57fe49bb985",
+        "productName": "Telur Ayam",
+        "inputUnitCode": "unit",
+        "quantity": "35",
+        "supplierDescription": "Telur Kampung",
+        "supplierCost": {
+          "status": "provisional",
+          "totalAmount": "140000"
+        },
+        "customerPricing": {
+          "source": "catalog"
+        }
+      },
+      {
+        "clientLineKey": "s11-l02",
+        "productId": "b8f3f290-7d45-54a8-a8b2-43053dc872c2",
+        "productName": "Bawang Bombay",
+        "inputUnitCode": "kg",
+        "quantity": "0.5",
+        "supplierDescription": "Bombay",
+        "supplierCost": {
+          "status": "provisional",
+          "totalAmount": "38000"
+        },
+        "customerPricing": {
+          "source": "catalog"
+        }
+      },
+      {
+        "clientLineKey": "s11-l03",
+        "productId": "7f281125-1996-5b0b-a889-0602ed36d188",
+        "productName": "Timun Lokal",
+        "inputUnitCode": "kg",
+        "quantity": "0.5",
+        "supplierDescription": "Timun",
+        "supplierCost": {
+          "status": "provisional",
+          "totalAmount": "16000"
+        },
+        "customerPricing": {
+          "source": "catalog"
+        }
+      },
+      {
+        "clientLineKey": "s11-l04",
+        "productId": "22c9f15d-fe9e-5607-bebf-fafbc227fa3b",
+        "productName": "Tomat",
+        "inputUnitCode": "kg",
+        "quantity": "0.5",
+        "supplierDescription": "Tomat",
+        "supplierCost": {
+          "status": "provisional",
+          "totalAmount": "16000"
+        },
+        "customerPricing": {
+          "source": "catalog"
+        }
+      }
+    ],
+    "supplierDeliveryFee": {
+      "status": "provisional",
+      "amount": "10000",
+      "note": "Imported from reviewed supplier slip; confirm during supplier reconciliation."
+    },
+    "customerDeliveryCharge": "10000",
+    "customerDeliveryDescription": "Biaya pengantaran langsung"
+  },
+  "workflow": "supplier_direct",
+  "staffConfirmations": [
+    "Operator context and the Citra address resolve Anas to Anas Citra."
+  ],
+  "customerResolutionEvidence": {
+    "handwrittenName": "Anas",
+    "selectedCustomerId": "a96c8384-be77-5b71-be78-0b04c5b280d1",
+    "selectedCustomerName": "Anas Citra",
+    "legacyCustomerId": 160,
+    "confirmation": [
+      "Operator context and the Citra address resolve Anas to Anas Citra."
+    ]
+  },
+  "productMatchingEvidence": {
+    "effectiveOn": "2026-10-29",
+    "supplierId": "19f80084-3483-5e26-97f4-58884573bbde",
+    "supplierName": "Cisarua",
+    "lines": [
+      {
+        "lineId": "s11-l01",
+        "productNameRead": "Telur Kampung",
+        "qtyRead": 35,
+        "totalRead": 140000,
+        "confidence": "confirmed",
+        "selectedProductId": "06e07aa2-15cb-54b0-83a5-a57fe49bb985",
+        "candidates": [
+          {
+            "productId": "06e07aa2-15cb-54b0-83a5-a57fe49bb985",
+            "name": "Telur Ayam",
+            "expectedTotal": 140000,
+            "totalDelta": 0,
+            "totalMatches": true,
+            "matchedOn": "active_supplier_product_and_cost"
+          }
+        ],
+        "warnings": []
+      },
+      {
+        "lineId": "s11-l02",
+        "productNameRead": "Bombay",
+        "qtyRead": 0.5,
+        "totalRead": 38000,
+        "confidence": "confirmed",
+        "selectedProductId": "b8f3f290-7d45-54a8-a8b2-43053dc872c2",
+        "candidates": [
+          {
+            "productId": "b8f3f290-7d45-54a8-a8b2-43053dc872c2",
+            "name": "Bawang Bombay",
+            "expectedTotal": 38000,
+            "totalDelta": 0,
+            "totalMatches": true,
+            "matchedOn": "active_supplier_product_and_cost"
+          }
+        ],
+        "warnings": []
+      },
+      {
+        "lineId": "s11-l03",
+        "productNameRead": "Timun",
+        "qtyRead": 0.5,
+        "totalRead": 16000,
+        "confidence": "confirmed",
+        "selectedProductId": "7f281125-1996-5b0b-a889-0602ed36d188",
+        "candidates": [
+          {
+            "productId": "7f281125-1996-5b0b-a889-0602ed36d188",
+            "name": "Timun Lokal",
+            "expectedTotal": 16000,
+            "totalDelta": 0,
+            "totalMatches": true,
+            "matchedOn": "active_supplier_product_and_cost"
+          }
+        ],
+        "warnings": []
+      },
+      {
+        "lineId": "s11-l04",
+        "productNameRead": "Tomat",
+        "qtyRead": 0.5,
+        "totalRead": 16000,
+        "confidence": "confirmed",
+        "selectedProductId": "22c9f15d-fe9e-5607-bebf-fafbc227fa3b",
+        "candidates": [
+          {
+            "productId": "22c9f15d-fe9e-5607-bebf-fafbc227fa3b",
+            "name": "Tomat",
+            "expectedTotal": 16000,
+            "totalDelta": 0,
+            "totalMatches": true,
+            "matchedOn": "active_supplier_product_and_cost"
+          }
+        ],
+        "warnings": []
+      }
+    ],
+    "summary": {
+      "totalLines": 4,
+      "selected": 4,
+      "withCostDiscrepancy": 0
+    }
+  }
+}
+

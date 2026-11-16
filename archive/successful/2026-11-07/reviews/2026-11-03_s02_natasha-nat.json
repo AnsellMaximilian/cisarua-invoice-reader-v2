@@ -1,0 +1,347 @@
+{
+  "schemaVersion": "rumah-sehat-v2-slip-review-v1",
+  "readyToImport": true,
+  "source": {
+    "imageFile": "WhatsApp Image 2026-11-07 at 10.49.31 AM.jpeg",
+    "slipIndex": 2,
+    "fingerprint": "05247cdf8010decf55dc6b2fe2cacc709de923e0c8f6ef3d023b77c6b43a8c0a",
+    "sourcePath": "incoming/WhatsApp Image 2026-11-07 at 10.49.31 AM.jpeg"
+  },
+  "extracted": {
+    "customerNameRead": "Ibu Natassya",
+    "addressRead": "Lembang 1 Blok 27/62, Cinere",
+    "lines": [
+      {
+        "lineId": "s02-l01",
+        "productNameRead": "Ikan Nila",
+        "quantityRead": 1,
+        "totalRead": 60000
+      },
+      {
+        "lineId": "s02-l02",
+        "productNameRead": "Ceciwis",
+        "quantityRead": 0.6,
+        "totalRead": 30000
+      },
+      {
+        "lineId": "s02-l03",
+        "productNameRead": "Selada Air",
+        "quantityRead": 1.25,
+        "totalRead": 45000
+      },
+      {
+        "lineId": "s02-l04",
+        "productNameRead": "Brokoli",
+        "quantityRead": 0.33,
+        "totalRead": 17160
+      }
+    ],
+    "date": "2026-11-03",
+    "slipTotalRead": 152160,
+    "slipTotalCertain": true,
+    "excludedOrNotReceived": []
+  },
+  "resolved": {
+    "supplier": {
+      "id": "19f80084-3483-5e26-97f4-58884573bbde",
+      "name": "Cisarua"
+    },
+    "customer": {
+      "id": "3eaf30d6-c0b2-578c-b811-6209d7b1b370",
+      "name": "Natasha - Nat",
+      "legacyCustomerId": 366,
+      "aliases": [
+        "Natassya"
+      ],
+      "addresses": [
+        "Kelapa Gading"
+      ],
+      "nameRead": "Ibu Natassya"
+    }
+  },
+  "warnings": [],
+  "calculations": {
+    "supplierProductSubtotal": 152160,
+    "supplierDeliveryFee": 10000,
+    "supplierTotal": 162160,
+    "customerDeliveryCharge": 10000,
+    "handwrittenProductTotal": 152160,
+    "lineTotalSum": 152160,
+    "handwrittenMinusLineSum": 0
+  },
+  "proposedDraft": {
+    "supplierDirectDraft": {
+      "schemaVersion": 1,
+      "supplierId": "19f80084-3483-5e26-97f4-58884573bbde",
+      "supplierName": "Cisarua",
+      "customerId": "3eaf30d6-c0b2-578c-b811-6209d7b1b370",
+      "customerName": "Natasha - Nat",
+      "occurred": {
+        "date": "2026-11-03",
+        "precision": "date"
+      },
+      "supplierReference": "WhatsApp Image 2026-11-07 at 10.49.31 AM.jpeg#2",
+      "note": "Handwritten product total Rp152160; line sum matches. Natassya resolves through the active alias to Natasha - Nat.",
+      "lines": [
+        {
+          "clientLineKey": "s02-l01",
+          "productId": "fb2fae85-dff9-5f8f-84f5-dc4ac1a6b4ad",
+          "productName": "Ikan Nila Organik",
+          "inputUnitCode": "unit",
+          "quantity": "1",
+          "supplierDescription": "Ikan Nila",
+          "supplierCost": {
+            "status": "provisional",
+            "totalAmount": "60000"
+          },
+          "customerPricing": {
+            "source": "catalog"
+          }
+        },
+        {
+          "clientLineKey": "s02-l02",
+          "productId": "18388b2f-2c24-5143-860c-e0f576e4063c",
+          "productName": "Tunas Kol (Ceciwis)",
+          "inputUnitCode": "kg",
+          "quantity": "0.6",
+          "supplierDescription": "Ceciwis",
+          "supplierCost": {
+            "status": "provisional",
+            "totalAmount": "30000"
+          },
+          "customerPricing": {
+            "source": "catalog"
+          }
+        },
+        {
+          "clientLineKey": "s02-l03",
+          "productId": "19951f33-bfce-50f1-b35b-045fcad65017",
+          "productName": "Selada Air",
+          "inputUnitCode": "kg",
+          "quantity": "1.25",
+          "supplierDescription": "Selada Air",
+          "supplierCost": {
+            "status": "provisional",
+            "totalAmount": "45000"
+          },
+          "customerPricing": {
+            "source": "catalog"
+          }
+        },
+        {
+          "clientLineKey": "s02-l04",
+          "productId": "0bbdc2cf-a928-5df3-9c1e-15e1ccd212c2",
+          "productName": "Broccoli",
+          "inputUnitCode": "kg",
+          "quantity": "0.33",
+          "supplierDescription": "Brokoli",
+          "supplierCost": {
+            "status": "provisional",
+            "totalAmount": "17160"
+          },
+          "customerPricing": {
+            "source": "catalog"
+          }
+        }
+      ],
+      "supplierDeliveryFee": {
+        "status": "provisional",
+        "amount": "10000",
+        "note": "Imported from reviewed supplier slip; confirm during supplier reconciliation."
+      },
+      "customerDeliveryCharge": "10000",
+      "customerDeliveryDescription": "Biaya pengantaran langsung"
+    }
+  },
+  "supplierDirectDraft": {
+    "schemaVersion": 1,
+    "supplierId": "19f80084-3483-5e26-97f4-58884573bbde",
+    "supplierName": "Cisarua",
+    "customerId": "3eaf30d6-c0b2-578c-b811-6209d7b1b370",
+    "customerName": "Natasha - Nat",
+    "occurred": {
+      "date": "2026-11-03",
+      "precision": "date"
+    },
+    "supplierReference": "WhatsApp Image 2026-11-07 at 10.49.31 AM.jpeg#2",
+    "note": "Handwritten product total Rp152160; line sum matches. Natassya resolves through the active alias to Natasha - Nat.",
+    "lines": [
+      {
+        "clientLineKey": "s02-l01",
+        "productId": "fb2fae85-dff9-5f8f-84f5-dc4ac1a6b4ad",
+        "productName": "Ikan Nila Organik",
+        "inputUnitCode": "unit",
+        "quantity": "1",
+        "supplierDescription": "Ikan Nila",
+        "supplierCost": {
+          "status": "provisional",
+          "totalAmount": "60000"
+        },
+        "customerPricing": {
+          "source": "catalog"
+        }
+      },
+      {
+        "clientLineKey": "s02-l02",
+        "productId": "18388b2f-2c24-5143-860c-e0f576e4063c",
+        "productName": "Tunas Kol (Ceciwis)",
+        "inputUnitCode": "kg",
+        "quantity": "0.6",
+        "supplierDescription": "Ceciwis",
+        "supplierCost": {
+          "status": "provisional",
+          "totalAmount": "30000"
+        },
+        "customerPricing": {
+          "source": "catalog"
+        }
+      },
+      {
+        "clientLineKey": "s02-l03",
+        "productId": "19951f33-bfce-50f1-b35b-045fcad65017",
+        "productName": "Selada Air",
+        "inputUnitCode": "kg",
+        "quantity": "1.25",
+        "supplierDescription": "Selada Air",
+        "supplierCost": {
+          "status": "provisional",
+          "totalAmount": "45000"
+        },
+        "customerPricing": {
+          "source": "catalog"
+        }
+      },
+      {
+        "clientLineKey": "s02-l04",
+        "productId": "0bbdc2cf-a928-5df3-9c1e-15e1ccd212c2",
+        "productName": "Broccoli",
+        "inputUnitCode": "kg",
+        "quantity": "0.33",
+        "supplierDescription": "Brokoli",
+        "supplierCost": {
+          "status": "provisional",
+          "totalAmount": "17160"
+        },
+        "customerPricing": {
+          "source": "catalog"
+        }
+      }
+    ],
+    "supplierDeliveryFee": {
+      "status": "provisional",
+      "amount": "10000",
+      "note": "Imported from reviewed supplier slip; confirm during supplier reconciliation."
+    },
+    "customerDeliveryCharge": "10000",
+    "customerDeliveryDescription": "Biaya pengantaran langsung"
+  },
+  "workflow": "supplier_direct",
+  "staffConfirmations": [
+    "Operator context confirms Natassya is customer Natasha - Nat."
+  ],
+  "customerResolutionEvidence": {
+    "handwrittenName": "Ibu Natassya",
+    "addressRead": "Lembang 1 Blok 27/62, Cinere",
+    "selectedCustomerId": "3eaf30d6-c0b2-578c-b811-6209d7b1b370",
+    "selectedCustomerName": "Natasha - Nat",
+    "confirmation": [
+      "Operator context confirms Natassya is customer Natasha - Nat."
+    ]
+  },
+  "productMatchingEvidence": {
+    "effectiveOn": "2026-11-03",
+    "supplierId": "19f80084-3483-5e26-97f4-58884573bbde",
+    "supplierName": "Cisarua",
+    "lines": [
+      {
+        "lineId": "s02-l01",
+        "productNameRead": "Ikan Nila",
+        "qtyRead": 1,
+        "totalRead": 60000,
+        "confidence": "confirmed",
+        "selectedProductId": "fb2fae85-dff9-5f8f-84f5-dc4ac1a6b4ad",
+        "selectedProductName": "Ikan Nila Organik",
+        "candidates": [
+          {
+            "productId": "fb2fae85-dff9-5f8f-84f5-dc4ac1a6b4ad",
+            "name": "Ikan Nila Organik",
+            "expectedUnitCost": 60000,
+            "expectedTotal": 60000,
+            "totalDelta": 0,
+            "totalMatches": true,
+            "matchedOn": "current_supplier_product_and_operator_context"
+          }
+        ],
+        "warnings": []
+      },
+      {
+        "lineId": "s02-l02",
+        "productNameRead": "Ceciwis",
+        "qtyRead": 0.6,
+        "totalRead": 30000,
+        "confidence": "confirmed",
+        "selectedProductId": "18388b2f-2c24-5143-860c-e0f576e4063c",
+        "selectedProductName": "Tunas Kol (Ceciwis)",
+        "candidates": [
+          {
+            "productId": "18388b2f-2c24-5143-860c-e0f576e4063c",
+            "name": "Tunas Kol (Ceciwis)",
+            "expectedUnitCost": 50000,
+            "expectedTotal": 30000,
+            "totalDelta": 0,
+            "totalMatches": true,
+            "matchedOn": "current_supplier_product_and_operator_context"
+          }
+        ],
+        "warnings": []
+      },
+      {
+        "lineId": "s02-l03",
+        "productNameRead": "Selada Air",
+        "qtyRead": 1.25,
+        "totalRead": 45000,
+        "confidence": "confirmed",
+        "selectedProductId": "19951f33-bfce-50f1-b35b-045fcad65017",
+        "selectedProductName": "Selada Air",
+        "candidates": [
+          {
+            "productId": "19951f33-bfce-50f1-b35b-045fcad65017",
+            "name": "Selada Air",
+            "expectedUnitCost": 36000,
+            "expectedTotal": 45000,
+            "totalDelta": 0,
+            "totalMatches": true,
+            "matchedOn": "current_supplier_product_and_operator_context"
+          }
+        ],
+        "warnings": []
+      },
+      {
+        "lineId": "s02-l04",
+        "productNameRead": "Brokoli",
+        "qtyRead": 0.33,
+        "totalRead": 17160,
+        "confidence": "confirmed",
+        "selectedProductId": "0bbdc2cf-a928-5df3-9c1e-15e1ccd212c2",
+        "selectedProductName": "Broccoli",
+        "candidates": [
+          {
+            "productId": "0bbdc2cf-a928-5df3-9c1e-15e1ccd212c2",
+            "name": "Broccoli",
+            "expectedUnitCost": 52000,
+            "expectedTotal": 17160,
+            "totalDelta": 0,
+            "totalMatches": true,
+            "matchedOn": "current_supplier_product_and_operator_context"
+          }
+        ],
+        "warnings": []
+      }
+    ],
+    "summary": {
+      "totalLines": 4,
+      "selected": 4,
+      "withCostDiscrepancy": 0
+    }
+  }
+}

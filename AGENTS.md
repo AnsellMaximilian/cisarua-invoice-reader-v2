@@ -2,6 +2,8 @@
 
 This project converts supplier-slip photographs into reviewable JSON drafts for Rumah Sehat V2.
 
+Before processing a batch, read `OPERATOR_CONTEXT.md`. It contains staff-confirmed operational conventions and recurring supplier/customer wording. Treat those conventions as matching evidence only: always resolve the current active V2 identities and effective-dated terms through the MCP, and never hardcode or invent UUIDs.
+
 ## Safety boundary
 
 - Database access is read-only. Never insert, update, delete, post, issue, reconcile, or pay business records.
@@ -27,6 +29,7 @@ This project converts supplier-slip photographs into reviewable JSON drafts for 
 
 ### Supplier receipt at the house
 
+0. A slip whose customer/name field is `Ibu Chi-Chi` identifies the house, not a customer. Do not resolve Chi-Chi as a customer; use this house-receipt workflow. Do not classify a separately named slip as house use merely because it shares a photograph with a Chi-Chi slip or mentions Chi-Chi in an address/note.
 1. Use the same supplier, customer, and product resolution tools.
 2. Call `build_supplier_receipt_review` after resolving every product and any customer used by a `titip` line.
 3. The default disposition is deliberately derived from the V2 product setting: tracked products become `owned_stock`; untracked products become `business_or_household_use`.

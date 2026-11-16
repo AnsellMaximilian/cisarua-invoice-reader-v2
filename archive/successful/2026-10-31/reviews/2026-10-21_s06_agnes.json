@@ -1,0 +1,388 @@
+{
+  "schemaVersion": "rumah-sehat-v2-slip-review-v1",
+  "readyToImport": true,
+  "source": {
+    "imageFile": "WhatsApp Image 2026-10-24 at 11.49.12 AM (1).jpeg",
+    "slipIndex": 2,
+    "fingerprint": "af1b5d99a50504896db0043d4bb44ed49e5c3299196cf4d418b0f2ee31d1af24",
+    "sourcePath": "incoming/WhatsApp Image 2026-10-24 at 11.49.12 AM (1).jpeg"
+  },
+  "extracted": {
+    "customerNameRead": "Agnes",
+    "lines": [
+      {
+        "lineId": "s06-l01",
+        "productNameRead": "Telur Negeri",
+        "quantityRead": 20,
+        "totalRead": 60000
+      },
+      {
+        "lineId": "s06-l02",
+        "productNameRead": "Pakcoy",
+        "quantityRead": 0.5,
+        "totalRead": 18000
+      },
+      {
+        "lineId": "s06-l03",
+        "productNameRead": "Bit",
+        "quantityRead": 0.6,
+        "totalRead": 22800
+      },
+      {
+        "lineId": "s06-l04",
+        "productNameRead": "Timun",
+        "quantityRead": 0.5,
+        "totalRead": 16000
+      },
+      {
+        "lineId": "s06-l05",
+        "productNameRead": "Wortel",
+        "quantityRead": 1,
+        "totalRead": 30000
+      }
+    ],
+    "date": "2026-10-21",
+    "slipTotalRead": 146800,
+    "slipTotalCertain": true,
+    "excludedOrNotReceived": []
+  },
+  "resolved": {
+    "supplier": {
+      "id": "19f80084-3483-5e26-97f4-58884573bbde",
+      "name": "Cisarua"
+    },
+    "customer": {
+      "id": "6f1f8326-b9c3-588f-ac5f-5597e7acec6b",
+      "name": "Agnes",
+      "legacyCustomerId": 162,
+      "aliases": [],
+      "addresses": [
+        "Jl. Sutera Intan 2/26 Alam Sutera"
+      ],
+      "nameRead": "Agnes"
+    }
+  },
+  "warnings": [],
+  "calculations": {
+    "supplierProductSubtotal": 146800,
+    "supplierDeliveryFee": 10000,
+    "supplierTotal": 156800,
+    "customerDeliveryCharge": 10000,
+    "handwrittenProductTotal": 146800,
+    "lineTotalSum": 146800,
+    "handwrittenMinusLineSum": 0
+  },
+  "proposedDraft": {
+    "supplierDirectDraft": {
+      "schemaVersion": 1,
+      "supplierId": "19f80084-3483-5e26-97f4-58884573bbde",
+      "supplierName": "Cisarua",
+      "customerId": "6f1f8326-b9c3-588f-ac5f-5597e7acec6b",
+      "customerName": "Agnes",
+      "occurred": {
+        "date": "2026-10-21",
+        "precision": "date"
+      },
+      "supplierReference": "WhatsApp Image 2026-10-24 at 11.49.12 AM (1).jpeg#2",
+      "note": "Handwritten product total Rp146800; line sum matches.",
+      "lines": [
+        {
+          "clientLineKey": "s06-l01",
+          "productId": "70c8bbbc-1bb6-563a-a27a-9ff958f01824",
+          "productName": "Telur Negri Organik",
+          "inputUnitCode": "unit",
+          "quantity": "20",
+          "supplierDescription": "Telur Negeri",
+          "supplierCost": {
+            "status": "provisional",
+            "totalAmount": "60000"
+          },
+          "customerPricing": {
+            "source": "catalog"
+          }
+        },
+        {
+          "clientLineKey": "s06-l02",
+          "productId": "1dcb3752-a1ea-506f-a114-6ebfb595cee2",
+          "productName": "Pakchoy",
+          "inputUnitCode": "kg",
+          "quantity": "0.5",
+          "supplierDescription": "Pakcoy",
+          "supplierCost": {
+            "status": "provisional",
+            "totalAmount": "18000"
+          },
+          "customerPricing": {
+            "source": "catalog"
+          }
+        },
+        {
+          "clientLineKey": "s06-l03",
+          "productId": "241f5520-f0ce-5bda-a5a7-39b5d2abd0d6",
+          "productName": "Bit Merah",
+          "inputUnitCode": "kg",
+          "quantity": "0.6",
+          "supplierDescription": "Bit",
+          "supplierCost": {
+            "status": "provisional",
+            "totalAmount": "22800"
+          },
+          "customerPricing": {
+            "source": "catalog"
+          }
+        },
+        {
+          "clientLineKey": "s06-l04",
+          "productId": "7f281125-1996-5b0b-a889-0602ed36d188",
+          "productName": "Timun Lokal",
+          "inputUnitCode": "kg",
+          "quantity": "0.5",
+          "supplierDescription": "Timun",
+          "supplierCost": {
+            "status": "provisional",
+            "totalAmount": "16000"
+          },
+          "customerPricing": {
+            "source": "catalog"
+          }
+        },
+        {
+          "clientLineKey": "s06-l05",
+          "productId": "8c3ef21e-febb-52e4-8f04-be3865c99073",
+          "productName": "Wortel",
+          "inputUnitCode": "kg",
+          "quantity": "1",
+          "supplierDescription": "Wortel",
+          "supplierCost": {
+            "status": "provisional",
+            "totalAmount": "30000"
+          },
+          "customerPricing": {
+            "source": "catalog"
+          }
+        }
+      ],
+      "supplierDeliveryFee": {
+        "status": "provisional",
+        "amount": "10000",
+        "note": "Imported from reviewed supplier slip; confirm during supplier reconciliation."
+      },
+      "customerDeliveryCharge": "10000",
+      "customerDeliveryDescription": "Biaya pengantaran supplier langsung"
+    }
+  },
+  "supplierDirectDraft": {
+    "schemaVersion": 1,
+    "supplierId": "19f80084-3483-5e26-97f4-58884573bbde",
+    "supplierName": "Cisarua",
+    "customerId": "6f1f8326-b9c3-588f-ac5f-5597e7acec6b",
+    "customerName": "Agnes",
+    "occurred": {
+      "date": "2026-10-21",
+      "precision": "date"
+    },
+    "supplierReference": "WhatsApp Image 2026-10-24 at 11.49.12 AM (1).jpeg#2",
+    "note": "Handwritten product total Rp146800; line sum matches.",
+    "lines": [
+      {
+        "clientLineKey": "s06-l01",
+        "productId": "70c8bbbc-1bb6-563a-a27a-9ff958f01824",
+        "productName": "Telur Negri Organik",
+        "inputUnitCode": "unit",
+        "quantity": "20",
+        "supplierDescription": "Telur Negeri",
+        "supplierCost": {
+          "status": "provisional",
+          "totalAmount": "60000"
+        },
+        "customerPricing": {
+          "source": "catalog"
+        }
+      },
+      {
+        "clientLineKey": "s06-l02",
+        "productId": "1dcb3752-a1ea-506f-a114-6ebfb595cee2",
+        "productName": "Pakchoy",
+        "inputUnitCode": "kg",
+        "quantity": "0.5",
+        "supplierDescription": "Pakcoy",
+        "supplierCost": {
+          "status": "provisional",
+          "totalAmount": "18000"
+        },
+        "customerPricing": {
+          "source": "catalog"
+        }
+      },
+      {
+        "clientLineKey": "s06-l03",
+        "productId": "241f5520-f0ce-5bda-a5a7-39b5d2abd0d6",
+        "productName": "Bit Merah",
+        "inputUnitCode": "kg",
+        "quantity": "0.6",
+        "supplierDescription": "Bit",
+        "supplierCost": {
+          "status": "provisional",
+          "totalAmount": "22800"
+        },
+        "customerPricing": {
+          "source": "catalog"
+        }
+      },
+      {
+        "clientLineKey": "s06-l04",
+        "productId": "7f281125-1996-5b0b-a889-0602ed36d188",
+        "productName": "Timun Lokal",
+        "inputUnitCode": "kg",
+        "quantity": "0.5",
+        "supplierDescription": "Timun",
+        "supplierCost": {
+          "status": "provisional",
+          "totalAmount": "16000"
+        },
+        "customerPricing": {
+          "source": "catalog"
+        }
+      },
+      {
+        "clientLineKey": "s06-l05",
+        "productId": "8c3ef21e-febb-52e4-8f04-be3865c99073",
+        "productName": "Wortel",
+        "inputUnitCode": "kg",
+        "quantity": "1",
+        "supplierDescription": "Wortel",
+        "supplierCost": {
+          "status": "provisional",
+          "totalAmount": "30000"
+        },
+        "customerPricing": {
+          "source": "catalog"
+        }
+      }
+    ],
+    "supplierDeliveryFee": {
+      "status": "provisional",
+      "amount": "10000",
+      "note": "Imported from reviewed supplier slip; confirm during supplier reconciliation."
+    },
+    "customerDeliveryCharge": "10000",
+    "customerDeliveryDescription": "Biaya pengantaran supplier langsung"
+  },
+  "workflow": "supplier_direct",
+  "staffConfirmations": [],
+  "customerResolutionEvidence": {
+    "handwrittenName": "Agnes",
+    "selectedCustomerId": "6f1f8326-b9c3-588f-ac5f-5597e7acec6b",
+    "selectedCustomerName": "Agnes",
+    "legacyCustomerId": 162,
+    "confirmation": []
+  },
+  "productMatchingEvidence": {
+    "effectiveOn": "2026-10-21",
+    "supplierId": "19f80084-3483-5e26-97f4-58884573bbde",
+    "supplierName": "Cisarua",
+    "lines": [
+      {
+        "lineId": "s06-l01",
+        "productNameRead": "Telur Negeri",
+        "qtyRead": 20,
+        "totalRead": 60000,
+        "confidence": "confirmed",
+        "selectedProductId": "70c8bbbc-1bb6-563a-a27a-9ff958f01824",
+        "candidates": [
+          {
+            "productId": "70c8bbbc-1bb6-563a-a27a-9ff958f01824",
+            "name": "Telur Negri Organik",
+            "expectedTotal": 60000,
+            "totalDelta": 0,
+            "totalMatches": true,
+            "matchedOn": "active_supplier_product_and_cost"
+          }
+        ],
+        "warnings": []
+      },
+      {
+        "lineId": "s06-l02",
+        "productNameRead": "Pakcoy",
+        "qtyRead": 0.5,
+        "totalRead": 18000,
+        "confidence": "confirmed",
+        "selectedProductId": "1dcb3752-a1ea-506f-a114-6ebfb595cee2",
+        "candidates": [
+          {
+            "productId": "1dcb3752-a1ea-506f-a114-6ebfb595cee2",
+            "name": "Pakchoy",
+            "expectedTotal": 18000,
+            "totalDelta": 0,
+            "totalMatches": true,
+            "matchedOn": "active_supplier_product_and_cost"
+          }
+        ],
+        "warnings": []
+      },
+      {
+        "lineId": "s06-l03",
+        "productNameRead": "Bit",
+        "qtyRead": 0.6,
+        "totalRead": 22800,
+        "confidence": "confirmed",
+        "selectedProductId": "241f5520-f0ce-5bda-a5a7-39b5d2abd0d6",
+        "candidates": [
+          {
+            "productId": "241f5520-f0ce-5bda-a5a7-39b5d2abd0d6",
+            "name": "Bit Merah",
+            "expectedTotal": 22800,
+            "totalDelta": 0,
+            "totalMatches": true,
+            "matchedOn": "active_supplier_product_and_cost"
+          }
+        ],
+        "warnings": []
+      },
+      {
+        "lineId": "s06-l04",
+        "productNameRead": "Timun",
+        "qtyRead": 0.5,
+        "totalRead": 16000,
+        "confidence": "confirmed",
+        "selectedProductId": "7f281125-1996-5b0b-a889-0602ed36d188",
+        "candidates": [
+          {
+            "productId": "7f281125-1996-5b0b-a889-0602ed36d188",
+            "name": "Timun Lokal",
+            "expectedTotal": 16000,
+            "totalDelta": 0,
+            "totalMatches": true,
+            "matchedOn": "active_supplier_product_and_cost"
+          }
+        ],
+        "warnings": []
+      },
+      {
+        "lineId": "s06-l05",
+        "productNameRead": "Wortel",
+        "qtyRead": 1,
+        "totalRead": 30000,
+        "confidence": "confirmed",
+        "selectedProductId": "8c3ef21e-febb-52e4-8f04-be3865c99073",
+        "candidates": [
+          {
+            "productId": "8c3ef21e-febb-52e4-8f04-be3865c99073",
+            "name": "Wortel",
+            "expectedTotal": 30000,
+            "totalDelta": 0,
+            "totalMatches": true,
+            "matchedOn": "active_supplier_product_and_cost"
+          }
+        ],
+        "warnings": []
+      }
+    ],
+    "summary": {
+      "totalLines": 5,
+      "selected": 5,
+      "withCostDiscrepancy": 0
+    }
+  }
+}
+

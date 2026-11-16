@@ -1,0 +1,459 @@
+{
+  "schemaVersion": "rumah-sehat-v2-slip-review-v1",
+  "readyToImport": true,
+  "source": {
+    "imageFile": "WhatsApp Image 2026-11-07 at 10.49.33 AM (3).jpeg",
+    "slipIndex": 1,
+    "fingerprint": "e467ea3652238115f24abcbc884fef2cb6f4a8f3ae0875f3033c20260323b410",
+    "sourcePath": "incoming/WhatsApp Image 2026-11-07 at 10.49.33 AM (3).jpeg"
+  },
+  "extracted": {
+    "customerNameRead": "Libri",
+    "addressRead": "Jl. Pulau Ayer 4/13",
+    "lines": [
+      {
+        "lineId": "s17-l01",
+        "productNameRead": "Beras PW @10kg",
+        "quantityRead": 10,
+        "totalRead": 290000
+      },
+      {
+        "lineId": "s17-l02",
+        "productNameRead": "Horenso",
+        "quantityRead": 0.4,
+        "totalRead": 22000
+      },
+      {
+        "lineId": "s17-l03",
+        "productNameRead": "Kangkung",
+        "quantityRead": 0.4,
+        "totalRead": 16000
+      },
+      {
+        "lineId": "s17-l04",
+        "productNameRead": "Pakcoy",
+        "quantityRead": 0.5,
+        "totalRead": 18000
+      },
+      {
+        "lineId": "s17-l05",
+        "productNameRead": "Jagung Manis",
+        "quantityRead": 1.06,
+        "totalRead": 31800
+      },
+      {
+        "lineId": "s17-l06",
+        "productNameRead": "Oyong",
+        "quantityRead": 1.03,
+        "totalRead": 35020
+      }
+    ],
+    "date": "2026-11-05",
+    "slipTotalRead": 412820,
+    "slipTotalCertain": true,
+    "excludedOrNotReceived": []
+  },
+  "resolved": {
+    "supplier": {
+      "id": "19f80084-3483-5e26-97f4-58884573bbde",
+      "name": "Cisarua"
+    },
+    "customer": {
+      "id": "6e7d0d70-bb05-51a3-a9da-74eafaf44f0b",
+      "name": "Libri",
+      "legacyCustomerId": 34,
+      "aliases": [],
+      "addresses": [
+        "Taman Permata Buana. Jalan Pulau Air 4 No.3"
+      ],
+      "nameRead": "Libri"
+    }
+  },
+  "warnings": [],
+  "calculations": {
+    "supplierProductSubtotal": 412820,
+    "supplierDeliveryFee": 10000,
+    "supplierTotal": 422820,
+    "customerDeliveryCharge": 10000,
+    "handwrittenProductTotal": 412820,
+    "lineTotalSum": 412820,
+    "handwrittenMinusLineSum": 0
+  },
+  "proposedDraft": {
+    "supplierDirectDraft": {
+      "schemaVersion": 1,
+      "supplierId": "19f80084-3483-5e26-97f4-58884573bbde",
+      "supplierName": "Cisarua",
+      "customerId": "6e7d0d70-bb05-51a3-a9da-74eafaf44f0b",
+      "customerName": "Libri",
+      "occurred": {
+        "date": "2026-11-05",
+        "precision": "date"
+      },
+      "supplierReference": "WhatsApp Image 2026-11-07 at 10.49.33 AM (3).jpeg#1",
+      "note": "Handwritten product total Rp412820; line sum matches. Beras PW @10kg is read as 10 input units and mapped by operator context to Beras Pandan Wangi.",
+      "lines": [
+        {
+          "clientLineKey": "s17-l01",
+          "productId": "53be8520-61e9-598c-af76-831f3ef5a9a7",
+          "productName": "Beras Pandan Wangi",
+          "inputUnitCode": "unit",
+          "quantity": "10",
+          "supplierDescription": "Beras PW @10kg",
+          "supplierCost": {
+            "status": "provisional",
+            "totalAmount": "290000"
+          },
+          "customerPricing": {
+            "source": "catalog"
+          }
+        },
+        {
+          "clientLineKey": "s17-l02",
+          "productId": "e692c0d0-eed7-5a74-a55e-1d27e583f215",
+          "productName": "Spinach/Horenzo",
+          "inputUnitCode": "kg",
+          "quantity": "0.4",
+          "supplierDescription": "Horenso",
+          "supplierCost": {
+            "status": "provisional",
+            "totalAmount": "22000"
+          },
+          "customerPricing": {
+            "source": "catalog"
+          }
+        },
+        {
+          "clientLineKey": "s17-l03",
+          "productId": "dcf2b87b-097a-5abd-8cea-98efc5c8e3a2",
+          "productName": "Kangkung",
+          "inputUnitCode": "kg",
+          "quantity": "0.4",
+          "supplierDescription": "Kangkung",
+          "supplierCost": {
+            "status": "provisional",
+            "totalAmount": "16000"
+          },
+          "customerPricing": {
+            "source": "catalog"
+          }
+        },
+        {
+          "clientLineKey": "s17-l04",
+          "productId": "1dcb3752-a1ea-506f-a114-6ebfb595cee2",
+          "productName": "Pakchoy",
+          "inputUnitCode": "kg",
+          "quantity": "0.5",
+          "supplierDescription": "Pakcoy",
+          "supplierCost": {
+            "status": "provisional",
+            "totalAmount": "18000"
+          },
+          "customerPricing": {
+            "source": "catalog"
+          }
+        },
+        {
+          "clientLineKey": "s17-l05",
+          "productId": "dc3006fa-40b7-5b8f-bea1-c2ada363e57d",
+          "productName": "Jagung Manis",
+          "inputUnitCode": "kg",
+          "quantity": "1.06",
+          "supplierDescription": "Jagung Manis",
+          "supplierCost": {
+            "status": "provisional",
+            "totalAmount": "31800"
+          },
+          "customerPricing": {
+            "source": "catalog"
+          }
+        },
+        {
+          "clientLineKey": "s17-l06",
+          "productId": "efc09506-965a-5b5e-ab38-f39751849397",
+          "productName": "Oyong",
+          "inputUnitCode": "kg",
+          "quantity": "1.03",
+          "supplierDescription": "Oyong",
+          "supplierCost": {
+            "status": "provisional",
+            "totalAmount": "35020"
+          },
+          "customerPricing": {
+            "source": "catalog"
+          }
+        }
+      ],
+      "supplierDeliveryFee": {
+        "status": "provisional",
+        "amount": "10000",
+        "note": "Imported from reviewed supplier slip; confirm during supplier reconciliation."
+      },
+      "customerDeliveryCharge": "10000",
+      "customerDeliveryDescription": "Biaya pengantaran langsung"
+    }
+  },
+  "supplierDirectDraft": {
+    "schemaVersion": 1,
+    "supplierId": "19f80084-3483-5e26-97f4-58884573bbde",
+    "supplierName": "Cisarua",
+    "customerId": "6e7d0d70-bb05-51a3-a9da-74eafaf44f0b",
+    "customerName": "Libri",
+    "occurred": {
+      "date": "2026-11-05",
+      "precision": "date"
+    },
+    "supplierReference": "WhatsApp Image 2026-11-07 at 10.49.33 AM (3).jpeg#1",
+    "note": "Handwritten product total Rp412820; line sum matches. Beras PW @10kg is read as 10 input units and mapped by operator context to Beras Pandan Wangi.",
+    "lines": [
+      {
+        "clientLineKey": "s17-l01",
+        "productId": "53be8520-61e9-598c-af76-831f3ef5a9a7",
+        "productName": "Beras Pandan Wangi",
+        "inputUnitCode": "unit",
+        "quantity": "10",
+        "supplierDescription": "Beras PW @10kg",
+        "supplierCost": {
+          "status": "provisional",
+          "totalAmount": "290000"
+        },
+        "customerPricing": {
+          "source": "catalog"
+        }
+      },
+      {
+        "clientLineKey": "s17-l02",
+        "productId": "e692c0d0-eed7-5a74-a55e-1d27e583f215",
+        "productName": "Spinach/Horenzo",
+        "inputUnitCode": "kg",
+        "quantity": "0.4",
+        "supplierDescription": "Horenso",
+        "supplierCost": {
+          "status": "provisional",
+          "totalAmount": "22000"
+        },
+        "customerPricing": {
+          "source": "catalog"
+        }
+      },
+      {
+        "clientLineKey": "s17-l03",
+        "productId": "dcf2b87b-097a-5abd-8cea-98efc5c8e3a2",
+        "productName": "Kangkung",
+        "inputUnitCode": "kg",
+        "quantity": "0.4",
+        "supplierDescription": "Kangkung",
+        "supplierCost": {
+          "status": "provisional",
+          "totalAmount": "16000"
+        },
+        "customerPricing": {
+          "source": "catalog"
+        }
+      },
+      {
+        "clientLineKey": "s17-l04",
+        "productId": "1dcb3752-a1ea-506f-a114-6ebfb595cee2",
+        "productName": "Pakchoy",
+        "inputUnitCode": "kg",
+        "quantity": "0.5",
+        "supplierDescription": "Pakcoy",
+        "supplierCost": {
+          "status": "provisional",
+          "totalAmount": "18000"
+        },
+        "customerPricing": {
+          "source": "catalog"
+        }
+      },
+      {
+        "clientLineKey": "s17-l05",
+        "productId": "dc3006fa-40b7-5b8f-bea1-c2ada363e57d",
+        "productName": "Jagung Manis",
+        "inputUnitCode": "kg",
+        "quantity": "1.06",
+        "supplierDescription": "Jagung Manis",
+        "supplierCost": {
+          "status": "provisional",
+          "totalAmount": "31800"
+        },
+        "customerPricing": {
+          "source": "catalog"
+        }
+      },
+      {
+        "clientLineKey": "s17-l06",
+        "productId": "efc09506-965a-5b5e-ab38-f39751849397",
+        "productName": "Oyong",
+        "inputUnitCode": "kg",
+        "quantity": "1.03",
+        "supplierDescription": "Oyong",
+        "supplierCost": {
+          "status": "provisional",
+          "totalAmount": "35020"
+        },
+        "customerPricing": {
+          "source": "catalog"
+        }
+      }
+    ],
+    "supplierDeliveryFee": {
+      "status": "provisional",
+      "amount": "10000",
+      "note": "Imported from reviewed supplier slip; confirm during supplier reconciliation."
+    },
+    "customerDeliveryCharge": "10000",
+    "customerDeliveryDescription": "Biaya pengantaran langsung"
+  },
+  "workflow": "supplier_direct",
+  "staffConfirmations": [
+    "Operator context maps Beras PW to Beras Pandan Wangi."
+  ],
+  "customerResolutionEvidence": {
+    "handwrittenName": "Libri",
+    "addressRead": "Jl. Pulau Ayer 4/13",
+    "selectedCustomerId": "6e7d0d70-bb05-51a3-a9da-74eafaf44f0b",
+    "selectedCustomerName": "Libri",
+    "confirmation": [
+      "Operator context maps Beras PW to Beras Pandan Wangi."
+    ]
+  },
+  "productMatchingEvidence": {
+    "effectiveOn": "2026-11-05",
+    "supplierId": "19f80084-3483-5e26-97f4-58884573bbde",
+    "supplierName": "Cisarua",
+    "lines": [
+      {
+        "lineId": "s17-l01",
+        "productNameRead": "Beras PW @10kg",
+        "qtyRead": 10,
+        "totalRead": 290000,
+        "confidence": "confirmed",
+        "selectedProductId": "53be8520-61e9-598c-af76-831f3ef5a9a7",
+        "selectedProductName": "Beras Pandan Wangi",
+        "candidates": [
+          {
+            "productId": "53be8520-61e9-598c-af76-831f3ef5a9a7",
+            "name": "Beras Pandan Wangi",
+            "expectedUnitCost": 29000,
+            "expectedTotal": 290000,
+            "totalDelta": 0,
+            "totalMatches": true,
+            "matchedOn": "current_supplier_product_and_operator_context"
+          }
+        ],
+        "warnings": []
+      },
+      {
+        "lineId": "s17-l02",
+        "productNameRead": "Horenso",
+        "qtyRead": 0.4,
+        "totalRead": 22000,
+        "confidence": "confirmed",
+        "selectedProductId": "e692c0d0-eed7-5a74-a55e-1d27e583f215",
+        "selectedProductName": "Spinach/Horenzo",
+        "candidates": [
+          {
+            "productId": "e692c0d0-eed7-5a74-a55e-1d27e583f215",
+            "name": "Spinach/Horenzo",
+            "expectedUnitCost": 55000,
+            "expectedTotal": 22000,
+            "totalDelta": 0,
+            "totalMatches": true,
+            "matchedOn": "current_supplier_product_and_operator_context"
+          }
+        ],
+        "warnings": []
+      },
+      {
+        "lineId": "s17-l03",
+        "productNameRead": "Kangkung",
+        "qtyRead": 0.4,
+        "totalRead": 16000,
+        "confidence": "confirmed",
+        "selectedProductId": "dcf2b87b-097a-5abd-8cea-98efc5c8e3a2",
+        "selectedProductName": "Kangkung",
+        "candidates": [
+          {
+            "productId": "dcf2b87b-097a-5abd-8cea-98efc5c8e3a2",
+            "name": "Kangkung",
+            "expectedUnitCost": 40000,
+            "expectedTotal": 16000,
+            "totalDelta": 0,
+            "totalMatches": true,
+            "matchedOn": "current_supplier_product_and_operator_context"
+          }
+        ],
+        "warnings": []
+      },
+      {
+        "lineId": "s17-l04",
+        "productNameRead": "Pakcoy",
+        "qtyRead": 0.5,
+        "totalRead": 18000,
+        "confidence": "confirmed",
+        "selectedProductId": "1dcb3752-a1ea-506f-a114-6ebfb595cee2",
+        "selectedProductName": "Pakchoy",
+        "candidates": [
+          {
+            "productId": "1dcb3752-a1ea-506f-a114-6ebfb595cee2",
+            "name": "Pakchoy",
+            "expectedUnitCost": 36000,
+            "expectedTotal": 18000,
+            "totalDelta": 0,
+            "totalMatches": true,
+            "matchedOn": "current_supplier_product_and_operator_context"
+          }
+        ],
+        "warnings": []
+      },
+      {
+        "lineId": "s17-l05",
+        "productNameRead": "Jagung Manis",
+        "qtyRead": 1.06,
+        "totalRead": 31800,
+        "confidence": "confirmed",
+        "selectedProductId": "dc3006fa-40b7-5b8f-bea1-c2ada363e57d",
+        "selectedProductName": "Jagung Manis",
+        "candidates": [
+          {
+            "productId": "dc3006fa-40b7-5b8f-bea1-c2ada363e57d",
+            "name": "Jagung Manis",
+            "expectedUnitCost": 30000,
+            "expectedTotal": 31800,
+            "totalDelta": 0,
+            "totalMatches": true,
+            "matchedOn": "current_supplier_product_and_operator_context"
+          }
+        ],
+        "warnings": []
+      },
+      {
+        "lineId": "s17-l06",
+        "productNameRead": "Oyong",
+        "qtyRead": 1.03,
+        "totalRead": 35020,
+        "confidence": "confirmed",
+        "selectedProductId": "efc09506-965a-5b5e-ab38-f39751849397",
+        "selectedProductName": "Oyong",
+        "candidates": [
+          {
+            "productId": "efc09506-965a-5b5e-ab38-f39751849397",
+            "name": "Oyong",
+            "expectedUnitCost": 34000,
+            "expectedTotal": 35020,
+            "totalDelta": 0,
+            "totalMatches": true,
+            "matchedOn": "current_supplier_product_and_operator_context"
+          }
+        ],
+        "warnings": []
+      }
+    ],
+    "summary": {
+      "totalLines": 6,
+      "selected": 6,
+      "withCostDiscrepancy": 0
+    }
+  }
+}

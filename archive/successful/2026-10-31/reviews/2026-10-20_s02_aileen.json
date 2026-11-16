@@ -1,0 +1,447 @@
+{
+  "schemaVersion": "rumah-sehat-v2-slip-review-v1",
+  "readyToImport": true,
+  "source": {
+    "imageFile": "WhatsApp Image 2026-10-24 at 11.49.11 AM.jpeg",
+    "slipIndex": 2,
+    "fingerprint": "f105c1984969a7f585e262e792729e30d8f2547b53e31ecf6d4c0a8285137ddc",
+    "sourcePath": "incoming/WhatsApp Image 2026-10-24 at 11.49.11 AM.jpeg"
+  },
+  "extracted": {
+    "customerNameRead": "Aileen",
+    "lines": [
+      {
+        "lineId": "s02-l01",
+        "productNameRead": "Telur Kampung",
+        "quantityRead": 20,
+        "totalRead": 80000
+      },
+      {
+        "lineId": "s02-l02",
+        "productNameRead": "Telur Negeri",
+        "quantityRead": 30,
+        "totalRead": 90000
+      },
+      {
+        "lineId": "s02-l03",
+        "productNameRead": "Bayam H",
+        "quantityRead": 0.2,
+        "totalRead": 8000
+      },
+      {
+        "lineId": "s02-l04",
+        "productNameRead": "Buncis",
+        "quantityRead": 0.25,
+        "totalRead": 9000
+      },
+      {
+        "lineId": "s02-l05",
+        "productNameRead": "Brokoli",
+        "quantityRead": 0.3,
+        "totalRead": 15600
+      },
+      {
+        "lineId": "s02-l06",
+        "productNameRead": "Timun",
+        "quantityRead": 0.5,
+        "totalRead": 16000
+      }
+    ],
+    "date": "2026-10-20",
+    "slipTotalRead": 218600,
+    "slipTotalCertain": true,
+    "excludedOrNotReceived": []
+  },
+  "resolved": {
+    "supplier": {
+      "id": "19f80084-3483-5e26-97f4-58884573bbde",
+      "name": "Cisarua"
+    },
+    "customer": {
+      "id": "58b47bae-0576-570a-ade5-fb3b886f8472",
+      "name": "Aileen",
+      "legacyCustomerId": 436,
+      "aliases": [],
+      "addresses": [
+        "Taman Golf Imperial Drive 20 Lippo Karawaci"
+      ],
+      "nameRead": "Aileen"
+    }
+  },
+  "warnings": [],
+  "calculations": {
+    "supplierProductSubtotal": 218600,
+    "supplierDeliveryFee": 10000,
+    "supplierTotal": 228600,
+    "customerDeliveryCharge": 10000,
+    "handwrittenProductTotal": 218600,
+    "lineTotalSum": 218600,
+    "handwrittenMinusLineSum": 0
+  },
+  "proposedDraft": {
+    "supplierDirectDraft": {
+      "schemaVersion": 1,
+      "supplierId": "19f80084-3483-5e26-97f4-58884573bbde",
+      "supplierName": "Cisarua",
+      "customerId": "58b47bae-0576-570a-ade5-fb3b886f8472",
+      "customerName": "Aileen",
+      "occurred": {
+        "date": "2026-10-20",
+        "precision": "date"
+      },
+      "supplierReference": "WhatsApp Image 2026-10-24 at 11.49.11 AM.jpeg#2",
+      "note": "Handwritten product total Rp218600; line sum matches.",
+      "lines": [
+        {
+          "clientLineKey": "s02-l01",
+          "productId": "06e07aa2-15cb-54b0-83a5-a57fe49bb985",
+          "productName": "Telur Ayam",
+          "inputUnitCode": "unit",
+          "quantity": "20",
+          "supplierDescription": "Telur Kampung",
+          "supplierCost": {
+            "status": "provisional",
+            "totalAmount": "80000"
+          },
+          "customerPricing": {
+            "source": "catalog"
+          }
+        },
+        {
+          "clientLineKey": "s02-l02",
+          "productId": "70c8bbbc-1bb6-563a-a27a-9ff958f01824",
+          "productName": "Telur Negri Organik",
+          "inputUnitCode": "unit",
+          "quantity": "30",
+          "supplierDescription": "Telur Negeri",
+          "supplierCost": {
+            "status": "provisional",
+            "totalAmount": "90000"
+          },
+          "customerPricing": {
+            "source": "catalog"
+          }
+        },
+        {
+          "clientLineKey": "s02-l03",
+          "productId": "cc64524c-4c46-59b6-ad3e-b411b3376bf3",
+          "productName": "Bayam Hijau",
+          "inputUnitCode": "kg",
+          "quantity": "0.2",
+          "supplierDescription": "Bayam H",
+          "supplierCost": {
+            "status": "provisional",
+            "totalAmount": "8000"
+          },
+          "customerPricing": {
+            "source": "catalog"
+          }
+        },
+        {
+          "clientLineKey": "s02-l04",
+          "productId": "f542ed36-e83e-5d7a-936e-9cafc03354df",
+          "productName": "Buncis",
+          "inputUnitCode": "kg",
+          "quantity": "0.25",
+          "supplierDescription": "Buncis",
+          "supplierCost": {
+            "status": "provisional",
+            "totalAmount": "9000"
+          },
+          "customerPricing": {
+            "source": "catalog"
+          }
+        },
+        {
+          "clientLineKey": "s02-l05",
+          "productId": "0bbdc2cf-a928-5df3-9c1e-15e1ccd212c2",
+          "productName": "Broccoli",
+          "inputUnitCode": "kg",
+          "quantity": "0.3",
+          "supplierDescription": "Brokoli",
+          "supplierCost": {
+            "status": "provisional",
+            "totalAmount": "15600"
+          },
+          "customerPricing": {
+            "source": "catalog"
+          }
+        },
+        {
+          "clientLineKey": "s02-l06",
+          "productId": "7f281125-1996-5b0b-a889-0602ed36d188",
+          "productName": "Timun Lokal",
+          "inputUnitCode": "kg",
+          "quantity": "0.5",
+          "supplierDescription": "Timun",
+          "supplierCost": {
+            "status": "provisional",
+            "totalAmount": "16000"
+          },
+          "customerPricing": {
+            "source": "catalog"
+          }
+        }
+      ],
+      "supplierDeliveryFee": {
+        "status": "provisional",
+        "amount": "10000",
+        "note": "Imported from reviewed supplier slip; confirm during supplier reconciliation."
+      },
+      "customerDeliveryCharge": "10000",
+      "customerDeliveryDescription": "Biaya pengantaran supplier langsung"
+    }
+  },
+  "supplierDirectDraft": {
+    "schemaVersion": 1,
+    "supplierId": "19f80084-3483-5e26-97f4-58884573bbde",
+    "supplierName": "Cisarua",
+    "customerId": "58b47bae-0576-570a-ade5-fb3b886f8472",
+    "customerName": "Aileen",
+    "occurred": {
+      "date": "2026-10-20",
+      "precision": "date"
+    },
+    "supplierReference": "WhatsApp Image 2026-10-24 at 11.49.11 AM.jpeg#2",
+    "note": "Handwritten product total Rp218600; line sum matches.",
+    "lines": [
+      {
+        "clientLineKey": "s02-l01",
+        "productId": "06e07aa2-15cb-54b0-83a5-a57fe49bb985",
+        "productName": "Telur Ayam",
+        "inputUnitCode": "unit",
+        "quantity": "20",
+        "supplierDescription": "Telur Kampung",
+        "supplierCost": {
+          "status": "provisional",
+          "totalAmount": "80000"
+        },
+        "customerPricing": {
+          "source": "catalog"
+        }
+      },
+      {
+        "clientLineKey": "s02-l02",
+        "productId": "70c8bbbc-1bb6-563a-a27a-9ff958f01824",
+        "productName": "Telur Negri Organik",
+        "inputUnitCode": "unit",
+        "quantity": "30",
+        "supplierDescription": "Telur Negeri",
+        "supplierCost": {
+          "status": "provisional",
+          "totalAmount": "90000"
+        },
+        "customerPricing": {
+          "source": "catalog"
+        }
+      },
+      {
+        "clientLineKey": "s02-l03",
+        "productId": "cc64524c-4c46-59b6-ad3e-b411b3376bf3",
+        "productName": "Bayam Hijau",
+        "inputUnitCode": "kg",
+        "quantity": "0.2",
+        "supplierDescription": "Bayam H",
+        "supplierCost": {
+          "status": "provisional",
+          "totalAmount": "8000"
+        },
+        "customerPricing": {
+          "source": "catalog"
+        }
+      },
+      {
+        "clientLineKey": "s02-l04",
+        "productId": "f542ed36-e83e-5d7a-936e-9cafc03354df",
+        "productName": "Buncis",
+        "inputUnitCode": "kg",
+        "quantity": "0.25",
+        "supplierDescription": "Buncis",
+        "supplierCost": {
+          "status": "provisional",
+          "totalAmount": "9000"
+        },
+        "customerPricing": {
+          "source": "catalog"
+        }
+      },
+      {
+        "clientLineKey": "s02-l05",
+        "productId": "0bbdc2cf-a928-5df3-9c1e-15e1ccd212c2",
+        "productName": "Broccoli",
+        "inputUnitCode": "kg",
+        "quantity": "0.3",
+        "supplierDescription": "Brokoli",
+        "supplierCost": {
+          "status": "provisional",
+          "totalAmount": "15600"
+        },
+        "customerPricing": {
+          "source": "catalog"
+        }
+      },
+      {
+        "clientLineKey": "s02-l06",
+        "productId": "7f281125-1996-5b0b-a889-0602ed36d188",
+        "productName": "Timun Lokal",
+        "inputUnitCode": "kg",
+        "quantity": "0.5",
+        "supplierDescription": "Timun",
+        "supplierCost": {
+          "status": "provisional",
+          "totalAmount": "16000"
+        },
+        "customerPricing": {
+          "source": "catalog"
+        }
+      }
+    ],
+    "supplierDeliveryFee": {
+      "status": "provisional",
+      "amount": "10000",
+      "note": "Imported from reviewed supplier slip; confirm during supplier reconciliation."
+    },
+    "customerDeliveryCharge": "10000",
+    "customerDeliveryDescription": "Biaya pengantaran supplier langsung"
+  },
+  "workflow": "supplier_direct",
+  "staffConfirmations": [
+    "Operator context confirms Telur Kampung maps to Telur Ayam and Aileen resolves to the active legacy-436 customer."
+  ],
+  "customerResolutionEvidence": {
+    "handwrittenName": "Aileen",
+    "selectedCustomerId": "58b47bae-0576-570a-ade5-fb3b886f8472",
+    "selectedCustomerName": "Aileen",
+    "legacyCustomerId": 436,
+    "confirmation": [
+      "Operator context confirms Telur Kampung maps to Telur Ayam and Aileen resolves to the active legacy-436 customer."
+    ]
+  },
+  "productMatchingEvidence": {
+    "effectiveOn": "2026-10-20",
+    "supplierId": "19f80084-3483-5e26-97f4-58884573bbde",
+    "supplierName": "Cisarua",
+    "lines": [
+      {
+        "lineId": "s02-l01",
+        "productNameRead": "Telur Kampung",
+        "qtyRead": 20,
+        "totalRead": 80000,
+        "confidence": "confirmed",
+        "selectedProductId": "06e07aa2-15cb-54b0-83a5-a57fe49bb985",
+        "candidates": [
+          {
+            "productId": "06e07aa2-15cb-54b0-83a5-a57fe49bb985",
+            "name": "Telur Ayam",
+            "expectedTotal": 80000,
+            "totalDelta": 0,
+            "totalMatches": true,
+            "matchedOn": "active_supplier_product_and_cost"
+          }
+        ],
+        "warnings": []
+      },
+      {
+        "lineId": "s02-l02",
+        "productNameRead": "Telur Negeri",
+        "qtyRead": 30,
+        "totalRead": 90000,
+        "confidence": "confirmed",
+        "selectedProductId": "70c8bbbc-1bb6-563a-a27a-9ff958f01824",
+        "candidates": [
+          {
+            "productId": "70c8bbbc-1bb6-563a-a27a-9ff958f01824",
+            "name": "Telur Negri Organik",
+            "expectedTotal": 90000,
+            "totalDelta": 0,
+            "totalMatches": true,
+            "matchedOn": "active_supplier_product_and_cost"
+          }
+        ],
+        "warnings": []
+      },
+      {
+        "lineId": "s02-l03",
+        "productNameRead": "Bayam H",
+        "qtyRead": 0.2,
+        "totalRead": 8000,
+        "confidence": "confirmed",
+        "selectedProductId": "cc64524c-4c46-59b6-ad3e-b411b3376bf3",
+        "candidates": [
+          {
+            "productId": "cc64524c-4c46-59b6-ad3e-b411b3376bf3",
+            "name": "Bayam Hijau",
+            "expectedTotal": 8000,
+            "totalDelta": 0,
+            "totalMatches": true,
+            "matchedOn": "active_supplier_product_and_cost"
+          }
+        ],
+        "warnings": []
+      },
+      {
+        "lineId": "s02-l04",
+        "productNameRead": "Buncis",
+        "qtyRead": 0.25,
+        "totalRead": 9000,
+        "confidence": "confirmed",
+        "selectedProductId": "f542ed36-e83e-5d7a-936e-9cafc03354df",
+        "candidates": [
+          {
+            "productId": "f542ed36-e83e-5d7a-936e-9cafc03354df",
+            "name": "Buncis",
+            "expectedTotal": 9000,
+            "totalDelta": 0,
+            "totalMatches": true,
+            "matchedOn": "active_supplier_product_and_cost"
+          }
+        ],
+        "warnings": []
+      },
+      {
+        "lineId": "s02-l05",
+        "productNameRead": "Brokoli",
+        "qtyRead": 0.3,
+        "totalRead": 15600,
+        "confidence": "confirmed",
+        "selectedProductId": "0bbdc2cf-a928-5df3-9c1e-15e1ccd212c2",
+        "candidates": [
+          {
+            "productId": "0bbdc2cf-a928-5df3-9c1e-15e1ccd212c2",
+            "name": "Broccoli",
+            "expectedTotal": 15600,
+            "totalDelta": 0,
+            "totalMatches": true,
+            "matchedOn": "active_supplier_product_and_cost"
+          }
+        ],
+        "warnings": []
+      },
+      {
+        "lineId": "s02-l06",
+        "productNameRead": "Timun",
+        "qtyRead": 0.5,
+        "totalRead": 16000,
+        "confidence": "confirmed",
+        "selectedProductId": "7f281125-1996-5b0b-a889-0602ed36d188",
+        "candidates": [
+          {
+            "productId": "7f281125-1996-5b0b-a889-0602ed36d188",
+            "name": "Timun Lokal",
+            "expectedTotal": 16000,
+            "totalDelta": 0,
+            "totalMatches": true,
+            "matchedOn": "active_supplier_product_and_cost"
+          }
+        ],
+        "warnings": []
+      }
+    ],
+    "summary": {
+      "totalLines": 6,
+      "selected": 6,
+      "withCostDiscrepancy": 0
+    }
+  }
+}
+

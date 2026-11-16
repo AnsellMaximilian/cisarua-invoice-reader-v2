@@ -1,0 +1,797 @@
+{
+  "schemaVersion": "rumah-sehat-v2-slip-review-v1",
+  "readyToImport": true,
+  "source": {
+    "imageFile": "WhatsApp Image 2026-11-07 at 10.49.34 AM.jpeg",
+    "slipIndex": 1,
+    "fingerprint": "0ffe218a885671b94c1485c1ed9bba0e81deea0723714da1e4a6817769b5ada8",
+    "sourcePath": "incoming/WhatsApp Image 2026-11-07 at 10.49.34 AM.jpeg"
+  },
+  "extracted": {
+    "customerNameRead": "Soen",
+    "addressRead": "Griya Cever III B14, Jelur",
+    "lines": [
+      {
+        "lineId": "s19-l01",
+        "productNameRead": "Tahu Putih",
+        "quantityRead": 1,
+        "totalRead": 30000
+      },
+      {
+        "lineId": "s19-l02",
+        "productNameRead": "Pisang Ambon",
+        "quantityRead": 2,
+        "totalRead": 36000
+      },
+      {
+        "lineId": "s19-l03",
+        "productNameRead": "Horenso",
+        "quantityRead": 0.4,
+        "totalRead": 22000
+      },
+      {
+        "lineId": "s19-l04",
+        "productNameRead": "Buncis B",
+        "quantityRead": 0.25,
+        "totalRead": 10000
+      },
+      {
+        "lineId": "s19-l05",
+        "productNameRead": "Jahe G",
+        "quantityRead": 0.25,
+        "totalRead": 15000
+      },
+      {
+        "lineId": "s19-l06",
+        "productNameRead": "Brokoli",
+        "quantityRead": 0.53,
+        "totalRead": 27560
+      },
+      {
+        "lineId": "s19-l07",
+        "productNameRead": "Timun Jepang",
+        "quantityRead": 0.66,
+        "totalRead": 22440
+      },
+      {
+        "lineId": "s19-l08",
+        "productNameRead": "Tomat Cherry",
+        "quantityRead": 0.25,
+        "totalRead": 13000
+      },
+      {
+        "lineId": "s19-l09",
+        "productNameRead": "Wortel",
+        "quantityRead": 0.5,
+        "totalRead": 15000
+      },
+      {
+        "lineId": "s19-l10",
+        "productNameRead": "Jagung Manis",
+        "quantityRead": 1.11,
+        "totalRead": 33300
+      },
+      {
+        "lineId": "s19-l11",
+        "productNameRead": "Ubi Ungu",
+        "quantityRead": 1,
+        "totalRead": 28000
+      },
+      {
+        "lineId": "s19-l12",
+        "productNameRead": "Wansui",
+        "quantityRead": 0.2,
+        "totalRead": 18000
+      }
+    ],
+    "date": "2026-11-06",
+    "slipTotalRead": 270300,
+    "slipTotalCertain": true,
+    "excludedOrNotReceived": []
+  },
+  "resolved": {
+    "supplier": {
+      "id": "19f80084-3483-5e26-97f4-58884573bbde",
+      "name": "Cisarua"
+    },
+    "customer": {
+      "id": "54f315ea-f0a0-5e46-a44e-1e2f888d5c7a",
+      "name": "Soen",
+      "legacyCustomerId": 200,
+      "aliases": [],
+      "addresses": [
+        "Jl. Jatinegara Barat II no 13 RT 13/RW 03 Jaktim 1"
+      ],
+      "nameRead": "Soen"
+    }
+  },
+  "warnings": [],
+  "calculations": {
+    "supplierProductSubtotal": 270300,
+    "supplierDeliveryFee": 10000,
+    "supplierTotal": 280300,
+    "customerDeliveryCharge": 10000,
+    "handwrittenProductTotal": 270300,
+    "lineTotalSum": 270300,
+    "handwrittenMinusLineSum": 0
+  },
+  "proposedDraft": {
+    "supplierDirectDraft": {
+      "schemaVersion": 1,
+      "supplierId": "19f80084-3483-5e26-97f4-58884573bbde",
+      "supplierName": "Cisarua",
+      "customerId": "54f315ea-f0a0-5e46-a44e-1e2f888d5c7a",
+      "customerName": "Soen",
+      "occurred": {
+        "date": "2026-11-06",
+        "precision": "date"
+      },
+      "supplierReference": "WhatsApp Image 2026-11-07 at 10.49.34 AM.jpeg#1",
+      "note": "Handwritten product total Rp270300; line sum matches.",
+      "lines": [
+        {
+          "clientLineKey": "s19-l01",
+          "productId": "cfb5a0ff-0df0-5d76-bcc4-75e451fc37a8",
+          "productName": "Tahu Putih",
+          "inputUnitCode": "unit",
+          "quantity": "1",
+          "supplierDescription": "Tahu Putih",
+          "supplierCost": {
+            "status": "provisional",
+            "totalAmount": "30000"
+          },
+          "customerPricing": {
+            "source": "catalog"
+          }
+        },
+        {
+          "clientLineKey": "s19-l02",
+          "productId": "a0d28702-bf3b-5b44-993a-da373921522c",
+          "productName": "Pisang Ambon",
+          "inputUnitCode": "kg",
+          "quantity": "2",
+          "supplierDescription": "Pisang Ambon",
+          "supplierCost": {
+            "status": "provisional",
+            "totalAmount": "36000"
+          },
+          "customerPricing": {
+            "source": "catalog"
+          }
+        },
+        {
+          "clientLineKey": "s19-l03",
+          "productId": "e692c0d0-eed7-5a74-a55e-1d27e583f215",
+          "productName": "Spinach/Horenzo",
+          "inputUnitCode": "kg",
+          "quantity": "0.4",
+          "supplierDescription": "Horenso",
+          "supplierCost": {
+            "status": "provisional",
+            "totalAmount": "22000"
+          },
+          "customerPricing": {
+            "source": "catalog"
+          }
+        },
+        {
+          "clientLineKey": "s19-l04",
+          "productId": "683c8da2-b4c9-5060-a473-d9cca96f746c",
+          "productName": "Buncis Baby",
+          "inputUnitCode": "kg",
+          "quantity": "0.25",
+          "supplierDescription": "Buncis B",
+          "supplierCost": {
+            "status": "provisional",
+            "totalAmount": "10000"
+          },
+          "customerPricing": {
+            "source": "catalog"
+          }
+        },
+        {
+          "clientLineKey": "s19-l05",
+          "productId": "01f8d7f4-6f0d-5b9f-b764-abc42f7e551e",
+          "productName": "Jahe Gajah",
+          "inputUnitCode": "kg",
+          "quantity": "0.25",
+          "supplierDescription": "Jahe G",
+          "supplierCost": {
+            "status": "provisional",
+            "totalAmount": "15000"
+          },
+          "customerPricing": {
+            "source": "catalog"
+          }
+        },
+        {
+          "clientLineKey": "s19-l06",
+          "productId": "0bbdc2cf-a928-5df3-9c1e-15e1ccd212c2",
+          "productName": "Broccoli",
+          "inputUnitCode": "kg",
+          "quantity": "0.53",
+          "supplierDescription": "Brokoli",
+          "supplierCost": {
+            "status": "provisional",
+            "totalAmount": "27560"
+          },
+          "customerPricing": {
+            "source": "catalog"
+          }
+        },
+        {
+          "clientLineKey": "s19-l07",
+          "productId": "d22ce659-2cdc-5731-8c96-8d58e9b9a6eb",
+          "productName": "Timun Jepang",
+          "inputUnitCode": "kg",
+          "quantity": "0.66",
+          "supplierDescription": "Timun Jepang",
+          "supplierCost": {
+            "status": "provisional",
+            "totalAmount": "22440"
+          },
+          "customerPricing": {
+            "source": "catalog"
+          }
+        },
+        {
+          "clientLineKey": "s19-l08",
+          "productId": "4e656e17-f659-53ac-af70-45abda618f4b",
+          "productName": "Tomat Cherry",
+          "inputUnitCode": "kg",
+          "quantity": "0.25",
+          "supplierDescription": "Tomat Cherry",
+          "supplierCost": {
+            "status": "provisional",
+            "totalAmount": "13000"
+          },
+          "customerPricing": {
+            "source": "catalog"
+          }
+        },
+        {
+          "clientLineKey": "s19-l09",
+          "productId": "8c3ef21e-febb-52e4-8f04-be3865c99073",
+          "productName": "Wortel",
+          "inputUnitCode": "kg",
+          "quantity": "0.5",
+          "supplierDescription": "Wortel",
+          "supplierCost": {
+            "status": "provisional",
+            "totalAmount": "15000"
+          },
+          "customerPricing": {
+            "source": "catalog"
+          }
+        },
+        {
+          "clientLineKey": "s19-l10",
+          "productId": "dc3006fa-40b7-5b8f-bea1-c2ada363e57d",
+          "productName": "Jagung Manis",
+          "inputUnitCode": "kg",
+          "quantity": "1.11",
+          "supplierDescription": "Jagung Manis",
+          "supplierCost": {
+            "status": "provisional",
+            "totalAmount": "33300"
+          },
+          "customerPricing": {
+            "source": "catalog"
+          }
+        },
+        {
+          "clientLineKey": "s19-l11",
+          "productId": "9238b614-19e4-57be-87e1-918a39be2a86",
+          "productName": "Ubi Ungu",
+          "inputUnitCode": "unit",
+          "quantity": "1",
+          "supplierDescription": "Ubi Ungu",
+          "supplierCost": {
+            "status": "provisional",
+            "totalAmount": "28000"
+          },
+          "customerPricing": {
+            "source": "catalog"
+          }
+        },
+        {
+          "clientLineKey": "s19-l12",
+          "productId": "0d2aa2f2-97e8-5fdd-8d38-237d4210f5fa",
+          "productName": "Wansui",
+          "inputUnitCode": "kg",
+          "quantity": "0.2",
+          "supplierDescription": "Wansui",
+          "supplierCost": {
+            "status": "provisional",
+            "totalAmount": "18000"
+          },
+          "customerPricing": {
+            "source": "catalog"
+          }
+        }
+      ],
+      "supplierDeliveryFee": {
+        "status": "provisional",
+        "amount": "10000",
+        "note": "Imported from reviewed supplier slip; confirm during supplier reconciliation."
+      },
+      "customerDeliveryCharge": "10000",
+      "customerDeliveryDescription": "Biaya pengantaran langsung"
+    }
+  },
+  "supplierDirectDraft": {
+    "schemaVersion": 1,
+    "supplierId": "19f80084-3483-5e26-97f4-58884573bbde",
+    "supplierName": "Cisarua",
+    "customerId": "54f315ea-f0a0-5e46-a44e-1e2f888d5c7a",
+    "customerName": "Soen",
+    "occurred": {
+      "date": "2026-11-06",
+      "precision": "date"
+    },
+    "supplierReference": "WhatsApp Image 2026-11-07 at 10.49.34 AM.jpeg#1",
+    "note": "Handwritten product total Rp270300; line sum matches.",
+    "lines": [
+      {
+        "clientLineKey": "s19-l01",
+        "productId": "cfb5a0ff-0df0-5d76-bcc4-75e451fc37a8",
+        "productName": "Tahu Putih",
+        "inputUnitCode": "unit",
+        "quantity": "1",
+        "supplierDescription": "Tahu Putih",
+        "supplierCost": {
+          "status": "provisional",
+          "totalAmount": "30000"
+        },
+        "customerPricing": {
+          "source": "catalog"
+        }
+      },
+      {
+        "clientLineKey": "s19-l02",
+        "productId": "a0d28702-bf3b-5b44-993a-da373921522c",
+        "productName": "Pisang Ambon",
+        "inputUnitCode": "kg",
+        "quantity": "2",
+        "supplierDescription": "Pisang Ambon",
+        "supplierCost": {
+          "status": "provisional",
+          "totalAmount": "36000"
+        },
+        "customerPricing": {
+          "source": "catalog"
+        }
+      },
+      {
+        "clientLineKey": "s19-l03",
+        "productId": "e692c0d0-eed7-5a74-a55e-1d27e583f215",
+        "productName": "Spinach/Horenzo",
+        "inputUnitCode": "kg",
+        "quantity": "0.4",
+        "supplierDescription": "Horenso",
+        "supplierCost": {
+          "status": "provisional",
+          "totalAmount": "22000"
+        },
+        "customerPricing": {
+          "source": "catalog"
+        }
+      },
+      {
+        "clientLineKey": "s19-l04",
+        "productId": "683c8da2-b4c9-5060-a473-d9cca96f746c",
+        "productName": "Buncis Baby",
+        "inputUnitCode": "kg",
+        "quantity": "0.25",
+        "supplierDescription": "Buncis B",
+        "supplierCost": {
+          "status": "provisional",
+          "totalAmount": "10000"
+        },
+        "customerPricing": {
+          "source": "catalog"
+        }
+      },
+      {
+        "clientLineKey": "s19-l05",
+        "productId": "01f8d7f4-6f0d-5b9f-b764-abc42f7e551e",
+        "productName": "Jahe Gajah",
+        "inputUnitCode": "kg",
+        "quantity": "0.25",
+        "supplierDescription": "Jahe G",
+        "supplierCost": {
+          "status": "provisional",
+          "totalAmount": "15000"
+        },
+        "customerPricing": {
+          "source": "catalog"
+        }
+      },
+      {
+        "clientLineKey": "s19-l06",
+        "productId": "0bbdc2cf-a928-5df3-9c1e-15e1ccd212c2",
+        "productName": "Broccoli",
+        "inputUnitCode": "kg",
+        "quantity": "0.53",
+        "supplierDescription": "Brokoli",
+        "supplierCost": {
+          "status": "provisional",
+          "totalAmount": "27560"
+        },
+        "customerPricing": {
+          "source": "catalog"
+        }
+      },
+      {
+        "clientLineKey": "s19-l07",
+        "productId": "d22ce659-2cdc-5731-8c96-8d58e9b9a6eb",
+        "productName": "Timun Jepang",
+        "inputUnitCode": "kg",
+        "quantity": "0.66",
+        "supplierDescription": "Timun Jepang",
+        "supplierCost": {
+          "status": "provisional",
+          "totalAmount": "22440"
+        },
+        "customerPricing": {
+          "source": "catalog"
+        }
+      },
+      {
+        "clientLineKey": "s19-l08",
+        "productId": "4e656e17-f659-53ac-af70-45abda618f4b",
+        "productName": "Tomat Cherry",
+        "inputUnitCode": "kg",
+        "quantity": "0.25",
+        "supplierDescription": "Tomat Cherry",
+        "supplierCost": {
+          "status": "provisional",
+          "totalAmount": "13000"
+        },
+        "customerPricing": {
+          "source": "catalog"
+        }
+      },
+      {
+        "clientLineKey": "s19-l09",
+        "productId": "8c3ef21e-febb-52e4-8f04-be3865c99073",
+        "productName": "Wortel",
+        "inputUnitCode": "kg",
+        "quantity": "0.5",
+        "supplierDescription": "Wortel",
+        "supplierCost": {
+          "status": "provisional",
+          "totalAmount": "15000"
+        },
+        "customerPricing": {
+          "source": "catalog"
+        }
+      },
+      {
+        "clientLineKey": "s19-l10",
+        "productId": "dc3006fa-40b7-5b8f-bea1-c2ada363e57d",
+        "productName": "Jagung Manis",
+        "inputUnitCode": "kg",
+        "quantity": "1.11",
+        "supplierDescription": "Jagung Manis",
+        "supplierCost": {
+          "status": "provisional",
+          "totalAmount": "33300"
+        },
+        "customerPricing": {
+          "source": "catalog"
+        }
+      },
+      {
+        "clientLineKey": "s19-l11",
+        "productId": "9238b614-19e4-57be-87e1-918a39be2a86",
+        "productName": "Ubi Ungu",
+        "inputUnitCode": "unit",
+        "quantity": "1",
+        "supplierDescription": "Ubi Ungu",
+        "supplierCost": {
+          "status": "provisional",
+          "totalAmount": "28000"
+        },
+        "customerPricing": {
+          "source": "catalog"
+        }
+      },
+      {
+        "clientLineKey": "s19-l12",
+        "productId": "0d2aa2f2-97e8-5fdd-8d38-237d4210f5fa",
+        "productName": "Wansui",
+        "inputUnitCode": "kg",
+        "quantity": "0.2",
+        "supplierDescription": "Wansui",
+        "supplierCost": {
+          "status": "provisional",
+          "totalAmount": "18000"
+        },
+        "customerPricing": {
+          "source": "catalog"
+        }
+      }
+    ],
+    "supplierDeliveryFee": {
+      "status": "provisional",
+      "amount": "10000",
+      "note": "Imported from reviewed supplier slip; confirm during supplier reconciliation."
+    },
+    "customerDeliveryCharge": "10000",
+    "customerDeliveryDescription": "Biaya pengantaran langsung"
+  },
+  "workflow": "supplier_direct",
+  "staffConfirmations": [],
+  "customerResolutionEvidence": {
+    "handwrittenName": "Soen",
+    "addressRead": "Griya Cever III B14, Jelur",
+    "selectedCustomerId": "54f315ea-f0a0-5e46-a44e-1e2f888d5c7a",
+    "selectedCustomerName": "Soen",
+    "confirmation": []
+  },
+  "productMatchingEvidence": {
+    "effectiveOn": "2026-11-06",
+    "supplierId": "19f80084-3483-5e26-97f4-58884573bbde",
+    "supplierName": "Cisarua",
+    "lines": [
+      {
+        "lineId": "s19-l01",
+        "productNameRead": "Tahu Putih",
+        "qtyRead": 1,
+        "totalRead": 30000,
+        "confidence": "confirmed",
+        "selectedProductId": "cfb5a0ff-0df0-5d76-bcc4-75e451fc37a8",
+        "selectedProductName": "Tahu Putih",
+        "candidates": [
+          {
+            "productId": "cfb5a0ff-0df0-5d76-bcc4-75e451fc37a8",
+            "name": "Tahu Putih",
+            "expectedUnitCost": 30000,
+            "expectedTotal": 30000,
+            "totalDelta": 0,
+            "totalMatches": true,
+            "matchedOn": "current_supplier_product_and_operator_context"
+          }
+        ],
+        "warnings": []
+      },
+      {
+        "lineId": "s19-l02",
+        "productNameRead": "Pisang Ambon",
+        "qtyRead": 2,
+        "totalRead": 36000,
+        "confidence": "confirmed",
+        "selectedProductId": "a0d28702-bf3b-5b44-993a-da373921522c",
+        "selectedProductName": "Pisang Ambon",
+        "candidates": [
+          {
+            "productId": "a0d28702-bf3b-5b44-993a-da373921522c",
+            "name": "Pisang Ambon",
+            "expectedUnitCost": 18000,
+            "expectedTotal": 36000,
+            "totalDelta": 0,
+            "totalMatches": true,
+            "matchedOn": "current_supplier_product_and_operator_context"
+          }
+        ],
+        "warnings": []
+      },
+      {
+        "lineId": "s19-l03",
+        "productNameRead": "Horenso",
+        "qtyRead": 0.4,
+        "totalRead": 22000,
+        "confidence": "confirmed",
+        "selectedProductId": "e692c0d0-eed7-5a74-a55e-1d27e583f215",
+        "selectedProductName": "Spinach/Horenzo",
+        "candidates": [
+          {
+            "productId": "e692c0d0-eed7-5a74-a55e-1d27e583f215",
+            "name": "Spinach/Horenzo",
+            "expectedUnitCost": 55000,
+            "expectedTotal": 22000,
+            "totalDelta": 0,
+            "totalMatches": true,
+            "matchedOn": "current_supplier_product_and_operator_context"
+          }
+        ],
+        "warnings": []
+      },
+      {
+        "lineId": "s19-l04",
+        "productNameRead": "Buncis B",
+        "qtyRead": 0.25,
+        "totalRead": 10000,
+        "confidence": "confirmed",
+        "selectedProductId": "683c8da2-b4c9-5060-a473-d9cca96f746c",
+        "selectedProductName": "Buncis Baby",
+        "candidates": [
+          {
+            "productId": "683c8da2-b4c9-5060-a473-d9cca96f746c",
+            "name": "Buncis Baby",
+            "expectedUnitCost": 40000,
+            "expectedTotal": 10000,
+            "totalDelta": 0,
+            "totalMatches": true,
+            "matchedOn": "current_supplier_product_and_operator_context"
+          }
+        ],
+        "warnings": []
+      },
+      {
+        "lineId": "s19-l05",
+        "productNameRead": "Jahe G",
+        "qtyRead": 0.25,
+        "totalRead": 15000,
+        "confidence": "confirmed",
+        "selectedProductId": "01f8d7f4-6f0d-5b9f-b764-abc42f7e551e",
+        "selectedProductName": "Jahe Gajah",
+        "candidates": [
+          {
+            "productId": "01f8d7f4-6f0d-5b9f-b764-abc42f7e551e",
+            "name": "Jahe Gajah",
+            "expectedUnitCost": 60000,
+            "expectedTotal": 15000,
+            "totalDelta": 0,
+            "totalMatches": true,
+            "matchedOn": "current_supplier_product_and_operator_context"
+          }
+        ],
+        "warnings": []
+      },
+      {
+        "lineId": "s19-l06",
+        "productNameRead": "Brokoli",
+        "qtyRead": 0.53,
+        "totalRead": 27560,
+        "confidence": "confirmed",
+        "selectedProductId": "0bbdc2cf-a928-5df3-9c1e-15e1ccd212c2",
+        "selectedProductName": "Broccoli",
+        "candidates": [
+          {
+            "productId": "0bbdc2cf-a928-5df3-9c1e-15e1ccd212c2",
+            "name": "Broccoli",
+            "expectedUnitCost": 52000,
+            "expectedTotal": 27560,
+            "totalDelta": 0,
+            "totalMatches": true,
+            "matchedOn": "current_supplier_product_and_operator_context"
+          }
+        ],
+        "warnings": []
+      },
+      {
+        "lineId": "s19-l07",
+        "productNameRead": "Timun Jepang",
+        "qtyRead": 0.66,
+        "totalRead": 22440,
+        "confidence": "confirmed",
+        "selectedProductId": "d22ce659-2cdc-5731-8c96-8d58e9b9a6eb",
+        "selectedProductName": "Timun Jepang",
+        "candidates": [
+          {
+            "productId": "d22ce659-2cdc-5731-8c96-8d58e9b9a6eb",
+            "name": "Timun Jepang",
+            "expectedUnitCost": 34000,
+            "expectedTotal": 22440,
+            "totalDelta": 0,
+            "totalMatches": true,
+            "matchedOn": "current_supplier_product_and_operator_context"
+          }
+        ],
+        "warnings": []
+      },
+      {
+        "lineId": "s19-l08",
+        "productNameRead": "Tomat Cherry",
+        "qtyRead": 0.25,
+        "totalRead": 13000,
+        "confidence": "confirmed",
+        "selectedProductId": "4e656e17-f659-53ac-af70-45abda618f4b",
+        "selectedProductName": "Tomat Cherry",
+        "candidates": [
+          {
+            "productId": "4e656e17-f659-53ac-af70-45abda618f4b",
+            "name": "Tomat Cherry",
+            "expectedUnitCost": 52000,
+            "expectedTotal": 13000,
+            "totalDelta": 0,
+            "totalMatches": true,
+            "matchedOn": "current_supplier_product_and_operator_context"
+          }
+        ],
+        "warnings": []
+      },
+      {
+        "lineId": "s19-l09",
+        "productNameRead": "Wortel",
+        "qtyRead": 0.5,
+        "totalRead": 15000,
+        "confidence": "confirmed",
+        "selectedProductId": "8c3ef21e-febb-52e4-8f04-be3865c99073",
+        "selectedProductName": "Wortel",
+        "candidates": [
+          {
+            "productId": "8c3ef21e-febb-52e4-8f04-be3865c99073",
+            "name": "Wortel",
+            "expectedUnitCost": 30000,
+            "expectedTotal": 15000,
+            "totalDelta": 0,
+            "totalMatches": true,
+            "matchedOn": "current_supplier_product_and_operator_context"
+          }
+        ],
+        "warnings": []
+      },
+      {
+        "lineId": "s19-l10",
+        "productNameRead": "Jagung Manis",
+        "qtyRead": 1.11,
+        "totalRead": 33300,
+        "confidence": "confirmed",
+        "selectedProductId": "dc3006fa-40b7-5b8f-bea1-c2ada363e57d",
+        "selectedProductName": "Jagung Manis",
+        "candidates": [
+          {
+            "productId": "dc3006fa-40b7-5b8f-bea1-c2ada363e57d",
+            "name": "Jagung Manis",
+            "expectedUnitCost": 30000,
+            "expectedTotal": 33300,
+            "totalDelta": 0,
+            "totalMatches": true,
+            "matchedOn": "current_supplier_product_and_operator_context"
+          }
+        ],
+        "warnings": []
+      },
+      {
+        "lineId": "s19-l11",
+        "productNameRead": "Ubi Ungu",
+        "qtyRead": 1,
+        "totalRead": 28000,
+        "confidence": "confirmed",
+        "selectedProductId": "9238b614-19e4-57be-87e1-918a39be2a86",
+        "selectedProductName": "Ubi Ungu",
+        "candidates": [
+          {
+            "productId": "9238b614-19e4-57be-87e1-918a39be2a86",
+            "name": "Ubi Ungu",
+            "expectedUnitCost": 28000,
+            "expectedTotal": 28000,
+            "totalDelta": 0,
+            "totalMatches": true,
+            "matchedOn": "current_supplier_product_and_operator_context"
+          }
+        ],
+        "warnings": []
+      },
+      {
+        "lineId": "s19-l12",
+        "productNameRead": "Wansui",
+        "qtyRead": 0.2,
+        "totalRead": 18000,
+        "confidence": "confirmed",
+        "selectedProductId": "0d2aa2f2-97e8-5fdd-8d38-237d4210f5fa",
+        "selectedProductName": "Wansui",
+        "candidates": [
+          {
+            "productId": "0d2aa2f2-97e8-5fdd-8d38-237d4210f5fa",
+            "name": "Wansui",
+            "expectedUnitCost": 90000,
+            "expectedTotal": 18000,
+            "totalDelta": 0,
+            "totalMatches": true,
+            "matchedOn": "current_supplier_product_and_operator_context"
+          }
+        ],
+        "warnings": []
+      }
+    ],
+    "summary": {
+      "totalLines": 12,
+      "selected": 12,
+      "withCostDiscrepancy": 0
+    }
+  }
+}

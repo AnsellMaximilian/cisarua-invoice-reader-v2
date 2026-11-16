@@ -1,0 +1,404 @@
+{
+  "schemaVersion": "rumah-sehat-v2-slip-review-v1",
+  "readyToImport": true,
+  "source": {
+    "imageFile": "WhatsApp Image 2026-11-07 at 10.49.31 AM (1).jpeg",
+    "slipIndex": 2,
+    "fingerprint": "d7c32dfff8f1614b7d74d7a1a75ff03936a07c5e8a3ccbd42cb0605d77afdbb5",
+    "sourcePath": "incoming/WhatsApp Image 2026-11-07 at 10.49.31 AM (1).jpeg"
+  },
+  "extracted": {
+    "customerNameRead": "Wei-Wei",
+    "addressRead": "Titip Ibu Chi-Chi",
+    "lines": [
+      {
+        "lineId": "s04-l01",
+        "productNameRead": "Bayam H",
+        "quantityRead": 0.2,
+        "totalRead": 8000
+      },
+      {
+        "lineId": "s04-l02",
+        "productNameRead": "Horenso",
+        "quantityRead": 0.2,
+        "totalRead": 11000
+      },
+      {
+        "lineId": "s04-l03",
+        "productNameRead": "Kangkung",
+        "quantityRead": 0.2,
+        "totalRead": 8000
+      },
+      {
+        "lineId": "s04-l04",
+        "productNameRead": "Selada K",
+        "quantityRead": 0.25,
+        "totalRead": 10000
+      },
+      {
+        "lineId": "s04-l05",
+        "productNameRead": "Bit",
+        "quantityRead": 0.5,
+        "totalRead": 19000
+      }
+    ],
+    "date": "2026-11-04",
+    "slipTotalRead": 56000,
+    "slipTotalCertain": true,
+    "excludedOrNotReceived": []
+  },
+  "resolved": {
+    "supplier": {
+      "id": "19f80084-3483-5e26-97f4-58884573bbde",
+      "name": "Cisarua"
+    },
+    "customer": {
+      "id": "1aee9e26-efe7-58d0-8e5e-624b0aa478ce",
+      "name": "Wei Wei",
+      "legacyCustomerId": 47,
+      "aliases": [],
+      "addresses": [
+        "Sektor 1A. Blok AG 8 No 14. Gading Serpong"
+      ],
+      "nameRead": "Wei-Wei"
+    }
+  },
+  "warnings": [],
+  "calculations": {
+    "supplierProductSubtotal": 56000,
+    "supplierDeliveryFee": 0,
+    "supplierTotal": 56000,
+    "customerDeliveryCharge": 0,
+    "handwrittenProductTotal": 56000,
+    "lineTotalSum": 56000,
+    "handwrittenMinusLineSum": 0
+  },
+  "proposedDraft": {
+    "supplierDirectDraft": {
+      "schemaVersion": 1,
+      "supplierId": "19f80084-3483-5e26-97f4-58884573bbde",
+      "supplierName": "Cisarua",
+      "customerId": "1aee9e26-efe7-58d0-8e5e-624b0aa478ce",
+      "customerName": "Wei Wei",
+      "occurred": {
+        "date": "2026-11-04",
+        "precision": "date"
+      },
+      "supplierReference": "WhatsApp Image 2026-11-07 at 10.49.31 AM (1).jpeg#2",
+      "note": "Handwritten product total Rp56000; line sum matches. This is a named Wei Wei customer slip titip at Ibu Chi-Chi, so supplier and customer delivery fees are both zero.",
+      "lines": [
+        {
+          "clientLineKey": "s04-l01",
+          "productId": "cc64524c-4c46-59b6-ad3e-b411b3376bf3",
+          "productName": "Bayam Hijau",
+          "inputUnitCode": "kg",
+          "quantity": "0.2",
+          "supplierDescription": "Bayam H",
+          "supplierCost": {
+            "status": "provisional",
+            "totalAmount": "8000"
+          },
+          "customerPricing": {
+            "source": "catalog"
+          }
+        },
+        {
+          "clientLineKey": "s04-l02",
+          "productId": "e692c0d0-eed7-5a74-a55e-1d27e583f215",
+          "productName": "Spinach/Horenzo",
+          "inputUnitCode": "kg",
+          "quantity": "0.2",
+          "supplierDescription": "Horenso",
+          "supplierCost": {
+            "status": "provisional",
+            "totalAmount": "11000"
+          },
+          "customerPricing": {
+            "source": "catalog"
+          }
+        },
+        {
+          "clientLineKey": "s04-l03",
+          "productId": "dcf2b87b-097a-5abd-8cea-98efc5c8e3a2",
+          "productName": "Kangkung",
+          "inputUnitCode": "kg",
+          "quantity": "0.2",
+          "supplierDescription": "Kangkung",
+          "supplierCost": {
+            "status": "provisional",
+            "totalAmount": "8000"
+          },
+          "customerPricing": {
+            "source": "catalog"
+          }
+        },
+        {
+          "clientLineKey": "s04-l04",
+          "productId": "29588173-a186-50b5-b49f-2c72805fcaef",
+          "productName": "Selada Keriting",
+          "inputUnitCode": "kg",
+          "quantity": "0.25",
+          "supplierDescription": "Selada K",
+          "supplierCost": {
+            "status": "provisional",
+            "totalAmount": "10000"
+          },
+          "customerPricing": {
+            "source": "catalog"
+          }
+        },
+        {
+          "clientLineKey": "s04-l05",
+          "productId": "241f5520-f0ce-5bda-a5a7-39b5d2abd0d6",
+          "productName": "Bit Merah",
+          "inputUnitCode": "kg",
+          "quantity": "0.5",
+          "supplierDescription": "Bit",
+          "supplierCost": {
+            "status": "provisional",
+            "totalAmount": "19000"
+          },
+          "customerPricing": {
+            "source": "catalog"
+          }
+        }
+      ],
+      "supplierDeliveryFee": {
+        "status": "provisional",
+        "amount": "0",
+        "note": "Imported from reviewed supplier slip; confirm during supplier reconciliation."
+      },
+      "customerDeliveryCharge": "0",
+      "customerDeliveryDescription": "Biaya pengantaran langsung"
+    }
+  },
+  "supplierDirectDraft": {
+    "schemaVersion": 1,
+    "supplierId": "19f80084-3483-5e26-97f4-58884573bbde",
+    "supplierName": "Cisarua",
+    "customerId": "1aee9e26-efe7-58d0-8e5e-624b0aa478ce",
+    "customerName": "Wei Wei",
+    "occurred": {
+      "date": "2026-11-04",
+      "precision": "date"
+    },
+    "supplierReference": "WhatsApp Image 2026-11-07 at 10.49.31 AM (1).jpeg#2",
+    "note": "Handwritten product total Rp56000; line sum matches. This is a named Wei Wei customer slip titip at Ibu Chi-Chi, so supplier and customer delivery fees are both zero.",
+    "lines": [
+      {
+        "clientLineKey": "s04-l01",
+        "productId": "cc64524c-4c46-59b6-ad3e-b411b3376bf3",
+        "productName": "Bayam Hijau",
+        "inputUnitCode": "kg",
+        "quantity": "0.2",
+        "supplierDescription": "Bayam H",
+        "supplierCost": {
+          "status": "provisional",
+          "totalAmount": "8000"
+        },
+        "customerPricing": {
+          "source": "catalog"
+        }
+      },
+      {
+        "clientLineKey": "s04-l02",
+        "productId": "e692c0d0-eed7-5a74-a55e-1d27e583f215",
+        "productName": "Spinach/Horenzo",
+        "inputUnitCode": "kg",
+        "quantity": "0.2",
+        "supplierDescription": "Horenso",
+        "supplierCost": {
+          "status": "provisional",
+          "totalAmount": "11000"
+        },
+        "customerPricing": {
+          "source": "catalog"
+        }
+      },
+      {
+        "clientLineKey": "s04-l03",
+        "productId": "dcf2b87b-097a-5abd-8cea-98efc5c8e3a2",
+        "productName": "Kangkung",
+        "inputUnitCode": "kg",
+        "quantity": "0.2",
+        "supplierDescription": "Kangkung",
+        "supplierCost": {
+          "status": "provisional",
+          "totalAmount": "8000"
+        },
+        "customerPricing": {
+          "source": "catalog"
+        }
+      },
+      {
+        "clientLineKey": "s04-l04",
+        "productId": "29588173-a186-50b5-b49f-2c72805fcaef",
+        "productName": "Selada Keriting",
+        "inputUnitCode": "kg",
+        "quantity": "0.25",
+        "supplierDescription": "Selada K",
+        "supplierCost": {
+          "status": "provisional",
+          "totalAmount": "10000"
+        },
+        "customerPricing": {
+          "source": "catalog"
+        }
+      },
+      {
+        "clientLineKey": "s04-l05",
+        "productId": "241f5520-f0ce-5bda-a5a7-39b5d2abd0d6",
+        "productName": "Bit Merah",
+        "inputUnitCode": "kg",
+        "quantity": "0.5",
+        "supplierDescription": "Bit",
+        "supplierCost": {
+          "status": "provisional",
+          "totalAmount": "19000"
+        },
+        "customerPricing": {
+          "source": "catalog"
+        }
+      }
+    ],
+    "supplierDeliveryFee": {
+      "status": "provisional",
+      "amount": "0",
+      "note": "Imported from reviewed supplier slip; confirm during supplier reconciliation."
+    },
+    "customerDeliveryCharge": "0",
+    "customerDeliveryDescription": "Biaya pengantaran langsung"
+  },
+  "workflow": "supplier_direct",
+  "staffConfirmations": [
+    "Wei-Wei resolves to customer Wei Wei.",
+    "Named customer slip is titip at Ibu Chi-Chi; both delivery fees are zero."
+  ],
+  "customerResolutionEvidence": {
+    "handwrittenName": "Wei-Wei",
+    "addressRead": "Titip Ibu Chi-Chi",
+    "selectedCustomerId": "1aee9e26-efe7-58d0-8e5e-624b0aa478ce",
+    "selectedCustomerName": "Wei Wei",
+    "confirmation": [
+      "Wei-Wei resolves to customer Wei Wei.",
+      "Named customer slip is titip at Ibu Chi-Chi; both delivery fees are zero."
+    ]
+  },
+  "productMatchingEvidence": {
+    "effectiveOn": "2026-11-04",
+    "supplierId": "19f80084-3483-5e26-97f4-58884573bbde",
+    "supplierName": "Cisarua",
+    "lines": [
+      {
+        "lineId": "s04-l01",
+        "productNameRead": "Bayam H",
+        "qtyRead": 0.2,
+        "totalRead": 8000,
+        "confidence": "confirmed",
+        "selectedProductId": "cc64524c-4c46-59b6-ad3e-b411b3376bf3",
+        "selectedProductName": "Bayam Hijau",
+        "candidates": [
+          {
+            "productId": "cc64524c-4c46-59b6-ad3e-b411b3376bf3",
+            "name": "Bayam Hijau",
+            "expectedUnitCost": 40000,
+            "expectedTotal": 8000,
+            "totalDelta": 0,
+            "totalMatches": true,
+            "matchedOn": "current_supplier_product_and_operator_context"
+          }
+        ],
+        "warnings": []
+      },
+      {
+        "lineId": "s04-l02",
+        "productNameRead": "Horenso",
+        "qtyRead": 0.2,
+        "totalRead": 11000,
+        "confidence": "confirmed",
+        "selectedProductId": "e692c0d0-eed7-5a74-a55e-1d27e583f215",
+        "selectedProductName": "Spinach/Horenzo",
+        "candidates": [
+          {
+            "productId": "e692c0d0-eed7-5a74-a55e-1d27e583f215",
+            "name": "Spinach/Horenzo",
+            "expectedUnitCost": 55000,
+            "expectedTotal": 11000,
+            "totalDelta": 0,
+            "totalMatches": true,
+            "matchedOn": "current_supplier_product_and_operator_context"
+          }
+        ],
+        "warnings": []
+      },
+      {
+        "lineId": "s04-l03",
+        "productNameRead": "Kangkung",
+        "qtyRead": 0.2,
+        "totalRead": 8000,
+        "confidence": "confirmed",
+        "selectedProductId": "dcf2b87b-097a-5abd-8cea-98efc5c8e3a2",
+        "selectedProductName": "Kangkung",
+        "candidates": [
+          {
+            "productId": "dcf2b87b-097a-5abd-8cea-98efc5c8e3a2",
+            "name": "Kangkung",
+            "expectedUnitCost": 40000,
+            "expectedTotal": 8000,
+            "totalDelta": 0,
+            "totalMatches": true,
+            "matchedOn": "current_supplier_product_and_operator_context"
+          }
+        ],
+        "warnings": []
+      },
+      {
+        "lineId": "s04-l04",
+        "productNameRead": "Selada K",
+        "qtyRead": 0.25,
+        "totalRead": 10000,
+        "confidence": "confirmed",
+        "selectedProductId": "29588173-a186-50b5-b49f-2c72805fcaef",
+        "selectedProductName": "Selada Keriting",
+        "candidates": [
+          {
+            "productId": "29588173-a186-50b5-b49f-2c72805fcaef",
+            "name": "Selada Keriting",
+            "expectedUnitCost": 40000,
+            "expectedTotal": 10000,
+            "totalDelta": 0,
+            "totalMatches": true,
+            "matchedOn": "current_supplier_product_and_operator_context"
+          }
+        ],
+        "warnings": []
+      },
+      {
+        "lineId": "s04-l05",
+        "productNameRead": "Bit",
+        "qtyRead": 0.5,
+        "totalRead": 19000,
+        "confidence": "confirmed",
+        "selectedProductId": "241f5520-f0ce-5bda-a5a7-39b5d2abd0d6",
+        "selectedProductName": "Bit Merah",
+        "candidates": [
+          {
+            "productId": "241f5520-f0ce-5bda-a5a7-39b5d2abd0d6",
+            "name": "Bit Merah",
+            "expectedUnitCost": 38000,
+            "expectedTotal": 19000,
+            "totalDelta": 0,
+            "totalMatches": true,
+            "matchedOn": "current_supplier_product_and_operator_context"
+          }
+        ],
+        "warnings": []
+      }
+    ],
+    "summary": {
+      "totalLines": 5,
+      "selected": 5,
+      "withCostDiscrepancy": 0
+    }
+  }
+}

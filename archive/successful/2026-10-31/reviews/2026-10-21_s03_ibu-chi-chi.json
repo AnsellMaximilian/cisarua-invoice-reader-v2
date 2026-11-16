@@ -1,0 +1,1715 @@
+{
+  "schemaVersion": "rumah-sehat-v2-slip-review-v1",
+  "readyToImport": true,
+  "source": {
+    "imageFile": "WhatsApp Image 2026-10-24 at 11.49.12 AM.jpeg",
+    "slipIndex": 1,
+    "fingerprint": "f1e77c37f3af30d64e2223c4d545c04137763c5887945f0e13d6aba636eb9e40",
+    "sourcePath": "incoming/WhatsApp Image 2026-10-24 at 11.49.12 AM.jpeg"
+  },
+  "extracted": {
+    "lines": [
+      {
+        "lineId": "s03-l01",
+        "productNameRead": "Ayam Kampung",
+        "receivedQuantityRead": 2,
+        "acceptedQuantityRead": 2,
+        "totalRead": 130000
+      },
+      {
+        "lineId": "s03-l02",
+        "productNameRead": "Telur Kampung",
+        "receivedQuantityRead": 20,
+        "acceptedQuantityRead": 20,
+        "totalRead": 80000
+      },
+      {
+        "lineId": "s03-l03",
+        "productNameRead": "Tempe",
+        "receivedQuantityRead": 1,
+        "acceptedQuantityRead": 1,
+        "totalRead": 17000
+      },
+      {
+        "lineId": "s03-l04",
+        "productNameRead": "Tahu Hongkong",
+        "receivedQuantityRead": 1,
+        "acceptedQuantityRead": 1,
+        "totalRead": 11000
+      },
+      {
+        "lineId": "s03-l05",
+        "productNameRead": "Bawang Merah",
+        "receivedQuantityRead": 1,
+        "acceptedQuantityRead": 1,
+        "totalRead": 72000
+      },
+      {
+        "lineId": "s03-l06",
+        "productNameRead": "Bombay",
+        "receivedQuantityRead": 0.5,
+        "acceptedQuantityRead": 0.5,
+        "totalRead": 38000
+      },
+      {
+        "lineId": "s03-l07",
+        "productNameRead": "Ubi Cilembu",
+        "receivedQuantityRead": 1,
+        "acceptedQuantityRead": 1,
+        "totalRead": 28000
+      },
+      {
+        "lineId": "s03-l08",
+        "productNameRead": "Bayam H",
+        "receivedQuantityRead": 0.4,
+        "acceptedQuantityRead": 0.4,
+        "totalRead": 16000
+      },
+      {
+        "lineId": "s03-l09",
+        "productNameRead": "Caisim",
+        "receivedQuantityRead": 0.2,
+        "acceptedQuantityRead": 0.2,
+        "totalRead": 8000
+      },
+      {
+        "lineId": "s03-l10",
+        "productNameRead": "Daun Bawang",
+        "receivedQuantityRead": 0.2,
+        "acceptedQuantityRead": 0.2,
+        "totalRead": 8000
+      },
+      {
+        "lineId": "s03-l11",
+        "productNameRead": "Buncis B",
+        "receivedQuantityRead": 0.25,
+        "acceptedQuantityRead": 0.25,
+        "totalRead": 10000
+      },
+      {
+        "lineId": "s03-l12",
+        "productNameRead": "Jahe Merah",
+        "receivedQuantityRead": 0.25,
+        "acceptedQuantityRead": 0.25,
+        "totalRead": 16000
+      },
+      {
+        "lineId": "s03-l13",
+        "productNameRead": "Pakcoy",
+        "receivedQuantityRead": 0.25,
+        "acceptedQuantityRead": 0.25,
+        "totalRead": 9000
+      },
+      {
+        "lineId": "s03-l14",
+        "productNameRead": "Bawang P",
+        "receivedQuantityRead": 0.5,
+        "acceptedQuantityRead": 0.5,
+        "totalRead": 33000
+      },
+      {
+        "lineId": "s03-l15",
+        "productNameRead": "Brokoli",
+        "receivedQuantityRead": 0.35,
+        "acceptedQuantityRead": 0.35,
+        "totalRead": 18200
+      },
+      {
+        "lineId": "s03-l16",
+        "productNameRead": "Labusiam B",
+        "receivedQuantityRead": 0.5,
+        "acceptedQuantityRead": 0.5,
+        "totalRead": 16000
+      },
+      {
+        "lineId": "s03-l17",
+        "productNameRead": "Timun",
+        "receivedQuantityRead": 0.5,
+        "acceptedQuantityRead": 0.5,
+        "totalRead": 16000
+      },
+      {
+        "lineId": "s03-l18",
+        "productNameRead": "Wortel",
+        "receivedQuantityRead": 0.5,
+        "acceptedQuantityRead": 0.5,
+        "totalRead": 15000
+      },
+      {
+        "lineId": "s03-l19",
+        "productNameRead": "Jagung Manis",
+        "receivedQuantityRead": 1.13,
+        "acceptedQuantityRead": 1.13,
+        "totalRead": 33900
+      },
+      {
+        "lineId": "s03-l20",
+        "productNameRead": "Kentang",
+        "receivedQuantityRead": 1,
+        "acceptedQuantityRead": 1,
+        "totalRead": 34000
+      },
+      {
+        "lineId": "s03-l21",
+        "productNameRead": "Singkong",
+        "receivedQuantityRead": 0.61,
+        "acceptedQuantityRead": 0.61,
+        "totalRead": 17080
+      },
+      {
+        "lineId": "s03-l22",
+        "productNameRead": "K. Panjang",
+        "receivedQuantityRead": 0.2,
+        "acceptedQuantityRead": 0.2,
+        "totalRead": 8000
+      },
+      {
+        "lineId": "s03-l23",
+        "productNameRead": "Sereh",
+        "receivedQuantityRead": 0.25,
+        "acceptedQuantityRead": 0.25,
+        "totalRead": 8000
+      },
+      {
+        "lineId": "s03-l24",
+        "productNameRead": "Sawi Putih",
+        "receivedQuantityRead": 0.53,
+        "acceptedQuantityRead": 0.53,
+        "totalRead": 16960
+      },
+      {
+        "lineId": "s03-l25",
+        "productNameRead": "Lengkuas",
+        "receivedQuantityRead": 0.25,
+        "acceptedQuantityRead": 0.25,
+        "totalRead": 10000
+      }
+    ],
+    "date": "2026-10-21",
+    "slipTotalRead": 669140,
+    "slipTotalCertain": true,
+    "excludedOrNotReceived": []
+  },
+  "resolved": {
+    "supplier": {
+      "id": "19f80084-3483-5e26-97f4-58884573bbde",
+      "name": "Cisarua"
+    }
+  },
+  "warnings": [
+    "Ayam Kampung Organic: untracked product defaults to business/household use; confirm this is not a customer titip/allocation.",
+    "Telur Ayam: untracked product defaults to business/household use; confirm this is not a customer titip/allocation.",
+    "Tempe 400gr: untracked product defaults to business/household use; confirm this is not a customer titip/allocation.",
+    "Tahu Hong Kong: untracked product defaults to business/household use; confirm this is not a customer titip/allocation.",
+    "Bawang Merah: untracked product defaults to business/household use; confirm this is not a customer titip/allocation.",
+    "Bawang Bombay: untracked product defaults to business/household use; confirm this is not a customer titip/allocation.",
+    "Ubi Cilembu: untracked product defaults to business/household use; confirm this is not a customer titip/allocation.",
+    "Bayam Hijau: untracked product defaults to business/household use; confirm this is not a customer titip/allocation.",
+    "Caisim: untracked product defaults to business/household use; confirm this is not a customer titip/allocation.",
+    "Daun Bawang: untracked product defaults to business/household use; confirm this is not a customer titip/allocation.",
+    "Buncis Baby: untracked product defaults to business/household use; confirm this is not a customer titip/allocation.",
+    "Jahe Merah: untracked product defaults to business/household use; confirm this is not a customer titip/allocation.",
+    "Pakchoy: untracked product defaults to business/household use; confirm this is not a customer titip/allocation.",
+    "Bawang Putih: untracked product defaults to business/household use; confirm this is not a customer titip/allocation.",
+    "Broccoli: untracked product defaults to business/household use; confirm this is not a customer titip/allocation.",
+    "Labu Siam Baby: untracked product defaults to business/household use; confirm this is not a customer titip/allocation.",
+    "Timun Lokal: untracked product defaults to business/household use; confirm this is not a customer titip/allocation.",
+    "Wortel: untracked product defaults to business/household use; confirm this is not a customer titip/allocation.",
+    "Jagung Manis: untracked product defaults to business/household use; confirm this is not a customer titip/allocation.",
+    "Kentang: untracked product defaults to business/household use; confirm this is not a customer titip/allocation.",
+    "Singkong: untracked product defaults to business/household use; confirm this is not a customer titip/allocation.",
+    "Kacang Panjang: untracked product defaults to business/household use; confirm this is not a customer titip/allocation.",
+    "Sereh: untracked product defaults to business/household use; confirm this is not a customer titip/allocation.",
+    "Sawi Putih: untracked product defaults to business/household use; confirm this is not a customer titip/allocation.",
+    "Lengkuas: untracked product defaults to business/household use; confirm this is not a customer titip/allocation."
+  ],
+  "calculations": {
+    "supplierProductSubtotal": 669140,
+    "supplierDeliveryFee": 10000,
+    "supplierTotal": 679140,
+    "handwrittenProductTotal": 669140,
+    "lineTotalSum": 669140,
+    "handwrittenMinusLineSum": 0
+  },
+  "proposedDraft": {
+    "supplierReceiptDraft": {
+      "schemaVersion": 1,
+      "supplierId": "19f80084-3483-5e26-97f4-58884573bbde",
+      "supplierName": "Cisarua",
+      "occurred": {
+        "date": "2026-10-21",
+        "precision": "date"
+      },
+      "supplierReference": "WhatsApp Image 2026-10-24 at 11.49.12 AM.jpeg#1",
+      "note": "Handwritten product total Rp669140; line sum matches. Staff-confirmed all Ibu Chi-Chi items are house use.",
+      "lines": [
+        {
+          "clientLineKey": "s03-l01",
+          "productId": "6b1d1840-3ae4-5904-82da-95503d942de3",
+          "productName": "Ayam Kampung Organic",
+          "inputUnitCode": "unit",
+          "receivedQuantity": "2",
+          "acceptedQuantity": "2",
+          "supplierDescription": "Ayam Kampung",
+          "cost": {
+            "status": "provisional",
+            "totalAmount": "130000"
+          },
+          "dispositions": [
+            {
+              "kind": "business_or_household_use",
+              "quantity": "2"
+            }
+          ]
+        },
+        {
+          "clientLineKey": "s03-l02",
+          "productId": "06e07aa2-15cb-54b0-83a5-a57fe49bb985",
+          "productName": "Telur Ayam",
+          "inputUnitCode": "unit",
+          "receivedQuantity": "20",
+          "acceptedQuantity": "20",
+          "supplierDescription": "Telur Kampung",
+          "cost": {
+            "status": "provisional",
+            "totalAmount": "80000"
+          },
+          "dispositions": [
+            {
+              "kind": "business_or_household_use",
+              "quantity": "20"
+            }
+          ]
+        },
+        {
+          "clientLineKey": "s03-l03",
+          "productId": "8602d729-7cb2-5d7f-86ea-4f96ff2d6f3f",
+          "productName": "Tempe 400gr",
+          "inputUnitCode": "unit",
+          "receivedQuantity": "1",
+          "acceptedQuantity": "1",
+          "supplierDescription": "Tempe",
+          "cost": {
+            "status": "provisional",
+            "totalAmount": "17000"
+          },
+          "dispositions": [
+            {
+              "kind": "business_or_household_use",
+              "quantity": "1"
+            }
+          ]
+        },
+        {
+          "clientLineKey": "s03-l04",
+          "productId": "87b0985a-fc64-5c8d-a3db-aee1f0df6825",
+          "productName": "Tahu Hong Kong",
+          "inputUnitCode": "unit",
+          "receivedQuantity": "1",
+          "acceptedQuantity": "1",
+          "supplierDescription": "Tahu Hongkong",
+          "cost": {
+            "status": "provisional",
+            "totalAmount": "11000"
+          },
+          "dispositions": [
+            {
+              "kind": "business_or_household_use",
+              "quantity": "1"
+            }
+          ]
+        },
+        {
+          "clientLineKey": "s03-l05",
+          "productId": "389a0e2b-902f-5d46-9aaa-8d632b98acb9",
+          "productName": "Bawang Merah",
+          "inputUnitCode": "kg",
+          "receivedQuantity": "1",
+          "acceptedQuantity": "1",
+          "supplierDescription": "Bawang Merah",
+          "cost": {
+            "status": "provisional",
+            "totalAmount": "72000"
+          },
+          "dispositions": [
+            {
+              "kind": "business_or_household_use",
+              "quantity": "1"
+            }
+          ]
+        },
+        {
+          "clientLineKey": "s03-l06",
+          "productId": "b8f3f290-7d45-54a8-a8b2-43053dc872c2",
+          "productName": "Bawang Bombay",
+          "inputUnitCode": "kg",
+          "receivedQuantity": "0.5",
+          "acceptedQuantity": "0.5",
+          "supplierDescription": "Bombay",
+          "cost": {
+            "status": "provisional",
+            "totalAmount": "38000"
+          },
+          "dispositions": [
+            {
+              "kind": "business_or_household_use",
+              "quantity": "0.5"
+            }
+          ]
+        },
+        {
+          "clientLineKey": "s03-l07",
+          "productId": "f2422267-b801-5166-a99d-0ea552c8e4f7",
+          "productName": "Ubi Cilembu",
+          "inputUnitCode": "unit",
+          "receivedQuantity": "1",
+          "acceptedQuantity": "1",
+          "supplierDescription": "Ubi Cilembu",
+          "cost": {
+            "status": "provisional",
+            "totalAmount": "28000"
+          },
+          "dispositions": [
+            {
+              "kind": "business_or_household_use",
+              "quantity": "1"
+            }
+          ]
+        },
+        {
+          "clientLineKey": "s03-l08",
+          "productId": "cc64524c-4c46-59b6-ad3e-b411b3376bf3",
+          "productName": "Bayam Hijau",
+          "inputUnitCode": "kg",
+          "receivedQuantity": "0.4",
+          "acceptedQuantity": "0.4",
+          "supplierDescription": "Bayam H",
+          "cost": {
+            "status": "provisional",
+            "totalAmount": "16000"
+          },
+          "dispositions": [
+            {
+              "kind": "business_or_household_use",
+              "quantity": "0.4"
+            }
+          ]
+        },
+        {
+          "clientLineKey": "s03-l09",
+          "productId": "6b1c9786-c7f6-5682-86fd-ab198c6a2bb4",
+          "productName": "Caisim",
+          "inputUnitCode": "kg",
+          "receivedQuantity": "0.2",
+          "acceptedQuantity": "0.2",
+          "supplierDescription": "Caisim",
+          "cost": {
+            "status": "provisional",
+            "totalAmount": "8000"
+          },
+          "dispositions": [
+            {
+              "kind": "business_or_household_use",
+              "quantity": "0.2"
+            }
+          ]
+        },
+        {
+          "clientLineKey": "s03-l10",
+          "productId": "be5bd210-16a3-5124-82f0-db8b4d3359de",
+          "productName": "Daun Bawang",
+          "inputUnitCode": "kg",
+          "receivedQuantity": "0.2",
+          "acceptedQuantity": "0.2",
+          "supplierDescription": "Daun Bawang",
+          "cost": {
+            "status": "provisional",
+            "totalAmount": "8000"
+          },
+          "dispositions": [
+            {
+              "kind": "business_or_household_use",
+              "quantity": "0.2"
+            }
+          ]
+        },
+        {
+          "clientLineKey": "s03-l11",
+          "productId": "683c8da2-b4c9-5060-a473-d9cca96f746c",
+          "productName": "Buncis Baby",
+          "inputUnitCode": "kg",
+          "receivedQuantity": "0.25",
+          "acceptedQuantity": "0.25",
+          "supplierDescription": "Buncis B",
+          "cost": {
+            "status": "provisional",
+            "totalAmount": "10000"
+          },
+          "dispositions": [
+            {
+              "kind": "business_or_household_use",
+              "quantity": "0.25"
+            }
+          ]
+        },
+        {
+          "clientLineKey": "s03-l12",
+          "productId": "cf6ba5c0-eaff-5fac-b343-3259ea85d0c2",
+          "productName": "Jahe Merah",
+          "inputUnitCode": "kg",
+          "receivedQuantity": "0.25",
+          "acceptedQuantity": "0.25",
+          "supplierDescription": "Jahe Merah",
+          "cost": {
+            "status": "provisional",
+            "totalAmount": "16000"
+          },
+          "dispositions": [
+            {
+              "kind": "business_or_household_use",
+              "quantity": "0.25"
+            }
+          ]
+        },
+        {
+          "clientLineKey": "s03-l13",
+          "productId": "1dcb3752-a1ea-506f-a114-6ebfb595cee2",
+          "productName": "Pakchoy",
+          "inputUnitCode": "kg",
+          "receivedQuantity": "0.25",
+          "acceptedQuantity": "0.25",
+          "supplierDescription": "Pakcoy",
+          "cost": {
+            "status": "provisional",
+            "totalAmount": "9000"
+          },
+          "dispositions": [
+            {
+              "kind": "business_or_household_use",
+              "quantity": "0.25"
+            }
+          ]
+        },
+        {
+          "clientLineKey": "s03-l14",
+          "productId": "86c0a0c7-ebfb-5209-8d12-33c56cf05120",
+          "productName": "Bawang Putih",
+          "inputUnitCode": "kg",
+          "receivedQuantity": "0.5",
+          "acceptedQuantity": "0.5",
+          "supplierDescription": "Bawang P",
+          "cost": {
+            "status": "provisional",
+            "totalAmount": "33000"
+          },
+          "dispositions": [
+            {
+              "kind": "business_or_household_use",
+              "quantity": "0.5"
+            }
+          ]
+        },
+        {
+          "clientLineKey": "s03-l15",
+          "productId": "0bbdc2cf-a928-5df3-9c1e-15e1ccd212c2",
+          "productName": "Broccoli",
+          "inputUnitCode": "kg",
+          "receivedQuantity": "0.35",
+          "acceptedQuantity": "0.35",
+          "supplierDescription": "Brokoli",
+          "cost": {
+            "status": "provisional",
+            "totalAmount": "18200"
+          },
+          "dispositions": [
+            {
+              "kind": "business_or_household_use",
+              "quantity": "0.35"
+            }
+          ]
+        },
+        {
+          "clientLineKey": "s03-l16",
+          "productId": "28284f97-0f37-5c4e-a7fb-294c3beed4a3",
+          "productName": "Labu Siam Baby",
+          "inputUnitCode": "kg",
+          "receivedQuantity": "0.5",
+          "acceptedQuantity": "0.5",
+          "supplierDescription": "Labusiam B",
+          "cost": {
+            "status": "provisional",
+            "totalAmount": "16000"
+          },
+          "dispositions": [
+            {
+              "kind": "business_or_household_use",
+              "quantity": "0.5"
+            }
+          ]
+        },
+        {
+          "clientLineKey": "s03-l17",
+          "productId": "7f281125-1996-5b0b-a889-0602ed36d188",
+          "productName": "Timun Lokal",
+          "inputUnitCode": "kg",
+          "receivedQuantity": "0.5",
+          "acceptedQuantity": "0.5",
+          "supplierDescription": "Timun",
+          "cost": {
+            "status": "provisional",
+            "totalAmount": "16000"
+          },
+          "dispositions": [
+            {
+              "kind": "business_or_household_use",
+              "quantity": "0.5"
+            }
+          ]
+        },
+        {
+          "clientLineKey": "s03-l18",
+          "productId": "8c3ef21e-febb-52e4-8f04-be3865c99073",
+          "productName": "Wortel",
+          "inputUnitCode": "kg",
+          "receivedQuantity": "0.5",
+          "acceptedQuantity": "0.5",
+          "supplierDescription": "Wortel",
+          "cost": {
+            "status": "provisional",
+            "totalAmount": "15000"
+          },
+          "dispositions": [
+            {
+              "kind": "business_or_household_use",
+              "quantity": "0.5"
+            }
+          ]
+        },
+        {
+          "clientLineKey": "s03-l19",
+          "productId": "dc3006fa-40b7-5b8f-bea1-c2ada363e57d",
+          "productName": "Jagung Manis",
+          "inputUnitCode": "kg",
+          "receivedQuantity": "1.13",
+          "acceptedQuantity": "1.13",
+          "supplierDescription": "Jagung Manis",
+          "cost": {
+            "status": "provisional",
+            "totalAmount": "33900"
+          },
+          "dispositions": [
+            {
+              "kind": "business_or_household_use",
+              "quantity": "1.13"
+            }
+          ]
+        },
+        {
+          "clientLineKey": "s03-l20",
+          "productId": "499c4cb1-2eb1-5092-88ff-cddec2011457",
+          "productName": "Kentang",
+          "inputUnitCode": "unit",
+          "receivedQuantity": "1",
+          "acceptedQuantity": "1",
+          "supplierDescription": "Kentang",
+          "cost": {
+            "status": "provisional",
+            "totalAmount": "34000"
+          },
+          "dispositions": [
+            {
+              "kind": "business_or_household_use",
+              "quantity": "1"
+            }
+          ]
+        },
+        {
+          "clientLineKey": "s03-l21",
+          "productId": "cf4b5785-bed8-5b49-a792-4836429e687a",
+          "productName": "Singkong",
+          "inputUnitCode": "kg",
+          "receivedQuantity": "0.61",
+          "acceptedQuantity": "0.61",
+          "supplierDescription": "Singkong",
+          "cost": {
+            "status": "provisional",
+            "totalAmount": "17080"
+          },
+          "dispositions": [
+            {
+              "kind": "business_or_household_use",
+              "quantity": "0.61"
+            }
+          ]
+        },
+        {
+          "clientLineKey": "s03-l22",
+          "productId": "d6267f25-ac88-532a-8b22-5b9450d2082b",
+          "productName": "Kacang Panjang",
+          "inputUnitCode": "kg",
+          "receivedQuantity": "0.2",
+          "acceptedQuantity": "0.2",
+          "supplierDescription": "K. Panjang",
+          "cost": {
+            "status": "provisional",
+            "totalAmount": "8000"
+          },
+          "dispositions": [
+            {
+              "kind": "business_or_household_use",
+              "quantity": "0.2"
+            }
+          ]
+        },
+        {
+          "clientLineKey": "s03-l23",
+          "productId": "02ae31af-edc4-54e1-bd4b-1a42cb131744",
+          "productName": "Sereh",
+          "inputUnitCode": "kg",
+          "receivedQuantity": "0.25",
+          "acceptedQuantity": "0.25",
+          "supplierDescription": "Sereh",
+          "cost": {
+            "status": "provisional",
+            "totalAmount": "8000"
+          },
+          "dispositions": [
+            {
+              "kind": "business_or_household_use",
+              "quantity": "0.25"
+            }
+          ]
+        },
+        {
+          "clientLineKey": "s03-l24",
+          "productId": "b4e9d275-c2b5-585f-9c9e-e91cfdd75800",
+          "productName": "Sawi Putih",
+          "inputUnitCode": "kg",
+          "receivedQuantity": "0.53",
+          "acceptedQuantity": "0.53",
+          "supplierDescription": "Sawi Putih",
+          "cost": {
+            "status": "provisional",
+            "totalAmount": "16960"
+          },
+          "dispositions": [
+            {
+              "kind": "business_or_household_use",
+              "quantity": "0.53"
+            }
+          ]
+        },
+        {
+          "clientLineKey": "s03-l25",
+          "productId": "2b057fee-45a4-571f-8ac2-64939607f256",
+          "productName": "Lengkuas",
+          "inputUnitCode": "kg",
+          "receivedQuantity": "0.25",
+          "acceptedQuantity": "0.25",
+          "supplierDescription": "Lengkuas",
+          "cost": {
+            "status": "provisional",
+            "totalAmount": "10000"
+          },
+          "dispositions": [
+            {
+              "kind": "business_or_household_use",
+              "quantity": "0.25"
+            }
+          ]
+        }
+      ],
+      "supplierDeliveryFee": {
+        "status": "provisional",
+        "amount": "10000",
+        "note": "Imported from reviewed supplier slip; confirm during supplier reconciliation."
+      }
+    }
+  },
+  "supplierReceiptDraft": {
+    "schemaVersion": 1,
+    "supplierId": "19f80084-3483-5e26-97f4-58884573bbde",
+    "supplierName": "Cisarua",
+    "occurred": {
+      "date": "2026-10-21",
+      "precision": "date"
+    },
+    "supplierReference": "WhatsApp Image 2026-10-24 at 11.49.12 AM.jpeg#1",
+    "note": "Handwritten product total Rp669140; line sum matches. Staff-confirmed all Ibu Chi-Chi items are house use.",
+    "lines": [
+      {
+        "clientLineKey": "s03-l01",
+        "productId": "6b1d1840-3ae4-5904-82da-95503d942de3",
+        "productName": "Ayam Kampung Organic",
+        "inputUnitCode": "unit",
+        "receivedQuantity": "2",
+        "acceptedQuantity": "2",
+        "supplierDescription": "Ayam Kampung",
+        "cost": {
+          "status": "provisional",
+          "totalAmount": "130000"
+        },
+        "dispositions": [
+          {
+            "kind": "business_or_household_use",
+            "quantity": "2"
+          }
+        ]
+      },
+      {
+        "clientLineKey": "s03-l02",
+        "productId": "06e07aa2-15cb-54b0-83a5-a57fe49bb985",
+        "productName": "Telur Ayam",
+        "inputUnitCode": "unit",
+        "receivedQuantity": "20",
+        "acceptedQuantity": "20",
+        "supplierDescription": "Telur Kampung",
+        "cost": {
+          "status": "provisional",
+          "totalAmount": "80000"
+        },
+        "dispositions": [
+          {
+            "kind": "business_or_household_use",
+            "quantity": "20"
+          }
+        ]
+      },
+      {
+        "clientLineKey": "s03-l03",
+        "productId": "8602d729-7cb2-5d7f-86ea-4f96ff2d6f3f",
+        "productName": "Tempe 400gr",
+        "inputUnitCode": "unit",
+        "receivedQuantity": "1",
+        "acceptedQuantity": "1",
+        "supplierDescription": "Tempe",
+        "cost": {
+          "status": "provisional",
+          "totalAmount": "17000"
+        },
+        "dispositions": [
+          {
+            "kind": "business_or_household_use",
+            "quantity": "1"
+          }
+        ]
+      },
+      {
+        "clientLineKey": "s03-l04",
+        "productId": "87b0985a-fc64-5c8d-a3db-aee1f0df6825",
+        "productName": "Tahu Hong Kong",
+        "inputUnitCode": "unit",
+        "receivedQuantity": "1",
+        "acceptedQuantity": "1",
+        "supplierDescription": "Tahu Hongkong",
+        "cost": {
+          "status": "provisional",
+          "totalAmount": "11000"
+        },
+        "dispositions": [
+          {
+            "kind": "business_or_household_use",
+            "quantity": "1"
+          }
+        ]
+      },
+      {
+        "clientLineKey": "s03-l05",
+        "productId": "389a0e2b-902f-5d46-9aaa-8d632b98acb9",
+        "productName": "Bawang Merah",
+        "inputUnitCode": "kg",
+        "receivedQuantity": "1",
+        "acceptedQuantity": "1",
+        "supplierDescription": "Bawang Merah",
+        "cost": {
+          "status": "provisional",
+          "totalAmount": "72000"
+        },
+        "dispositions": [
+          {
+            "kind": "business_or_household_use",
+            "quantity": "1"
+          }
+        ]
+      },
+      {
+        "clientLineKey": "s03-l06",
+        "productId": "b8f3f290-7d45-54a8-a8b2-43053dc872c2",
+        "productName": "Bawang Bombay",
+        "inputUnitCode": "kg",
+        "receivedQuantity": "0.5",
+        "acceptedQuantity": "0.5",
+        "supplierDescription": "Bombay",
+        "cost": {
+          "status": "provisional",
+          "totalAmount": "38000"
+        },
+        "dispositions": [
+          {
+            "kind": "business_or_household_use",
+            "quantity": "0.5"
+          }
+        ]
+      },
+      {
+        "clientLineKey": "s03-l07",
+        "productId": "f2422267-b801-5166-a99d-0ea552c8e4f7",
+        "productName": "Ubi Cilembu",
+        "inputUnitCode": "unit",
+        "receivedQuantity": "1",
+        "acceptedQuantity": "1",
+        "supplierDescription": "Ubi Cilembu",
+        "cost": {
+          "status": "provisional",
+          "totalAmount": "28000"
+        },
+        "dispositions": [
+          {
+            "kind": "business_or_household_use",
+            "quantity": "1"
+          }
+        ]
+      },
+      {
+        "clientLineKey": "s03-l08",
+        "productId": "cc64524c-4c46-59b6-ad3e-b411b3376bf3",
+        "productName": "Bayam Hijau",
+        "inputUnitCode": "kg",
+        "receivedQuantity": "0.4",
+        "acceptedQuantity": "0.4",
+        "supplierDescription": "Bayam H",
+        "cost": {
+          "status": "provisional",
+          "totalAmount": "16000"
+        },
+        "dispositions": [
+          {
+            "kind": "business_or_household_use",
+            "quantity": "0.4"
+          }
+        ]
+      },
+      {
+        "clientLineKey": "s03-l09",
+        "productId": "6b1c9786-c7f6-5682-86fd-ab198c6a2bb4",
+        "productName": "Caisim",
+        "inputUnitCode": "kg",
+        "receivedQuantity": "0.2",
+        "acceptedQuantity": "0.2",
+        "supplierDescription": "Caisim",
+        "cost": {
+          "status": "provisional",
+          "totalAmount": "8000"
+        },
+        "dispositions": [
+          {
+            "kind": "business_or_household_use",
+            "quantity": "0.2"
+          }
+        ]
+      },
+      {
+        "clientLineKey": "s03-l10",
+        "productId": "be5bd210-16a3-5124-82f0-db8b4d3359de",
+        "productName": "Daun Bawang",
+        "inputUnitCode": "kg",
+        "receivedQuantity": "0.2",
+        "acceptedQuantity": "0.2",
+        "supplierDescription": "Daun Bawang",
+        "cost": {
+          "status": "provisional",
+          "totalAmount": "8000"
+        },
+        "dispositions": [
+          {
+            "kind": "business_or_household_use",
+            "quantity": "0.2"
+          }
+        ]
+      },
+      {
+        "clientLineKey": "s03-l11",
+        "productId": "683c8da2-b4c9-5060-a473-d9cca96f746c",
+        "productName": "Buncis Baby",
+        "inputUnitCode": "kg",
+        "receivedQuantity": "0.25",
+        "acceptedQuantity": "0.25",
+        "supplierDescription": "Buncis B",
+        "cost": {
+          "status": "provisional",
+          "totalAmount": "10000"
+        },
+        "dispositions": [
+          {
+            "kind": "business_or_household_use",
+            "quantity": "0.25"
+          }
+        ]
+      },
+      {
+        "clientLineKey": "s03-l12",
+        "productId": "cf6ba5c0-eaff-5fac-b343-3259ea85d0c2",
+        "productName": "Jahe Merah",
+        "inputUnitCode": "kg",
+        "receivedQuantity": "0.25",
+        "acceptedQuantity": "0.25",
+        "supplierDescription": "Jahe Merah",
+        "cost": {
+          "status": "provisional",
+          "totalAmount": "16000"
+        },
+        "dispositions": [
+          {
+            "kind": "business_or_household_use",
+            "quantity": "0.25"
+          }
+        ]
+      },
+      {
+        "clientLineKey": "s03-l13",
+        "productId": "1dcb3752-a1ea-506f-a114-6ebfb595cee2",
+        "productName": "Pakchoy",
+        "inputUnitCode": "kg",
+        "receivedQuantity": "0.25",
+        "acceptedQuantity": "0.25",
+        "supplierDescription": "Pakcoy",
+        "cost": {
+          "status": "provisional",
+          "totalAmount": "9000"
+        },
+        "dispositions": [
+          {
+            "kind": "business_or_household_use",
+            "quantity": "0.25"
+          }
+        ]
+      },
+      {
+        "clientLineKey": "s03-l14",
+        "productId": "86c0a0c7-ebfb-5209-8d12-33c56cf05120",
+        "productName": "Bawang Putih",
+        "inputUnitCode": "kg",
+        "receivedQuantity": "0.5",
+        "acceptedQuantity": "0.5",
+        "supplierDescription": "Bawang P",
+        "cost": {
+          "status": "provisional",
+          "totalAmount": "33000"
+        },
+        "dispositions": [
+          {
+            "kind": "business_or_household_use",
+            "quantity": "0.5"
+          }
+        ]
+      },
+      {
+        "clientLineKey": "s03-l15",
+        "productId": "0bbdc2cf-a928-5df3-9c1e-15e1ccd212c2",
+        "productName": "Broccoli",
+        "inputUnitCode": "kg",
+        "receivedQuantity": "0.35",
+        "acceptedQuantity": "0.35",
+        "supplierDescription": "Brokoli",
+        "cost": {
+          "status": "provisional",
+          "totalAmount": "18200"
+        },
+        "dispositions": [
+          {
+            "kind": "business_or_household_use",
+            "quantity": "0.35"
+          }
+        ]
+      },
+      {
+        "clientLineKey": "s03-l16",
+        "productId": "28284f97-0f37-5c4e-a7fb-294c3beed4a3",
+        "productName": "Labu Siam Baby",
+        "inputUnitCode": "kg",
+        "receivedQuantity": "0.5",
+        "acceptedQuantity": "0.5",
+        "supplierDescription": "Labusiam B",
+        "cost": {
+          "status": "provisional",
+          "totalAmount": "16000"
+        },
+        "dispositions": [
+          {
+            "kind": "business_or_household_use",
+            "quantity": "0.5"
+          }
+        ]
+      },
+      {
+        "clientLineKey": "s03-l17",
+        "productId": "7f281125-1996-5b0b-a889-0602ed36d188",
+        "productName": "Timun Lokal",
+        "inputUnitCode": "kg",
+        "receivedQuantity": "0.5",
+        "acceptedQuantity": "0.5",
+        "supplierDescription": "Timun",
+        "cost": {
+          "status": "provisional",
+          "totalAmount": "16000"
+        },
+        "dispositions": [
+          {
+            "kind": "business_or_household_use",
+            "quantity": "0.5"
+          }
+        ]
+      },
+      {
+        "clientLineKey": "s03-l18",
+        "productId": "8c3ef21e-febb-52e4-8f04-be3865c99073",
+        "productName": "Wortel",
+        "inputUnitCode": "kg",
+        "receivedQuantity": "0.5",
+        "acceptedQuantity": "0.5",
+        "supplierDescription": "Wortel",
+        "cost": {
+          "status": "provisional",
+          "totalAmount": "15000"
+        },
+        "dispositions": [
+          {
+            "kind": "business_or_household_use",
+            "quantity": "0.5"
+          }
+        ]
+      },
+      {
+        "clientLineKey": "s03-l19",
+        "productId": "dc3006fa-40b7-5b8f-bea1-c2ada363e57d",
+        "productName": "Jagung Manis",
+        "inputUnitCode": "kg",
+        "receivedQuantity": "1.13",
+        "acceptedQuantity": "1.13",
+        "supplierDescription": "Jagung Manis",
+        "cost": {
+          "status": "provisional",
+          "totalAmount": "33900"
+        },
+        "dispositions": [
+          {
+            "kind": "business_or_household_use",
+            "quantity": "1.13"
+          }
+        ]
+      },
+      {
+        "clientLineKey": "s03-l20",
+        "productId": "499c4cb1-2eb1-5092-88ff-cddec2011457",
+        "productName": "Kentang",
+        "inputUnitCode": "unit",
+        "receivedQuantity": "1",
+        "acceptedQuantity": "1",
+        "supplierDescription": "Kentang",
+        "cost": {
+          "status": "provisional",
+          "totalAmount": "34000"
+        },
+        "dispositions": [
+          {
+            "kind": "business_or_household_use",
+            "quantity": "1"
+          }
+        ]
+      },
+      {
+        "clientLineKey": "s03-l21",
+        "productId": "cf4b5785-bed8-5b49-a792-4836429e687a",
+        "productName": "Singkong",
+        "inputUnitCode": "kg",
+        "receivedQuantity": "0.61",
+        "acceptedQuantity": "0.61",
+        "supplierDescription": "Singkong",
+        "cost": {
+          "status": "provisional",
+          "totalAmount": "17080"
+        },
+        "dispositions": [
+          {
+            "kind": "business_or_household_use",
+            "quantity": "0.61"
+          }
+        ]
+      },
+      {
+        "clientLineKey": "s03-l22",
+        "productId": "d6267f25-ac88-532a-8b22-5b9450d2082b",
+        "productName": "Kacang Panjang",
+        "inputUnitCode": "kg",
+        "receivedQuantity": "0.2",
+        "acceptedQuantity": "0.2",
+        "supplierDescription": "K. Panjang",
+        "cost": {
+          "status": "provisional",
+          "totalAmount": "8000"
+        },
+        "dispositions": [
+          {
+            "kind": "business_or_household_use",
+            "quantity": "0.2"
+          }
+        ]
+      },
+      {
+        "clientLineKey": "s03-l23",
+        "productId": "02ae31af-edc4-54e1-bd4b-1a42cb131744",
+        "productName": "Sereh",
+        "inputUnitCode": "kg",
+        "receivedQuantity": "0.25",
+        "acceptedQuantity": "0.25",
+        "supplierDescription": "Sereh",
+        "cost": {
+          "status": "provisional",
+          "totalAmount": "8000"
+        },
+        "dispositions": [
+          {
+            "kind": "business_or_household_use",
+            "quantity": "0.25"
+          }
+        ]
+      },
+      {
+        "clientLineKey": "s03-l24",
+        "productId": "b4e9d275-c2b5-585f-9c9e-e91cfdd75800",
+        "productName": "Sawi Putih",
+        "inputUnitCode": "kg",
+        "receivedQuantity": "0.53",
+        "acceptedQuantity": "0.53",
+        "supplierDescription": "Sawi Putih",
+        "cost": {
+          "status": "provisional",
+          "totalAmount": "16960"
+        },
+        "dispositions": [
+          {
+            "kind": "business_or_household_use",
+            "quantity": "0.53"
+          }
+        ]
+      },
+      {
+        "clientLineKey": "s03-l25",
+        "productId": "2b057fee-45a4-571f-8ac2-64939607f256",
+        "productName": "Lengkuas",
+        "inputUnitCode": "kg",
+        "receivedQuantity": "0.25",
+        "acceptedQuantity": "0.25",
+        "supplierDescription": "Lengkuas",
+        "cost": {
+          "status": "provisional",
+          "totalAmount": "10000"
+        },
+        "dispositions": [
+          {
+            "kind": "business_or_household_use",
+            "quantity": "0.25"
+          }
+        ]
+      }
+    ],
+    "supplierDeliveryFee": {
+      "status": "provisional",
+      "amount": "10000",
+      "note": "Imported from reviewed supplier slip; confirm during supplier reconciliation."
+    }
+  },
+  "workflow": "supplier_receipt",
+  "staffConfirmations": [
+    "Ibu Chi-Chi identifies the house.",
+    "Staff previously confirmed all Chi-Chi items are for house use; each line is explicitly assigned to business_or_household_use."
+  ],
+  "productMatchingEvidence": {
+    "effectiveOn": "2026-10-21",
+    "supplierId": "19f80084-3483-5e26-97f4-58884573bbde",
+    "supplierName": "Cisarua",
+    "lines": [
+      {
+        "lineId": "s03-l01",
+        "productNameRead": "Ayam Kampung",
+        "qtyRead": 2,
+        "totalRead": 130000,
+        "confidence": "confirmed",
+        "selectedProductId": "6b1d1840-3ae4-5904-82da-95503d942de3",
+        "candidates": [
+          {
+            "productId": "6b1d1840-3ae4-5904-82da-95503d942de3",
+            "name": "Ayam Kampung Organic",
+            "expectedTotal": 130000,
+            "totalDelta": 0,
+            "totalMatches": true,
+            "matchedOn": "active_supplier_product_and_cost"
+          }
+        ],
+        "warnings": []
+      },
+      {
+        "lineId": "s03-l02",
+        "productNameRead": "Telur Kampung",
+        "qtyRead": 20,
+        "totalRead": 80000,
+        "confidence": "confirmed",
+        "selectedProductId": "06e07aa2-15cb-54b0-83a5-a57fe49bb985",
+        "candidates": [
+          {
+            "productId": "06e07aa2-15cb-54b0-83a5-a57fe49bb985",
+            "name": "Telur Ayam",
+            "expectedTotal": 80000,
+            "totalDelta": 0,
+            "totalMatches": true,
+            "matchedOn": "active_supplier_product_and_cost"
+          }
+        ],
+        "warnings": []
+      },
+      {
+        "lineId": "s03-l03",
+        "productNameRead": "Tempe",
+        "qtyRead": 1,
+        "totalRead": 17000,
+        "confidence": "confirmed",
+        "selectedProductId": "8602d729-7cb2-5d7f-86ea-4f96ff2d6f3f",
+        "candidates": [
+          {
+            "productId": "8602d729-7cb2-5d7f-86ea-4f96ff2d6f3f",
+            "name": "Tempe 400gr",
+            "expectedTotal": 17000,
+            "totalDelta": 0,
+            "totalMatches": true,
+            "matchedOn": "active_supplier_product_and_cost"
+          }
+        ],
+        "warnings": []
+      },
+      {
+        "lineId": "s03-l04",
+        "productNameRead": "Tahu Hongkong",
+        "qtyRead": 1,
+        "totalRead": 11000,
+        "confidence": "confirmed",
+        "selectedProductId": "87b0985a-fc64-5c8d-a3db-aee1f0df6825",
+        "candidates": [
+          {
+            "productId": "87b0985a-fc64-5c8d-a3db-aee1f0df6825",
+            "name": "Tahu Hong Kong",
+            "expectedTotal": 11000,
+            "totalDelta": 0,
+            "totalMatches": true,
+            "matchedOn": "active_supplier_product_and_cost"
+          }
+        ],
+        "warnings": []
+      },
+      {
+        "lineId": "s03-l05",
+        "productNameRead": "Bawang Merah",
+        "qtyRead": 1,
+        "totalRead": 72000,
+        "confidence": "confirmed",
+        "selectedProductId": "389a0e2b-902f-5d46-9aaa-8d632b98acb9",
+        "candidates": [
+          {
+            "productId": "389a0e2b-902f-5d46-9aaa-8d632b98acb9",
+            "name": "Bawang Merah",
+            "expectedTotal": 72000,
+            "totalDelta": 0,
+            "totalMatches": true,
+            "matchedOn": "active_supplier_product_and_cost"
+          }
+        ],
+        "warnings": []
+      },
+      {
+        "lineId": "s03-l06",
+        "productNameRead": "Bombay",
+        "qtyRead": 0.5,
+        "totalRead": 38000,
+        "confidence": "confirmed",
+        "selectedProductId": "b8f3f290-7d45-54a8-a8b2-43053dc872c2",
+        "candidates": [
+          {
+            "productId": "b8f3f290-7d45-54a8-a8b2-43053dc872c2",
+            "name": "Bawang Bombay",
+            "expectedTotal": 38000,
+            "totalDelta": 0,
+            "totalMatches": true,
+            "matchedOn": "active_supplier_product_and_cost"
+          }
+        ],
+        "warnings": []
+      },
+      {
+        "lineId": "s03-l07",
+        "productNameRead": "Ubi Cilembu",
+        "qtyRead": 1,
+        "totalRead": 28000,
+        "confidence": "confirmed",
+        "selectedProductId": "f2422267-b801-5166-a99d-0ea552c8e4f7",
+        "candidates": [
+          {
+            "productId": "f2422267-b801-5166-a99d-0ea552c8e4f7",
+            "name": "Ubi Cilembu",
+            "expectedTotal": 28000,
+            "totalDelta": 0,
+            "totalMatches": true,
+            "matchedOn": "active_supplier_product_and_cost"
+          }
+        ],
+        "warnings": []
+      },
+      {
+        "lineId": "s03-l08",
+        "productNameRead": "Bayam H",
+        "qtyRead": 0.4,
+        "totalRead": 16000,
+        "confidence": "confirmed",
+        "selectedProductId": "cc64524c-4c46-59b6-ad3e-b411b3376bf3",
+        "candidates": [
+          {
+            "productId": "cc64524c-4c46-59b6-ad3e-b411b3376bf3",
+            "name": "Bayam Hijau",
+            "expectedTotal": 16000,
+            "totalDelta": 0,
+            "totalMatches": true,
+            "matchedOn": "active_supplier_product_and_cost"
+          }
+        ],
+        "warnings": []
+      },
+      {
+        "lineId": "s03-l09",
+        "productNameRead": "Caisim",
+        "qtyRead": 0.2,
+        "totalRead": 8000,
+        "confidence": "confirmed",
+        "selectedProductId": "6b1c9786-c7f6-5682-86fd-ab198c6a2bb4",
+        "candidates": [
+          {
+            "productId": "6b1c9786-c7f6-5682-86fd-ab198c6a2bb4",
+            "name": "Caisim",
+            "expectedTotal": 8000,
+            "totalDelta": 0,
+            "totalMatches": true,
+            "matchedOn": "active_supplier_product_and_cost"
+          }
+        ],
+        "warnings": []
+      },
+      {
+        "lineId": "s03-l10",
+        "productNameRead": "Daun Bawang",
+        "qtyRead": 0.2,
+        "totalRead": 8000,
+        "confidence": "confirmed",
+        "selectedProductId": "be5bd210-16a3-5124-82f0-db8b4d3359de",
+        "candidates": [
+          {
+            "productId": "be5bd210-16a3-5124-82f0-db8b4d3359de",
+            "name": "Daun Bawang",
+            "expectedTotal": 8000,
+            "totalDelta": 0,
+            "totalMatches": true,
+            "matchedOn": "active_supplier_product_and_cost"
+          }
+        ],
+        "warnings": []
+      },
+      {
+        "lineId": "s03-l11",
+        "productNameRead": "Buncis B",
+        "qtyRead": 0.25,
+        "totalRead": 10000,
+        "confidence": "confirmed",
+        "selectedProductId": "683c8da2-b4c9-5060-a473-d9cca96f746c",
+        "candidates": [
+          {
+            "productId": "683c8da2-b4c9-5060-a473-d9cca96f746c",
+            "name": "Buncis Baby",
+            "expectedTotal": 10000,
+            "totalDelta": 0,
+            "totalMatches": true,
+            "matchedOn": "active_supplier_product_and_cost"
+          }
+        ],
+        "warnings": []
+      },
+      {
+        "lineId": "s03-l12",
+        "productNameRead": "Jahe Merah",
+        "qtyRead": 0.25,
+        "totalRead": 16000,
+        "confidence": "confirmed",
+        "selectedProductId": "cf6ba5c0-eaff-5fac-b343-3259ea85d0c2",
+        "candidates": [
+          {
+            "productId": "cf6ba5c0-eaff-5fac-b343-3259ea85d0c2",
+            "name": "Jahe Merah",
+            "expectedTotal": 16000,
+            "totalDelta": 0,
+            "totalMatches": true,
+            "matchedOn": "active_supplier_product_and_cost"
+          }
+        ],
+        "warnings": []
+      },
+      {
+        "lineId": "s03-l13",
+        "productNameRead": "Pakcoy",
+        "qtyRead": 0.25,
+        "totalRead": 9000,
+        "confidence": "confirmed",
+        "selectedProductId": "1dcb3752-a1ea-506f-a114-6ebfb595cee2",
+        "candidates": [
+          {
+            "productId": "1dcb3752-a1ea-506f-a114-6ebfb595cee2",
+            "name": "Pakchoy",
+            "expectedTotal": 9000,
+            "totalDelta": 0,
+            "totalMatches": true,
+            "matchedOn": "active_supplier_product_and_cost"
+          }
+        ],
+        "warnings": []
+      },
+      {
+        "lineId": "s03-l14",
+        "productNameRead": "Bawang P",
+        "qtyRead": 0.5,
+        "totalRead": 33000,
+        "confidence": "confirmed",
+        "selectedProductId": "86c0a0c7-ebfb-5209-8d12-33c56cf05120",
+        "candidates": [
+          {
+            "productId": "86c0a0c7-ebfb-5209-8d12-33c56cf05120",
+            "name": "Bawang Putih",
+            "expectedTotal": 33000,
+            "totalDelta": 0,
+            "totalMatches": true,
+            "matchedOn": "active_supplier_product_and_cost"
+          }
+        ],
+        "warnings": []
+      },
+      {
+        "lineId": "s03-l15",
+        "productNameRead": "Brokoli",
+        "qtyRead": 0.35,
+        "totalRead": 18200,
+        "confidence": "confirmed",
+        "selectedProductId": "0bbdc2cf-a928-5df3-9c1e-15e1ccd212c2",
+        "candidates": [
+          {
+            "productId": "0bbdc2cf-a928-5df3-9c1e-15e1ccd212c2",
+            "name": "Broccoli",
+            "expectedTotal": 18200,
+            "totalDelta": 0,
+            "totalMatches": true,
+            "matchedOn": "active_supplier_product_and_cost"
+          }
+        ],
+        "warnings": []
+      },
+      {
+        "lineId": "s03-l16",
+        "productNameRead": "Labusiam B",
+        "qtyRead": 0.5,
+        "totalRead": 16000,
+        "confidence": "confirmed",
+        "selectedProductId": "28284f97-0f37-5c4e-a7fb-294c3beed4a3",
+        "candidates": [
+          {
+            "productId": "28284f97-0f37-5c4e-a7fb-294c3beed4a3",
+            "name": "Labu Siam Baby",
+            "expectedTotal": 16000,
+            "totalDelta": 0,
+            "totalMatches": true,
+            "matchedOn": "active_supplier_product_and_cost"
+          }
+        ],
+        "warnings": []
+      },
+      {
+        "lineId": "s03-l17",
+        "productNameRead": "Timun",
+        "qtyRead": 0.5,
+        "totalRead": 16000,
+        "confidence": "confirmed",
+        "selectedProductId": "7f281125-1996-5b0b-a889-0602ed36d188",
+        "candidates": [
+          {
+            "productId": "7f281125-1996-5b0b-a889-0602ed36d188",
+            "name": "Timun Lokal",
+            "expectedTotal": 16000,
+            "totalDelta": 0,
+            "totalMatches": true,
+            "matchedOn": "active_supplier_product_and_cost"
+          }
+        ],
+        "warnings": []
+      },
+      {
+        "lineId": "s03-l18",
+        "productNameRead": "Wortel",
+        "qtyRead": 0.5,
+        "totalRead": 15000,
+        "confidence": "confirmed",
+        "selectedProductId": "8c3ef21e-febb-52e4-8f04-be3865c99073",
+        "candidates": [
+          {
+            "productId": "8c3ef21e-febb-52e4-8f04-be3865c99073",
+            "name": "Wortel",
+            "expectedTotal": 15000,
+            "totalDelta": 0,
+            "totalMatches": true,
+            "matchedOn": "active_supplier_product_and_cost"
+          }
+        ],
+        "warnings": []
+      },
+      {
+        "lineId": "s03-l19",
+        "productNameRead": "Jagung Manis",
+        "qtyRead": 1.13,
+        "totalRead": 33900,
+        "confidence": "confirmed",
+        "selectedProductId": "dc3006fa-40b7-5b8f-bea1-c2ada363e57d",
+        "candidates": [
+          {
+            "productId": "dc3006fa-40b7-5b8f-bea1-c2ada363e57d",
+            "name": "Jagung Manis",
+            "expectedTotal": 33900,
+            "totalDelta": 0,
+            "totalMatches": true,
+            "matchedOn": "active_supplier_product_and_cost"
+          }
+        ],
+        "warnings": []
+      },
+      {
+        "lineId": "s03-l20",
+        "productNameRead": "Kentang",
+        "qtyRead": 1,
+        "totalRead": 34000,
+        "confidence": "confirmed",
+        "selectedProductId": "499c4cb1-2eb1-5092-88ff-cddec2011457",
+        "candidates": [
+          {
+            "productId": "499c4cb1-2eb1-5092-88ff-cddec2011457",
+            "name": "Kentang",
+            "expectedTotal": 34000,
+            "totalDelta": 0,
+            "totalMatches": true,
+            "matchedOn": "active_supplier_product_and_cost"
+          }
+        ],
+        "warnings": []
+      },
+      {
+        "lineId": "s03-l21",
+        "productNameRead": "Singkong",
+        "qtyRead": 0.61,
+        "totalRead": 17080,
+        "confidence": "confirmed",
+        "selectedProductId": "cf4b5785-bed8-5b49-a792-4836429e687a",
+        "candidates": [
+          {
+            "productId": "cf4b5785-bed8-5b49-a792-4836429e687a",
+            "name": "Singkong",
+            "expectedTotal": 17080,
+            "totalDelta": 0,
+            "totalMatches": true,
+            "matchedOn": "active_supplier_product_and_cost"
+          }
+        ],
+        "warnings": []
+      },
+      {
+        "lineId": "s03-l22",
+        "productNameRead": "K. Panjang",
+        "qtyRead": 0.2,
+        "totalRead": 8000,
+        "confidence": "confirmed",
+        "selectedProductId": "d6267f25-ac88-532a-8b22-5b9450d2082b",
+        "candidates": [
+          {
+            "productId": "d6267f25-ac88-532a-8b22-5b9450d2082b",
+            "name": "Kacang Panjang",
+            "expectedTotal": 8000,
+            "totalDelta": 0,
+            "totalMatches": true,
+            "matchedOn": "active_supplier_product_and_cost"
+          }
+        ],
+        "warnings": []
+      },
+      {
+        "lineId": "s03-l23",
+        "productNameRead": "Sereh",
+        "qtyRead": 0.25,
+        "totalRead": 8000,
+        "confidence": "confirmed",
+        "selectedProductId": "02ae31af-edc4-54e1-bd4b-1a42cb131744",
+        "candidates": [
+          {
+            "productId": "02ae31af-edc4-54e1-bd4b-1a42cb131744",
+            "name": "Sereh",
+            "expectedTotal": 8000,
+            "totalDelta": 0,
+            "totalMatches": true,
+            "matchedOn": "active_supplier_product_and_cost"
+          }
+        ],
+        "warnings": []
+      },
+      {
+        "lineId": "s03-l24",
+        "productNameRead": "Sawi Putih",
+        "qtyRead": 0.53,
+        "totalRead": 16960,
+        "confidence": "confirmed",
+        "selectedProductId": "b4e9d275-c2b5-585f-9c9e-e91cfdd75800",
+        "candidates": [
+          {
+            "productId": "b4e9d275-c2b5-585f-9c9e-e91cfdd75800",
+            "name": "Sawi Putih",
+            "expectedTotal": 16960,
+            "totalDelta": 0,
+            "totalMatches": true,
+            "matchedOn": "active_supplier_product_and_cost"
+          }
+        ],
+        "warnings": []
+      },
+      {
+        "lineId": "s03-l25",
+        "productNameRead": "Lengkuas",
+        "qtyRead": 0.25,
+        "totalRead": 10000,
+        "confidence": "confirmed",
+        "selectedProductId": "2b057fee-45a4-571f-8ac2-64939607f256",
+        "candidates": [
+          {
+            "productId": "2b057fee-45a4-571f-8ac2-64939607f256",
+            "name": "Lengkuas",
+            "expectedTotal": 10000,
+            "totalDelta": 0,
+            "totalMatches": true,
+            "matchedOn": "active_supplier_product_and_cost"
+          }
+        ],
+        "warnings": []
+      }
+    ],
+    "summary": {
+      "totalLines": 25,
+      "selected": 25,
+      "withCostDiscrepancy": 0
+    }
+  }
+}
+

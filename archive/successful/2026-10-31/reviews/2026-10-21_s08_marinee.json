@@ -1,0 +1,997 @@
+{
+  "schemaVersion": "rumah-sehat-v2-slip-review-v1",
+  "readyToImport": true,
+  "source": {
+    "imageFile": "WhatsApp Image 2026-10-24 at 11.49.12 AM (2).jpeg",
+    "slipIndex": 2,
+    "fingerprint": "8565876779243b4623dbf673fd8c36de857d607a25d437c71033a31ddb8b1c77",
+    "sourcePath": "incoming/WhatsApp Image 2026-10-24 at 11.49.12 AM (2).jpeg"
+  },
+  "extracted": {
+    "customerNameRead": "Marinee",
+    "lines": [
+      {
+        "lineId": "s08-l01",
+        "productNameRead": "Ayam Broiler",
+        "quantityRead": 1,
+        "totalRead": 60000
+      },
+      {
+        "lineId": "s08-l02",
+        "productNameRead": "Telur Kampung",
+        "quantityRead": 10,
+        "totalRead": 40000
+      },
+      {
+        "lineId": "s08-l03",
+        "productNameRead": "Tempe",
+        "quantityRead": 1,
+        "totalRead": 17000
+      },
+      {
+        "lineId": "s08-l04",
+        "productNameRead": "Tahu Kuning",
+        "quantityRead": 1,
+        "totalRead": 32000
+      },
+      {
+        "lineId": "s08-l05",
+        "productNameRead": "Cabe Merah Keriting",
+        "quantityRead": 0.5,
+        "totalRead": 45000
+      },
+      {
+        "lineId": "s08-l06",
+        "productNameRead": "Bayam H",
+        "quantityRead": 0.8,
+        "totalRead": 32000
+      },
+      {
+        "lineId": "s08-l07",
+        "productNameRead": "Kangkung",
+        "quantityRead": 0.8,
+        "totalRead": 32000
+      },
+      {
+        "lineId": "s08-l08",
+        "productNameRead": "Pakcoy",
+        "quantityRead": 1,
+        "totalRead": 36000
+      },
+      {
+        "lineId": "s08-l09",
+        "productNameRead": "Brokoli",
+        "quantityRead": 0.46,
+        "totalRead": 23920
+      },
+      {
+        "lineId": "s08-l10",
+        "productNameRead": "Kembang Kol",
+        "quantityRead": 0.43,
+        "totalRead": 18920
+      },
+      {
+        "lineId": "s08-l11",
+        "productNameRead": "Terong Ungu",
+        "quantityRead": 0.5,
+        "totalRead": 16000
+      },
+      {
+        "lineId": "s08-l12",
+        "productNameRead": "Timun",
+        "quantityRead": 0.5,
+        "totalRead": 16000
+      },
+      {
+        "lineId": "s08-l13",
+        "productNameRead": "Wortel",
+        "quantityRead": 0.5,
+        "totalRead": 15000
+      },
+      {
+        "lineId": "s08-l14",
+        "productNameRead": "Kol Putih",
+        "quantityRead": 0.51,
+        "totalRead": 16320
+      },
+      {
+        "lineId": "s08-l15",
+        "productNameRead": "Cabe Jablay",
+        "quantityRead": 0.5,
+        "totalRead": 50000
+      },
+      {
+        "lineId": "s08-l16",
+        "productNameRead": "Pare",
+        "quantityRead": 0.55,
+        "totalRead": 16500
+      }
+    ],
+    "date": "2026-10-21",
+    "slipTotalRead": 466660,
+    "slipTotalCertain": true,
+    "excludedOrNotReceived": []
+  },
+  "resolved": {
+    "supplier": {
+      "id": "19f80084-3483-5e26-97f4-58884573bbde",
+      "name": "Cisarua"
+    },
+    "customer": {
+      "id": "44e646b5-799f-566a-abb6-ca4787fb5bb0",
+      "name": "Marinee",
+      "legacyCustomerId": 91,
+      "aliases": [],
+      "addresses": [
+        "Taman Golf No. 339. Lippo Karawaci"
+      ],
+      "nameRead": "Marinee"
+    }
+  },
+  "warnings": [],
+  "calculations": {
+    "supplierProductSubtotal": 466660,
+    "supplierDeliveryFee": 10000,
+    "supplierTotal": 476660,
+    "customerDeliveryCharge": 10000,
+    "handwrittenProductTotal": 466660,
+    "lineTotalSum": 466660,
+    "handwrittenMinusLineSum": 0
+  },
+  "proposedDraft": {
+    "supplierDirectDraft": {
+      "schemaVersion": 1,
+      "supplierId": "19f80084-3483-5e26-97f4-58884573bbde",
+      "supplierName": "Cisarua",
+      "customerId": "44e646b5-799f-566a-abb6-ca4787fb5bb0",
+      "customerName": "Marinee",
+      "occurred": {
+        "date": "2026-10-21",
+        "precision": "date"
+      },
+      "supplierReference": "WhatsApp Image 2026-10-24 at 11.49.12 AM (2).jpeg#2",
+      "note": "Handwritten product total Rp466660; line sum matches.",
+      "lines": [
+        {
+          "clientLineKey": "s08-l01",
+          "productId": "fe3b2e5d-3d7f-5d78-945e-a8c1defc0b77",
+          "productName": "Ayam Broiler",
+          "inputUnitCode": "unit",
+          "quantity": "1",
+          "supplierDescription": "Ayam Broiler",
+          "supplierCost": {
+            "status": "provisional",
+            "totalAmount": "60000"
+          },
+          "customerPricing": {
+            "source": "catalog"
+          }
+        },
+        {
+          "clientLineKey": "s08-l02",
+          "productId": "06e07aa2-15cb-54b0-83a5-a57fe49bb985",
+          "productName": "Telur Ayam",
+          "inputUnitCode": "unit",
+          "quantity": "10",
+          "supplierDescription": "Telur Kampung",
+          "supplierCost": {
+            "status": "provisional",
+            "totalAmount": "40000"
+          },
+          "customerPricing": {
+            "source": "catalog"
+          }
+        },
+        {
+          "clientLineKey": "s08-l03",
+          "productId": "8602d729-7cb2-5d7f-86ea-4f96ff2d6f3f",
+          "productName": "Tempe 400gr",
+          "inputUnitCode": "unit",
+          "quantity": "1",
+          "supplierDescription": "Tempe",
+          "supplierCost": {
+            "status": "provisional",
+            "totalAmount": "17000"
+          },
+          "customerPricing": {
+            "source": "catalog"
+          }
+        },
+        {
+          "clientLineKey": "s08-l04",
+          "productId": "15113276-9494-53e8-a49f-51331fd86a88",
+          "productName": "Tahu Kuning",
+          "inputUnitCode": "unit",
+          "quantity": "1",
+          "supplierDescription": "Tahu Kuning",
+          "supplierCost": {
+            "status": "provisional",
+            "totalAmount": "32000"
+          },
+          "customerPricing": {
+            "source": "catalog"
+          }
+        },
+        {
+          "clientLineKey": "s08-l05",
+          "productId": "78e89ab1-ce0a-5e09-84d5-ffa99e123426",
+          "productName": "Cabe Kriting",
+          "inputUnitCode": "kg",
+          "quantity": "0.5",
+          "supplierDescription": "Cabe Merah Keriting",
+          "supplierCost": {
+            "status": "provisional",
+            "totalAmount": "45000"
+          },
+          "customerPricing": {
+            "source": "catalog"
+          }
+        },
+        {
+          "clientLineKey": "s08-l06",
+          "productId": "cc64524c-4c46-59b6-ad3e-b411b3376bf3",
+          "productName": "Bayam Hijau",
+          "inputUnitCode": "kg",
+          "quantity": "0.8",
+          "supplierDescription": "Bayam H",
+          "supplierCost": {
+            "status": "provisional",
+            "totalAmount": "32000"
+          },
+          "customerPricing": {
+            "source": "catalog"
+          }
+        },
+        {
+          "clientLineKey": "s08-l07",
+          "productId": "dcf2b87b-097a-5abd-8cea-98efc5c8e3a2",
+          "productName": "Kangkung",
+          "inputUnitCode": "kg",
+          "quantity": "0.8",
+          "supplierDescription": "Kangkung",
+          "supplierCost": {
+            "status": "provisional",
+            "totalAmount": "32000"
+          },
+          "customerPricing": {
+            "source": "catalog"
+          }
+        },
+        {
+          "clientLineKey": "s08-l08",
+          "productId": "1dcb3752-a1ea-506f-a114-6ebfb595cee2",
+          "productName": "Pakchoy",
+          "inputUnitCode": "kg",
+          "quantity": "1",
+          "supplierDescription": "Pakcoy",
+          "supplierCost": {
+            "status": "provisional",
+            "totalAmount": "36000"
+          },
+          "customerPricing": {
+            "source": "catalog"
+          }
+        },
+        {
+          "clientLineKey": "s08-l09",
+          "productId": "0bbdc2cf-a928-5df3-9c1e-15e1ccd212c2",
+          "productName": "Broccoli",
+          "inputUnitCode": "kg",
+          "quantity": "0.46",
+          "supplierDescription": "Brokoli",
+          "supplierCost": {
+            "status": "provisional",
+            "totalAmount": "23920"
+          },
+          "customerPricing": {
+            "source": "catalog"
+          }
+        },
+        {
+          "clientLineKey": "s08-l10",
+          "productId": "e064d98b-36c5-5ae2-9b85-1294d3b463eb",
+          "productName": "Kembang Kol",
+          "inputUnitCode": "kg",
+          "quantity": "0.43",
+          "supplierDescription": "Kembang Kol",
+          "supplierCost": {
+            "status": "provisional",
+            "totalAmount": "18920"
+          },
+          "customerPricing": {
+            "source": "catalog"
+          }
+        },
+        {
+          "clientLineKey": "s08-l11",
+          "productId": "53be9183-6302-5eb8-b106-a9cdc43dc69b",
+          "productName": "Terong Ungu",
+          "inputUnitCode": "kg",
+          "quantity": "0.5",
+          "supplierDescription": "Terong Ungu",
+          "supplierCost": {
+            "status": "provisional",
+            "totalAmount": "16000"
+          },
+          "customerPricing": {
+            "source": "catalog"
+          }
+        },
+        {
+          "clientLineKey": "s08-l12",
+          "productId": "7f281125-1996-5b0b-a889-0602ed36d188",
+          "productName": "Timun Lokal",
+          "inputUnitCode": "kg",
+          "quantity": "0.5",
+          "supplierDescription": "Timun",
+          "supplierCost": {
+            "status": "provisional",
+            "totalAmount": "16000"
+          },
+          "customerPricing": {
+            "source": "catalog"
+          }
+        },
+        {
+          "clientLineKey": "s08-l13",
+          "productId": "8c3ef21e-febb-52e4-8f04-be3865c99073",
+          "productName": "Wortel",
+          "inputUnitCode": "kg",
+          "quantity": "0.5",
+          "supplierDescription": "Wortel",
+          "supplierCost": {
+            "status": "provisional",
+            "totalAmount": "15000"
+          },
+          "customerPricing": {
+            "source": "catalog"
+          }
+        },
+        {
+          "clientLineKey": "s08-l14",
+          "productId": "629f27c1-4491-5a0a-be07-8c91609d3988",
+          "productName": "Kol Putih",
+          "inputUnitCode": "kg",
+          "quantity": "0.51",
+          "supplierDescription": "Kol Putih",
+          "supplierCost": {
+            "status": "provisional",
+            "totalAmount": "16320"
+          },
+          "customerPricing": {
+            "source": "catalog"
+          }
+        },
+        {
+          "clientLineKey": "s08-l15",
+          "productId": "31eb2b3d-22ec-51da-a87d-87cbb1ba766c",
+          "productName": "Cabe Jablay",
+          "inputUnitCode": "kg",
+          "quantity": "0.5",
+          "supplierDescription": "Cabe Jablay",
+          "supplierCost": {
+            "status": "provisional",
+            "totalAmount": "50000"
+          },
+          "customerPricing": {
+            "source": "catalog"
+          }
+        },
+        {
+          "clientLineKey": "s08-l16",
+          "productId": "94595720-1a18-5513-8d09-ace2a3a5bbfd",
+          "productName": "Pare",
+          "inputUnitCode": "kg",
+          "quantity": "0.55",
+          "supplierDescription": "Pare",
+          "supplierCost": {
+            "status": "provisional",
+            "totalAmount": "16500"
+          },
+          "customerPricing": {
+            "source": "catalog"
+          }
+        }
+      ],
+      "supplierDeliveryFee": {
+        "status": "provisional",
+        "amount": "10000",
+        "note": "Imported from reviewed supplier slip; confirm during supplier reconciliation."
+      },
+      "customerDeliveryCharge": "10000",
+      "customerDeliveryDescription": "Biaya pengantaran supplier langsung"
+    }
+  },
+  "supplierDirectDraft": {
+    "schemaVersion": 1,
+    "supplierId": "19f80084-3483-5e26-97f4-58884573bbde",
+    "supplierName": "Cisarua",
+    "customerId": "44e646b5-799f-566a-abb6-ca4787fb5bb0",
+    "customerName": "Marinee",
+    "occurred": {
+      "date": "2026-10-21",
+      "precision": "date"
+    },
+    "supplierReference": "WhatsApp Image 2026-10-24 at 11.49.12 AM (2).jpeg#2",
+    "note": "Handwritten product total Rp466660; line sum matches.",
+    "lines": [
+      {
+        "clientLineKey": "s08-l01",
+        "productId": "fe3b2e5d-3d7f-5d78-945e-a8c1defc0b77",
+        "productName": "Ayam Broiler",
+        "inputUnitCode": "unit",
+        "quantity": "1",
+        "supplierDescription": "Ayam Broiler",
+        "supplierCost": {
+          "status": "provisional",
+          "totalAmount": "60000"
+        },
+        "customerPricing": {
+          "source": "catalog"
+        }
+      },
+      {
+        "clientLineKey": "s08-l02",
+        "productId": "06e07aa2-15cb-54b0-83a5-a57fe49bb985",
+        "productName": "Telur Ayam",
+        "inputUnitCode": "unit",
+        "quantity": "10",
+        "supplierDescription": "Telur Kampung",
+        "supplierCost": {
+          "status": "provisional",
+          "totalAmount": "40000"
+        },
+        "customerPricing": {
+          "source": "catalog"
+        }
+      },
+      {
+        "clientLineKey": "s08-l03",
+        "productId": "8602d729-7cb2-5d7f-86ea-4f96ff2d6f3f",
+        "productName": "Tempe 400gr",
+        "inputUnitCode": "unit",
+        "quantity": "1",
+        "supplierDescription": "Tempe",
+        "supplierCost": {
+          "status": "provisional",
+          "totalAmount": "17000"
+        },
+        "customerPricing": {
+          "source": "catalog"
+        }
+      },
+      {
+        "clientLineKey": "s08-l04",
+        "productId": "15113276-9494-53e8-a49f-51331fd86a88",
+        "productName": "Tahu Kuning",
+        "inputUnitCode": "unit",
+        "quantity": "1",
+        "supplierDescription": "Tahu Kuning",
+        "supplierCost": {
+          "status": "provisional",
+          "totalAmount": "32000"
+        },
+        "customerPricing": {
+          "source": "catalog"
+        }
+      },
+      {
+        "clientLineKey": "s08-l05",
+        "productId": "78e89ab1-ce0a-5e09-84d5-ffa99e123426",
+        "productName": "Cabe Kriting",
+        "inputUnitCode": "kg",
+        "quantity": "0.5",
+        "supplierDescription": "Cabe Merah Keriting",
+        "supplierCost": {
+          "status": "provisional",
+          "totalAmount": "45000"
+        },
+        "customerPricing": {
+          "source": "catalog"
+        }
+      },
+      {
+        "clientLineKey": "s08-l06",
+        "productId": "cc64524c-4c46-59b6-ad3e-b411b3376bf3",
+        "productName": "Bayam Hijau",
+        "inputUnitCode": "kg",
+        "quantity": "0.8",
+        "supplierDescription": "Bayam H",
+        "supplierCost": {
+          "status": "provisional",
+          "totalAmount": "32000"
+        },
+        "customerPricing": {
+          "source": "catalog"
+        }
+      },
+      {
+        "clientLineKey": "s08-l07",
+        "productId": "dcf2b87b-097a-5abd-8cea-98efc5c8e3a2",
+        "productName": "Kangkung",
+        "inputUnitCode": "kg",
+        "quantity": "0.8",
+        "supplierDescription": "Kangkung",
+        "supplierCost": {
+          "status": "provisional",
+          "totalAmount": "32000"
+        },
+        "customerPricing": {
+          "source": "catalog"
+        }
+      },
+      {
+        "clientLineKey": "s08-l08",
+        "productId": "1dcb3752-a1ea-506f-a114-6ebfb595cee2",
+        "productName": "Pakchoy",
+        "inputUnitCode": "kg",
+        "quantity": "1",
+        "supplierDescription": "Pakcoy",
+        "supplierCost": {
+          "status": "provisional",
+          "totalAmount": "36000"
+        },
+        "customerPricing": {
+          "source": "catalog"
+        }
+      },
+      {
+        "clientLineKey": "s08-l09",
+        "productId": "0bbdc2cf-a928-5df3-9c1e-15e1ccd212c2",
+        "productName": "Broccoli",
+        "inputUnitCode": "kg",
+        "quantity": "0.46",
+        "supplierDescription": "Brokoli",
+        "supplierCost": {
+          "status": "provisional",
+          "totalAmount": "23920"
+        },
+        "customerPricing": {
+          "source": "catalog"
+        }
+      },
+      {
+        "clientLineKey": "s08-l10",
+        "productId": "e064d98b-36c5-5ae2-9b85-1294d3b463eb",
+        "productName": "Kembang Kol",
+        "inputUnitCode": "kg",
+        "quantity": "0.43",
+        "supplierDescription": "Kembang Kol",
+        "supplierCost": {
+          "status": "provisional",
+          "totalAmount": "18920"
+        },
+        "customerPricing": {
+          "source": "catalog"
+        }
+      },
+      {
+        "clientLineKey": "s08-l11",
+        "productId": "53be9183-6302-5eb8-b106-a9cdc43dc69b",
+        "productName": "Terong Ungu",
+        "inputUnitCode": "kg",
+        "quantity": "0.5",
+        "supplierDescription": "Terong Ungu",
+        "supplierCost": {
+          "status": "provisional",
+          "totalAmount": "16000"
+        },
+        "customerPricing": {
+          "source": "catalog"
+        }
+      },
+      {
+        "clientLineKey": "s08-l12",
+        "productId": "7f281125-1996-5b0b-a889-0602ed36d188",
+        "productName": "Timun Lokal",
+        "inputUnitCode": "kg",
+        "quantity": "0.5",
+        "supplierDescription": "Timun",
+        "supplierCost": {
+          "status": "provisional",
+          "totalAmount": "16000"
+        },
+        "customerPricing": {
+          "source": "catalog"
+        }
+      },
+      {
+        "clientLineKey": "s08-l13",
+        "productId": "8c3ef21e-febb-52e4-8f04-be3865c99073",
+        "productName": "Wortel",
+        "inputUnitCode": "kg",
+        "quantity": "0.5",
+        "supplierDescription": "Wortel",
+        "supplierCost": {
+          "status": "provisional",
+          "totalAmount": "15000"
+        },
+        "customerPricing": {
+          "source": "catalog"
+        }
+      },
+      {
+        "clientLineKey": "s08-l14",
+        "productId": "629f27c1-4491-5a0a-be07-8c91609d3988",
+        "productName": "Kol Putih",
+        "inputUnitCode": "kg",
+        "quantity": "0.51",
+        "supplierDescription": "Kol Putih",
+        "supplierCost": {
+          "status": "provisional",
+          "totalAmount": "16320"
+        },
+        "customerPricing": {
+          "source": "catalog"
+        }
+      },
+      {
+        "clientLineKey": "s08-l15",
+        "productId": "31eb2b3d-22ec-51da-a87d-87cbb1ba766c",
+        "productName": "Cabe Jablay",
+        "inputUnitCode": "kg",
+        "quantity": "0.5",
+        "supplierDescription": "Cabe Jablay",
+        "supplierCost": {
+          "status": "provisional",
+          "totalAmount": "50000"
+        },
+        "customerPricing": {
+          "source": "catalog"
+        }
+      },
+      {
+        "clientLineKey": "s08-l16",
+        "productId": "94595720-1a18-5513-8d09-ace2a3a5bbfd",
+        "productName": "Pare",
+        "inputUnitCode": "kg",
+        "quantity": "0.55",
+        "supplierDescription": "Pare",
+        "supplierCost": {
+          "status": "provisional",
+          "totalAmount": "16500"
+        },
+        "customerPricing": {
+          "source": "catalog"
+        }
+      }
+    ],
+    "supplierDeliveryFee": {
+      "status": "provisional",
+      "amount": "10000",
+      "note": "Imported from reviewed supplier slip; confirm during supplier reconciliation."
+    },
+    "customerDeliveryCharge": "10000",
+    "customerDeliveryDescription": "Biaya pengantaran supplier langsung"
+  },
+  "workflow": "supplier_direct",
+  "staffConfirmations": [
+    "Full-resolution reinspection resolves the handwritten chili line as Cabe Jablay; 0.5 kg at Rp50,000 matches the active supplier cost."
+  ],
+  "customerResolutionEvidence": {
+    "handwrittenName": "Marinee",
+    "selectedCustomerId": "44e646b5-799f-566a-abb6-ca4787fb5bb0",
+    "selectedCustomerName": "Marinee",
+    "legacyCustomerId": 91,
+    "confirmation": [
+      "Full-resolution reinspection resolves the handwritten chili line as Cabe Jablay; 0.5 kg at Rp50,000 matches the active supplier cost."
+    ]
+  },
+  "productMatchingEvidence": {
+    "effectiveOn": "2026-10-21",
+    "supplierId": "19f80084-3483-5e26-97f4-58884573bbde",
+    "supplierName": "Cisarua",
+    "lines": [
+      {
+        "lineId": "s08-l01",
+        "productNameRead": "Ayam Broiler",
+        "qtyRead": 1,
+        "totalRead": 60000,
+        "confidence": "confirmed",
+        "selectedProductId": "fe3b2e5d-3d7f-5d78-945e-a8c1defc0b77",
+        "candidates": [
+          {
+            "productId": "fe3b2e5d-3d7f-5d78-945e-a8c1defc0b77",
+            "name": "Ayam Broiler",
+            "expectedTotal": 60000,
+            "totalDelta": 0,
+            "totalMatches": true,
+            "matchedOn": "active_supplier_product_and_cost"
+          }
+        ],
+        "warnings": []
+      },
+      {
+        "lineId": "s08-l02",
+        "productNameRead": "Telur Kampung",
+        "qtyRead": 10,
+        "totalRead": 40000,
+        "confidence": "confirmed",
+        "selectedProductId": "06e07aa2-15cb-54b0-83a5-a57fe49bb985",
+        "candidates": [
+          {
+            "productId": "06e07aa2-15cb-54b0-83a5-a57fe49bb985",
+            "name": "Telur Ayam",
+            "expectedTotal": 40000,
+            "totalDelta": 0,
+            "totalMatches": true,
+            "matchedOn": "active_supplier_product_and_cost"
+          }
+        ],
+        "warnings": []
+      },
+      {
+        "lineId": "s08-l03",
+        "productNameRead": "Tempe",
+        "qtyRead": 1,
+        "totalRead": 17000,
+        "confidence": "confirmed",
+        "selectedProductId": "8602d729-7cb2-5d7f-86ea-4f96ff2d6f3f",
+        "candidates": [
+          {
+            "productId": "8602d729-7cb2-5d7f-86ea-4f96ff2d6f3f",
+            "name": "Tempe 400gr",
+            "expectedTotal": 17000,
+            "totalDelta": 0,
+            "totalMatches": true,
+            "matchedOn": "active_supplier_product_and_cost"
+          }
+        ],
+        "warnings": []
+      },
+      {
+        "lineId": "s08-l04",
+        "productNameRead": "Tahu Kuning",
+        "qtyRead": 1,
+        "totalRead": 32000,
+        "confidence": "confirmed",
+        "selectedProductId": "15113276-9494-53e8-a49f-51331fd86a88",
+        "candidates": [
+          {
+            "productId": "15113276-9494-53e8-a49f-51331fd86a88",
+            "name": "Tahu Kuning",
+            "expectedTotal": 32000,
+            "totalDelta": 0,
+            "totalMatches": true,
+            "matchedOn": "active_supplier_product_and_cost"
+          }
+        ],
+        "warnings": []
+      },
+      {
+        "lineId": "s08-l05",
+        "productNameRead": "Cabe Merah Keriting",
+        "qtyRead": 0.5,
+        "totalRead": 45000,
+        "confidence": "confirmed",
+        "selectedProductId": "78e89ab1-ce0a-5e09-84d5-ffa99e123426",
+        "candidates": [
+          {
+            "productId": "78e89ab1-ce0a-5e09-84d5-ffa99e123426",
+            "name": "Cabe Kriting",
+            "expectedTotal": 45000,
+            "totalDelta": 0,
+            "totalMatches": true,
+            "matchedOn": "active_supplier_product_and_cost"
+          }
+        ],
+        "warnings": []
+      },
+      {
+        "lineId": "s08-l06",
+        "productNameRead": "Bayam H",
+        "qtyRead": 0.8,
+        "totalRead": 32000,
+        "confidence": "confirmed",
+        "selectedProductId": "cc64524c-4c46-59b6-ad3e-b411b3376bf3",
+        "candidates": [
+          {
+            "productId": "cc64524c-4c46-59b6-ad3e-b411b3376bf3",
+            "name": "Bayam Hijau",
+            "expectedTotal": 32000,
+            "totalDelta": 0,
+            "totalMatches": true,
+            "matchedOn": "active_supplier_product_and_cost"
+          }
+        ],
+        "warnings": []
+      },
+      {
+        "lineId": "s08-l07",
+        "productNameRead": "Kangkung",
+        "qtyRead": 0.8,
+        "totalRead": 32000,
+        "confidence": "confirmed",
+        "selectedProductId": "dcf2b87b-097a-5abd-8cea-98efc5c8e3a2",
+        "candidates": [
+          {
+            "productId": "dcf2b87b-097a-5abd-8cea-98efc5c8e3a2",
+            "name": "Kangkung",
+            "expectedTotal": 32000,
+            "totalDelta": 0,
+            "totalMatches": true,
+            "matchedOn": "active_supplier_product_and_cost"
+          }
+        ],
+        "warnings": []
+      },
+      {
+        "lineId": "s08-l08",
+        "productNameRead": "Pakcoy",
+        "qtyRead": 1,
+        "totalRead": 36000,
+        "confidence": "confirmed",
+        "selectedProductId": "1dcb3752-a1ea-506f-a114-6ebfb595cee2",
+        "candidates": [
+          {
+            "productId": "1dcb3752-a1ea-506f-a114-6ebfb595cee2",
+            "name": "Pakchoy",
+            "expectedTotal": 36000,
+            "totalDelta": 0,
+            "totalMatches": true,
+            "matchedOn": "active_supplier_product_and_cost"
+          }
+        ],
+        "warnings": []
+      },
+      {
+        "lineId": "s08-l09",
+        "productNameRead": "Brokoli",
+        "qtyRead": 0.46,
+        "totalRead": 23920,
+        "confidence": "confirmed",
+        "selectedProductId": "0bbdc2cf-a928-5df3-9c1e-15e1ccd212c2",
+        "candidates": [
+          {
+            "productId": "0bbdc2cf-a928-5df3-9c1e-15e1ccd212c2",
+            "name": "Broccoli",
+            "expectedTotal": 23920,
+            "totalDelta": 0,
+            "totalMatches": true,
+            "matchedOn": "active_supplier_product_and_cost"
+          }
+        ],
+        "warnings": []
+      },
+      {
+        "lineId": "s08-l10",
+        "productNameRead": "Kembang Kol",
+        "qtyRead": 0.43,
+        "totalRead": 18920,
+        "confidence": "confirmed",
+        "selectedProductId": "e064d98b-36c5-5ae2-9b85-1294d3b463eb",
+        "candidates": [
+          {
+            "productId": "e064d98b-36c5-5ae2-9b85-1294d3b463eb",
+            "name": "Kembang Kol",
+            "expectedTotal": 18920,
+            "totalDelta": 0,
+            "totalMatches": true,
+            "matchedOn": "active_supplier_product_and_cost"
+          }
+        ],
+        "warnings": []
+      },
+      {
+        "lineId": "s08-l11",
+        "productNameRead": "Terong Ungu",
+        "qtyRead": 0.5,
+        "totalRead": 16000,
+        "confidence": "confirmed",
+        "selectedProductId": "53be9183-6302-5eb8-b106-a9cdc43dc69b",
+        "candidates": [
+          {
+            "productId": "53be9183-6302-5eb8-b106-a9cdc43dc69b",
+            "name": "Terong Ungu",
+            "expectedTotal": 16000,
+            "totalDelta": 0,
+            "totalMatches": true,
+            "matchedOn": "active_supplier_product_and_cost"
+          }
+        ],
+        "warnings": []
+      },
+      {
+        "lineId": "s08-l12",
+        "productNameRead": "Timun",
+        "qtyRead": 0.5,
+        "totalRead": 16000,
+        "confidence": "confirmed",
+        "selectedProductId": "7f281125-1996-5b0b-a889-0602ed36d188",
+        "candidates": [
+          {
+            "productId": "7f281125-1996-5b0b-a889-0602ed36d188",
+            "name": "Timun Lokal",
+            "expectedTotal": 16000,
+            "totalDelta": 0,
+            "totalMatches": true,
+            "matchedOn": "active_supplier_product_and_cost"
+          }
+        ],
+        "warnings": []
+      },
+      {
+        "lineId": "s08-l13",
+        "productNameRead": "Wortel",
+        "qtyRead": 0.5,
+        "totalRead": 15000,
+        "confidence": "confirmed",
+        "selectedProductId": "8c3ef21e-febb-52e4-8f04-be3865c99073",
+        "candidates": [
+          {
+            "productId": "8c3ef21e-febb-52e4-8f04-be3865c99073",
+            "name": "Wortel",
+            "expectedTotal": 15000,
+            "totalDelta": 0,
+            "totalMatches": true,
+            "matchedOn": "active_supplier_product_and_cost"
+          }
+        ],
+        "warnings": []
+      },
+      {
+        "lineId": "s08-l14",
+        "productNameRead": "Kol Putih",
+        "qtyRead": 0.51,
+        "totalRead": 16320,
+        "confidence": "confirmed",
+        "selectedProductId": "629f27c1-4491-5a0a-be07-8c91609d3988",
+        "candidates": [
+          {
+            "productId": "629f27c1-4491-5a0a-be07-8c91609d3988",
+            "name": "Kol Putih",
+            "expectedTotal": 16320,
+            "totalDelta": 0,
+            "totalMatches": true,
+            "matchedOn": "active_supplier_product_and_cost"
+          }
+        ],
+        "warnings": []
+      },
+      {
+        "lineId": "s08-l15",
+        "productNameRead": "Cabe Jablay",
+        "qtyRead": 0.5,
+        "totalRead": 50000,
+        "confidence": "confirmed",
+        "selectedProductId": "31eb2b3d-22ec-51da-a87d-87cbb1ba766c",
+        "candidates": [
+          {
+            "productId": "31eb2b3d-22ec-51da-a87d-87cbb1ba766c",
+            "name": "Cabe Jablay",
+            "expectedTotal": 50000,
+            "totalDelta": 0,
+            "totalMatches": true,
+            "matchedOn": "active_supplier_product_and_cost"
+          }
+        ],
+        "warnings": []
+      },
+      {
+        "lineId": "s08-l16",
+        "productNameRead": "Pare",
+        "qtyRead": 0.55,
+        "totalRead": 16500,
+        "confidence": "confirmed",
+        "selectedProductId": "94595720-1a18-5513-8d09-ace2a3a5bbfd",
+        "candidates": [
+          {
+            "productId": "94595720-1a18-5513-8d09-ace2a3a5bbfd",
+            "name": "Pare",
+            "expectedTotal": 16500,
+            "totalDelta": 0,
+            "totalMatches": true,
+            "matchedOn": "active_supplier_product_and_cost"
+          }
+        ],
+        "warnings": []
+      }
+    ],
+    "summary": {
+      "totalLines": 16,
+      "selected": 16,
+      "withCostDiscrepancy": 0
+    }
+  }
+}
+

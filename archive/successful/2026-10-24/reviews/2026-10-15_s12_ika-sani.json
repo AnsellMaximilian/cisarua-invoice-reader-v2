@@ -1,0 +1,339 @@
+{
+  "schemaVersion": "rumah-sehat-v2-slip-review-v1",
+  "readyToImport": true,
+  "source": {
+    "imageFile": "WhatsApp Image 2026-10-17 at 3.55.31 PM.jpeg",
+    "slipIndex": 2,
+    "fingerprint": "b97a4a4d8ac9015f35e268bbdf59255442d32e08efba70b90b98d1adca6ae44d",
+    "sourcePath": "incoming/WhatsApp Image 2026-10-17 at 3.55.31 PM.jpeg"
+  },
+  "extracted": {
+    "customerNameRead": "Ika Sani",
+    "addressRead": "The Windsor Apt, tower Signature unit 2172 Puri Indah",
+    "date": "2026-10-15",
+    "slipTotalRead": 110700,
+    "slipTotalCertain": true,
+    "lines": [
+      {
+        "lineId": "s12-l01",
+        "productNameRead": "Telur Kampung",
+        "quantity": 10,
+        "totalRead": 40000
+      },
+      {
+        "lineId": "s12-l02",
+        "productNameRead": "Pepaya",
+        "quantity": 2.15,
+        "totalRead": 38700
+      },
+      {
+        "lineId": "s12-l03",
+        "productNameRead": "Labusiam B",
+        "quantity": 0.5,
+        "totalRead": 16000
+      },
+      {
+        "lineId": "s12-l04",
+        "productNameRead": "Timun",
+        "quantity": 0.5,
+        "totalRead": 16000
+      }
+    ],
+    "excludedOrNotReceived": []
+  },
+  "resolved": {
+    "supplier": {
+      "id": "19f80084-3483-5e26-97f4-58884573bbde",
+      "name": "Cisarua"
+    },
+    "customer": {
+      "id": "68e6e29d-0d5d-5a71-a1f6-3b6212f5eb9d",
+      "name": "Ika Sani",
+      "legacyCustomerId": 80,
+      "aliases": [],
+      "addresses": [
+        "The Windsor Apartment, Unit 2172 Jl. Puri Indah Blok S, Kembangan Selatan 11610"
+      ],
+      "nameRead": "Ika Sani"
+    }
+  },
+  "warnings": [],
+  "calculations": {
+    "supplierProductSubtotal": 110700,
+    "supplierDeliveryFee": 10000,
+    "supplierTotal": 120700,
+    "customerDeliveryCharge": 10000,
+    "handwrittenProductTotal": 110700,
+    "lineTotalSum": 110700,
+    "handwrittenMinusLineSum": 0
+  },
+  "proposedDraft": {
+    "supplierDirectDraft": {
+      "schemaVersion": 1,
+      "supplierId": "19f80084-3483-5e26-97f4-58884573bbde",
+      "supplierName": "Cisarua",
+      "customerId": "68e6e29d-0d5d-5a71-a1f6-3b6212f5eb9d",
+      "customerName": "Ika Sani",
+      "occurred": {
+        "date": "2026-10-15",
+        "precision": "date"
+      },
+      "supplierReference": "WhatsApp Image 2026-10-17 at 3.55.31 PM.jpeg#2",
+      "note": "Handwritten product total Rp110700; line sum matches.",
+      "lines": [
+        {
+          "clientLineKey": "s12-l01",
+          "productId": "06e07aa2-15cb-54b0-83a5-a57fe49bb985",
+          "productName": "Telur Ayam",
+          "inputUnitCode": "unit",
+          "quantity": "10",
+          "supplierDescription": "Telur Ayam",
+          "supplierCost": {
+            "status": "provisional",
+            "totalAmount": "40000"
+          },
+          "customerPricing": {
+            "source": "catalog"
+          }
+        },
+        {
+          "clientLineKey": "s12-l02",
+          "productId": "835206b2-b93f-55d3-a000-81e87a28465f",
+          "productName": "Pepaya",
+          "inputUnitCode": "kg",
+          "quantity": "2.15",
+          "supplierDescription": "Pepaya",
+          "supplierCost": {
+            "status": "provisional",
+            "totalAmount": "38700"
+          },
+          "customerPricing": {
+            "source": "catalog"
+          }
+        },
+        {
+          "clientLineKey": "s12-l03",
+          "productId": "28284f97-0f37-5c4e-a7fb-294c3beed4a3",
+          "productName": "Labu Siam Baby",
+          "inputUnitCode": "kg",
+          "quantity": "0.5",
+          "supplierDescription": "Labu Siam Baby",
+          "supplierCost": {
+            "status": "provisional",
+            "totalAmount": "16000"
+          },
+          "customerPricing": {
+            "source": "catalog"
+          }
+        },
+        {
+          "clientLineKey": "s12-l04",
+          "productId": "7f281125-1996-5b0b-a889-0602ed36d188",
+          "productName": "Timun Lokal",
+          "inputUnitCode": "kg",
+          "quantity": "0.5",
+          "supplierDescription": "Timun Lokal",
+          "supplierCost": {
+            "status": "provisional",
+            "totalAmount": "16000"
+          },
+          "customerPricing": {
+            "source": "catalog"
+          }
+        }
+      ],
+      "supplierDeliveryFee": {
+        "status": "provisional",
+        "amount": "10000",
+        "note": "Imported from reviewed supplier slip; confirm during supplier reconciliation."
+      },
+      "customerDeliveryCharge": "10000",
+      "customerDeliveryDescription": "Biaya pengantaran supplier langsung"
+    }
+  },
+  "supplierDirectDraft": {
+    "schemaVersion": 1,
+    "supplierId": "19f80084-3483-5e26-97f4-58884573bbde",
+    "supplierName": "Cisarua",
+    "customerId": "68e6e29d-0d5d-5a71-a1f6-3b6212f5eb9d",
+    "customerName": "Ika Sani",
+    "occurred": {
+      "date": "2026-10-15",
+      "precision": "date"
+    },
+    "supplierReference": "WhatsApp Image 2026-10-17 at 3.55.31 PM.jpeg#2",
+    "note": "Handwritten product total Rp110700; line sum matches.",
+    "lines": [
+      {
+        "clientLineKey": "s12-l01",
+        "productId": "06e07aa2-15cb-54b0-83a5-a57fe49bb985",
+        "productName": "Telur Ayam",
+        "inputUnitCode": "unit",
+        "quantity": "10",
+        "supplierDescription": "Telur Ayam",
+        "supplierCost": {
+          "status": "provisional",
+          "totalAmount": "40000"
+        },
+        "customerPricing": {
+          "source": "catalog"
+        }
+      },
+      {
+        "clientLineKey": "s12-l02",
+        "productId": "835206b2-b93f-55d3-a000-81e87a28465f",
+        "productName": "Pepaya",
+        "inputUnitCode": "kg",
+        "quantity": "2.15",
+        "supplierDescription": "Pepaya",
+        "supplierCost": {
+          "status": "provisional",
+          "totalAmount": "38700"
+        },
+        "customerPricing": {
+          "source": "catalog"
+        }
+      },
+      {
+        "clientLineKey": "s12-l03",
+        "productId": "28284f97-0f37-5c4e-a7fb-294c3beed4a3",
+        "productName": "Labu Siam Baby",
+        "inputUnitCode": "kg",
+        "quantity": "0.5",
+        "supplierDescription": "Labu Siam Baby",
+        "supplierCost": {
+          "status": "provisional",
+          "totalAmount": "16000"
+        },
+        "customerPricing": {
+          "source": "catalog"
+        }
+      },
+      {
+        "clientLineKey": "s12-l04",
+        "productId": "7f281125-1996-5b0b-a889-0602ed36d188",
+        "productName": "Timun Lokal",
+        "inputUnitCode": "kg",
+        "quantity": "0.5",
+        "supplierDescription": "Timun Lokal",
+        "supplierCost": {
+          "status": "provisional",
+          "totalAmount": "16000"
+        },
+        "customerPricing": {
+          "source": "catalog"
+        }
+      }
+    ],
+    "supplierDeliveryFee": {
+      "status": "provisional",
+      "amount": "10000",
+      "note": "Imported from reviewed supplier slip; confirm during supplier reconciliation."
+    },
+    "customerDeliveryCharge": "10000",
+    "customerDeliveryDescription": "Biaya pengantaran supplier langsung"
+  },
+  "workflow": "supplier_direct",
+  "staffConfirmations": [],
+  "customerResolutionEvidence": {
+    "handwrittenName": "Ika Sani",
+    "addressRead": "The Windsor Apt, tower Signature unit 2172 Puri Indah",
+    "selectedCustomerId": "68e6e29d-0d5d-5a71-a1f6-3b6212f5eb9d",
+    "selectedCustomerName": "Ika Sani",
+    "legacyCustomerId": 80,
+    "confirmation": []
+  },
+  "productMatchingEvidence": {
+    "effectiveOn": "2026-10-15",
+    "supplierId": "19f80084-3483-5e26-97f4-58884573bbde",
+    "supplierName": "Cisarua",
+    "lines": [
+      {
+        "lineId": "s12-l01",
+        "productNameRead": "Telur Kampung",
+        "qtyRead": 10,
+        "totalRead": 40000,
+        "confidence": "operator_confirmed",
+        "selectedProductId": "06e07aa2-15cb-54b0-83a5-a57fe49bb985",
+        "candidates": [
+          {
+            "productId": "06e07aa2-15cb-54b0-83a5-a57fe49bb985",
+            "name": "Telur Ayam",
+            "expectedUnitCost": "4000",
+            "expectedTotal": 40000,
+            "totalDelta": 0,
+            "totalMatches": true,
+            "matchedOn": "operator_confirmation"
+          }
+        ],
+        "warnings": []
+      },
+      {
+        "lineId": "s12-l02",
+        "productNameRead": "Pepaya",
+        "qtyRead": 2.15,
+        "totalRead": 38700,
+        "confidence": "high",
+        "selectedProductId": "835206b2-b93f-55d3-a000-81e87a28465f",
+        "candidates": [
+          {
+            "productId": "835206b2-b93f-55d3-a000-81e87a28465f",
+            "name": "Pepaya",
+            "expectedUnitCost": "18000",
+            "expectedTotal": 38700,
+            "totalDelta": 0,
+            "totalMatches": true,
+            "matchedOn": "canonical_name"
+          }
+        ],
+        "warnings": []
+      },
+      {
+        "lineId": "s12-l03",
+        "productNameRead": "Labusiam B",
+        "qtyRead": 0.5,
+        "totalRead": 16000,
+        "confidence": "high",
+        "selectedProductId": "28284f97-0f37-5c4e-a7fb-294c3beed4a3",
+        "candidates": [
+          {
+            "productId": "28284f97-0f37-5c4e-a7fb-294c3beed4a3",
+            "name": "Labu Siam Baby",
+            "expectedUnitCost": "32000",
+            "expectedTotal": 16000,
+            "totalDelta": 0,
+            "totalMatches": true,
+            "matchedOn": "operator_confirmation"
+          }
+        ],
+        "warnings": []
+      },
+      {
+        "lineId": "s12-l04",
+        "productNameRead": "Timun",
+        "qtyRead": 0.5,
+        "totalRead": 16000,
+        "confidence": "high",
+        "selectedProductId": "7f281125-1996-5b0b-a889-0602ed36d188",
+        "candidates": [
+          {
+            "productId": "7f281125-1996-5b0b-a889-0602ed36d188",
+            "name": "Timun Lokal",
+            "expectedUnitCost": "32000",
+            "expectedTotal": 16000,
+            "totalDelta": 0,
+            "totalMatches": true,
+            "matchedOn": "operator_confirmation"
+          }
+        ],
+        "warnings": []
+      }
+    ],
+    "summary": {
+      "totalLines": 4,
+      "selected": 4,
+      "withCostDiscrepancy": 0
+    }
+  }
+}
+

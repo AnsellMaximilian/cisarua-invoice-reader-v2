@@ -1,0 +1,447 @@
+{
+  "schemaVersion": "rumah-sehat-v2-slip-review-v1",
+  "readyToImport": true,
+  "source": {
+    "imageFile": "WhatsApp Image 2026-10-24 at 11.49.14 AM.jpeg",
+    "slipIndex": 2,
+    "fingerprint": "71c57a4971d62450aee86c56ec723e97dc9981148d220a61237e7bd54a75f22c",
+    "sourcePath": "incoming/WhatsApp Image 2026-10-24 at 11.49.14 AM.jpeg"
+  },
+  "extracted": {
+    "customerNameRead": "Anas",
+    "lines": [
+      {
+        "lineId": "s16-l01",
+        "productNameRead": "Telur Kampung",
+        "quantityRead": 20,
+        "totalRead": 80000
+      },
+      {
+        "lineId": "s16-l02",
+        "productNameRead": "Tahu Putih",
+        "quantityRead": 1,
+        "totalRead": 30000
+      },
+      {
+        "lineId": "s16-l03",
+        "productNameRead": "Jahe G",
+        "quantityRead": 0.25,
+        "totalRead": 15000
+      },
+      {
+        "lineId": "s16-l04",
+        "productNameRead": "Timun",
+        "quantityRead": 0.5,
+        "totalRead": 16000
+      },
+      {
+        "lineId": "s16-l05",
+        "productNameRead": "Tomat",
+        "quantityRead": 0.5,
+        "totalRead": 16000
+      },
+      {
+        "lineId": "s16-l06",
+        "productNameRead": "Wortel",
+        "quantityRead": 0.5,
+        "totalRead": 15000
+      }
+    ],
+    "date": "2026-10-22",
+    "slipTotalRead": 172000,
+    "slipTotalCertain": true,
+    "excludedOrNotReceived": []
+  },
+  "resolved": {
+    "supplier": {
+      "id": "19f80084-3483-5e26-97f4-58884573bbde",
+      "name": "Cisarua"
+    },
+    "customer": {
+      "id": "a96c8384-be77-5b71-be78-0b04c5b280d1",
+      "name": "Anas Citra",
+      "legacyCustomerId": 160,
+      "aliases": [],
+      "addresses": [
+        "Citra Garden 3 Block a7 no 31 Kalideres"
+      ],
+      "nameRead": "Anas"
+    }
+  },
+  "warnings": [],
+  "calculations": {
+    "supplierProductSubtotal": 172000,
+    "supplierDeliveryFee": 10000,
+    "supplierTotal": 182000,
+    "customerDeliveryCharge": 10000,
+    "handwrittenProductTotal": 172000,
+    "lineTotalSum": 172000,
+    "handwrittenMinusLineSum": 0
+  },
+  "proposedDraft": {
+    "supplierDirectDraft": {
+      "schemaVersion": 1,
+      "supplierId": "19f80084-3483-5e26-97f4-58884573bbde",
+      "supplierName": "Cisarua",
+      "customerId": "a96c8384-be77-5b71-be78-0b04c5b280d1",
+      "customerName": "Anas Citra",
+      "occurred": {
+        "date": "2026-10-22",
+        "precision": "date"
+      },
+      "supplierReference": "WhatsApp Image 2026-10-24 at 11.49.14 AM.jpeg#2",
+      "note": "Handwritten product total Rp172000; line sum matches.",
+      "lines": [
+        {
+          "clientLineKey": "s16-l01",
+          "productId": "06e07aa2-15cb-54b0-83a5-a57fe49bb985",
+          "productName": "Telur Ayam",
+          "inputUnitCode": "unit",
+          "quantity": "20",
+          "supplierDescription": "Telur Kampung",
+          "supplierCost": {
+            "status": "provisional",
+            "totalAmount": "80000"
+          },
+          "customerPricing": {
+            "source": "catalog"
+          }
+        },
+        {
+          "clientLineKey": "s16-l02",
+          "productId": "cfb5a0ff-0df0-5d76-bcc4-75e451fc37a8",
+          "productName": "Tahu Putih",
+          "inputUnitCode": "unit",
+          "quantity": "1",
+          "supplierDescription": "Tahu Putih",
+          "supplierCost": {
+            "status": "provisional",
+            "totalAmount": "30000"
+          },
+          "customerPricing": {
+            "source": "catalog"
+          }
+        },
+        {
+          "clientLineKey": "s16-l03",
+          "productId": "01f8d7f4-6f0d-5b9f-b764-abc42f7e551e",
+          "productName": "Jahe Gajah",
+          "inputUnitCode": "kg",
+          "quantity": "0.25",
+          "supplierDescription": "Jahe G",
+          "supplierCost": {
+            "status": "provisional",
+            "totalAmount": "15000"
+          },
+          "customerPricing": {
+            "source": "catalog"
+          }
+        },
+        {
+          "clientLineKey": "s16-l04",
+          "productId": "7f281125-1996-5b0b-a889-0602ed36d188",
+          "productName": "Timun Lokal",
+          "inputUnitCode": "kg",
+          "quantity": "0.5",
+          "supplierDescription": "Timun",
+          "supplierCost": {
+            "status": "provisional",
+            "totalAmount": "16000"
+          },
+          "customerPricing": {
+            "source": "catalog"
+          }
+        },
+        {
+          "clientLineKey": "s16-l05",
+          "productId": "22c9f15d-fe9e-5607-bebf-fafbc227fa3b",
+          "productName": "Tomat",
+          "inputUnitCode": "kg",
+          "quantity": "0.5",
+          "supplierDescription": "Tomat",
+          "supplierCost": {
+            "status": "provisional",
+            "totalAmount": "16000"
+          },
+          "customerPricing": {
+            "source": "catalog"
+          }
+        },
+        {
+          "clientLineKey": "s16-l06",
+          "productId": "8c3ef21e-febb-52e4-8f04-be3865c99073",
+          "productName": "Wortel",
+          "inputUnitCode": "kg",
+          "quantity": "0.5",
+          "supplierDescription": "Wortel",
+          "supplierCost": {
+            "status": "provisional",
+            "totalAmount": "15000"
+          },
+          "customerPricing": {
+            "source": "catalog"
+          }
+        }
+      ],
+      "supplierDeliveryFee": {
+        "status": "provisional",
+        "amount": "10000",
+        "note": "Imported from reviewed supplier slip; confirm during supplier reconciliation."
+      },
+      "customerDeliveryCharge": "10000",
+      "customerDeliveryDescription": "Biaya pengantaran supplier langsung"
+    }
+  },
+  "supplierDirectDraft": {
+    "schemaVersion": 1,
+    "supplierId": "19f80084-3483-5e26-97f4-58884573bbde",
+    "supplierName": "Cisarua",
+    "customerId": "a96c8384-be77-5b71-be78-0b04c5b280d1",
+    "customerName": "Anas Citra",
+    "occurred": {
+      "date": "2026-10-22",
+      "precision": "date"
+    },
+    "supplierReference": "WhatsApp Image 2026-10-24 at 11.49.14 AM.jpeg#2",
+    "note": "Handwritten product total Rp172000; line sum matches.",
+    "lines": [
+      {
+        "clientLineKey": "s16-l01",
+        "productId": "06e07aa2-15cb-54b0-83a5-a57fe49bb985",
+        "productName": "Telur Ayam",
+        "inputUnitCode": "unit",
+        "quantity": "20",
+        "supplierDescription": "Telur Kampung",
+        "supplierCost": {
+          "status": "provisional",
+          "totalAmount": "80000"
+        },
+        "customerPricing": {
+          "source": "catalog"
+        }
+      },
+      {
+        "clientLineKey": "s16-l02",
+        "productId": "cfb5a0ff-0df0-5d76-bcc4-75e451fc37a8",
+        "productName": "Tahu Putih",
+        "inputUnitCode": "unit",
+        "quantity": "1",
+        "supplierDescription": "Tahu Putih",
+        "supplierCost": {
+          "status": "provisional",
+          "totalAmount": "30000"
+        },
+        "customerPricing": {
+          "source": "catalog"
+        }
+      },
+      {
+        "clientLineKey": "s16-l03",
+        "productId": "01f8d7f4-6f0d-5b9f-b764-abc42f7e551e",
+        "productName": "Jahe Gajah",
+        "inputUnitCode": "kg",
+        "quantity": "0.25",
+        "supplierDescription": "Jahe G",
+        "supplierCost": {
+          "status": "provisional",
+          "totalAmount": "15000"
+        },
+        "customerPricing": {
+          "source": "catalog"
+        }
+      },
+      {
+        "clientLineKey": "s16-l04",
+        "productId": "7f281125-1996-5b0b-a889-0602ed36d188",
+        "productName": "Timun Lokal",
+        "inputUnitCode": "kg",
+        "quantity": "0.5",
+        "supplierDescription": "Timun",
+        "supplierCost": {
+          "status": "provisional",
+          "totalAmount": "16000"
+        },
+        "customerPricing": {
+          "source": "catalog"
+        }
+      },
+      {
+        "clientLineKey": "s16-l05",
+        "productId": "22c9f15d-fe9e-5607-bebf-fafbc227fa3b",
+        "productName": "Tomat",
+        "inputUnitCode": "kg",
+        "quantity": "0.5",
+        "supplierDescription": "Tomat",
+        "supplierCost": {
+          "status": "provisional",
+          "totalAmount": "16000"
+        },
+        "customerPricing": {
+          "source": "catalog"
+        }
+      },
+      {
+        "clientLineKey": "s16-l06",
+        "productId": "8c3ef21e-febb-52e4-8f04-be3865c99073",
+        "productName": "Wortel",
+        "inputUnitCode": "kg",
+        "quantity": "0.5",
+        "supplierDescription": "Wortel",
+        "supplierCost": {
+          "status": "provisional",
+          "totalAmount": "15000"
+        },
+        "customerPricing": {
+          "source": "catalog"
+        }
+      }
+    ],
+    "supplierDeliveryFee": {
+      "status": "provisional",
+      "amount": "10000",
+      "note": "Imported from reviewed supplier slip; confirm during supplier reconciliation."
+    },
+    "customerDeliveryCharge": "10000",
+    "customerDeliveryDescription": "Biaya pengantaran supplier langsung"
+  },
+  "workflow": "supplier_direct",
+  "staffConfirmations": [
+    "Operator context resolves Anas to Anas Citra."
+  ],
+  "customerResolutionEvidence": {
+    "handwrittenName": "Anas",
+    "selectedCustomerId": "a96c8384-be77-5b71-be78-0b04c5b280d1",
+    "selectedCustomerName": "Anas Citra",
+    "legacyCustomerId": 160,
+    "confirmation": [
+      "Operator context resolves Anas to Anas Citra."
+    ]
+  },
+  "productMatchingEvidence": {
+    "effectiveOn": "2026-10-22",
+    "supplierId": "19f80084-3483-5e26-97f4-58884573bbde",
+    "supplierName": "Cisarua",
+    "lines": [
+      {
+        "lineId": "s16-l01",
+        "productNameRead": "Telur Kampung",
+        "qtyRead": 20,
+        "totalRead": 80000,
+        "confidence": "confirmed",
+        "selectedProductId": "06e07aa2-15cb-54b0-83a5-a57fe49bb985",
+        "candidates": [
+          {
+            "productId": "06e07aa2-15cb-54b0-83a5-a57fe49bb985",
+            "name": "Telur Ayam",
+            "expectedTotal": 80000,
+            "totalDelta": 0,
+            "totalMatches": true,
+            "matchedOn": "active_supplier_product_and_cost"
+          }
+        ],
+        "warnings": []
+      },
+      {
+        "lineId": "s16-l02",
+        "productNameRead": "Tahu Putih",
+        "qtyRead": 1,
+        "totalRead": 30000,
+        "confidence": "confirmed",
+        "selectedProductId": "cfb5a0ff-0df0-5d76-bcc4-75e451fc37a8",
+        "candidates": [
+          {
+            "productId": "cfb5a0ff-0df0-5d76-bcc4-75e451fc37a8",
+            "name": "Tahu Putih",
+            "expectedTotal": 30000,
+            "totalDelta": 0,
+            "totalMatches": true,
+            "matchedOn": "active_supplier_product_and_cost"
+          }
+        ],
+        "warnings": []
+      },
+      {
+        "lineId": "s16-l03",
+        "productNameRead": "Jahe G",
+        "qtyRead": 0.25,
+        "totalRead": 15000,
+        "confidence": "confirmed",
+        "selectedProductId": "01f8d7f4-6f0d-5b9f-b764-abc42f7e551e",
+        "candidates": [
+          {
+            "productId": "01f8d7f4-6f0d-5b9f-b764-abc42f7e551e",
+            "name": "Jahe Gajah",
+            "expectedTotal": 15000,
+            "totalDelta": 0,
+            "totalMatches": true,
+            "matchedOn": "active_supplier_product_and_cost"
+          }
+        ],
+        "warnings": []
+      },
+      {
+        "lineId": "s16-l04",
+        "productNameRead": "Timun",
+        "qtyRead": 0.5,
+        "totalRead": 16000,
+        "confidence": "confirmed",
+        "selectedProductId": "7f281125-1996-5b0b-a889-0602ed36d188",
+        "candidates": [
+          {
+            "productId": "7f281125-1996-5b0b-a889-0602ed36d188",
+            "name": "Timun Lokal",
+            "expectedTotal": 16000,
+            "totalDelta": 0,
+            "totalMatches": true,
+            "matchedOn": "active_supplier_product_and_cost"
+          }
+        ],
+        "warnings": []
+      },
+      {
+        "lineId": "s16-l05",
+        "productNameRead": "Tomat",
+        "qtyRead": 0.5,
+        "totalRead": 16000,
+        "confidence": "confirmed",
+        "selectedProductId": "22c9f15d-fe9e-5607-bebf-fafbc227fa3b",
+        "candidates": [
+          {
+            "productId": "22c9f15d-fe9e-5607-bebf-fafbc227fa3b",
+            "name": "Tomat",
+            "expectedTotal": 16000,
+            "totalDelta": 0,
+            "totalMatches": true,
+            "matchedOn": "active_supplier_product_and_cost"
+          }
+        ],
+        "warnings": []
+      },
+      {
+        "lineId": "s16-l06",
+        "productNameRead": "Wortel",
+        "qtyRead": 0.5,
+        "totalRead": 15000,
+        "confidence": "confirmed",
+        "selectedProductId": "8c3ef21e-febb-52e4-8f04-be3865c99073",
+        "candidates": [
+          {
+            "productId": "8c3ef21e-febb-52e4-8f04-be3865c99073",
+            "name": "Wortel",
+            "expectedTotal": 15000,
+            "totalDelta": 0,
+            "totalMatches": true,
+            "matchedOn": "active_supplier_product_and_cost"
+          }
+        ],
+        "warnings": []
+      }
+    ],
+    "summary": {
+      "totalLines": 6,
+      "selected": 6,
+      "withCostDiscrepancy": 0
+    }
+  }
+}
+

@@ -1,0 +1,394 @@
+{
+  "schemaVersion": "rumah-sehat-v2-slip-review-v1",
+  "readyToImport": true,
+  "source": {
+    "imageFile": "WhatsApp Image 2026-10-31 at 1.18.40 PM.jpeg",
+    "slipIndex": 2,
+    "fingerprint": "dc6d25a7f4b6283f2521cb69e61c3a91e32020b6d9e96d3c193dc2f36e65d932",
+    "sourcePath": "incoming/WhatsApp Image 2026-10-31 at 1.18.40 PM.jpeg"
+  },
+  "extracted": {
+    "customerNameRead": "Wei-Wei",
+    "lines": [
+      {
+        "lineId": "s15-l01",
+        "productNameRead": "Tempe",
+        "quantityRead": 1,
+        "totalRead": 17000
+      },
+      {
+        "lineId": "s15-l02",
+        "productNameRead": "Alpukat",
+        "quantityRead": 1.5,
+        "totalRead": 61500
+      },
+      {
+        "lineId": "s15-l03",
+        "productNameRead": "Selada Siomak",
+        "quantityRead": 0.25,
+        "totalRead": 11000
+      },
+      {
+        "lineId": "s15-l04",
+        "productNameRead": "Bit",
+        "quantityRead": 0.5,
+        "totalRead": 19000
+      },
+      {
+        "lineId": "s15-l05",
+        "productNameRead": "Brokoli",
+        "quantityRead": 0.49,
+        "totalRead": 25480
+      }
+    ],
+    "date": "2026-10-29",
+    "slipTotalRead": 133980,
+    "slipTotalCertain": true,
+    "excludedOrNotReceived": [
+      {
+        "productNameRead": "Selada Romaine",
+        "receivedRead": "marked X / not received",
+        "reason": "marked X / not received"
+      }
+    ]
+  },
+  "resolved": {
+    "supplier": {
+      "id": "19f80084-3483-5e26-97f4-58884573bbde",
+      "name": "Cisarua"
+    },
+    "customer": {
+      "id": "1aee9e26-efe7-58d0-8e5e-624b0aa478ce",
+      "name": "Wei Wei",
+      "legacyCustomerId": 47,
+      "aliases": [],
+      "addresses": [
+        "Sektor 1A. Blok AG 8 No 14. Gading Serpong"
+      ],
+      "nameRead": "Wei-Wei"
+    }
+  },
+  "warnings": [],
+  "calculations": {
+    "supplierProductSubtotal": 133980,
+    "supplierDeliveryFee": 10000,
+    "supplierTotal": 143980,
+    "customerDeliveryCharge": 10000,
+    "handwrittenProductTotal": 133980,
+    "lineTotalSum": 133980,
+    "handwrittenMinusLineSum": 0
+  },
+  "proposedDraft": {
+    "supplierDirectDraft": {
+      "schemaVersion": 1,
+      "supplierId": "19f80084-3483-5e26-97f4-58884573bbde",
+      "supplierName": "Cisarua",
+      "customerId": "1aee9e26-efe7-58d0-8e5e-624b0aa478ce",
+      "customerName": "Wei Wei",
+      "occurred": {
+        "date": "2026-10-29",
+        "precision": "date"
+      },
+      "supplierReference": "WhatsApp Image 2026-10-31 at 1.18.40 PM.jpeg#2",
+      "note": "Handwritten product total Rp133980; line sum matches. Excluded not-received markings: Selada Romaine.",
+      "lines": [
+        {
+          "clientLineKey": "s15-l01",
+          "productId": "8602d729-7cb2-5d7f-86ea-4f96ff2d6f3f",
+          "productName": "Tempe 400gr",
+          "inputUnitCode": "unit",
+          "quantity": "1",
+          "supplierDescription": "Tempe",
+          "supplierCost": {
+            "status": "provisional",
+            "totalAmount": "17000"
+          },
+          "customerPricing": {
+            "source": "catalog"
+          }
+        },
+        {
+          "clientLineKey": "s15-l02",
+          "productId": "236c8cbd-2e4d-5cbd-aaf7-4de218941d69",
+          "productName": "Alpukat Super",
+          "inputUnitCode": "kg",
+          "quantity": "1.5",
+          "supplierDescription": "Alpukat",
+          "supplierCost": {
+            "status": "provisional",
+            "totalAmount": "61500"
+          },
+          "customerPricing": {
+            "source": "catalog"
+          }
+        },
+        {
+          "clientLineKey": "s15-l03",
+          "productId": "3e41fdc8-9277-5a3a-bc22-56878b7b6644",
+          "productName": "Selada Siomak",
+          "inputUnitCode": "kg",
+          "quantity": "0.25",
+          "supplierDescription": "Selada Siomak",
+          "supplierCost": {
+            "status": "provisional",
+            "totalAmount": "11000"
+          },
+          "customerPricing": {
+            "source": "catalog"
+          }
+        },
+        {
+          "clientLineKey": "s15-l04",
+          "productId": "241f5520-f0ce-5bda-a5a7-39b5d2abd0d6",
+          "productName": "Bit Merah",
+          "inputUnitCode": "kg",
+          "quantity": "0.5",
+          "supplierDescription": "Bit",
+          "supplierCost": {
+            "status": "provisional",
+            "totalAmount": "19000"
+          },
+          "customerPricing": {
+            "source": "catalog"
+          }
+        },
+        {
+          "clientLineKey": "s15-l05",
+          "productId": "0bbdc2cf-a928-5df3-9c1e-15e1ccd212c2",
+          "productName": "Broccoli",
+          "inputUnitCode": "kg",
+          "quantity": "0.49",
+          "supplierDescription": "Brokoli",
+          "supplierCost": {
+            "status": "provisional",
+            "totalAmount": "25480"
+          },
+          "customerPricing": {
+            "source": "catalog"
+          }
+        }
+      ],
+      "supplierDeliveryFee": {
+        "status": "provisional",
+        "amount": "10000",
+        "note": "Imported from reviewed supplier slip; confirm during supplier reconciliation."
+      },
+      "customerDeliveryCharge": "10000",
+      "customerDeliveryDescription": "Biaya pengantaran langsung"
+    }
+  },
+  "supplierDirectDraft": {
+    "schemaVersion": 1,
+    "supplierId": "19f80084-3483-5e26-97f4-58884573bbde",
+    "supplierName": "Cisarua",
+    "customerId": "1aee9e26-efe7-58d0-8e5e-624b0aa478ce",
+    "customerName": "Wei Wei",
+    "occurred": {
+      "date": "2026-10-29",
+      "precision": "date"
+    },
+    "supplierReference": "WhatsApp Image 2026-10-31 at 1.18.40 PM.jpeg#2",
+    "note": "Handwritten product total Rp133980; line sum matches. Excluded not-received markings: Selada Romaine.",
+    "lines": [
+      {
+        "clientLineKey": "s15-l01",
+        "productId": "8602d729-7cb2-5d7f-86ea-4f96ff2d6f3f",
+        "productName": "Tempe 400gr",
+        "inputUnitCode": "unit",
+        "quantity": "1",
+        "supplierDescription": "Tempe",
+        "supplierCost": {
+          "status": "provisional",
+          "totalAmount": "17000"
+        },
+        "customerPricing": {
+          "source": "catalog"
+        }
+      },
+      {
+        "clientLineKey": "s15-l02",
+        "productId": "236c8cbd-2e4d-5cbd-aaf7-4de218941d69",
+        "productName": "Alpukat Super",
+        "inputUnitCode": "kg",
+        "quantity": "1.5",
+        "supplierDescription": "Alpukat",
+        "supplierCost": {
+          "status": "provisional",
+          "totalAmount": "61500"
+        },
+        "customerPricing": {
+          "source": "catalog"
+        }
+      },
+      {
+        "clientLineKey": "s15-l03",
+        "productId": "3e41fdc8-9277-5a3a-bc22-56878b7b6644",
+        "productName": "Selada Siomak",
+        "inputUnitCode": "kg",
+        "quantity": "0.25",
+        "supplierDescription": "Selada Siomak",
+        "supplierCost": {
+          "status": "provisional",
+          "totalAmount": "11000"
+        },
+        "customerPricing": {
+          "source": "catalog"
+        }
+      },
+      {
+        "clientLineKey": "s15-l04",
+        "productId": "241f5520-f0ce-5bda-a5a7-39b5d2abd0d6",
+        "productName": "Bit Merah",
+        "inputUnitCode": "kg",
+        "quantity": "0.5",
+        "supplierDescription": "Bit",
+        "supplierCost": {
+          "status": "provisional",
+          "totalAmount": "19000"
+        },
+        "customerPricing": {
+          "source": "catalog"
+        }
+      },
+      {
+        "clientLineKey": "s15-l05",
+        "productId": "0bbdc2cf-a928-5df3-9c1e-15e1ccd212c2",
+        "productName": "Broccoli",
+        "inputUnitCode": "kg",
+        "quantity": "0.49",
+        "supplierDescription": "Brokoli",
+        "supplierCost": {
+          "status": "provisional",
+          "totalAmount": "25480"
+        },
+        "customerPricing": {
+          "source": "catalog"
+        }
+      }
+    ],
+    "supplierDeliveryFee": {
+      "status": "provisional",
+      "amount": "10000",
+      "note": "Imported from reviewed supplier slip; confirm during supplier reconciliation."
+    },
+    "customerDeliveryCharge": "10000",
+    "customerDeliveryDescription": "Biaya pengantaran langsung"
+  },
+  "workflow": "supplier_direct",
+  "staffConfirmations": [],
+  "customerResolutionEvidence": {
+    "handwrittenName": "Wei-Wei",
+    "selectedCustomerId": "1aee9e26-efe7-58d0-8e5e-624b0aa478ce",
+    "selectedCustomerName": "Wei Wei",
+    "legacyCustomerId": 47,
+    "confirmation": []
+  },
+  "productMatchingEvidence": {
+    "effectiveOn": "2026-10-29",
+    "supplierId": "19f80084-3483-5e26-97f4-58884573bbde",
+    "supplierName": "Cisarua",
+    "lines": [
+      {
+        "lineId": "s15-l01",
+        "productNameRead": "Tempe",
+        "qtyRead": 1,
+        "totalRead": 17000,
+        "confidence": "confirmed",
+        "selectedProductId": "8602d729-7cb2-5d7f-86ea-4f96ff2d6f3f",
+        "candidates": [
+          {
+            "productId": "8602d729-7cb2-5d7f-86ea-4f96ff2d6f3f",
+            "name": "Tempe 400gr",
+            "expectedTotal": 17000,
+            "totalDelta": 0,
+            "totalMatches": true,
+            "matchedOn": "active_supplier_product_and_cost"
+          }
+        ],
+        "warnings": []
+      },
+      {
+        "lineId": "s15-l02",
+        "productNameRead": "Alpukat",
+        "qtyRead": 1.5,
+        "totalRead": 61500,
+        "confidence": "confirmed",
+        "selectedProductId": "236c8cbd-2e4d-5cbd-aaf7-4de218941d69",
+        "candidates": [
+          {
+            "productId": "236c8cbd-2e4d-5cbd-aaf7-4de218941d69",
+            "name": "Alpukat Super",
+            "expectedTotal": 61500,
+            "totalDelta": 0,
+            "totalMatches": true,
+            "matchedOn": "active_supplier_product_and_cost"
+          }
+        ],
+        "warnings": []
+      },
+      {
+        "lineId": "s15-l03",
+        "productNameRead": "Selada Siomak",
+        "qtyRead": 0.25,
+        "totalRead": 11000,
+        "confidence": "confirmed",
+        "selectedProductId": "3e41fdc8-9277-5a3a-bc22-56878b7b6644",
+        "candidates": [
+          {
+            "productId": "3e41fdc8-9277-5a3a-bc22-56878b7b6644",
+            "name": "Selada Siomak",
+            "expectedTotal": 11000,
+            "totalDelta": 0,
+            "totalMatches": true,
+            "matchedOn": "active_supplier_product_and_cost"
+          }
+        ],
+        "warnings": []
+      },
+      {
+        "lineId": "s15-l04",
+        "productNameRead": "Bit",
+        "qtyRead": 0.5,
+        "totalRead": 19000,
+        "confidence": "confirmed",
+        "selectedProductId": "241f5520-f0ce-5bda-a5a7-39b5d2abd0d6",
+        "candidates": [
+          {
+            "productId": "241f5520-f0ce-5bda-a5a7-39b5d2abd0d6",
+            "name": "Bit Merah",
+            "expectedTotal": 19000,
+            "totalDelta": 0,
+            "totalMatches": true,
+            "matchedOn": "active_supplier_product_and_cost"
+          }
+        ],
+        "warnings": []
+      },
+      {
+        "lineId": "s15-l05",
+        "productNameRead": "Brokoli",
+        "qtyRead": 0.49,
+        "totalRead": 25480,
+        "confidence": "confirmed",
+        "selectedProductId": "0bbdc2cf-a928-5df3-9c1e-15e1ccd212c2",
+        "candidates": [
+          {
+            "productId": "0bbdc2cf-a928-5df3-9c1e-15e1ccd212c2",
+            "name": "Broccoli",
+            "expectedTotal": 25480,
+            "totalDelta": 0,
+            "totalMatches": true,
+            "matchedOn": "active_supplier_product_and_cost"
+          }
+        ],
+        "warnings": []
+      }
+    ],
+    "summary": {
+      "totalLines": 5,
+      "selected": 5,
+      "withCostDiscrepancy": 0
+    }
+  }
+}
+

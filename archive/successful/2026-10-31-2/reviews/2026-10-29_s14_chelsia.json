@@ -1,0 +1,718 @@
+{
+  "schemaVersion": "rumah-sehat-v2-slip-review-v1",
+  "readyToImport": true,
+  "source": {
+    "imageFile": "WhatsApp Image 2026-10-31 at 1.18.40 PM.jpeg",
+    "slipIndex": 1,
+    "fingerprint": "dc6d25a7f4b6283f2521cb69e61c3a91e32020b6d9e96d3c193dc2f36e65d932",
+    "sourcePath": "incoming/WhatsApp Image 2026-10-31 at 1.18.40 PM.jpeg"
+  },
+  "extracted": {
+    "customerNameRead": "Chelsia",
+    "lines": [
+      {
+        "lineId": "s14-l01",
+        "productNameRead": "Tempe",
+        "quantityRead": 1,
+        "totalRead": 17000
+      },
+      {
+        "lineId": "s14-l02",
+        "productNameRead": "Bayam H",
+        "quantityRead": 0.4,
+        "totalRead": 16000
+      },
+      {
+        "lineId": "s14-l03",
+        "productNameRead": "Buncis",
+        "quantityRead": 0.25,
+        "totalRead": 9000
+      },
+      {
+        "lineId": "s14-l04",
+        "productNameRead": "Labusiam",
+        "quantityRead": 1,
+        "totalRead": 28000
+      },
+      {
+        "lineId": "s14-l05",
+        "productNameRead": "Terong Ungu",
+        "quantityRead": 1.2,
+        "totalRead": 38400
+      },
+      {
+        "lineId": "s14-l06",
+        "productNameRead": "Wortel",
+        "quantityRead": 0.5,
+        "totalRead": 15000
+      },
+      {
+        "lineId": "s14-l07",
+        "productNameRead": "Jagung Manis",
+        "quantityRead": 1.2,
+        "totalRead": 36000
+      },
+      {
+        "lineId": "s14-l08",
+        "productNameRead": "Oyong",
+        "quantityRead": 1.19,
+        "totalRead": 40460
+      },
+      {
+        "lineId": "s14-l09",
+        "productNameRead": "D. Ginseng",
+        "quantityRead": 0.25,
+        "totalRead": 12500
+      },
+      {
+        "lineId": "s14-l10",
+        "productNameRead": "Lobak Putih",
+        "quantityRead": 0.63,
+        "totalRead": 17640
+      },
+      {
+        "lineId": "s14-l11",
+        "productNameRead": "Kol Putih",
+        "quantityRead": 0.78,
+        "totalRead": 24960
+      }
+    ],
+    "date": "2026-10-29",
+    "slipTotalRead": 254960,
+    "slipTotalCertain": true,
+    "excludedOrNotReceived": []
+  },
+  "resolved": {
+    "supplier": {
+      "id": "19f80084-3483-5e26-97f4-58884573bbde",
+      "name": "Cisarua"
+    },
+    "customer": {
+      "id": "b851a9d3-6790-5c94-9875-65a66c5285f5",
+      "name": "Chelsia",
+      "legacyCustomerId": 182,
+      "aliases": [],
+      "addresses": [
+        "Sunrise Garden. Surya Wahana Blok 3J No 4. Kedoya"
+      ],
+      "nameRead": "Chelsia"
+    }
+  },
+  "warnings": [],
+  "calculations": {
+    "supplierProductSubtotal": 254960,
+    "supplierDeliveryFee": 10000,
+    "supplierTotal": 264960,
+    "customerDeliveryCharge": 10000,
+    "handwrittenProductTotal": 254960,
+    "lineTotalSum": 254960,
+    "handwrittenMinusLineSum": 0
+  },
+  "proposedDraft": {
+    "supplierDirectDraft": {
+      "schemaVersion": 1,
+      "supplierId": "19f80084-3483-5e26-97f4-58884573bbde",
+      "supplierName": "Cisarua",
+      "customerId": "b851a9d3-6790-5c94-9875-65a66c5285f5",
+      "customerName": "Chelsia",
+      "occurred": {
+        "date": "2026-10-29",
+        "precision": "date"
+      },
+      "supplierReference": "WhatsApp Image 2026-10-31 at 1.18.40 PM.jpeg#1",
+      "note": "Handwritten product total Rp254960; line sum matches.",
+      "lines": [
+        {
+          "clientLineKey": "s14-l01",
+          "productId": "8602d729-7cb2-5d7f-86ea-4f96ff2d6f3f",
+          "productName": "Tempe 400gr",
+          "inputUnitCode": "unit",
+          "quantity": "1",
+          "supplierDescription": "Tempe",
+          "supplierCost": {
+            "status": "provisional",
+            "totalAmount": "17000"
+          },
+          "customerPricing": {
+            "source": "catalog"
+          }
+        },
+        {
+          "clientLineKey": "s14-l02",
+          "productId": "cc64524c-4c46-59b6-ad3e-b411b3376bf3",
+          "productName": "Bayam Hijau",
+          "inputUnitCode": "kg",
+          "quantity": "0.4",
+          "supplierDescription": "Bayam H",
+          "supplierCost": {
+            "status": "provisional",
+            "totalAmount": "16000"
+          },
+          "customerPricing": {
+            "source": "catalog"
+          }
+        },
+        {
+          "clientLineKey": "s14-l03",
+          "productId": "f542ed36-e83e-5d7a-936e-9cafc03354df",
+          "productName": "Buncis",
+          "inputUnitCode": "kg",
+          "quantity": "0.25",
+          "supplierDescription": "Buncis",
+          "supplierCost": {
+            "status": "provisional",
+            "totalAmount": "9000"
+          },
+          "customerPricing": {
+            "source": "catalog"
+          }
+        },
+        {
+          "clientLineKey": "s14-l04",
+          "productId": "e5c5ca78-901c-5e4f-b4af-44e9437ed6e7",
+          "productName": "Labu Siam",
+          "inputUnitCode": "kg",
+          "quantity": "1",
+          "supplierDescription": "Labusiam",
+          "supplierCost": {
+            "status": "provisional",
+            "totalAmount": "28000"
+          },
+          "customerPricing": {
+            "source": "catalog"
+          }
+        },
+        {
+          "clientLineKey": "s14-l05",
+          "productId": "53be9183-6302-5eb8-b106-a9cdc43dc69b",
+          "productName": "Terong Ungu",
+          "inputUnitCode": "kg",
+          "quantity": "1.2",
+          "supplierDescription": "Terong Ungu",
+          "supplierCost": {
+            "status": "provisional",
+            "totalAmount": "38400"
+          },
+          "customerPricing": {
+            "source": "catalog"
+          }
+        },
+        {
+          "clientLineKey": "s14-l06",
+          "productId": "8c3ef21e-febb-52e4-8f04-be3865c99073",
+          "productName": "Wortel",
+          "inputUnitCode": "kg",
+          "quantity": "0.5",
+          "supplierDescription": "Wortel",
+          "supplierCost": {
+            "status": "provisional",
+            "totalAmount": "15000"
+          },
+          "customerPricing": {
+            "source": "catalog"
+          }
+        },
+        {
+          "clientLineKey": "s14-l07",
+          "productId": "dc3006fa-40b7-5b8f-bea1-c2ada363e57d",
+          "productName": "Jagung Manis",
+          "inputUnitCode": "kg",
+          "quantity": "1.2",
+          "supplierDescription": "Jagung Manis",
+          "supplierCost": {
+            "status": "provisional",
+            "totalAmount": "36000"
+          },
+          "customerPricing": {
+            "source": "catalog"
+          }
+        },
+        {
+          "clientLineKey": "s14-l08",
+          "productId": "efc09506-965a-5b5e-ab38-f39751849397",
+          "productName": "Oyong",
+          "inputUnitCode": "kg",
+          "quantity": "1.19",
+          "supplierDescription": "Oyong",
+          "supplierCost": {
+            "status": "provisional",
+            "totalAmount": "40460"
+          },
+          "customerPricing": {
+            "source": "catalog"
+          }
+        },
+        {
+          "clientLineKey": "s14-l09",
+          "productId": "34194509-7fa0-52d4-b2ff-e1543e720b14",
+          "productName": "Daun Ginseng",
+          "inputUnitCode": "kg",
+          "quantity": "0.25",
+          "supplierDescription": "D. Ginseng",
+          "supplierCost": {
+            "status": "provisional",
+            "totalAmount": "12500"
+          },
+          "customerPricing": {
+            "source": "catalog"
+          }
+        },
+        {
+          "clientLineKey": "s14-l10",
+          "productId": "c3c63545-3486-54d4-aaa3-584eb744c741",
+          "productName": "Lobak Putih",
+          "inputUnitCode": "kg",
+          "quantity": "0.63",
+          "supplierDescription": "Lobak Putih",
+          "supplierCost": {
+            "status": "provisional",
+            "totalAmount": "17640"
+          },
+          "customerPricing": {
+            "source": "catalog"
+          }
+        },
+        {
+          "clientLineKey": "s14-l11",
+          "productId": "629f27c1-4491-5a0a-be07-8c91609d3988",
+          "productName": "Kol Putih",
+          "inputUnitCode": "kg",
+          "quantity": "0.78",
+          "supplierDescription": "Kol Putih",
+          "supplierCost": {
+            "status": "provisional",
+            "totalAmount": "24960"
+          },
+          "customerPricing": {
+            "source": "catalog"
+          }
+        }
+      ],
+      "supplierDeliveryFee": {
+        "status": "provisional",
+        "amount": "10000",
+        "note": "Imported from reviewed supplier slip; confirm during supplier reconciliation."
+      },
+      "customerDeliveryCharge": "10000",
+      "customerDeliveryDescription": "Biaya pengantaran langsung"
+    }
+  },
+  "supplierDirectDraft": {
+    "schemaVersion": 1,
+    "supplierId": "19f80084-3483-5e26-97f4-58884573bbde",
+    "supplierName": "Cisarua",
+    "customerId": "b851a9d3-6790-5c94-9875-65a66c5285f5",
+    "customerName": "Chelsia",
+    "occurred": {
+      "date": "2026-10-29",
+      "precision": "date"
+    },
+    "supplierReference": "WhatsApp Image 2026-10-31 at 1.18.40 PM.jpeg#1",
+    "note": "Handwritten product total Rp254960; line sum matches.",
+    "lines": [
+      {
+        "clientLineKey": "s14-l01",
+        "productId": "8602d729-7cb2-5d7f-86ea-4f96ff2d6f3f",
+        "productName": "Tempe 400gr",
+        "inputUnitCode": "unit",
+        "quantity": "1",
+        "supplierDescription": "Tempe",
+        "supplierCost": {
+          "status": "provisional",
+          "totalAmount": "17000"
+        },
+        "customerPricing": {
+          "source": "catalog"
+        }
+      },
+      {
+        "clientLineKey": "s14-l02",
+        "productId": "cc64524c-4c46-59b6-ad3e-b411b3376bf3",
+        "productName": "Bayam Hijau",
+        "inputUnitCode": "kg",
+        "quantity": "0.4",
+        "supplierDescription": "Bayam H",
+        "supplierCost": {
+          "status": "provisional",
+          "totalAmount": "16000"
+        },
+        "customerPricing": {
+          "source": "catalog"
+        }
+      },
+      {
+        "clientLineKey": "s14-l03",
+        "productId": "f542ed36-e83e-5d7a-936e-9cafc03354df",
+        "productName": "Buncis",
+        "inputUnitCode": "kg",
+        "quantity": "0.25",
+        "supplierDescription": "Buncis",
+        "supplierCost": {
+          "status": "provisional",
+          "totalAmount": "9000"
+        },
+        "customerPricing": {
+          "source": "catalog"
+        }
+      },
+      {
+        "clientLineKey": "s14-l04",
+        "productId": "e5c5ca78-901c-5e4f-b4af-44e9437ed6e7",
+        "productName": "Labu Siam",
+        "inputUnitCode": "kg",
+        "quantity": "1",
+        "supplierDescription": "Labusiam",
+        "supplierCost": {
+          "status": "provisional",
+          "totalAmount": "28000"
+        },
+        "customerPricing": {
+          "source": "catalog"
+        }
+      },
+      {
+        "clientLineKey": "s14-l05",
+        "productId": "53be9183-6302-5eb8-b106-a9cdc43dc69b",
+        "productName": "Terong Ungu",
+        "inputUnitCode": "kg",
+        "quantity": "1.2",
+        "supplierDescription": "Terong Ungu",
+        "supplierCost": {
+          "status": "provisional",
+          "totalAmount": "38400"
+        },
+        "customerPricing": {
+          "source": "catalog"
+        }
+      },
+      {
+        "clientLineKey": "s14-l06",
+        "productId": "8c3ef21e-febb-52e4-8f04-be3865c99073",
+        "productName": "Wortel",
+        "inputUnitCode": "kg",
+        "quantity": "0.5",
+        "supplierDescription": "Wortel",
+        "supplierCost": {
+          "status": "provisional",
+          "totalAmount": "15000"
+        },
+        "customerPricing": {
+          "source": "catalog"
+        }
+      },
+      {
+        "clientLineKey": "s14-l07",
+        "productId": "dc3006fa-40b7-5b8f-bea1-c2ada363e57d",
+        "productName": "Jagung Manis",
+        "inputUnitCode": "kg",
+        "quantity": "1.2",
+        "supplierDescription": "Jagung Manis",
+        "supplierCost": {
+          "status": "provisional",
+          "totalAmount": "36000"
+        },
+        "customerPricing": {
+          "source": "catalog"
+        }
+      },
+      {
+        "clientLineKey": "s14-l08",
+        "productId": "efc09506-965a-5b5e-ab38-f39751849397",
+        "productName": "Oyong",
+        "inputUnitCode": "kg",
+        "quantity": "1.19",
+        "supplierDescription": "Oyong",
+        "supplierCost": {
+          "status": "provisional",
+          "totalAmount": "40460"
+        },
+        "customerPricing": {
+          "source": "catalog"
+        }
+      },
+      {
+        "clientLineKey": "s14-l09",
+        "productId": "34194509-7fa0-52d4-b2ff-e1543e720b14",
+        "productName": "Daun Ginseng",
+        "inputUnitCode": "kg",
+        "quantity": "0.25",
+        "supplierDescription": "D. Ginseng",
+        "supplierCost": {
+          "status": "provisional",
+          "totalAmount": "12500"
+        },
+        "customerPricing": {
+          "source": "catalog"
+        }
+      },
+      {
+        "clientLineKey": "s14-l10",
+        "productId": "c3c63545-3486-54d4-aaa3-584eb744c741",
+        "productName": "Lobak Putih",
+        "inputUnitCode": "kg",
+        "quantity": "0.63",
+        "supplierDescription": "Lobak Putih",
+        "supplierCost": {
+          "status": "provisional",
+          "totalAmount": "17640"
+        },
+        "customerPricing": {
+          "source": "catalog"
+        }
+      },
+      {
+        "clientLineKey": "s14-l11",
+        "productId": "629f27c1-4491-5a0a-be07-8c91609d3988",
+        "productName": "Kol Putih",
+        "inputUnitCode": "kg",
+        "quantity": "0.78",
+        "supplierDescription": "Kol Putih",
+        "supplierCost": {
+          "status": "provisional",
+          "totalAmount": "24960"
+        },
+        "customerPricing": {
+          "source": "catalog"
+        }
+      }
+    ],
+    "supplierDeliveryFee": {
+      "status": "provisional",
+      "amount": "10000",
+      "note": "Imported from reviewed supplier slip; confirm during supplier reconciliation."
+    },
+    "customerDeliveryCharge": "10000",
+    "customerDeliveryDescription": "Biaya pengantaran langsung"
+  },
+  "workflow": "supplier_direct",
+  "staffConfirmations": [],
+  "customerResolutionEvidence": {
+    "handwrittenName": "Chelsia",
+    "selectedCustomerId": "b851a9d3-6790-5c94-9875-65a66c5285f5",
+    "selectedCustomerName": "Chelsia",
+    "legacyCustomerId": 182,
+    "confirmation": []
+  },
+  "productMatchingEvidence": {
+    "effectiveOn": "2026-10-29",
+    "supplierId": "19f80084-3483-5e26-97f4-58884573bbde",
+    "supplierName": "Cisarua",
+    "lines": [
+      {
+        "lineId": "s14-l01",
+        "productNameRead": "Tempe",
+        "qtyRead": 1,
+        "totalRead": 17000,
+        "confidence": "confirmed",
+        "selectedProductId": "8602d729-7cb2-5d7f-86ea-4f96ff2d6f3f",
+        "candidates": [
+          {
+            "productId": "8602d729-7cb2-5d7f-86ea-4f96ff2d6f3f",
+            "name": "Tempe 400gr",
+            "expectedTotal": 17000,
+            "totalDelta": 0,
+            "totalMatches": true,
+            "matchedOn": "active_supplier_product_and_cost"
+          }
+        ],
+        "warnings": []
+      },
+      {
+        "lineId": "s14-l02",
+        "productNameRead": "Bayam H",
+        "qtyRead": 0.4,
+        "totalRead": 16000,
+        "confidence": "confirmed",
+        "selectedProductId": "cc64524c-4c46-59b6-ad3e-b411b3376bf3",
+        "candidates": [
+          {
+            "productId": "cc64524c-4c46-59b6-ad3e-b411b3376bf3",
+            "name": "Bayam Hijau",
+            "expectedTotal": 16000,
+            "totalDelta": 0,
+            "totalMatches": true,
+            "matchedOn": "active_supplier_product_and_cost"
+          }
+        ],
+        "warnings": []
+      },
+      {
+        "lineId": "s14-l03",
+        "productNameRead": "Buncis",
+        "qtyRead": 0.25,
+        "totalRead": 9000,
+        "confidence": "confirmed",
+        "selectedProductId": "f542ed36-e83e-5d7a-936e-9cafc03354df",
+        "candidates": [
+          {
+            "productId": "f542ed36-e83e-5d7a-936e-9cafc03354df",
+            "name": "Buncis",
+            "expectedTotal": 9000,
+            "totalDelta": 0,
+            "totalMatches": true,
+            "matchedOn": "active_supplier_product_and_cost"
+          }
+        ],
+        "warnings": []
+      },
+      {
+        "lineId": "s14-l04",
+        "productNameRead": "Labusiam",
+        "qtyRead": 1,
+        "totalRead": 28000,
+        "confidence": "confirmed",
+        "selectedProductId": "e5c5ca78-901c-5e4f-b4af-44e9437ed6e7",
+        "candidates": [
+          {
+            "productId": "e5c5ca78-901c-5e4f-b4af-44e9437ed6e7",
+            "name": "Labu Siam",
+            "expectedTotal": 28000,
+            "totalDelta": 0,
+            "totalMatches": true,
+            "matchedOn": "active_supplier_product_and_cost"
+          }
+        ],
+        "warnings": []
+      },
+      {
+        "lineId": "s14-l05",
+        "productNameRead": "Terong Ungu",
+        "qtyRead": 1.2,
+        "totalRead": 38400,
+        "confidence": "confirmed",
+        "selectedProductId": "53be9183-6302-5eb8-b106-a9cdc43dc69b",
+        "candidates": [
+          {
+            "productId": "53be9183-6302-5eb8-b106-a9cdc43dc69b",
+            "name": "Terong Ungu",
+            "expectedTotal": 38400,
+            "totalDelta": 0,
+            "totalMatches": true,
+            "matchedOn": "active_supplier_product_and_cost"
+          }
+        ],
+        "warnings": []
+      },
+      {
+        "lineId": "s14-l06",
+        "productNameRead": "Wortel",
+        "qtyRead": 0.5,
+        "totalRead": 15000,
+        "confidence": "confirmed",
+        "selectedProductId": "8c3ef21e-febb-52e4-8f04-be3865c99073",
+        "candidates": [
+          {
+            "productId": "8c3ef21e-febb-52e4-8f04-be3865c99073",
+            "name": "Wortel",
+            "expectedTotal": 15000,
+            "totalDelta": 0,
+            "totalMatches": true,
+            "matchedOn": "active_supplier_product_and_cost"
+          }
+        ],
+        "warnings": []
+      },
+      {
+        "lineId": "s14-l07",
+        "productNameRead": "Jagung Manis",
+        "qtyRead": 1.2,
+        "totalRead": 36000,
+        "confidence": "confirmed",
+        "selectedProductId": "dc3006fa-40b7-5b8f-bea1-c2ada363e57d",
+        "candidates": [
+          {
+            "productId": "dc3006fa-40b7-5b8f-bea1-c2ada363e57d",
+            "name": "Jagung Manis",
+            "expectedTotal": 36000,
+            "totalDelta": 0,
+            "totalMatches": true,
+            "matchedOn": "active_supplier_product_and_cost"
+          }
+        ],
+        "warnings": []
+      },
+      {
+        "lineId": "s14-l08",
+        "productNameRead": "Oyong",
+        "qtyRead": 1.19,
+        "totalRead": 40460,
+        "confidence": "confirmed",
+        "selectedProductId": "efc09506-965a-5b5e-ab38-f39751849397",
+        "candidates": [
+          {
+            "productId": "efc09506-965a-5b5e-ab38-f39751849397",
+            "name": "Oyong",
+            "expectedTotal": 40460,
+            "totalDelta": 0,
+            "totalMatches": true,
+            "matchedOn": "active_supplier_product_and_cost"
+          }
+        ],
+        "warnings": []
+      },
+      {
+        "lineId": "s14-l09",
+        "productNameRead": "D. Ginseng",
+        "qtyRead": 0.25,
+        "totalRead": 12500,
+        "confidence": "confirmed",
+        "selectedProductId": "34194509-7fa0-52d4-b2ff-e1543e720b14",
+        "candidates": [
+          {
+            "productId": "34194509-7fa0-52d4-b2ff-e1543e720b14",
+            "name": "Daun Ginseng",
+            "expectedTotal": 12500,
+            "totalDelta": 0,
+            "totalMatches": true,
+            "matchedOn": "active_supplier_product_and_cost"
+          }
+        ],
+        "warnings": []
+      },
+      {
+        "lineId": "s14-l10",
+        "productNameRead": "Lobak Putih",
+        "qtyRead": 0.63,
+        "totalRead": 17640,
+        "confidence": "confirmed",
+        "selectedProductId": "c3c63545-3486-54d4-aaa3-584eb744c741",
+        "candidates": [
+          {
+            "productId": "c3c63545-3486-54d4-aaa3-584eb744c741",
+            "name": "Lobak Putih",
+            "expectedTotal": 17640,
+            "totalDelta": 0,
+            "totalMatches": true,
+            "matchedOn": "active_supplier_product_and_cost"
+          }
+        ],
+        "warnings": []
+      },
+      {
+        "lineId": "s14-l11",
+        "productNameRead": "Kol Putih",
+        "qtyRead": 0.78,
+        "totalRead": 24960,
+        "confidence": "confirmed",
+        "selectedProductId": "629f27c1-4491-5a0a-be07-8c91609d3988",
+        "candidates": [
+          {
+            "productId": "629f27c1-4491-5a0a-be07-8c91609d3988",
+            "name": "Kol Putih",
+            "expectedTotal": 24960,
+            "totalDelta": 0,
+            "totalMatches": true,
+            "matchedOn": "active_supplier_product_and_cost"
+          }
+        ],
+        "warnings": []
+      }
+    ],
+    "summary": {
+      "totalLines": 11,
+      "selected": 11,
+      "withCostDiscrepancy": 0
+    }
+  }
+}
+

@@ -17,6 +17,7 @@ test("builds a pasteable review without posting anything", () => {
   assert.equal(result.supplierDirectDraft.lines[0].quantity, "0.25");
   assert.equal(result.supplierDirectDraft.lines[0].supplierCost.totalAmount, "9000");
   assert.equal(result.supplierDirectDraft.customerDeliveryCharge, "10000");
+  assert.equal(result.supplierDirectDraft.customerDeliveryDescription, "Biaya pengantaran langsung");
   assert.equal(result.supplierDirectDraft.supplierReference, "cisarua.jpg#1");
 });
 

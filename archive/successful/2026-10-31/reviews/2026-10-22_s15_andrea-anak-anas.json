@@ -1,0 +1,280 @@
+{
+  "schemaVersion": "rumah-sehat-v2-slip-review-v1",
+  "readyToImport": true,
+  "source": {
+    "imageFile": "WhatsApp Image 2026-10-24 at 11.49.14 AM.jpeg",
+    "slipIndex": 1,
+    "fingerprint": "71c57a4971d62450aee86c56ec723e97dc9981148d220a61237e7bd54a75f22c",
+    "sourcePath": "incoming/WhatsApp Image 2026-10-24 at 11.49.14 AM.jpeg"
+  },
+  "extracted": {
+    "customerNameRead": "Andrea",
+    "lines": [
+      {
+        "lineId": "s15-l01",
+        "productNameRead": "Telur Kampung",
+        "quantityRead": 10,
+        "totalRead": 40000
+      },
+      {
+        "lineId": "s15-l02",
+        "productNameRead": "Telur Negeri",
+        "quantityRead": 10,
+        "totalRead": 30000
+      },
+      {
+        "lineId": "s15-l03",
+        "productNameRead": "Labusiam B",
+        "quantityRead": 0.5,
+        "totalRead": 16000
+      }
+    ],
+    "date": "2026-10-22",
+    "slipTotalRead": 86000,
+    "slipTotalCertain": true,
+    "excludedOrNotReceived": []
+  },
+  "resolved": {
+    "supplier": {
+      "id": "19f80084-3483-5e26-97f4-58884573bbde",
+      "name": "Cisarua"
+    },
+    "customer": {
+      "id": "f24b7259-7486-5bde-a682-4a07c0f1c43d",
+      "name": "Andrea Anak Anas",
+      "legacyCustomerId": 654,
+      "aliases": [],
+      "addresses": [],
+      "nameRead": "Andrea"
+    }
+  },
+  "warnings": [],
+  "calculations": {
+    "supplierProductSubtotal": 86000,
+    "supplierDeliveryFee": 10000,
+    "supplierTotal": 96000,
+    "customerDeliveryCharge": 10000,
+    "handwrittenProductTotal": 86000,
+    "lineTotalSum": 86000,
+    "handwrittenMinusLineSum": 0
+  },
+  "proposedDraft": {
+    "supplierDirectDraft": {
+      "schemaVersion": 1,
+      "supplierId": "19f80084-3483-5e26-97f4-58884573bbde",
+      "supplierName": "Cisarua",
+      "customerId": "f24b7259-7486-5bde-a682-4a07c0f1c43d",
+      "customerName": "Andrea Anak Anas",
+      "occurred": {
+        "date": "2026-10-22",
+        "precision": "date"
+      },
+      "supplierReference": "WhatsApp Image 2026-10-24 at 11.49.14 AM.jpeg#1",
+      "note": "Handwritten product total Rp86000; line sum matches.",
+      "lines": [
+        {
+          "clientLineKey": "s15-l01",
+          "productId": "06e07aa2-15cb-54b0-83a5-a57fe49bb985",
+          "productName": "Telur Ayam",
+          "inputUnitCode": "unit",
+          "quantity": "10",
+          "supplierDescription": "Telur Kampung",
+          "supplierCost": {
+            "status": "provisional",
+            "totalAmount": "40000"
+          },
+          "customerPricing": {
+            "source": "catalog"
+          }
+        },
+        {
+          "clientLineKey": "s15-l02",
+          "productId": "70c8bbbc-1bb6-563a-a27a-9ff958f01824",
+          "productName": "Telur Negri Organik",
+          "inputUnitCode": "unit",
+          "quantity": "10",
+          "supplierDescription": "Telur Negeri",
+          "supplierCost": {
+            "status": "provisional",
+            "totalAmount": "30000"
+          },
+          "customerPricing": {
+            "source": "catalog"
+          }
+        },
+        {
+          "clientLineKey": "s15-l03",
+          "productId": "28284f97-0f37-5c4e-a7fb-294c3beed4a3",
+          "productName": "Labu Siam Baby",
+          "inputUnitCode": "kg",
+          "quantity": "0.5",
+          "supplierDescription": "Labusiam B",
+          "supplierCost": {
+            "status": "provisional",
+            "totalAmount": "16000"
+          },
+          "customerPricing": {
+            "source": "catalog"
+          }
+        }
+      ],
+      "supplierDeliveryFee": {
+        "status": "provisional",
+        "amount": "10000",
+        "note": "Imported from reviewed supplier slip; confirm during supplier reconciliation."
+      },
+      "customerDeliveryCharge": "10000",
+      "customerDeliveryDescription": "Biaya pengantaran supplier langsung"
+    }
+  },
+  "supplierDirectDraft": {
+    "schemaVersion": 1,
+    "supplierId": "19f80084-3483-5e26-97f4-58884573bbde",
+    "supplierName": "Cisarua",
+    "customerId": "f24b7259-7486-5bde-a682-4a07c0f1c43d",
+    "customerName": "Andrea Anak Anas",
+    "occurred": {
+      "date": "2026-10-22",
+      "precision": "date"
+    },
+    "supplierReference": "WhatsApp Image 2026-10-24 at 11.49.14 AM.jpeg#1",
+    "note": "Handwritten product total Rp86000; line sum matches.",
+    "lines": [
+      {
+        "clientLineKey": "s15-l01",
+        "productId": "06e07aa2-15cb-54b0-83a5-a57fe49bb985",
+        "productName": "Telur Ayam",
+        "inputUnitCode": "unit",
+        "quantity": "10",
+        "supplierDescription": "Telur Kampung",
+        "supplierCost": {
+          "status": "provisional",
+          "totalAmount": "40000"
+        },
+        "customerPricing": {
+          "source": "catalog"
+        }
+      },
+      {
+        "clientLineKey": "s15-l02",
+        "productId": "70c8bbbc-1bb6-563a-a27a-9ff958f01824",
+        "productName": "Telur Negri Organik",
+        "inputUnitCode": "unit",
+        "quantity": "10",
+        "supplierDescription": "Telur Negeri",
+        "supplierCost": {
+          "status": "provisional",
+          "totalAmount": "30000"
+        },
+        "customerPricing": {
+          "source": "catalog"
+        }
+      },
+      {
+        "clientLineKey": "s15-l03",
+        "productId": "28284f97-0f37-5c4e-a7fb-294c3beed4a3",
+        "productName": "Labu Siam Baby",
+        "inputUnitCode": "kg",
+        "quantity": "0.5",
+        "supplierDescription": "Labusiam B",
+        "supplierCost": {
+          "status": "provisional",
+          "totalAmount": "16000"
+        },
+        "customerPricing": {
+          "source": "catalog"
+        }
+      }
+    ],
+    "supplierDeliveryFee": {
+      "status": "provisional",
+      "amount": "10000",
+      "note": "Imported from reviewed supplier slip; confirm during supplier reconciliation."
+    },
+    "customerDeliveryCharge": "10000",
+    "customerDeliveryDescription": "Biaya pengantaran supplier langsung"
+  },
+  "workflow": "supplier_direct",
+  "staffConfirmations": [
+    "Operator context resolves Andrea to Andrea Anak Anas."
+  ],
+  "customerResolutionEvidence": {
+    "handwrittenName": "Andrea",
+    "selectedCustomerId": "f24b7259-7486-5bde-a682-4a07c0f1c43d",
+    "selectedCustomerName": "Andrea Anak Anas",
+    "legacyCustomerId": 654,
+    "confirmation": [
+      "Operator context resolves Andrea to Andrea Anak Anas."
+    ]
+  },
+  "productMatchingEvidence": {
+    "effectiveOn": "2026-10-22",
+    "supplierId": "19f80084-3483-5e26-97f4-58884573bbde",
+    "supplierName": "Cisarua",
+    "lines": [
+      {
+        "lineId": "s15-l01",
+        "productNameRead": "Telur Kampung",
+        "qtyRead": 10,
+        "totalRead": 40000,
+        "confidence": "confirmed",
+        "selectedProductId": "06e07aa2-15cb-54b0-83a5-a57fe49bb985",
+        "candidates": [
+          {
+            "productId": "06e07aa2-15cb-54b0-83a5-a57fe49bb985",
+            "name": "Telur Ayam",
+            "expectedTotal": 40000,
+            "totalDelta": 0,
+            "totalMatches": true,
+            "matchedOn": "active_supplier_product_and_cost"
+          }
+        ],
+        "warnings": []
+      },
+      {
+        "lineId": "s15-l02",
+        "productNameRead": "Telur Negeri",
+        "qtyRead": 10,
+        "totalRead": 30000,
+        "confidence": "confirmed",
+        "selectedProductId": "70c8bbbc-1bb6-563a-a27a-9ff958f01824",
+        "candidates": [
+          {
+            "productId": "70c8bbbc-1bb6-563a-a27a-9ff958f01824",
+            "name": "Telur Negri Organik",
+            "expectedTotal": 30000,
+            "totalDelta": 0,
+            "totalMatches": true,
+            "matchedOn": "active_supplier_product_and_cost"
+          }
+        ],
+        "warnings": []
+      },
+      {
+        "lineId": "s15-l03",
+        "productNameRead": "Labusiam B",
+        "qtyRead": 0.5,
+        "totalRead": 16000,
+        "confidence": "confirmed",
+        "selectedProductId": "28284f97-0f37-5c4e-a7fb-294c3beed4a3",
+        "candidates": [
+          {
+            "productId": "28284f97-0f37-5c4e-a7fb-294c3beed4a3",
+            "name": "Labu Siam Baby",
+            "expectedTotal": 16000,
+            "totalDelta": 0,
+            "totalMatches": true,
+            "matchedOn": "active_supplier_product_and_cost"
+          }
+        ],
+        "warnings": []
+      }
+    ],
+    "summary": {
+      "totalLines": 3,
+      "selected": 3,
+      "withCostDiscrepancy": 0
+    }
+  }
+}
+

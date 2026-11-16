@@ -1,0 +1,510 @@
+{
+  "schemaVersion": "rumah-sehat-v2-slip-review-v1",
+  "readyToImport": true,
+  "source": {
+    "imageFile": "WhatsApp Image 2026-10-24 at 11.49.12 AM.jpeg",
+    "slipIndex": 2,
+    "fingerprint": "f1e77c37f3af30d64e2223c4d545c04137763c5887945f0e13d6aba636eb9e40",
+    "sourcePath": "incoming/WhatsApp Image 2026-10-24 at 11.49.12 AM.jpeg"
+  },
+  "extracted": {
+    "customerNameRead": "Wei",
+    "lines": [
+      {
+        "lineId": "s04-l01",
+        "productNameRead": "Tahu Putih",
+        "quantityRead": 1,
+        "totalRead": 30000
+      },
+      {
+        "lineId": "s04-l02",
+        "productNameRead": "Pisang Raja",
+        "quantityRead": 1.82,
+        "totalRead": 45500
+      },
+      {
+        "lineId": "s04-l03",
+        "productNameRead": "Kangkung",
+        "quantityRead": 0.2,
+        "totalRead": 8000
+      },
+      {
+        "lineId": "s04-l04",
+        "productNameRead": "Selada Air",
+        "quantityRead": 0.25,
+        "totalRead": 9000
+      },
+      {
+        "lineId": "s04-l05",
+        "productNameRead": "Bit",
+        "quantityRead": 0.6,
+        "totalRead": 22800
+      },
+      {
+        "lineId": "s04-l06",
+        "productNameRead": "Jagung Manis",
+        "quantityRead": 1.33,
+        "totalRead": 39900
+      },
+      {
+        "lineId": "s04-l07",
+        "productNameRead": "Ubi Jepang",
+        "quantityRead": 1,
+        "totalRead": 28000
+      }
+    ],
+    "date": "2026-10-21",
+    "slipTotalRead": 183200,
+    "slipTotalCertain": true,
+    "excludedOrNotReceived": [
+      {
+        "productNameRead": "Horenso",
+        "receivedRead": "X",
+        "reason": "marked not received"
+      }
+    ]
+  },
+  "resolved": {
+    "supplier": {
+      "id": "19f80084-3483-5e26-97f4-58884573bbde",
+      "name": "Cisarua"
+    },
+    "customer": {
+      "id": "1aee9e26-efe7-58d0-8e5e-624b0aa478ce",
+      "name": "Wei Wei",
+      "legacyCustomerId": 47,
+      "aliases": [],
+      "addresses": [
+        "Sektor 1A. Blok AG 8 No 14. Gading Serpong"
+      ],
+      "nameRead": "Wei"
+    }
+  },
+  "warnings": [],
+  "calculations": {
+    "supplierProductSubtotal": 183200,
+    "supplierDeliveryFee": 0,
+    "supplierTotal": 183200,
+    "customerDeliveryCharge": 0,
+    "handwrittenProductTotal": 183200,
+    "lineTotalSum": 183200,
+    "handwrittenMinusLineSum": 0
+  },
+  "proposedDraft": {
+    "supplierDirectDraft": {
+      "schemaVersion": 1,
+      "supplierId": "19f80084-3483-5e26-97f4-58884573bbde",
+      "supplierName": "Cisarua",
+      "customerId": "1aee9e26-efe7-58d0-8e5e-624b0aa478ce",
+      "customerName": "Wei Wei",
+      "occurred": {
+        "date": "2026-10-21",
+        "precision": "date"
+      },
+      "supplierReference": "WhatsApp Image 2026-10-24 at 11.49.12 AM.jpeg#2",
+      "note": "Handwritten product total Rp183200; line sum matches. Excluded not-received markings: Horenso.",
+      "lines": [
+        {
+          "clientLineKey": "s04-l01",
+          "productId": "cfb5a0ff-0df0-5d76-bcc4-75e451fc37a8",
+          "productName": "Tahu Putih",
+          "inputUnitCode": "unit",
+          "quantity": "1",
+          "supplierDescription": "Tahu Putih",
+          "supplierCost": {
+            "status": "provisional",
+            "totalAmount": "30000"
+          },
+          "customerPricing": {
+            "source": "catalog"
+          }
+        },
+        {
+          "clientLineKey": "s04-l02",
+          "productId": "a17f5e9c-dee4-5f39-a0ab-bcc99345ddd2",
+          "productName": "Pisang Raja Bulu",
+          "inputUnitCode": "kg",
+          "quantity": "1.82",
+          "supplierDescription": "Pisang Raja",
+          "supplierCost": {
+            "status": "provisional",
+            "totalAmount": "45500"
+          },
+          "customerPricing": {
+            "source": "catalog"
+          }
+        },
+        {
+          "clientLineKey": "s04-l03",
+          "productId": "dcf2b87b-097a-5abd-8cea-98efc5c8e3a2",
+          "productName": "Kangkung",
+          "inputUnitCode": "kg",
+          "quantity": "0.2",
+          "supplierDescription": "Kangkung",
+          "supplierCost": {
+            "status": "provisional",
+            "totalAmount": "8000"
+          },
+          "customerPricing": {
+            "source": "catalog"
+          }
+        },
+        {
+          "clientLineKey": "s04-l04",
+          "productId": "19951f33-bfce-50f1-b35b-045fcad65017",
+          "productName": "Selada Air",
+          "inputUnitCode": "kg",
+          "quantity": "0.25",
+          "supplierDescription": "Selada Air",
+          "supplierCost": {
+            "status": "provisional",
+            "totalAmount": "9000"
+          },
+          "customerPricing": {
+            "source": "catalog"
+          }
+        },
+        {
+          "clientLineKey": "s04-l05",
+          "productId": "241f5520-f0ce-5bda-a5a7-39b5d2abd0d6",
+          "productName": "Bit Merah",
+          "inputUnitCode": "kg",
+          "quantity": "0.6",
+          "supplierDescription": "Bit",
+          "supplierCost": {
+            "status": "provisional",
+            "totalAmount": "22800"
+          },
+          "customerPricing": {
+            "source": "catalog"
+          }
+        },
+        {
+          "clientLineKey": "s04-l06",
+          "productId": "dc3006fa-40b7-5b8f-bea1-c2ada363e57d",
+          "productName": "Jagung Manis",
+          "inputUnitCode": "kg",
+          "quantity": "1.33",
+          "supplierDescription": "Jagung Manis",
+          "supplierCost": {
+            "status": "provisional",
+            "totalAmount": "39900"
+          },
+          "customerPricing": {
+            "source": "catalog"
+          }
+        },
+        {
+          "clientLineKey": "s04-l07",
+          "productId": "4e6ac705-240e-50f0-9b75-135238080961",
+          "productName": "Ubi Jepang",
+          "inputUnitCode": "unit",
+          "quantity": "1",
+          "supplierDescription": "Ubi Jepang",
+          "supplierCost": {
+            "status": "provisional",
+            "totalAmount": "28000"
+          },
+          "customerPricing": {
+            "source": "catalog"
+          }
+        }
+      ],
+      "supplierDeliveryFee": {
+        "status": "provisional",
+        "amount": "0",
+        "note": "Imported from reviewed supplier slip; confirm during supplier reconciliation."
+      },
+      "customerDeliveryCharge": "0",
+      "customerDeliveryDescription": "Biaya pengantaran supplier langsung"
+    }
+  },
+  "supplierDirectDraft": {
+    "schemaVersion": 1,
+    "supplierId": "19f80084-3483-5e26-97f4-58884573bbde",
+    "supplierName": "Cisarua",
+    "customerId": "1aee9e26-efe7-58d0-8e5e-624b0aa478ce",
+    "customerName": "Wei Wei",
+    "occurred": {
+      "date": "2026-10-21",
+      "precision": "date"
+    },
+    "supplierReference": "WhatsApp Image 2026-10-24 at 11.49.12 AM.jpeg#2",
+    "note": "Handwritten product total Rp183200; line sum matches. Excluded not-received markings: Horenso.",
+    "lines": [
+      {
+        "clientLineKey": "s04-l01",
+        "productId": "cfb5a0ff-0df0-5d76-bcc4-75e451fc37a8",
+        "productName": "Tahu Putih",
+        "inputUnitCode": "unit",
+        "quantity": "1",
+        "supplierDescription": "Tahu Putih",
+        "supplierCost": {
+          "status": "provisional",
+          "totalAmount": "30000"
+        },
+        "customerPricing": {
+          "source": "catalog"
+        }
+      },
+      {
+        "clientLineKey": "s04-l02",
+        "productId": "a17f5e9c-dee4-5f39-a0ab-bcc99345ddd2",
+        "productName": "Pisang Raja Bulu",
+        "inputUnitCode": "kg",
+        "quantity": "1.82",
+        "supplierDescription": "Pisang Raja",
+        "supplierCost": {
+          "status": "provisional",
+          "totalAmount": "45500"
+        },
+        "customerPricing": {
+          "source": "catalog"
+        }
+      },
+      {
+        "clientLineKey": "s04-l03",
+        "productId": "dcf2b87b-097a-5abd-8cea-98efc5c8e3a2",
+        "productName": "Kangkung",
+        "inputUnitCode": "kg",
+        "quantity": "0.2",
+        "supplierDescription": "Kangkung",
+        "supplierCost": {
+          "status": "provisional",
+          "totalAmount": "8000"
+        },
+        "customerPricing": {
+          "source": "catalog"
+        }
+      },
+      {
+        "clientLineKey": "s04-l04",
+        "productId": "19951f33-bfce-50f1-b35b-045fcad65017",
+        "productName": "Selada Air",
+        "inputUnitCode": "kg",
+        "quantity": "0.25",
+        "supplierDescription": "Selada Air",
+        "supplierCost": {
+          "status": "provisional",
+          "totalAmount": "9000"
+        },
+        "customerPricing": {
+          "source": "catalog"
+        }
+      },
+      {
+        "clientLineKey": "s04-l05",
+        "productId": "241f5520-f0ce-5bda-a5a7-39b5d2abd0d6",
+        "productName": "Bit Merah",
+        "inputUnitCode": "kg",
+        "quantity": "0.6",
+        "supplierDescription": "Bit",
+        "supplierCost": {
+          "status": "provisional",
+          "totalAmount": "22800"
+        },
+        "customerPricing": {
+          "source": "catalog"
+        }
+      },
+      {
+        "clientLineKey": "s04-l06",
+        "productId": "dc3006fa-40b7-5b8f-bea1-c2ada363e57d",
+        "productName": "Jagung Manis",
+        "inputUnitCode": "kg",
+        "quantity": "1.33",
+        "supplierDescription": "Jagung Manis",
+        "supplierCost": {
+          "status": "provisional",
+          "totalAmount": "39900"
+        },
+        "customerPricing": {
+          "source": "catalog"
+        }
+      },
+      {
+        "clientLineKey": "s04-l07",
+        "productId": "4e6ac705-240e-50f0-9b75-135238080961",
+        "productName": "Ubi Jepang",
+        "inputUnitCode": "unit",
+        "quantity": "1",
+        "supplierDescription": "Ubi Jepang",
+        "supplierCost": {
+          "status": "provisional",
+          "totalAmount": "28000"
+        },
+        "customerPricing": {
+          "source": "catalog"
+        }
+      }
+    ],
+    "supplierDeliveryFee": {
+      "status": "provisional",
+      "amount": "0",
+      "note": "Imported from reviewed supplier slip; confirm during supplier reconciliation."
+    },
+    "customerDeliveryCharge": "0",
+    "customerDeliveryDescription": "Biaya pengantaran supplier langsung"
+  },
+  "workflow": "supplier_direct",
+  "staffConfirmations": [
+    "Operator context resolves Wei to Wei Wei.",
+    "Address note says titip at Ibu Chi-Chi; supplier and customer delivery fees are both zero."
+  ],
+  "customerResolutionEvidence": {
+    "handwrittenName": "Wei",
+    "selectedCustomerId": "1aee9e26-efe7-58d0-8e5e-624b0aa478ce",
+    "selectedCustomerName": "Wei Wei",
+    "legacyCustomerId": 47,
+    "confirmation": [
+      "Operator context resolves Wei to Wei Wei.",
+      "Address note says titip at Ibu Chi-Chi; supplier and customer delivery fees are both zero."
+    ]
+  },
+  "productMatchingEvidence": {
+    "effectiveOn": "2026-10-21",
+    "supplierId": "19f80084-3483-5e26-97f4-58884573bbde",
+    "supplierName": "Cisarua",
+    "lines": [
+      {
+        "lineId": "s04-l01",
+        "productNameRead": "Tahu Putih",
+        "qtyRead": 1,
+        "totalRead": 30000,
+        "confidence": "confirmed",
+        "selectedProductId": "cfb5a0ff-0df0-5d76-bcc4-75e451fc37a8",
+        "candidates": [
+          {
+            "productId": "cfb5a0ff-0df0-5d76-bcc4-75e451fc37a8",
+            "name": "Tahu Putih",
+            "expectedTotal": 30000,
+            "totalDelta": 0,
+            "totalMatches": true,
+            "matchedOn": "active_supplier_product_and_cost"
+          }
+        ],
+        "warnings": []
+      },
+      {
+        "lineId": "s04-l02",
+        "productNameRead": "Pisang Raja",
+        "qtyRead": 1.82,
+        "totalRead": 45500,
+        "confidence": "confirmed",
+        "selectedProductId": "a17f5e9c-dee4-5f39-a0ab-bcc99345ddd2",
+        "candidates": [
+          {
+            "productId": "a17f5e9c-dee4-5f39-a0ab-bcc99345ddd2",
+            "name": "Pisang Raja Bulu",
+            "expectedTotal": 45500,
+            "totalDelta": 0,
+            "totalMatches": true,
+            "matchedOn": "active_supplier_product_and_cost"
+          }
+        ],
+        "warnings": []
+      },
+      {
+        "lineId": "s04-l03",
+        "productNameRead": "Kangkung",
+        "qtyRead": 0.2,
+        "totalRead": 8000,
+        "confidence": "confirmed",
+        "selectedProductId": "dcf2b87b-097a-5abd-8cea-98efc5c8e3a2",
+        "candidates": [
+          {
+            "productId": "dcf2b87b-097a-5abd-8cea-98efc5c8e3a2",
+            "name": "Kangkung",
+            "expectedTotal": 8000,
+            "totalDelta": 0,
+            "totalMatches": true,
+            "matchedOn": "active_supplier_product_and_cost"
+          }
+        ],
+        "warnings": []
+      },
+      {
+        "lineId": "s04-l04",
+        "productNameRead": "Selada Air",
+        "qtyRead": 0.25,
+        "totalRead": 9000,
+        "confidence": "confirmed",
+        "selectedProductId": "19951f33-bfce-50f1-b35b-045fcad65017",
+        "candidates": [
+          {
+            "productId": "19951f33-bfce-50f1-b35b-045fcad65017",
+            "name": "Selada Air",
+            "expectedTotal": 9000,
+            "totalDelta": 0,
+            "totalMatches": true,
+            "matchedOn": "active_supplier_product_and_cost"
+          }
+        ],
+        "warnings": []
+      },
+      {
+        "lineId": "s04-l05",
+        "productNameRead": "Bit",
+        "qtyRead": 0.6,
+        "totalRead": 22800,
+        "confidence": "confirmed",
+        "selectedProductId": "241f5520-f0ce-5bda-a5a7-39b5d2abd0d6",
+        "candidates": [
+          {
+            "productId": "241f5520-f0ce-5bda-a5a7-39b5d2abd0d6",
+            "name": "Bit Merah",
+            "expectedTotal": 22800,
+            "totalDelta": 0,
+            "totalMatches": true,
+            "matchedOn": "active_supplier_product_and_cost"
+          }
+        ],
+        "warnings": []
+      },
+      {
+        "lineId": "s04-l06",
+        "productNameRead": "Jagung Manis",
+        "qtyRead": 1.33,
+        "totalRead": 39900,
+        "confidence": "confirmed",
+        "selectedProductId": "dc3006fa-40b7-5b8f-bea1-c2ada363e57d",
+        "candidates": [
+          {
+            "productId": "dc3006fa-40b7-5b8f-bea1-c2ada363e57d",
+            "name": "Jagung Manis",
+            "expectedTotal": 39900,
+            "totalDelta": 0,
+            "totalMatches": true,
+            "matchedOn": "active_supplier_product_and_cost"
+          }
+        ],
+        "warnings": []
+      },
+      {
+        "lineId": "s04-l07",
+        "productNameRead": "Ubi Jepang",
+        "qtyRead": 1,
+        "totalRead": 28000,
+        "confidence": "confirmed",
+        "selectedProductId": "4e6ac705-240e-50f0-9b75-135238080961",
+        "candidates": [
+          {
+            "productId": "4e6ac705-240e-50f0-9b75-135238080961",
+            "name": "Ubi Jepang",
+            "expectedTotal": 28000,
+            "totalDelta": 0,
+            "totalMatches": true,
+            "matchedOn": "active_supplier_product_and_cost"
+          }
+        ],
+        "warnings": []
+      }
+    ],
+    "summary": {
+      "totalLines": 7,
+      "selected": 7,
+      "withCostDiscrepancy": 0
+    }
+  }
+}
+

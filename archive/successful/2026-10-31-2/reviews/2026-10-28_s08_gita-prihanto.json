@@ -1,0 +1,1122 @@
+{
+  "schemaVersion": "rumah-sehat-v2-slip-review-v1",
+  "readyToImport": true,
+  "source": {
+    "imageFile": "WhatsApp Image 2026-10-31 at 1.18.39 PM.jpeg",
+    "slipIndex": 2,
+    "fingerprint": "4142c2fcef520ee85e64f8da3bacf1fffd475cf6a48144b994f720332e5f047b",
+    "sourcePath": "incoming/WhatsApp Image 2026-10-31 at 1.18.39 PM.jpeg"
+  },
+  "extracted": {
+    "customerNameRead": "Gita",
+    "lines": [
+      {
+        "lineId": "s08-l01",
+        "productNameRead": "Ikan Nila",
+        "quantityRead": 2,
+        "totalRead": 120000
+      },
+      {
+        "lineId": "s08-l02",
+        "productNameRead": "Tempe",
+        "quantityRead": 1,
+        "totalRead": 17000
+      },
+      {
+        "lineId": "s08-l03",
+        "productNameRead": "Tahu Hongkong",
+        "quantityRead": 1,
+        "totalRead": 11000
+      },
+      {
+        "lineId": "s08-l04",
+        "productNameRead": "Bombay",
+        "quantityRead": 0.5,
+        "totalRead": 38000
+      },
+      {
+        "lineId": "s08-l05",
+        "productNameRead": "Bawang Merah",
+        "quantityRead": 0.5,
+        "totalRead": 36000
+      },
+      {
+        "lineId": "s08-l06",
+        "productNameRead": "Cabe Merah Keriting",
+        "quantityRead": 0.5,
+        "totalRead": 45000
+      },
+      {
+        "lineId": "s08-l07",
+        "productNameRead": "Nanas",
+        "quantityRead": 1,
+        "totalRead": 13000
+      },
+      {
+        "lineId": "s08-l08",
+        "productNameRead": "Daun Bawang",
+        "quantityRead": 0.2,
+        "totalRead": 8000
+      },
+      {
+        "lineId": "s08-l09",
+        "productNameRead": "Jahe Merah",
+        "quantityRead": 0.25,
+        "totalRead": 16000
+      },
+      {
+        "lineId": "s08-l10",
+        "productNameRead": "Bawang P",
+        "quantityRead": 0.5,
+        "totalRead": 33000
+      },
+      {
+        "lineId": "s08-l11",
+        "productNameRead": "Timun",
+        "quantityRead": 0.5,
+        "totalRead": 16000
+      },
+      {
+        "lineId": "s08-l12",
+        "productNameRead": "Lobak Putih",
+        "quantityRead": 0.95,
+        "totalRead": 26600
+      },
+      {
+        "lineId": "s08-l13",
+        "productNameRead": "Sereh",
+        "quantityRead": 0.5,
+        "totalRead": 16000
+      },
+      {
+        "lineId": "s08-l14",
+        "productNameRead": "Jahe Gajah",
+        "quantityRead": 0.25,
+        "totalRead": 15000
+      },
+      {
+        "lineId": "s08-l15",
+        "productNameRead": "Kunyit",
+        "quantityRead": 0.25,
+        "totalRead": 9000
+      },
+      {
+        "lineId": "s08-l16",
+        "productNameRead": "Lengkuas",
+        "quantityRead": 0.25,
+        "totalRead": 10000
+      },
+      {
+        "lineId": "s08-l17",
+        "productNameRead": "Oyong",
+        "quantityRead": 0.32,
+        "totalRead": 10880
+      },
+      {
+        "lineId": "s08-l18",
+        "productNameRead": "K. Merah",
+        "quantityRead": 0.25,
+        "totalRead": 9000
+      }
+    ],
+    "date": "2026-10-28",
+    "slipTotalRead": 449480,
+    "slipTotalCertain": true,
+    "excludedOrNotReceived": [
+      {
+        "productNameRead": "Lemon",
+        "receivedRead": "marked X / not received",
+        "reason": "marked X / not received"
+      },
+      {
+        "productNameRead": "Cabe Rawit",
+        "receivedRead": "marked X / not received",
+        "reason": "marked X / not received"
+      }
+    ]
+  },
+  "resolved": {
+    "supplier": {
+      "id": "19f80084-3483-5e26-97f4-58884573bbde",
+      "name": "Cisarua"
+    },
+    "customer": {
+      "id": "effd171f-0ec6-5600-9804-5be7ff26bdc1",
+      "name": "Gita Prihanto",
+      "legacyCustomerId": 644,
+      "aliases": [],
+      "addresses": [
+        "Jl Adhyaksa III no 37, Lebak Bulus, Jaksel, 12440"
+      ],
+      "nameRead": "Gita"
+    }
+  },
+  "warnings": [],
+  "calculations": {
+    "supplierProductSubtotal": 449480,
+    "supplierDeliveryFee": 10000,
+    "supplierTotal": 459480,
+    "customerDeliveryCharge": 10000,
+    "handwrittenProductTotal": 449480,
+    "lineTotalSum": 449480,
+    "handwrittenMinusLineSum": 0
+  },
+  "proposedDraft": {
+    "supplierDirectDraft": {
+      "schemaVersion": 1,
+      "supplierId": "19f80084-3483-5e26-97f4-58884573bbde",
+      "supplierName": "Cisarua",
+      "customerId": "effd171f-0ec6-5600-9804-5be7ff26bdc1",
+      "customerName": "Gita Prihanto",
+      "occurred": {
+        "date": "2026-10-28",
+        "precision": "date"
+      },
+      "supplierReference": "WhatsApp Image 2026-10-31 at 1.18.39 PM.jpeg#2",
+      "note": "Handwritten product total Rp449480; line sum matches. Excluded not-received markings: Lemon, Cabe Rawit. Staff confirmed the address identifies Gita Prihanto. Staff confirmed the line below Jahe Gajah is Kunyit. K. Merah at the bottom is Kacang Merah Kulit.",
+      "lines": [
+        {
+          "clientLineKey": "s08-l01",
+          "productId": "fb2fae85-dff9-5f8f-84f5-dc4ac1a6b4ad",
+          "productName": "Ikan Nila Organik",
+          "inputUnitCode": "unit",
+          "quantity": "2",
+          "supplierDescription": "Ikan Nila",
+          "supplierCost": {
+            "status": "provisional",
+            "totalAmount": "120000"
+          },
+          "customerPricing": {
+            "source": "catalog"
+          }
+        },
+        {
+          "clientLineKey": "s08-l02",
+          "productId": "8602d729-7cb2-5d7f-86ea-4f96ff2d6f3f",
+          "productName": "Tempe 400gr",
+          "inputUnitCode": "unit",
+          "quantity": "1",
+          "supplierDescription": "Tempe",
+          "supplierCost": {
+            "status": "provisional",
+            "totalAmount": "17000"
+          },
+          "customerPricing": {
+            "source": "catalog"
+          }
+        },
+        {
+          "clientLineKey": "s08-l03",
+          "productId": "87b0985a-fc64-5c8d-a3db-aee1f0df6825",
+          "productName": "Tahu Hong Kong",
+          "inputUnitCode": "unit",
+          "quantity": "1",
+          "supplierDescription": "Tahu Hongkong",
+          "supplierCost": {
+            "status": "provisional",
+            "totalAmount": "11000"
+          },
+          "customerPricing": {
+            "source": "catalog"
+          }
+        },
+        {
+          "clientLineKey": "s08-l04",
+          "productId": "b8f3f290-7d45-54a8-a8b2-43053dc872c2",
+          "productName": "Bawang Bombay",
+          "inputUnitCode": "kg",
+          "quantity": "0.5",
+          "supplierDescription": "Bombay",
+          "supplierCost": {
+            "status": "provisional",
+            "totalAmount": "38000"
+          },
+          "customerPricing": {
+            "source": "catalog"
+          }
+        },
+        {
+          "clientLineKey": "s08-l05",
+          "productId": "389a0e2b-902f-5d46-9aaa-8d632b98acb9",
+          "productName": "Bawang Merah",
+          "inputUnitCode": "kg",
+          "quantity": "0.5",
+          "supplierDescription": "Bawang Merah",
+          "supplierCost": {
+            "status": "provisional",
+            "totalAmount": "36000"
+          },
+          "customerPricing": {
+            "source": "catalog"
+          }
+        },
+        {
+          "clientLineKey": "s08-l06",
+          "productId": "78e89ab1-ce0a-5e09-84d5-ffa99e123426",
+          "productName": "Cabe Kriting",
+          "inputUnitCode": "kg",
+          "quantity": "0.5",
+          "supplierDescription": "Cabe Merah Keriting",
+          "supplierCost": {
+            "status": "provisional",
+            "totalAmount": "45000"
+          },
+          "customerPricing": {
+            "source": "catalog"
+          }
+        },
+        {
+          "clientLineKey": "s08-l07",
+          "productId": "c43f2b92-2be4-572a-9056-c0b126d76722",
+          "productName": "Nanas",
+          "inputUnitCode": "unit",
+          "quantity": "1",
+          "supplierDescription": "Nanas",
+          "supplierCost": {
+            "status": "provisional",
+            "totalAmount": "13000"
+          },
+          "customerPricing": {
+            "source": "catalog"
+          }
+        },
+        {
+          "clientLineKey": "s08-l08",
+          "productId": "be5bd210-16a3-5124-82f0-db8b4d3359de",
+          "productName": "Daun Bawang",
+          "inputUnitCode": "kg",
+          "quantity": "0.2",
+          "supplierDescription": "Daun Bawang",
+          "supplierCost": {
+            "status": "provisional",
+            "totalAmount": "8000"
+          },
+          "customerPricing": {
+            "source": "catalog"
+          }
+        },
+        {
+          "clientLineKey": "s08-l09",
+          "productId": "cf6ba5c0-eaff-5fac-b343-3259ea85d0c2",
+          "productName": "Jahe Merah",
+          "inputUnitCode": "kg",
+          "quantity": "0.25",
+          "supplierDescription": "Jahe Merah",
+          "supplierCost": {
+            "status": "provisional",
+            "totalAmount": "16000"
+          },
+          "customerPricing": {
+            "source": "catalog"
+          }
+        },
+        {
+          "clientLineKey": "s08-l10",
+          "productId": "86c0a0c7-ebfb-5209-8d12-33c56cf05120",
+          "productName": "Bawang Putih",
+          "inputUnitCode": "kg",
+          "quantity": "0.5",
+          "supplierDescription": "Bawang P",
+          "supplierCost": {
+            "status": "provisional",
+            "totalAmount": "33000"
+          },
+          "customerPricing": {
+            "source": "catalog"
+          }
+        },
+        {
+          "clientLineKey": "s08-l11",
+          "productId": "7f281125-1996-5b0b-a889-0602ed36d188",
+          "productName": "Timun Lokal",
+          "inputUnitCode": "kg",
+          "quantity": "0.5",
+          "supplierDescription": "Timun",
+          "supplierCost": {
+            "status": "provisional",
+            "totalAmount": "16000"
+          },
+          "customerPricing": {
+            "source": "catalog"
+          }
+        },
+        {
+          "clientLineKey": "s08-l12",
+          "productId": "c3c63545-3486-54d4-aaa3-584eb744c741",
+          "productName": "Lobak Putih",
+          "inputUnitCode": "kg",
+          "quantity": "0.95",
+          "supplierDescription": "Lobak Putih",
+          "supplierCost": {
+            "status": "provisional",
+            "totalAmount": "26600"
+          },
+          "customerPricing": {
+            "source": "catalog"
+          }
+        },
+        {
+          "clientLineKey": "s08-l13",
+          "productId": "02ae31af-edc4-54e1-bd4b-1a42cb131744",
+          "productName": "Sereh",
+          "inputUnitCode": "kg",
+          "quantity": "0.5",
+          "supplierDescription": "Sereh",
+          "supplierCost": {
+            "status": "provisional",
+            "totalAmount": "16000"
+          },
+          "customerPricing": {
+            "source": "catalog"
+          }
+        },
+        {
+          "clientLineKey": "s08-l14",
+          "productId": "01f8d7f4-6f0d-5b9f-b764-abc42f7e551e",
+          "productName": "Jahe Gajah",
+          "inputUnitCode": "kg",
+          "quantity": "0.25",
+          "supplierDescription": "Jahe Gajah",
+          "supplierCost": {
+            "status": "provisional",
+            "totalAmount": "15000"
+          },
+          "customerPricing": {
+            "source": "catalog"
+          }
+        },
+        {
+          "clientLineKey": "s08-l15",
+          "productId": "9dbf2113-01e6-5cf9-8bc5-97598740a2a6",
+          "productName": "Kunyit",
+          "inputUnitCode": "kg",
+          "quantity": "0.25",
+          "supplierDescription": "Kunyit",
+          "supplierCost": {
+            "status": "provisional",
+            "totalAmount": "9000"
+          },
+          "customerPricing": {
+            "source": "catalog"
+          }
+        },
+        {
+          "clientLineKey": "s08-l16",
+          "productId": "2b057fee-45a4-571f-8ac2-64939607f256",
+          "productName": "Lengkuas",
+          "inputUnitCode": "kg",
+          "quantity": "0.25",
+          "supplierDescription": "Lengkuas",
+          "supplierCost": {
+            "status": "provisional",
+            "totalAmount": "10000"
+          },
+          "customerPricing": {
+            "source": "catalog"
+          }
+        },
+        {
+          "clientLineKey": "s08-l17",
+          "productId": "efc09506-965a-5b5e-ab38-f39751849397",
+          "productName": "Oyong",
+          "inputUnitCode": "kg",
+          "quantity": "0.32",
+          "supplierDescription": "Oyong",
+          "supplierCost": {
+            "status": "provisional",
+            "totalAmount": "10880"
+          },
+          "customerPricing": {
+            "source": "catalog"
+          }
+        },
+        {
+          "clientLineKey": "s08-l18",
+          "productId": "d3a352b5-49d5-5251-aeb2-5672828da4b0",
+          "productName": "Kacang Merah Kulit",
+          "inputUnitCode": "kg",
+          "quantity": "0.25",
+          "supplierDescription": "K. Merah",
+          "supplierCost": {
+            "status": "provisional",
+            "totalAmount": "9000"
+          },
+          "customerPricing": {
+            "source": "catalog"
+          }
+        }
+      ],
+      "supplierDeliveryFee": {
+        "status": "provisional",
+        "amount": "10000",
+        "note": "Imported from reviewed supplier slip; confirm during supplier reconciliation."
+      },
+      "customerDeliveryCharge": "10000",
+      "customerDeliveryDescription": "Biaya pengantaran langsung"
+    }
+  },
+  "supplierDirectDraft": {
+    "schemaVersion": 1,
+    "supplierId": "19f80084-3483-5e26-97f4-58884573bbde",
+    "supplierName": "Cisarua",
+    "customerId": "effd171f-0ec6-5600-9804-5be7ff26bdc1",
+    "customerName": "Gita Prihanto",
+    "occurred": {
+      "date": "2026-10-28",
+      "precision": "date"
+    },
+    "supplierReference": "WhatsApp Image 2026-10-31 at 1.18.39 PM.jpeg#2",
+    "note": "Handwritten product total Rp449480; line sum matches. Excluded not-received markings: Lemon, Cabe Rawit. Staff confirmed the address identifies Gita Prihanto. Staff confirmed the line below Jahe Gajah is Kunyit. K. Merah at the bottom is Kacang Merah Kulit.",
+    "lines": [
+      {
+        "clientLineKey": "s08-l01",
+        "productId": "fb2fae85-dff9-5f8f-84f5-dc4ac1a6b4ad",
+        "productName": "Ikan Nila Organik",
+        "inputUnitCode": "unit",
+        "quantity": "2",
+        "supplierDescription": "Ikan Nila",
+        "supplierCost": {
+          "status": "provisional",
+          "totalAmount": "120000"
+        },
+        "customerPricing": {
+          "source": "catalog"
+        }
+      },
+      {
+        "clientLineKey": "s08-l02",
+        "productId": "8602d729-7cb2-5d7f-86ea-4f96ff2d6f3f",
+        "productName": "Tempe 400gr",
+        "inputUnitCode": "unit",
+        "quantity": "1",
+        "supplierDescription": "Tempe",
+        "supplierCost": {
+          "status": "provisional",
+          "totalAmount": "17000"
+        },
+        "customerPricing": {
+          "source": "catalog"
+        }
+      },
+      {
+        "clientLineKey": "s08-l03",
+        "productId": "87b0985a-fc64-5c8d-a3db-aee1f0df6825",
+        "productName": "Tahu Hong Kong",
+        "inputUnitCode": "unit",
+        "quantity": "1",
+        "supplierDescription": "Tahu Hongkong",
+        "supplierCost": {
+          "status": "provisional",
+          "totalAmount": "11000"
+        },
+        "customerPricing": {
+          "source": "catalog"
+        }
+      },
+      {
+        "clientLineKey": "s08-l04",
+        "productId": "b8f3f290-7d45-54a8-a8b2-43053dc872c2",
+        "productName": "Bawang Bombay",
+        "inputUnitCode": "kg",
+        "quantity": "0.5",
+        "supplierDescription": "Bombay",
+        "supplierCost": {
+          "status": "provisional",
+          "totalAmount": "38000"
+        },
+        "customerPricing": {
+          "source": "catalog"
+        }
+      },
+      {
+        "clientLineKey": "s08-l05",
+        "productId": "389a0e2b-902f-5d46-9aaa-8d632b98acb9",
+        "productName": "Bawang Merah",
+        "inputUnitCode": "kg",
+        "quantity": "0.5",
+        "supplierDescription": "Bawang Merah",
+        "supplierCost": {
+          "status": "provisional",
+          "totalAmount": "36000"
+        },
+        "customerPricing": {
+          "source": "catalog"
+        }
+      },
+      {
+        "clientLineKey": "s08-l06",
+        "productId": "78e89ab1-ce0a-5e09-84d5-ffa99e123426",
+        "productName": "Cabe Kriting",
+        "inputUnitCode": "kg",
+        "quantity": "0.5",
+        "supplierDescription": "Cabe Merah Keriting",
+        "supplierCost": {
+          "status": "provisional",
+          "totalAmount": "45000"
+        },
+        "customerPricing": {
+          "source": "catalog"
+        }
+      },
+      {
+        "clientLineKey": "s08-l07",
+        "productId": "c43f2b92-2be4-572a-9056-c0b126d76722",
+        "productName": "Nanas",
+        "inputUnitCode": "unit",
+        "quantity": "1",
+        "supplierDescription": "Nanas",
+        "supplierCost": {
+          "status": "provisional",
+          "totalAmount": "13000"
+        },
+        "customerPricing": {
+          "source": "catalog"
+        }
+      },
+      {
+        "clientLineKey": "s08-l08",
+        "productId": "be5bd210-16a3-5124-82f0-db8b4d3359de",
+        "productName": "Daun Bawang",
+        "inputUnitCode": "kg",
+        "quantity": "0.2",
+        "supplierDescription": "Daun Bawang",
+        "supplierCost": {
+          "status": "provisional",
+          "totalAmount": "8000"
+        },
+        "customerPricing": {
+          "source": "catalog"
+        }
+      },
+      {
+        "clientLineKey": "s08-l09",
+        "productId": "cf6ba5c0-eaff-5fac-b343-3259ea85d0c2",
+        "productName": "Jahe Merah",
+        "inputUnitCode": "kg",
+        "quantity": "0.25",
+        "supplierDescription": "Jahe Merah",
+        "supplierCost": {
+          "status": "provisional",
+          "totalAmount": "16000"
+        },
+        "customerPricing": {
+          "source": "catalog"
+        }
+      },
+      {
+        "clientLineKey": "s08-l10",
+        "productId": "86c0a0c7-ebfb-5209-8d12-33c56cf05120",
+        "productName": "Bawang Putih",
+        "inputUnitCode": "kg",
+        "quantity": "0.5",
+        "supplierDescription": "Bawang P",
+        "supplierCost": {
+          "status": "provisional",
+          "totalAmount": "33000"
+        },
+        "customerPricing": {
+          "source": "catalog"
+        }
+      },
+      {
+        "clientLineKey": "s08-l11",
+        "productId": "7f281125-1996-5b0b-a889-0602ed36d188",
+        "productName": "Timun Lokal",
+        "inputUnitCode": "kg",
+        "quantity": "0.5",
+        "supplierDescription": "Timun",
+        "supplierCost": {
+          "status": "provisional",
+          "totalAmount": "16000"
+        },
+        "customerPricing": {
+          "source": "catalog"
+        }
+      },
+      {
+        "clientLineKey": "s08-l12",
+        "productId": "c3c63545-3486-54d4-aaa3-584eb744c741",
+        "productName": "Lobak Putih",
+        "inputUnitCode": "kg",
+        "quantity": "0.95",
+        "supplierDescription": "Lobak Putih",
+        "supplierCost": {
+          "status": "provisional",
+          "totalAmount": "26600"
+        },
+        "customerPricing": {
+          "source": "catalog"
+        }
+      },
+      {
+        "clientLineKey": "s08-l13",
+        "productId": "02ae31af-edc4-54e1-bd4b-1a42cb131744",
+        "productName": "Sereh",
+        "inputUnitCode": "kg",
+        "quantity": "0.5",
+        "supplierDescription": "Sereh",
+        "supplierCost": {
+          "status": "provisional",
+          "totalAmount": "16000"
+        },
+        "customerPricing": {
+          "source": "catalog"
+        }
+      },
+      {
+        "clientLineKey": "s08-l14",
+        "productId": "01f8d7f4-6f0d-5b9f-b764-abc42f7e551e",
+        "productName": "Jahe Gajah",
+        "inputUnitCode": "kg",
+        "quantity": "0.25",
+        "supplierDescription": "Jahe Gajah",
+        "supplierCost": {
+          "status": "provisional",
+          "totalAmount": "15000"
+        },
+        "customerPricing": {
+          "source": "catalog"
+        }
+      },
+      {
+        "clientLineKey": "s08-l15",
+        "productId": "9dbf2113-01e6-5cf9-8bc5-97598740a2a6",
+        "productName": "Kunyit",
+        "inputUnitCode": "kg",
+        "quantity": "0.25",
+        "supplierDescription": "Kunyit",
+        "supplierCost": {
+          "status": "provisional",
+          "totalAmount": "9000"
+        },
+        "customerPricing": {
+          "source": "catalog"
+        }
+      },
+      {
+        "clientLineKey": "s08-l16",
+        "productId": "2b057fee-45a4-571f-8ac2-64939607f256",
+        "productName": "Lengkuas",
+        "inputUnitCode": "kg",
+        "quantity": "0.25",
+        "supplierDescription": "Lengkuas",
+        "supplierCost": {
+          "status": "provisional",
+          "totalAmount": "10000"
+        },
+        "customerPricing": {
+          "source": "catalog"
+        }
+      },
+      {
+        "clientLineKey": "s08-l17",
+        "productId": "efc09506-965a-5b5e-ab38-f39751849397",
+        "productName": "Oyong",
+        "inputUnitCode": "kg",
+        "quantity": "0.32",
+        "supplierDescription": "Oyong",
+        "supplierCost": {
+          "status": "provisional",
+          "totalAmount": "10880"
+        },
+        "customerPricing": {
+          "source": "catalog"
+        }
+      },
+      {
+        "clientLineKey": "s08-l18",
+        "productId": "d3a352b5-49d5-5251-aeb2-5672828da4b0",
+        "productName": "Kacang Merah Kulit",
+        "inputUnitCode": "kg",
+        "quantity": "0.25",
+        "supplierDescription": "K. Merah",
+        "supplierCost": {
+          "status": "provisional",
+          "totalAmount": "9000"
+        },
+        "customerPricing": {
+          "source": "catalog"
+        }
+      }
+    ],
+    "supplierDeliveryFee": {
+      "status": "provisional",
+      "amount": "10000",
+      "note": "Imported from reviewed supplier slip; confirm during supplier reconciliation."
+    },
+    "customerDeliveryCharge": "10000",
+    "customerDeliveryDescription": "Biaya pengantaran langsung"
+  },
+  "workflow": "supplier_direct",
+  "staffConfirmations": [
+    "Staff confirmed the address identifies Gita Prihanto.",
+    "Staff confirmed the line below Jahe Gajah is Kunyit.",
+    "K. Merah at the bottom is Kacang Merah Kulit."
+  ],
+  "customerResolutionEvidence": {
+    "handwrittenName": "Gita",
+    "selectedCustomerId": "effd171f-0ec6-5600-9804-5be7ff26bdc1",
+    "selectedCustomerName": "Gita Prihanto",
+    "legacyCustomerId": 644,
+    "confirmation": [
+      "Staff confirmed the address identifies Gita Prihanto.",
+      "Staff confirmed the line below Jahe Gajah is Kunyit.",
+      "K. Merah at the bottom is Kacang Merah Kulit."
+    ]
+  },
+  "productMatchingEvidence": {
+    "effectiveOn": "2026-10-28",
+    "supplierId": "19f80084-3483-5e26-97f4-58884573bbde",
+    "supplierName": "Cisarua",
+    "lines": [
+      {
+        "lineId": "s08-l01",
+        "productNameRead": "Ikan Nila",
+        "qtyRead": 2,
+        "totalRead": 120000,
+        "confidence": "confirmed",
+        "selectedProductId": "fb2fae85-dff9-5f8f-84f5-dc4ac1a6b4ad",
+        "candidates": [
+          {
+            "productId": "fb2fae85-dff9-5f8f-84f5-dc4ac1a6b4ad",
+            "name": "Ikan Nila Organik",
+            "expectedTotal": 120000,
+            "totalDelta": 0,
+            "totalMatches": true,
+            "matchedOn": "active_supplier_product_and_cost"
+          }
+        ],
+        "warnings": []
+      },
+      {
+        "lineId": "s08-l02",
+        "productNameRead": "Tempe",
+        "qtyRead": 1,
+        "totalRead": 17000,
+        "confidence": "confirmed",
+        "selectedProductId": "8602d729-7cb2-5d7f-86ea-4f96ff2d6f3f",
+        "candidates": [
+          {
+            "productId": "8602d729-7cb2-5d7f-86ea-4f96ff2d6f3f",
+            "name": "Tempe 400gr",
+            "expectedTotal": 17000,
+            "totalDelta": 0,
+            "totalMatches": true,
+            "matchedOn": "active_supplier_product_and_cost"
+          }
+        ],
+        "warnings": []
+      },
+      {
+        "lineId": "s08-l03",
+        "productNameRead": "Tahu Hongkong",
+        "qtyRead": 1,
+        "totalRead": 11000,
+        "confidence": "confirmed",
+        "selectedProductId": "87b0985a-fc64-5c8d-a3db-aee1f0df6825",
+        "candidates": [
+          {
+            "productId": "87b0985a-fc64-5c8d-a3db-aee1f0df6825",
+            "name": "Tahu Hong Kong",
+            "expectedTotal": 11000,
+            "totalDelta": 0,
+            "totalMatches": true,
+            "matchedOn": "active_supplier_product_and_cost"
+          }
+        ],
+        "warnings": []
+      },
+      {
+        "lineId": "s08-l04",
+        "productNameRead": "Bombay",
+        "qtyRead": 0.5,
+        "totalRead": 38000,
+        "confidence": "confirmed",
+        "selectedProductId": "b8f3f290-7d45-54a8-a8b2-43053dc872c2",
+        "candidates": [
+          {
+            "productId": "b8f3f290-7d45-54a8-a8b2-43053dc872c2",
+            "name": "Bawang Bombay",
+            "expectedTotal": 38000,
+            "totalDelta": 0,
+            "totalMatches": true,
+            "matchedOn": "active_supplier_product_and_cost"
+          }
+        ],
+        "warnings": []
+      },
+      {
+        "lineId": "s08-l05",
+        "productNameRead": "Bawang Merah",
+        "qtyRead": 0.5,
+        "totalRead": 36000,
+        "confidence": "confirmed",
+        "selectedProductId": "389a0e2b-902f-5d46-9aaa-8d632b98acb9",
+        "candidates": [
+          {
+            "productId": "389a0e2b-902f-5d46-9aaa-8d632b98acb9",
+            "name": "Bawang Merah",
+            "expectedTotal": 36000,
+            "totalDelta": 0,
+            "totalMatches": true,
+            "matchedOn": "active_supplier_product_and_cost"
+          }
+        ],
+        "warnings": []
+      },
+      {
+        "lineId": "s08-l06",
+        "productNameRead": "Cabe Merah Keriting",
+        "qtyRead": 0.5,
+        "totalRead": 45000,
+        "confidence": "confirmed",
+        "selectedProductId": "78e89ab1-ce0a-5e09-84d5-ffa99e123426",
+        "candidates": [
+          {
+            "productId": "78e89ab1-ce0a-5e09-84d5-ffa99e123426",
+            "name": "Cabe Kriting",
+            "expectedTotal": 45000,
+            "totalDelta": 0,
+            "totalMatches": true,
+            "matchedOn": "active_supplier_product_and_cost"
+          }
+        ],
+        "warnings": []
+      },
+      {
+        "lineId": "s08-l07",
+        "productNameRead": "Nanas",
+        "qtyRead": 1,
+        "totalRead": 13000,
+        "confidence": "confirmed",
+        "selectedProductId": "c43f2b92-2be4-572a-9056-c0b126d76722",
+        "candidates": [
+          {
+            "productId": "c43f2b92-2be4-572a-9056-c0b126d76722",
+            "name": "Nanas",
+            "expectedTotal": 13000,
+            "totalDelta": 0,
+            "totalMatches": true,
+            "matchedOn": "active_supplier_product_and_cost"
+          }
+        ],
+        "warnings": []
+      },
+      {
+        "lineId": "s08-l08",
+        "productNameRead": "Daun Bawang",
+        "qtyRead": 0.2,
+        "totalRead": 8000,
+        "confidence": "confirmed",
+        "selectedProductId": "be5bd210-16a3-5124-82f0-db8b4d3359de",
+        "candidates": [
+          {
+            "productId": "be5bd210-16a3-5124-82f0-db8b4d3359de",
+            "name": "Daun Bawang",
+            "expectedTotal": 8000,
+            "totalDelta": 0,
+            "totalMatches": true,
+            "matchedOn": "active_supplier_product_and_cost"
+          }
+        ],
+        "warnings": []
+      },
+      {
+        "lineId": "s08-l09",
+        "productNameRead": "Jahe Merah",
+        "qtyRead": 0.25,
+        "totalRead": 16000,
+        "confidence": "confirmed",
+        "selectedProductId": "cf6ba5c0-eaff-5fac-b343-3259ea85d0c2",
+        "candidates": [
+          {
+            "productId": "cf6ba5c0-eaff-5fac-b343-3259ea85d0c2",
+            "name": "Jahe Merah",
+            "expectedTotal": 16000,
+            "totalDelta": 0,
+            "totalMatches": true,
+            "matchedOn": "active_supplier_product_and_cost"
+          }
+        ],
+        "warnings": []
+      },
+      {
+        "lineId": "s08-l10",
+        "productNameRead": "Bawang P",
+        "qtyRead": 0.5,
+        "totalRead": 33000,
+        "confidence": "confirmed",
+        "selectedProductId": "86c0a0c7-ebfb-5209-8d12-33c56cf05120",
+        "candidates": [
+          {
+            "productId": "86c0a0c7-ebfb-5209-8d12-33c56cf05120",
+            "name": "Bawang Putih",
+            "expectedTotal": 33000,
+            "totalDelta": 0,
+            "totalMatches": true,
+            "matchedOn": "active_supplier_product_and_cost"
+          }
+        ],
+        "warnings": []
+      },
+      {
+        "lineId": "s08-l11",
+        "productNameRead": "Timun",
+        "qtyRead": 0.5,
+        "totalRead": 16000,
+        "confidence": "confirmed",
+        "selectedProductId": "7f281125-1996-5b0b-a889-0602ed36d188",
+        "candidates": [
+          {
+            "productId": "7f281125-1996-5b0b-a889-0602ed36d188",
+            "name": "Timun Lokal",
+            "expectedTotal": 16000,
+            "totalDelta": 0,
+            "totalMatches": true,
+            "matchedOn": "active_supplier_product_and_cost"
+          }
+        ],
+        "warnings": []
+      },
+      {
+        "lineId": "s08-l12",
+        "productNameRead": "Lobak Putih",
+        "qtyRead": 0.95,
+        "totalRead": 26600,
+        "confidence": "confirmed",
+        "selectedProductId": "c3c63545-3486-54d4-aaa3-584eb744c741",
+        "candidates": [
+          {
+            "productId": "c3c63545-3486-54d4-aaa3-584eb744c741",
+            "name": "Lobak Putih",
+            "expectedTotal": 26600,
+            "totalDelta": 0,
+            "totalMatches": true,
+            "matchedOn": "active_supplier_product_and_cost"
+          }
+        ],
+        "warnings": []
+      },
+      {
+        "lineId": "s08-l13",
+        "productNameRead": "Sereh",
+        "qtyRead": 0.5,
+        "totalRead": 16000,
+        "confidence": "confirmed",
+        "selectedProductId": "02ae31af-edc4-54e1-bd4b-1a42cb131744",
+        "candidates": [
+          {
+            "productId": "02ae31af-edc4-54e1-bd4b-1a42cb131744",
+            "name": "Sereh",
+            "expectedTotal": 16000,
+            "totalDelta": 0,
+            "totalMatches": true,
+            "matchedOn": "active_supplier_product_and_cost"
+          }
+        ],
+        "warnings": []
+      },
+      {
+        "lineId": "s08-l14",
+        "productNameRead": "Jahe Gajah",
+        "qtyRead": 0.25,
+        "totalRead": 15000,
+        "confidence": "confirmed",
+        "selectedProductId": "01f8d7f4-6f0d-5b9f-b764-abc42f7e551e",
+        "candidates": [
+          {
+            "productId": "01f8d7f4-6f0d-5b9f-b764-abc42f7e551e",
+            "name": "Jahe Gajah",
+            "expectedTotal": 15000,
+            "totalDelta": 0,
+            "totalMatches": true,
+            "matchedOn": "active_supplier_product_and_cost"
+          }
+        ],
+        "warnings": []
+      },
+      {
+        "lineId": "s08-l15",
+        "productNameRead": "Kunyit",
+        "qtyRead": 0.25,
+        "totalRead": 9000,
+        "confidence": "confirmed",
+        "selectedProductId": "9dbf2113-01e6-5cf9-8bc5-97598740a2a6",
+        "candidates": [
+          {
+            "productId": "9dbf2113-01e6-5cf9-8bc5-97598740a2a6",
+            "name": "Kunyit",
+            "expectedTotal": 9000,
+            "totalDelta": 0,
+            "totalMatches": true,
+            "matchedOn": "active_supplier_product_and_cost"
+          }
+        ],
+        "warnings": []
+      },
+      {
+        "lineId": "s08-l16",
+        "productNameRead": "Lengkuas",
+        "qtyRead": 0.25,
+        "totalRead": 10000,
+        "confidence": "confirmed",
+        "selectedProductId": "2b057fee-45a4-571f-8ac2-64939607f256",
+        "candidates": [
+          {
+            "productId": "2b057fee-45a4-571f-8ac2-64939607f256",
+            "name": "Lengkuas",
+            "expectedTotal": 10000,
+            "totalDelta": 0,
+            "totalMatches": true,
+            "matchedOn": "active_supplier_product_and_cost"
+          }
+        ],
+        "warnings": []
+      },
+      {
+        "lineId": "s08-l17",
+        "productNameRead": "Oyong",
+        "qtyRead": 0.32,
+        "totalRead": 10880,
+        "confidence": "confirmed",
+        "selectedProductId": "efc09506-965a-5b5e-ab38-f39751849397",
+        "candidates": [
+          {
+            "productId": "efc09506-965a-5b5e-ab38-f39751849397",
+            "name": "Oyong",
+            "expectedTotal": 10880,
+            "totalDelta": 0,
+            "totalMatches": true,
+            "matchedOn": "active_supplier_product_and_cost"
+          }
+        ],
+        "warnings": []
+      },
+      {
+        "lineId": "s08-l18",
+        "productNameRead": "K. Merah",
+        "qtyRead": 0.25,
+        "totalRead": 9000,
+        "confidence": "confirmed",
+        "selectedProductId": "d3a352b5-49d5-5251-aeb2-5672828da4b0",
+        "candidates": [
+          {
+            "productId": "d3a352b5-49d5-5251-aeb2-5672828da4b0",
+            "name": "Kacang Merah Kulit",
+            "expectedTotal": 9000,
+            "totalDelta": 0,
+            "totalMatches": true,
+            "matchedOn": "active_supplier_product_and_cost"
+          }
+        ],
+        "warnings": []
+      }
+    ],
+    "summary": {
+      "totalLines": 18,
+      "selected": 18,
+      "withCostDiscrepancy": 0
+    }
+  }
+}
+

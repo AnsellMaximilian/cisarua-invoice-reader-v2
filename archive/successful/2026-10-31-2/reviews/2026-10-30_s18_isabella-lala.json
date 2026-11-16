@@ -1,0 +1,453 @@
+{
+  "schemaVersion": "rumah-sehat-v2-slip-review-v1",
+  "readyToImport": true,
+  "source": {
+    "imageFile": "WhatsApp Image 2026-10-31 at 1.18.40 PM (2).jpeg",
+    "slipIndex": 1,
+    "fingerprint": "117b3168c689457f96d04a6a6d20d4418d839bb6063de13525a31688af5f3595",
+    "sourcePath": "incoming/WhatsApp Image 2026-10-31 at 1.18.40 PM (2).jpeg"
+  },
+  "extracted": {
+    "customerNameRead": "Isabella",
+    "lines": [
+      {
+        "lineId": "s18-l01",
+        "productNameRead": "Ayam Kampung",
+        "quantityRead": 1,
+        "totalRead": 65000
+      },
+      {
+        "lineId": "s18-l02",
+        "productNameRead": "Caisim",
+        "quantityRead": 0.2,
+        "totalRead": 8000
+      },
+      {
+        "lineId": "s18-l03",
+        "productNameRead": "Daun Bawang",
+        "quantityRead": 0.2,
+        "totalRead": 8000
+      },
+      {
+        "lineId": "s18-l04",
+        "productNameRead": "Buncis",
+        "quantityRead": 0.25,
+        "totalRead": 9000
+      },
+      {
+        "lineId": "s18-l05",
+        "productNameRead": "Kembang Kol",
+        "quantityRead": 0.45,
+        "totalRead": 19800
+      },
+      {
+        "lineId": "s18-l06",
+        "productNameRead": "Timun",
+        "quantityRead": 2,
+        "totalRead": 64000
+      }
+    ],
+    "date": "2026-10-30",
+    "slipTotalRead": 173800,
+    "slipTotalCertain": true,
+    "excludedOrNotReceived": [
+      {
+        "productNameRead": "Wansui",
+        "receivedRead": "marked X / not received",
+        "reason": "marked X / not received"
+      }
+    ]
+  },
+  "resolved": {
+    "supplier": {
+      "id": "19f80084-3483-5e26-97f4-58884573bbde",
+      "name": "Cisarua"
+    },
+    "customer": {
+      "id": "72e7b953-1d74-544a-ae90-cf95a08c54f2",
+      "name": "Isabella - Lala",
+      "legacyCustomerId": 194,
+      "aliases": [],
+      "addresses": [
+        "Jalan Janur Hijau XI TR1/10, Kelapa Gading"
+      ],
+      "nameRead": "Isabella"
+    }
+  },
+  "warnings": [],
+  "calculations": {
+    "supplierProductSubtotal": 173800,
+    "supplierDeliveryFee": 10000,
+    "supplierTotal": 183800,
+    "customerDeliveryCharge": 10000,
+    "handwrittenProductTotal": 173800,
+    "lineTotalSum": 173800,
+    "handwrittenMinusLineSum": 0
+  },
+  "proposedDraft": {
+    "supplierDirectDraft": {
+      "schemaVersion": 1,
+      "supplierId": "19f80084-3483-5e26-97f4-58884573bbde",
+      "supplierName": "Cisarua",
+      "customerId": "72e7b953-1d74-544a-ae90-cf95a08c54f2",
+      "customerName": "Isabella - Lala",
+      "occurred": {
+        "date": "2026-10-30",
+        "precision": "date"
+      },
+      "supplierReference": "WhatsApp Image 2026-10-31 at 1.18.40 PM (2).jpeg#1",
+      "note": "Handwritten product total Rp173800; line sum matches. Excluded not-received markings: Wansui. Operator context resolves Isabella to Isabella - Lala.",
+      "lines": [
+        {
+          "clientLineKey": "s18-l01",
+          "productId": "6b1d1840-3ae4-5904-82da-95503d942de3",
+          "productName": "Ayam Kampung Organic",
+          "inputUnitCode": "unit",
+          "quantity": "1",
+          "supplierDescription": "Ayam Kampung",
+          "supplierCost": {
+            "status": "provisional",
+            "totalAmount": "65000"
+          },
+          "customerPricing": {
+            "source": "catalog"
+          }
+        },
+        {
+          "clientLineKey": "s18-l02",
+          "productId": "6b1c9786-c7f6-5682-86fd-ab198c6a2bb4",
+          "productName": "Caisim",
+          "inputUnitCode": "kg",
+          "quantity": "0.2",
+          "supplierDescription": "Caisim",
+          "supplierCost": {
+            "status": "provisional",
+            "totalAmount": "8000"
+          },
+          "customerPricing": {
+            "source": "catalog"
+          }
+        },
+        {
+          "clientLineKey": "s18-l03",
+          "productId": "be5bd210-16a3-5124-82f0-db8b4d3359de",
+          "productName": "Daun Bawang",
+          "inputUnitCode": "kg",
+          "quantity": "0.2",
+          "supplierDescription": "Daun Bawang",
+          "supplierCost": {
+            "status": "provisional",
+            "totalAmount": "8000"
+          },
+          "customerPricing": {
+            "source": "catalog"
+          }
+        },
+        {
+          "clientLineKey": "s18-l04",
+          "productId": "f542ed36-e83e-5d7a-936e-9cafc03354df",
+          "productName": "Buncis",
+          "inputUnitCode": "kg",
+          "quantity": "0.25",
+          "supplierDescription": "Buncis",
+          "supplierCost": {
+            "status": "provisional",
+            "totalAmount": "9000"
+          },
+          "customerPricing": {
+            "source": "catalog"
+          }
+        },
+        {
+          "clientLineKey": "s18-l05",
+          "productId": "e064d98b-36c5-5ae2-9b85-1294d3b463eb",
+          "productName": "Kembang Kol",
+          "inputUnitCode": "kg",
+          "quantity": "0.45",
+          "supplierDescription": "Kembang Kol",
+          "supplierCost": {
+            "status": "provisional",
+            "totalAmount": "19800"
+          },
+          "customerPricing": {
+            "source": "catalog"
+          }
+        },
+        {
+          "clientLineKey": "s18-l06",
+          "productId": "7f281125-1996-5b0b-a889-0602ed36d188",
+          "productName": "Timun Lokal",
+          "inputUnitCode": "kg",
+          "quantity": "2",
+          "supplierDescription": "Timun",
+          "supplierCost": {
+            "status": "provisional",
+            "totalAmount": "64000"
+          },
+          "customerPricing": {
+            "source": "catalog"
+          }
+        }
+      ],
+      "supplierDeliveryFee": {
+        "status": "provisional",
+        "amount": "10000",
+        "note": "Imported from reviewed supplier slip; confirm during supplier reconciliation."
+      },
+      "customerDeliveryCharge": "10000",
+      "customerDeliveryDescription": "Biaya pengantaran langsung"
+    }
+  },
+  "supplierDirectDraft": {
+    "schemaVersion": 1,
+    "supplierId": "19f80084-3483-5e26-97f4-58884573bbde",
+    "supplierName": "Cisarua",
+    "customerId": "72e7b953-1d74-544a-ae90-cf95a08c54f2",
+    "customerName": "Isabella - Lala",
+    "occurred": {
+      "date": "2026-10-30",
+      "precision": "date"
+    },
+    "supplierReference": "WhatsApp Image 2026-10-31 at 1.18.40 PM (2).jpeg#1",
+    "note": "Handwritten product total Rp173800; line sum matches. Excluded not-received markings: Wansui. Operator context resolves Isabella to Isabella - Lala.",
+    "lines": [
+      {
+        "clientLineKey": "s18-l01",
+        "productId": "6b1d1840-3ae4-5904-82da-95503d942de3",
+        "productName": "Ayam Kampung Organic",
+        "inputUnitCode": "unit",
+        "quantity": "1",
+        "supplierDescription": "Ayam Kampung",
+        "supplierCost": {
+          "status": "provisional",
+          "totalAmount": "65000"
+        },
+        "customerPricing": {
+          "source": "catalog"
+        }
+      },
+      {
+        "clientLineKey": "s18-l02",
+        "productId": "6b1c9786-c7f6-5682-86fd-ab198c6a2bb4",
+        "productName": "Caisim",
+        "inputUnitCode": "kg",
+        "quantity": "0.2",
+        "supplierDescription": "Caisim",
+        "supplierCost": {
+          "status": "provisional",
+          "totalAmount": "8000"
+        },
+        "customerPricing": {
+          "source": "catalog"
+        }
+      },
+      {
+        "clientLineKey": "s18-l03",
+        "productId": "be5bd210-16a3-5124-82f0-db8b4d3359de",
+        "productName": "Daun Bawang",
+        "inputUnitCode": "kg",
+        "quantity": "0.2",
+        "supplierDescription": "Daun Bawang",
+        "supplierCost": {
+          "status": "provisional",
+          "totalAmount": "8000"
+        },
+        "customerPricing": {
+          "source": "catalog"
+        }
+      },
+      {
+        "clientLineKey": "s18-l04",
+        "productId": "f542ed36-e83e-5d7a-936e-9cafc03354df",
+        "productName": "Buncis",
+        "inputUnitCode": "kg",
+        "quantity": "0.25",
+        "supplierDescription": "Buncis",
+        "supplierCost": {
+          "status": "provisional",
+          "totalAmount": "9000"
+        },
+        "customerPricing": {
+          "source": "catalog"
+        }
+      },
+      {
+        "clientLineKey": "s18-l05",
+        "productId": "e064d98b-36c5-5ae2-9b85-1294d3b463eb",
+        "productName": "Kembang Kol",
+        "inputUnitCode": "kg",
+        "quantity": "0.45",
+        "supplierDescription": "Kembang Kol",
+        "supplierCost": {
+          "status": "provisional",
+          "totalAmount": "19800"
+        },
+        "customerPricing": {
+          "source": "catalog"
+        }
+      },
+      {
+        "clientLineKey": "s18-l06",
+        "productId": "7f281125-1996-5b0b-a889-0602ed36d188",
+        "productName": "Timun Lokal",
+        "inputUnitCode": "kg",
+        "quantity": "2",
+        "supplierDescription": "Timun",
+        "supplierCost": {
+          "status": "provisional",
+          "totalAmount": "64000"
+        },
+        "customerPricing": {
+          "source": "catalog"
+        }
+      }
+    ],
+    "supplierDeliveryFee": {
+      "status": "provisional",
+      "amount": "10000",
+      "note": "Imported from reviewed supplier slip; confirm during supplier reconciliation."
+    },
+    "customerDeliveryCharge": "10000",
+    "customerDeliveryDescription": "Biaya pengantaran langsung"
+  },
+  "workflow": "supplier_direct",
+  "staffConfirmations": [
+    "Operator context resolves Isabella to Isabella - Lala."
+  ],
+  "customerResolutionEvidence": {
+    "handwrittenName": "Isabella",
+    "selectedCustomerId": "72e7b953-1d74-544a-ae90-cf95a08c54f2",
+    "selectedCustomerName": "Isabella - Lala",
+    "legacyCustomerId": 194,
+    "confirmation": [
+      "Operator context resolves Isabella to Isabella - Lala."
+    ]
+  },
+  "productMatchingEvidence": {
+    "effectiveOn": "2026-10-30",
+    "supplierId": "19f80084-3483-5e26-97f4-58884573bbde",
+    "supplierName": "Cisarua",
+    "lines": [
+      {
+        "lineId": "s18-l01",
+        "productNameRead": "Ayam Kampung",
+        "qtyRead": 1,
+        "totalRead": 65000,
+        "confidence": "confirmed",
+        "selectedProductId": "6b1d1840-3ae4-5904-82da-95503d942de3",
+        "candidates": [
+          {
+            "productId": "6b1d1840-3ae4-5904-82da-95503d942de3",
+            "name": "Ayam Kampung Organic",
+            "expectedTotal": 65000,
+            "totalDelta": 0,
+            "totalMatches": true,
+            "matchedOn": "active_supplier_product_and_cost"
+          }
+        ],
+        "warnings": []
+      },
+      {
+        "lineId": "s18-l02",
+        "productNameRead": "Caisim",
+        "qtyRead": 0.2,
+        "totalRead": 8000,
+        "confidence": "confirmed",
+        "selectedProductId": "6b1c9786-c7f6-5682-86fd-ab198c6a2bb4",
+        "candidates": [
+          {
+            "productId": "6b1c9786-c7f6-5682-86fd-ab198c6a2bb4",
+            "name": "Caisim",
+            "expectedTotal": 8000,
+            "totalDelta": 0,
+            "totalMatches": true,
+            "matchedOn": "active_supplier_product_and_cost"
+          }
+        ],
+        "warnings": []
+      },
+      {
+        "lineId": "s18-l03",
+        "productNameRead": "Daun Bawang",
+        "qtyRead": 0.2,
+        "totalRead": 8000,
+        "confidence": "confirmed",
+        "selectedProductId": "be5bd210-16a3-5124-82f0-db8b4d3359de",
+        "candidates": [
+          {
+            "productId": "be5bd210-16a3-5124-82f0-db8b4d3359de",
+            "name": "Daun Bawang",
+            "expectedTotal": 8000,
+            "totalDelta": 0,
+            "totalMatches": true,
+            "matchedOn": "active_supplier_product_and_cost"
+          }
+        ],
+        "warnings": []
+      },
+      {
+        "lineId": "s18-l04",
+        "productNameRead": "Buncis",
+        "qtyRead": 0.25,
+        "totalRead": 9000,
+        "confidence": "confirmed",
+        "selectedProductId": "f542ed36-e83e-5d7a-936e-9cafc03354df",
+        "candidates": [
+          {
+            "productId": "f542ed36-e83e-5d7a-936e-9cafc03354df",
+            "name": "Buncis",
+            "expectedTotal": 9000,
+            "totalDelta": 0,
+            "totalMatches": true,
+            "matchedOn": "active_supplier_product_and_cost"
+          }
+        ],
+        "warnings": []
+      },
+      {
+        "lineId": "s18-l05",
+        "productNameRead": "Kembang Kol",
+        "qtyRead": 0.45,
+        "totalRead": 19800,
+        "confidence": "confirmed",
+        "selectedProductId": "e064d98b-36c5-5ae2-9b85-1294d3b463eb",
+        "candidates": [
+          {
+            "productId": "e064d98b-36c5-5ae2-9b85-1294d3b463eb",
+            "name": "Kembang Kol",
+            "expectedTotal": 19800,
+            "totalDelta": 0,
+            "totalMatches": true,
+            "matchedOn": "active_supplier_product_and_cost"
+          }
+        ],
+        "warnings": []
+      },
+      {
+        "lineId": "s18-l06",
+        "productNameRead": "Timun",
+        "qtyRead": 2,
+        "totalRead": 64000,
+        "confidence": "confirmed",
+        "selectedProductId": "7f281125-1996-5b0b-a889-0602ed36d188",
+        "candidates": [
+          {
+            "productId": "7f281125-1996-5b0b-a889-0602ed36d188",
+            "name": "Timun Lokal",
+            "expectedTotal": 64000,
+            "totalDelta": 0,
+            "totalMatches": true,
+            "matchedOn": "active_supplier_product_and_cost"
+          }
+        ],
+        "warnings": []
+      }
+    ],
+    "summary": {
+      "totalLines": 6,
+      "selected": 6,
+      "withCostDiscrepancy": 0
+    }
+  }
+}
+

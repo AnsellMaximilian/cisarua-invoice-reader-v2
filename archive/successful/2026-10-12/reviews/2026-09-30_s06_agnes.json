@@ -1,0 +1,701 @@
+{
+  "schemaVersion": "rumah-sehat-v2-slip-review-v1",
+  "readyToImport": true,
+  "source": {
+    "imageFile": "WhatsApp Image 2026-10-03 at 1.53.11 PM (1).jpeg",
+    "slipIndex": 2,
+    "sourcePath": "incoming/WhatsApp Image 2026-10-03 at 1.53.11 PM (1).jpeg"
+  },
+  "extracted": {
+    "customerNameRead": "Agnes",
+    "lines": [
+      {
+        "lineId": "s06-l01",
+        "productNameRead": "Telur Negeri",
+        "quantityRead": 30,
+        "totalRead": 90000
+      },
+      {
+        "lineId": "s06-l02",
+        "productNameRead": "Timun",
+        "quantityRead": 0.5,
+        "totalRead": 16000
+      },
+      {
+        "lineId": "s06-l03",
+        "productNameRead": "Wortel",
+        "quantityRead": 1,
+        "totalRead": 30000
+      },
+      {
+        "lineId": "s06-l04",
+        "productNameRead": "Sawi Putih",
+        "quantityRead": 1.09,
+        "totalRead": 34880
+      }
+    ]
+  },
+  "resolved": {
+    "supplier": {
+      "id": "19f80084-3483-5e26-97f4-58884573bbde",
+      "name": "Cisarua"
+    },
+    "customer": {
+      "id": "6f1f8326-b9c3-588f-ac5f-5597e7acec6b",
+      "name": "Agnes",
+      "legacyCustomerId": 162,
+      "aliases": [],
+      "addresses": [
+        "Jl. Sutera Intan 2/26 Alam Sutera"
+      ],
+      "nameRead": "Agnes"
+    }
+  },
+  "warnings": [],
+  "calculations": {
+    "supplierProductSubtotal": 170880,
+    "supplierDeliveryFee": 10000,
+    "supplierTotal": 180880,
+    "customerDeliveryCharge": 10000
+  },
+  "proposedDraft": {
+    "supplierDirectDraft": {
+      "schemaVersion": 1,
+      "supplierId": "19f80084-3483-5e26-97f4-58884573bbde",
+      "supplierName": "Cisarua",
+      "customerId": "6f1f8326-b9c3-588f-ac5f-5597e7acec6b",
+      "customerName": "Agnes",
+      "occurred": {
+        "date": "2026-09-30",
+        "precision": "date"
+      },
+      "supplierReference": "WhatsApp Image 2026-10-03 at 1.53.11 PM (1).jpeg#2",
+      "note": "Handwritten product total Rp170880. Default Rp10000 supplier delivery fee and Rp10000 customer delivery charge confirmed by staff.",
+      "lines": [
+        {
+          "clientLineKey": "s06-l01",
+          "productId": "70c8bbbc-1bb6-563a-a27a-9ff958f01824",
+          "productName": "Telur Negri Organik",
+          "inputUnitCode": "unit",
+          "quantity": "30",
+          "supplierDescription": "Telur Negeri",
+          "supplierCost": {
+            "status": "provisional",
+            "totalAmount": "90000"
+          },
+          "customerPricing": {
+            "source": "catalog"
+          }
+        },
+        {
+          "clientLineKey": "s06-l02",
+          "productId": "7f281125-1996-5b0b-a889-0602ed36d188",
+          "productName": "Timun Lokal",
+          "inputUnitCode": "kg",
+          "quantity": "0.5",
+          "supplierDescription": "Timun",
+          "supplierCost": {
+            "status": "provisional",
+            "totalAmount": "16000"
+          },
+          "customerPricing": {
+            "source": "catalog"
+          }
+        },
+        {
+          "clientLineKey": "s06-l03",
+          "productId": "8c3ef21e-febb-52e4-8f04-be3865c99073",
+          "productName": "Wortel",
+          "inputUnitCode": "kg",
+          "quantity": "1",
+          "supplierDescription": "Wortel",
+          "supplierCost": {
+            "status": "provisional",
+            "totalAmount": "30000"
+          },
+          "customerPricing": {
+            "source": "catalog"
+          }
+        },
+        {
+          "clientLineKey": "s06-l04",
+          "productId": "b4e9d275-c2b5-585f-9c9e-e91cfdd75800",
+          "productName": "Sawi Putih",
+          "inputUnitCode": "kg",
+          "quantity": "1.09",
+          "supplierDescription": "Sawi Putih",
+          "supplierCost": {
+            "status": "provisional",
+            "totalAmount": "34880"
+          },
+          "customerPricing": {
+            "source": "catalog"
+          }
+        }
+      ],
+      "supplierDeliveryFee": {
+        "status": "provisional",
+        "amount": "10000",
+        "note": "Imported from reviewed supplier slip; confirm during supplier reconciliation."
+      },
+      "customerDeliveryCharge": "10000",
+      "customerDeliveryDescription": "Biaya pengantaran supplier langsung"
+    }
+  },
+  "supplierDirectDraft": {
+    "schemaVersion": 1,
+    "supplierId": "19f80084-3483-5e26-97f4-58884573bbde",
+    "supplierName": "Cisarua",
+    "customerId": "6f1f8326-b9c3-588f-ac5f-5597e7acec6b",
+    "customerName": "Agnes",
+    "occurred": {
+      "date": "2026-09-30",
+      "precision": "date"
+    },
+    "supplierReference": "WhatsApp Image 2026-10-03 at 1.53.11 PM (1).jpeg#2",
+    "note": "Handwritten product total Rp170880. Default Rp10000 supplier delivery fee and Rp10000 customer delivery charge confirmed by staff.",
+    "lines": [
+      {
+        "clientLineKey": "s06-l01",
+        "productId": "70c8bbbc-1bb6-563a-a27a-9ff958f01824",
+        "productName": "Telur Negri Organik",
+        "inputUnitCode": "unit",
+        "quantity": "30",
+        "supplierDescription": "Telur Negeri",
+        "supplierCost": {
+          "status": "provisional",
+          "totalAmount": "90000"
+        },
+        "customerPricing": {
+          "source": "catalog"
+        }
+      },
+      {
+        "clientLineKey": "s06-l02",
+        "productId": "7f281125-1996-5b0b-a889-0602ed36d188",
+        "productName": "Timun Lokal",
+        "inputUnitCode": "kg",
+        "quantity": "0.5",
+        "supplierDescription": "Timun",
+        "supplierCost": {
+          "status": "provisional",
+          "totalAmount": "16000"
+        },
+        "customerPricing": {
+          "source": "catalog"
+        }
+      },
+      {
+        "clientLineKey": "s06-l03",
+        "productId": "8c3ef21e-febb-52e4-8f04-be3865c99073",
+        "productName": "Wortel",
+        "inputUnitCode": "kg",
+        "quantity": "1",
+        "supplierDescription": "Wortel",
+        "supplierCost": {
+          "status": "provisional",
+          "totalAmount": "30000"
+        },
+        "customerPricing": {
+          "source": "catalog"
+        }
+      },
+      {
+        "clientLineKey": "s06-l04",
+        "productId": "b4e9d275-c2b5-585f-9c9e-e91cfdd75800",
+        "productName": "Sawi Putih",
+        "inputUnitCode": "kg",
+        "quantity": "1.09",
+        "supplierDescription": "Sawi Putih",
+        "supplierCost": {
+          "status": "provisional",
+          "totalAmount": "34880"
+        },
+        "customerPricing": {
+          "source": "catalog"
+        }
+      }
+    ],
+    "supplierDeliveryFee": {
+      "status": "provisional",
+      "amount": "10000",
+      "note": "Imported from reviewed supplier slip; confirm during supplier reconciliation."
+    },
+    "customerDeliveryCharge": "10000",
+    "customerDeliveryDescription": "Biaya pengantaran supplier langsung"
+  },
+  "sourceHandwriting": {
+    "addressRead": "Intan 2 no. 26, Alam Sutera",
+    "dateRead": "30/9/2026",
+    "slipTotalRead": 170880,
+    "slipTotalCertain": true,
+    "excludedOrNotReceived": [],
+    "notes": []
+  },
+  "customerResolutionEvidence": {
+    "nameRead": "Agnes",
+    "addressRead": "Intan 2 no. 26, Alam Sutera",
+    "confidence": "high",
+    "suggestedCustomerId": "6f1f8326-b9c3-588f-ac5f-5597e7acec6b",
+    "candidates": [
+      {
+        "customerId": "6f1f8326-b9c3-588f-ac5f-5597e7acec6b",
+        "legacyCustomerId": 162,
+        "fullName": "Agnes",
+        "aliases": [],
+        "addresses": [
+          "Jl. Sutera Intan 2/26 Alam Sutera"
+        ],
+        "matchedOn": "canonical_name",
+        "matchedText": "Agnes",
+        "nameScore": 1,
+        "addressScore": 0.6781,
+        "score": 0.9614
+      },
+      {
+        "customerId": "fc94947f-1d3c-5bb5-9040-d34c602e1e6a",
+        "legacyCustomerId": 574,
+        "fullName": "Agnes R",
+        "aliases": [],
+        "addresses": [],
+        "matchedOn": "canonical_name",
+        "matchedText": "Agnes R",
+        "nameScore": 0.9257,
+        "addressScore": 0,
+        "score": 0.8146
+      },
+      {
+        "customerId": "d5cb14e5-002d-5222-8d11-0fd4c6b70c59",
+        "legacyCustomerId": 488,
+        "fullName": "Agnes SPH",
+        "aliases": [],
+        "addresses": [],
+        "matchedOn": "canonical_name",
+        "matchedText": "Agnes SPH",
+        "nameScore": 0.9067,
+        "addressScore": 0,
+        "score": 0.7979
+      },
+      {
+        "customerId": "c3847cc8-5165-5f84-b0b3-b714e909147f",
+        "legacyCustomerId": 224,
+        "fullName": "Agnes pinnar",
+        "aliases": [],
+        "addresses": [],
+        "matchedOn": "canonical_name",
+        "matchedText": "Agnes pinnar",
+        "nameScore": 0.89,
+        "addressScore": 0,
+        "score": 0.7832
+      },
+      {
+        "customerId": "b9e133ec-9f28-55a0-b0c2-22ab38037d2e",
+        "legacyCustomerId": 96,
+        "fullName": "Anas",
+        "aliases": [],
+        "addresses": [
+          "Sutera Asri 2 No 11A. Alam Sutera."
+        ],
+        "matchedOn": "canonical_name",
+        "matchedText": "Anas",
+        "nameScore": 0.6,
+        "addressScore": 0.625,
+        "score": 0.603
+      }
+    ],
+    "warnings": []
+  },
+  "productMatchingEvidence": {
+    "supplier": {
+      "id": "19f80084-3483-5e26-97f4-58884573bbde",
+      "name": "Cisarua"
+    },
+    "effectiveOn": "2026-09-30",
+    "lines": [
+      {
+        "lineId": "s06-l01",
+        "productNameRead": "Telur Negeri",
+        "qtyRead": 30,
+        "totalRead": 90000,
+        "confidence": "high",
+        "suggestedProductId": "70c8bbbc-1bb6-563a-a27a-9ff958f01824",
+        "candidates": [
+          {
+            "productId": "70c8bbbc-1bb6-563a-a27a-9ff958f01824",
+            "productCode": "legacy-rs-1063",
+            "name": "Telur Negri Organik",
+            "inputUnitCode": "unit",
+            "inputUnitLabel": "Satuan/paket",
+            "expectedUnitCost": "3000.000000",
+            "catalogPrice": "3700.000000",
+            "matchedOn": "canonical_name",
+            "matchedText": "Telur Negri Organik",
+            "nameScore": 0.912,
+            "costScore": 1,
+            "expectedTotal": 90000,
+            "totalDelta": 0,
+            "totalMatches": true,
+            "score": 0.9314
+          },
+          {
+            "productId": "06e07aa2-15cb-54b0-83a5-a57fe49bb985",
+            "productCode": "legacy-rs-1062",
+            "name": "Telur Ayam",
+            "inputUnitCode": "unit",
+            "inputUnitLabel": "Satuan/paket",
+            "expectedUnitCost": "4000.000000",
+            "catalogPrice": "5000.000000",
+            "matchedOn": "canonical_name",
+            "matchedText": "Telur Ayam",
+            "nameScore": 0.5,
+            "costScore": 0,
+            "expectedTotal": 120000,
+            "totalDelta": 30000,
+            "totalMatches": false,
+            "score": 0.39
+          },
+          {
+            "productId": "fbdcc325-684e-54f8-b471-acd821b6e89b",
+            "productCode": "legacy-rs-667",
+            "name": "Seledri",
+            "inputUnitCode": "kg",
+            "inputUnitLabel": "Kilogram",
+            "expectedUnitCost": "45000.000000",
+            "catalogPrice": "58000.000000",
+            "matchedOn": "canonical_name",
+            "matchedText": "Seledri",
+            "nameScore": 0.4167,
+            "costScore": 0,
+            "expectedTotal": 1350000,
+            "totalDelta": 1260000,
+            "totalMatches": false,
+            "score": 0.325
+          },
+          {
+            "productId": "8602d729-7cb2-5d7f-86ea-4f96ff2d6f3f",
+            "productCode": "legacy-rs-588",
+            "name": "Tempe 400gr",
+            "inputUnitCode": "unit",
+            "inputUnitLabel": "Satuan/paket",
+            "expectedUnitCost": "17000.000000",
+            "catalogPrice": "26000.000000",
+            "matchedOn": "canonical_name",
+            "matchedText": "Tempe 400gr",
+            "nameScore": 0.3333,
+            "costScore": 0,
+            "expectedTotal": 510000,
+            "totalDelta": 420000,
+            "totalMatches": false,
+            "score": 0.26
+          },
+          {
+            "productId": "1feb473a-6d29-568b-8e97-73fd16d06fc2",
+            "productCode": "legacy-rs-607",
+            "name": "Beras Meru",
+            "inputUnitCode": "unit",
+            "inputUnitLabel": "Satuan/paket",
+            "expectedUnitCost": "32000.000000",
+            "catalogPrice": "39000.000000",
+            "matchedOn": "canonical_name",
+            "matchedText": "Beras Meru",
+            "nameScore": 0.3333,
+            "costScore": 0,
+            "expectedTotal": 960000,
+            "totalDelta": 870000,
+            "totalMatches": false,
+            "score": 0.26
+          }
+        ],
+        "warnings": []
+      },
+      {
+        "lineId": "s06-l02",
+        "productNameRead": "Timun",
+        "qtyRead": 0.5,
+        "totalRead": 16000,
+        "confidence": "high",
+        "suggestedProductId": "7f281125-1996-5b0b-a889-0602ed36d188",
+        "candidates": [
+          {
+            "productId": "7f281125-1996-5b0b-a889-0602ed36d188",
+            "productCode": "legacy-rs-622",
+            "name": "Timun Lokal",
+            "inputUnitCode": "kg",
+            "inputUnitLabel": "Kilogram",
+            "expectedUnitCost": "32000.000000",
+            "catalogPrice": "43000.000000",
+            "matchedOn": "canonical_name",
+            "matchedText": "Timun Lokal",
+            "nameScore": 0.8945,
+            "costScore": 1,
+            "expectedTotal": 16000,
+            "totalDelta": 0,
+            "totalMatches": true,
+            "score": 0.9177
+          },
+          {
+            "productId": "d22ce659-2cdc-5731-8c96-8d58e9b9a6eb",
+            "productCode": "legacy-rs-625",
+            "name": "Timun Jepang",
+            "inputUnitCode": "kg",
+            "inputUnitLabel": "Kilogram",
+            "expectedUnitCost": "34000.000000",
+            "catalogPrice": "45000.000000",
+            "matchedOn": "canonical_name",
+            "matchedText": "Timun Jepang",
+            "nameScore": 0.89,
+            "costScore": 0.7647,
+            "expectedTotal": 17000,
+            "totalDelta": 1000,
+            "totalMatches": false,
+            "score": 0.8624
+          },
+          {
+            "productId": "22c9f15d-fe9e-5607-bebf-fafbc227fa3b",
+            "productCode": "legacy-rs-612",
+            "name": "Tomat",
+            "inputUnitCode": "kg",
+            "inputUnitLabel": "Kilogram",
+            "expectedUnitCost": "32000.000000",
+            "catalogPrice": "42000.000000",
+            "matchedOn": "canonical_name",
+            "matchedText": "Tomat",
+            "nameScore": 0.4,
+            "costScore": 1,
+            "expectedTotal": 16000,
+            "totalDelta": 0,
+            "totalMatches": true,
+            "score": 0.532
+          },
+          {
+            "productId": "15113276-9494-53e8-a49f-51331fd86a88",
+            "productCode": "legacy-rs-620",
+            "name": "Tahu Kuning",
+            "inputUnitCode": "unit",
+            "inputUnitLabel": "Satuan/paket",
+            "expectedUnitCost": "32000.000000",
+            "catalogPrice": "37000.000000",
+            "matchedOn": "canonical_name",
+            "matchedText": "Tahu Kuning",
+            "nameScore": 0.2727,
+            "costScore": 1,
+            "expectedTotal": 16000,
+            "totalDelta": 0,
+            "totalMatches": true,
+            "score": 0.4327
+          },
+          {
+            "productId": "53be9183-6302-5eb8-b106-a9cdc43dc69b",
+            "productCode": "legacy-rs-621",
+            "name": "Terong Ungu",
+            "inputUnitCode": "kg",
+            "inputUnitLabel": "Kilogram",
+            "expectedUnitCost": "32000.000000",
+            "catalogPrice": "42000.000000",
+            "matchedOn": "canonical_name",
+            "matchedText": "Terong Ungu",
+            "nameScore": 0.2727,
+            "costScore": 1,
+            "expectedTotal": 16000,
+            "totalDelta": 0,
+            "totalMatches": true,
+            "score": 0.4327
+          }
+        ],
+        "warnings": []
+      },
+      {
+        "lineId": "s06-l03",
+        "productNameRead": "Wortel",
+        "qtyRead": 1,
+        "totalRead": 30000,
+        "confidence": "high",
+        "suggestedProductId": "8c3ef21e-febb-52e4-8f04-be3865c99073",
+        "candidates": [
+          {
+            "productId": "8c3ef21e-febb-52e4-8f04-be3865c99073",
+            "productCode": "legacy-rs-613",
+            "name": "Wortel",
+            "inputUnitCode": "kg",
+            "inputUnitLabel": "Kilogram",
+            "expectedUnitCost": "30000.000000",
+            "catalogPrice": "40000.000000",
+            "matchedOn": "canonical_name",
+            "matchedText": "Wortel",
+            "nameScore": 1,
+            "costScore": 1,
+            "expectedTotal": 30000,
+            "totalDelta": 0,
+            "totalMatches": true,
+            "score": 1
+          },
+          {
+            "productId": "94595720-1a18-5513-8d09-ace2a3a5bbfd",
+            "productCode": "legacy-rs-610",
+            "name": "Pare",
+            "inputUnitCode": "kg",
+            "inputUnitLabel": "Kilogram",
+            "expectedUnitCost": "30000.000000",
+            "catalogPrice": "40000.000000",
+            "matchedOn": "canonical_name",
+            "matchedText": "Pare",
+            "nameScore": 0.3333,
+            "costScore": 1,
+            "expectedTotal": 30000,
+            "totalDelta": 0,
+            "totalMatches": true,
+            "score": 0.48
+          },
+          {
+            "productId": "02ae31af-edc4-54e1-bd4b-1a42cb131744",
+            "productCode": "legacy-rs-593",
+            "name": "Sereh",
+            "inputUnitCode": "kg",
+            "inputUnitLabel": "Kilogram",
+            "expectedUnitCost": "32000.000000",
+            "catalogPrice": "40000.000000",
+            "matchedOn": "canonical_name",
+            "matchedText": "Sereh",
+            "nameScore": 0.3333,
+            "costScore": 0.75,
+            "expectedTotal": 32000,
+            "totalDelta": 2000,
+            "totalMatches": false,
+            "score": 0.425
+          },
+          {
+            "productId": "629f27c1-4491-5a0a-be07-8c91609d3988",
+            "productCode": "legacy-rs-627",
+            "name": "Kol Putih",
+            "inputUnitCode": "kg",
+            "inputUnitLabel": "Kilogram",
+            "expectedUnitCost": "32000.000000",
+            "catalogPrice": "42000.000000",
+            "matchedOn": "canonical_name",
+            "matchedText": "Kol Putih",
+            "nameScore": 0.2222,
+            "costScore": 0.75,
+            "expectedTotal": 32000,
+            "totalDelta": 2000,
+            "totalMatches": false,
+            "score": 0.3383
+          },
+          {
+            "productId": "d4559261-6693-550f-9657-b43a51817967",
+            "productCode": "legacy-rs-596",
+            "name": "Beras Merah",
+            "inputUnitCode": "unit",
+            "inputUnitLabel": "Satuan/paket",
+            "expectedUnitCost": "31000.000000",
+            "catalogPrice": "39000.000000",
+            "matchedOn": "canonical_name",
+            "matchedText": "Beras Merah",
+            "nameScore": 0.1818,
+            "costScore": 0.871,
+            "expectedTotal": 31000,
+            "totalDelta": 1000,
+            "totalMatches": false,
+            "score": 0.3334
+          }
+        ],
+        "warnings": []
+      },
+      {
+        "lineId": "s06-l04",
+        "productNameRead": "Sawi Putih",
+        "qtyRead": 1.09,
+        "totalRead": 34880,
+        "confidence": "high",
+        "suggestedProductId": "b4e9d275-c2b5-585f-9c9e-e91cfdd75800",
+        "candidates": [
+          {
+            "productId": "b4e9d275-c2b5-585f-9c9e-e91cfdd75800",
+            "productCode": "legacy-rs-595",
+            "name": "Sawi Putih",
+            "inputUnitCode": "kg",
+            "inputUnitLabel": "Kilogram",
+            "expectedUnitCost": "32000.000000",
+            "catalogPrice": "45000.000000",
+            "matchedOn": "canonical_name",
+            "matchedText": "Sawi Putih",
+            "nameScore": 1,
+            "costScore": 1,
+            "expectedTotal": 34880,
+            "totalDelta": 0,
+            "totalMatches": true,
+            "score": 1
+          },
+          {
+            "productId": "3641853f-1fdd-5567-a763-3f61b6ca048e",
+            "productCode": "legacy-rs-630",
+            "name": "Sawi Pahit",
+            "inputUnitCode": "kg",
+            "inputUnitLabel": "Kilogram",
+            "expectedUnitCost": "32000.000000",
+            "catalogPrice": "42000.000000",
+            "matchedOn": "canonical_name",
+            "matchedText": "Sawi Pahit",
+            "nameScore": 0.7,
+            "costScore": 1,
+            "expectedTotal": 34880,
+            "totalDelta": 0,
+            "totalMatches": true,
+            "score": 0.766
+          },
+          {
+            "productId": "cfb5a0ff-0df0-5d76-bcc4-75e451fc37a8",
+            "productCode": "legacy-rs-611",
+            "name": "Tahu Putih",
+            "inputUnitCode": "unit",
+            "inputUnitLabel": "Satuan/paket",
+            "expectedUnitCost": "30000.000000",
+            "catalogPrice": "38000.000000",
+            "matchedOn": "canonical_name",
+            "matchedText": "Tahu Putih",
+            "nameScore": 0.7,
+            "costScore": 0.7333,
+            "expectedTotal": 32700,
+            "totalDelta": 2180,
+            "totalMatches": false,
+            "score": 0.7073
+          },
+          {
+            "productId": "629f27c1-4491-5a0a-be07-8c91609d3988",
+            "productCode": "legacy-rs-627",
+            "name": "Kol Putih",
+            "inputUnitCode": "kg",
+            "inputUnitLabel": "Kilogram",
+            "expectedUnitCost": "32000.000000",
+            "catalogPrice": "42000.000000",
+            "matchedOn": "canonical_name",
+            "matchedText": "Kol Putih",
+            "nameScore": 0.6,
+            "costScore": 1,
+            "expectedTotal": 34880,
+            "totalDelta": 0,
+            "totalMatches": true,
+            "score": 0.688
+          },
+          {
+            "productId": "f132d827-8ce1-5c7a-ad54-2eb6e5cb2ff7",
+            "productCode": "legacy-rs-592",
+            "name": "Beras Putih",
+            "inputUnitCode": "unit",
+            "inputUnitLabel": "Satuan/paket",
+            "expectedUnitCost": "29000.000000",
+            "catalogPrice": "35000.000000",
+            "matchedOn": "canonical_name",
+            "matchedText": "Beras Putih",
+            "nameScore": 0.5455,
+            "costScore": 0.5862,
+            "expectedTotal": 31610,
+            "totalDelta": 3270,
+            "totalMatches": false,
+            "score": 0.5544
+          }
+        ],
+        "warnings": []
+      }
+    ]
+  }
+}

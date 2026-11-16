@@ -1,0 +1,889 @@
+{
+  "schemaVersion": "rumah-sehat-v2-slip-review-v1",
+  "readyToImport": true,
+  "source": {
+    "imageFile": "WhatsApp Image 2026-10-24 at 11.49.13 AM.jpeg",
+    "slipIndex": 2,
+    "fingerprint": "0a82ddb2c4a52e2c61bcfb7e739b38de8269dde5af1838661b19aa2374b4cd5e",
+    "sourcePath": "incoming/WhatsApp Image 2026-10-24 at 11.49.13 AM.jpeg"
+  },
+  "extracted": {
+    "customerNameRead": "Zaq",
+    "lines": [
+      {
+        "lineId": "s10-l01",
+        "productNameRead": "Ayam Kampung",
+        "quantityRead": 2,
+        "totalRead": 130000
+      },
+      {
+        "lineId": "s10-l02",
+        "productNameRead": "Ayam Broiler",
+        "quantityRead": 2,
+        "totalRead": 120000
+      },
+      {
+        "lineId": "s10-l03",
+        "productNameRead": "Telur Kampung",
+        "quantityRead": 40,
+        "totalRead": 160000
+      },
+      {
+        "lineId": "s10-l04",
+        "productNameRead": "Tahu Hongkong",
+        "quantityRead": 1,
+        "totalRead": 11000
+      },
+      {
+        "lineId": "s10-l05",
+        "productNameRead": "Ubi Cilembu",
+        "quantityRead": 1,
+        "totalRead": 28000
+      },
+      {
+        "lineId": "s10-l06",
+        "productNameRead": "Pisang Raja",
+        "quantityRead": 1.72,
+        "totalRead": 43000
+      },
+      {
+        "lineId": "s10-l07",
+        "productNameRead": "Selada Air",
+        "quantityRead": 0.25,
+        "totalRead": 9000
+      },
+      {
+        "lineId": "s10-l08",
+        "productNameRead": "Bit",
+        "quantityRead": 0.6,
+        "totalRead": 22800
+      },
+      {
+        "lineId": "s10-l09",
+        "productNameRead": "Brokoli",
+        "quantityRead": 0.31,
+        "totalRead": 16120
+      },
+      {
+        "lineId": "s10-l10",
+        "productNameRead": "Kembang Kol",
+        "quantityRead": 0.4,
+        "totalRead": 17600
+      },
+      {
+        "lineId": "s10-l11",
+        "productNameRead": "Labusiam",
+        "quantityRead": 0.5,
+        "totalRead": 14000
+      },
+      {
+        "lineId": "s10-l12",
+        "productNameRead": "Wortel",
+        "quantityRead": 0.5,
+        "totalRead": 15000
+      },
+      {
+        "lineId": "s10-l13",
+        "productNameRead": "Jagung Manis",
+        "quantityRead": 1.25,
+        "totalRead": 37500
+      },
+      {
+        "lineId": "s10-l14",
+        "productNameRead": "Sl Head",
+        "quantityRead": 0.54,
+        "totalRead": 23760
+      }
+    ],
+    "date": "2026-10-21",
+    "slipTotalRead": 647780,
+    "slipTotalCertain": true,
+    "excludedOrNotReceived": []
+  },
+  "resolved": {
+    "supplier": {
+      "id": "19f80084-3483-5e26-97f4-58884573bbde",
+      "name": "Cisarua"
+    },
+    "customer": {
+      "id": "b164b84b-9615-5214-8243-5a38b0926557",
+      "name": "Zaq",
+      "legacyCustomerId": 214,
+      "aliases": [],
+      "addresses": [
+        "Taman Diponegoro. Gunung Himalaya No 201. Lippo Karawaci"
+      ],
+      "nameRead": "Zaq"
+    }
+  },
+  "warnings": [],
+  "calculations": {
+    "supplierProductSubtotal": 647780,
+    "supplierDeliveryFee": 10000,
+    "supplierTotal": 657780,
+    "customerDeliveryCharge": 10000,
+    "handwrittenProductTotal": 647780,
+    "lineTotalSum": 647780,
+    "handwrittenMinusLineSum": 0
+  },
+  "proposedDraft": {
+    "supplierDirectDraft": {
+      "schemaVersion": 1,
+      "supplierId": "19f80084-3483-5e26-97f4-58884573bbde",
+      "supplierName": "Cisarua",
+      "customerId": "b164b84b-9615-5214-8243-5a38b0926557",
+      "customerName": "Zaq",
+      "occurred": {
+        "date": "2026-10-21",
+        "precision": "date"
+      },
+      "supplierReference": "WhatsApp Image 2026-10-24 at 11.49.13 AM.jpeg#2",
+      "note": "Handwritten product total Rp647780; line sum matches.",
+      "lines": [
+        {
+          "clientLineKey": "s10-l01",
+          "productId": "6b1d1840-3ae4-5904-82da-95503d942de3",
+          "productName": "Ayam Kampung Organic",
+          "inputUnitCode": "unit",
+          "quantity": "2",
+          "supplierDescription": "Ayam Kampung",
+          "supplierCost": {
+            "status": "provisional",
+            "totalAmount": "130000"
+          },
+          "customerPricing": {
+            "source": "catalog"
+          }
+        },
+        {
+          "clientLineKey": "s10-l02",
+          "productId": "fe3b2e5d-3d7f-5d78-945e-a8c1defc0b77",
+          "productName": "Ayam Broiler",
+          "inputUnitCode": "unit",
+          "quantity": "2",
+          "supplierDescription": "Ayam Broiler",
+          "supplierCost": {
+            "status": "provisional",
+            "totalAmount": "120000"
+          },
+          "customerPricing": {
+            "source": "catalog"
+          }
+        },
+        {
+          "clientLineKey": "s10-l03",
+          "productId": "06e07aa2-15cb-54b0-83a5-a57fe49bb985",
+          "productName": "Telur Ayam",
+          "inputUnitCode": "unit",
+          "quantity": "40",
+          "supplierDescription": "Telur Kampung",
+          "supplierCost": {
+            "status": "provisional",
+            "totalAmount": "160000"
+          },
+          "customerPricing": {
+            "source": "catalog"
+          }
+        },
+        {
+          "clientLineKey": "s10-l04",
+          "productId": "87b0985a-fc64-5c8d-a3db-aee1f0df6825",
+          "productName": "Tahu Hong Kong",
+          "inputUnitCode": "unit",
+          "quantity": "1",
+          "supplierDescription": "Tahu Hongkong",
+          "supplierCost": {
+            "status": "provisional",
+            "totalAmount": "11000"
+          },
+          "customerPricing": {
+            "source": "catalog"
+          }
+        },
+        {
+          "clientLineKey": "s10-l05",
+          "productId": "f2422267-b801-5166-a99d-0ea552c8e4f7",
+          "productName": "Ubi Cilembu",
+          "inputUnitCode": "unit",
+          "quantity": "1",
+          "supplierDescription": "Ubi Cilembu",
+          "supplierCost": {
+            "status": "provisional",
+            "totalAmount": "28000"
+          },
+          "customerPricing": {
+            "source": "catalog"
+          }
+        },
+        {
+          "clientLineKey": "s10-l06",
+          "productId": "a17f5e9c-dee4-5f39-a0ab-bcc99345ddd2",
+          "productName": "Pisang Raja Bulu",
+          "inputUnitCode": "kg",
+          "quantity": "1.72",
+          "supplierDescription": "Pisang Raja",
+          "supplierCost": {
+            "status": "provisional",
+            "totalAmount": "43000"
+          },
+          "customerPricing": {
+            "source": "catalog"
+          }
+        },
+        {
+          "clientLineKey": "s10-l07",
+          "productId": "19951f33-bfce-50f1-b35b-045fcad65017",
+          "productName": "Selada Air",
+          "inputUnitCode": "kg",
+          "quantity": "0.25",
+          "supplierDescription": "Selada Air",
+          "supplierCost": {
+            "status": "provisional",
+            "totalAmount": "9000"
+          },
+          "customerPricing": {
+            "source": "catalog"
+          }
+        },
+        {
+          "clientLineKey": "s10-l08",
+          "productId": "241f5520-f0ce-5bda-a5a7-39b5d2abd0d6",
+          "productName": "Bit Merah",
+          "inputUnitCode": "kg",
+          "quantity": "0.6",
+          "supplierDescription": "Bit",
+          "supplierCost": {
+            "status": "provisional",
+            "totalAmount": "22800"
+          },
+          "customerPricing": {
+            "source": "catalog"
+          }
+        },
+        {
+          "clientLineKey": "s10-l09",
+          "productId": "0bbdc2cf-a928-5df3-9c1e-15e1ccd212c2",
+          "productName": "Broccoli",
+          "inputUnitCode": "kg",
+          "quantity": "0.31",
+          "supplierDescription": "Brokoli",
+          "supplierCost": {
+            "status": "provisional",
+            "totalAmount": "16120"
+          },
+          "customerPricing": {
+            "source": "catalog"
+          }
+        },
+        {
+          "clientLineKey": "s10-l10",
+          "productId": "e064d98b-36c5-5ae2-9b85-1294d3b463eb",
+          "productName": "Kembang Kol",
+          "inputUnitCode": "kg",
+          "quantity": "0.4",
+          "supplierDescription": "Kembang Kol",
+          "supplierCost": {
+            "status": "provisional",
+            "totalAmount": "17600"
+          },
+          "customerPricing": {
+            "source": "catalog"
+          }
+        },
+        {
+          "clientLineKey": "s10-l11",
+          "productId": "e5c5ca78-901c-5e4f-b4af-44e9437ed6e7",
+          "productName": "Labu Siam",
+          "inputUnitCode": "kg",
+          "quantity": "0.5",
+          "supplierDescription": "Labusiam",
+          "supplierCost": {
+            "status": "provisional",
+            "totalAmount": "14000"
+          },
+          "customerPricing": {
+            "source": "catalog"
+          }
+        },
+        {
+          "clientLineKey": "s10-l12",
+          "productId": "8c3ef21e-febb-52e4-8f04-be3865c99073",
+          "productName": "Wortel",
+          "inputUnitCode": "kg",
+          "quantity": "0.5",
+          "supplierDescription": "Wortel",
+          "supplierCost": {
+            "status": "provisional",
+            "totalAmount": "15000"
+          },
+          "customerPricing": {
+            "source": "catalog"
+          }
+        },
+        {
+          "clientLineKey": "s10-l13",
+          "productId": "dc3006fa-40b7-5b8f-bea1-c2ada363e57d",
+          "productName": "Jagung Manis",
+          "inputUnitCode": "kg",
+          "quantity": "1.25",
+          "supplierDescription": "Jagung Manis",
+          "supplierCost": {
+            "status": "provisional",
+            "totalAmount": "37500"
+          },
+          "customerPricing": {
+            "source": "catalog"
+          }
+        },
+        {
+          "clientLineKey": "s10-l14",
+          "productId": "368f4a64-9736-5ce6-b48d-17c4c166c9a2",
+          "productName": "Selada Head",
+          "inputUnitCode": "kg",
+          "quantity": "0.54",
+          "supplierDescription": "Sl Head",
+          "supplierCost": {
+            "status": "provisional",
+            "totalAmount": "23760"
+          },
+          "customerPricing": {
+            "source": "catalog"
+          }
+        }
+      ],
+      "supplierDeliveryFee": {
+        "status": "provisional",
+        "amount": "10000",
+        "note": "Imported from reviewed supplier slip; confirm during supplier reconciliation."
+      },
+      "customerDeliveryCharge": "10000",
+      "customerDeliveryDescription": "Biaya pengantaran supplier langsung"
+    }
+  },
+  "supplierDirectDraft": {
+    "schemaVersion": 1,
+    "supplierId": "19f80084-3483-5e26-97f4-58884573bbde",
+    "supplierName": "Cisarua",
+    "customerId": "b164b84b-9615-5214-8243-5a38b0926557",
+    "customerName": "Zaq",
+    "occurred": {
+      "date": "2026-10-21",
+      "precision": "date"
+    },
+    "supplierReference": "WhatsApp Image 2026-10-24 at 11.49.13 AM.jpeg#2",
+    "note": "Handwritten product total Rp647780; line sum matches.",
+    "lines": [
+      {
+        "clientLineKey": "s10-l01",
+        "productId": "6b1d1840-3ae4-5904-82da-95503d942de3",
+        "productName": "Ayam Kampung Organic",
+        "inputUnitCode": "unit",
+        "quantity": "2",
+        "supplierDescription": "Ayam Kampung",
+        "supplierCost": {
+          "status": "provisional",
+          "totalAmount": "130000"
+        },
+        "customerPricing": {
+          "source": "catalog"
+        }
+      },
+      {
+        "clientLineKey": "s10-l02",
+        "productId": "fe3b2e5d-3d7f-5d78-945e-a8c1defc0b77",
+        "productName": "Ayam Broiler",
+        "inputUnitCode": "unit",
+        "quantity": "2",
+        "supplierDescription": "Ayam Broiler",
+        "supplierCost": {
+          "status": "provisional",
+          "totalAmount": "120000"
+        },
+        "customerPricing": {
+          "source": "catalog"
+        }
+      },
+      {
+        "clientLineKey": "s10-l03",
+        "productId": "06e07aa2-15cb-54b0-83a5-a57fe49bb985",
+        "productName": "Telur Ayam",
+        "inputUnitCode": "unit",
+        "quantity": "40",
+        "supplierDescription": "Telur Kampung",
+        "supplierCost": {
+          "status": "provisional",
+          "totalAmount": "160000"
+        },
+        "customerPricing": {
+          "source": "catalog"
+        }
+      },
+      {
+        "clientLineKey": "s10-l04",
+        "productId": "87b0985a-fc64-5c8d-a3db-aee1f0df6825",
+        "productName": "Tahu Hong Kong",
+        "inputUnitCode": "unit",
+        "quantity": "1",
+        "supplierDescription": "Tahu Hongkong",
+        "supplierCost": {
+          "status": "provisional",
+          "totalAmount": "11000"
+        },
+        "customerPricing": {
+          "source": "catalog"
+        }
+      },
+      {
+        "clientLineKey": "s10-l05",
+        "productId": "f2422267-b801-5166-a99d-0ea552c8e4f7",
+        "productName": "Ubi Cilembu",
+        "inputUnitCode": "unit",
+        "quantity": "1",
+        "supplierDescription": "Ubi Cilembu",
+        "supplierCost": {
+          "status": "provisional",
+          "totalAmount": "28000"
+        },
+        "customerPricing": {
+          "source": "catalog"
+        }
+      },
+      {
+        "clientLineKey": "s10-l06",
+        "productId": "a17f5e9c-dee4-5f39-a0ab-bcc99345ddd2",
+        "productName": "Pisang Raja Bulu",
+        "inputUnitCode": "kg",
+        "quantity": "1.72",
+        "supplierDescription": "Pisang Raja",
+        "supplierCost": {
+          "status": "provisional",
+          "totalAmount": "43000"
+        },
+        "customerPricing": {
+          "source": "catalog"
+        }
+      },
+      {
+        "clientLineKey": "s10-l07",
+        "productId": "19951f33-bfce-50f1-b35b-045fcad65017",
+        "productName": "Selada Air",
+        "inputUnitCode": "kg",
+        "quantity": "0.25",
+        "supplierDescription": "Selada Air",
+        "supplierCost": {
+          "status": "provisional",
+          "totalAmount": "9000"
+        },
+        "customerPricing": {
+          "source": "catalog"
+        }
+      },
+      {
+        "clientLineKey": "s10-l08",
+        "productId": "241f5520-f0ce-5bda-a5a7-39b5d2abd0d6",
+        "productName": "Bit Merah",
+        "inputUnitCode": "kg",
+        "quantity": "0.6",
+        "supplierDescription": "Bit",
+        "supplierCost": {
+          "status": "provisional",
+          "totalAmount": "22800"
+        },
+        "customerPricing": {
+          "source": "catalog"
+        }
+      },
+      {
+        "clientLineKey": "s10-l09",
+        "productId": "0bbdc2cf-a928-5df3-9c1e-15e1ccd212c2",
+        "productName": "Broccoli",
+        "inputUnitCode": "kg",
+        "quantity": "0.31",
+        "supplierDescription": "Brokoli",
+        "supplierCost": {
+          "status": "provisional",
+          "totalAmount": "16120"
+        },
+        "customerPricing": {
+          "source": "catalog"
+        }
+      },
+      {
+        "clientLineKey": "s10-l10",
+        "productId": "e064d98b-36c5-5ae2-9b85-1294d3b463eb",
+        "productName": "Kembang Kol",
+        "inputUnitCode": "kg",
+        "quantity": "0.4",
+        "supplierDescription": "Kembang Kol",
+        "supplierCost": {
+          "status": "provisional",
+          "totalAmount": "17600"
+        },
+        "customerPricing": {
+          "source": "catalog"
+        }
+      },
+      {
+        "clientLineKey": "s10-l11",
+        "productId": "e5c5ca78-901c-5e4f-b4af-44e9437ed6e7",
+        "productName": "Labu Siam",
+        "inputUnitCode": "kg",
+        "quantity": "0.5",
+        "supplierDescription": "Labusiam",
+        "supplierCost": {
+          "status": "provisional",
+          "totalAmount": "14000"
+        },
+        "customerPricing": {
+          "source": "catalog"
+        }
+      },
+      {
+        "clientLineKey": "s10-l12",
+        "productId": "8c3ef21e-febb-52e4-8f04-be3865c99073",
+        "productName": "Wortel",
+        "inputUnitCode": "kg",
+        "quantity": "0.5",
+        "supplierDescription": "Wortel",
+        "supplierCost": {
+          "status": "provisional",
+          "totalAmount": "15000"
+        },
+        "customerPricing": {
+          "source": "catalog"
+        }
+      },
+      {
+        "clientLineKey": "s10-l13",
+        "productId": "dc3006fa-40b7-5b8f-bea1-c2ada363e57d",
+        "productName": "Jagung Manis",
+        "inputUnitCode": "kg",
+        "quantity": "1.25",
+        "supplierDescription": "Jagung Manis",
+        "supplierCost": {
+          "status": "provisional",
+          "totalAmount": "37500"
+        },
+        "customerPricing": {
+          "source": "catalog"
+        }
+      },
+      {
+        "clientLineKey": "s10-l14",
+        "productId": "368f4a64-9736-5ce6-b48d-17c4c166c9a2",
+        "productName": "Selada Head",
+        "inputUnitCode": "kg",
+        "quantity": "0.54",
+        "supplierDescription": "Sl Head",
+        "supplierCost": {
+          "status": "provisional",
+          "totalAmount": "23760"
+        },
+        "customerPricing": {
+          "source": "catalog"
+        }
+      }
+    ],
+    "supplierDeliveryFee": {
+      "status": "provisional",
+      "amount": "10000",
+      "note": "Imported from reviewed supplier slip; confirm during supplier reconciliation."
+    },
+    "customerDeliveryCharge": "10000",
+    "customerDeliveryDescription": "Biaya pengantaran supplier langsung"
+  },
+  "workflow": "supplier_direct",
+  "staffConfirmations": [
+    "Sl Head resolved to Selada Head from wording and exact supplier-cost arithmetic.",
+    "Pisang Raja maps to Pisang Raja Bulu."
+  ],
+  "customerResolutionEvidence": {
+    "handwrittenName": "Zaq",
+    "selectedCustomerId": "b164b84b-9615-5214-8243-5a38b0926557",
+    "selectedCustomerName": "Zaq",
+    "legacyCustomerId": 214,
+    "confirmation": [
+      "Sl Head resolved to Selada Head from wording and exact supplier-cost arithmetic.",
+      "Pisang Raja maps to Pisang Raja Bulu."
+    ]
+  },
+  "productMatchingEvidence": {
+    "effectiveOn": "2026-10-21",
+    "supplierId": "19f80084-3483-5e26-97f4-58884573bbde",
+    "supplierName": "Cisarua",
+    "lines": [
+      {
+        "lineId": "s10-l01",
+        "productNameRead": "Ayam Kampung",
+        "qtyRead": 2,
+        "totalRead": 130000,
+        "confidence": "confirmed",
+        "selectedProductId": "6b1d1840-3ae4-5904-82da-95503d942de3",
+        "candidates": [
+          {
+            "productId": "6b1d1840-3ae4-5904-82da-95503d942de3",
+            "name": "Ayam Kampung Organic",
+            "expectedTotal": 130000,
+            "totalDelta": 0,
+            "totalMatches": true,
+            "matchedOn": "active_supplier_product_and_cost"
+          }
+        ],
+        "warnings": []
+      },
+      {
+        "lineId": "s10-l02",
+        "productNameRead": "Ayam Broiler",
+        "qtyRead": 2,
+        "totalRead": 120000,
+        "confidence": "confirmed",
+        "selectedProductId": "fe3b2e5d-3d7f-5d78-945e-a8c1defc0b77",
+        "candidates": [
+          {
+            "productId": "fe3b2e5d-3d7f-5d78-945e-a8c1defc0b77",
+            "name": "Ayam Broiler",
+            "expectedTotal": 120000,
+            "totalDelta": 0,
+            "totalMatches": true,
+            "matchedOn": "active_supplier_product_and_cost"
+          }
+        ],
+        "warnings": []
+      },
+      {
+        "lineId": "s10-l03",
+        "productNameRead": "Telur Kampung",
+        "qtyRead": 40,
+        "totalRead": 160000,
+        "confidence": "confirmed",
+        "selectedProductId": "06e07aa2-15cb-54b0-83a5-a57fe49bb985",
+        "candidates": [
+          {
+            "productId": "06e07aa2-15cb-54b0-83a5-a57fe49bb985",
+            "name": "Telur Ayam",
+            "expectedTotal": 160000,
+            "totalDelta": 0,
+            "totalMatches": true,
+            "matchedOn": "active_supplier_product_and_cost"
+          }
+        ],
+        "warnings": []
+      },
+      {
+        "lineId": "s10-l04",
+        "productNameRead": "Tahu Hongkong",
+        "qtyRead": 1,
+        "totalRead": 11000,
+        "confidence": "confirmed",
+        "selectedProductId": "87b0985a-fc64-5c8d-a3db-aee1f0df6825",
+        "candidates": [
+          {
+            "productId": "87b0985a-fc64-5c8d-a3db-aee1f0df6825",
+            "name": "Tahu Hong Kong",
+            "expectedTotal": 11000,
+            "totalDelta": 0,
+            "totalMatches": true,
+            "matchedOn": "active_supplier_product_and_cost"
+          }
+        ],
+        "warnings": []
+      },
+      {
+        "lineId": "s10-l05",
+        "productNameRead": "Ubi Cilembu",
+        "qtyRead": 1,
+        "totalRead": 28000,
+        "confidence": "confirmed",
+        "selectedProductId": "f2422267-b801-5166-a99d-0ea552c8e4f7",
+        "candidates": [
+          {
+            "productId": "f2422267-b801-5166-a99d-0ea552c8e4f7",
+            "name": "Ubi Cilembu",
+            "expectedTotal": 28000,
+            "totalDelta": 0,
+            "totalMatches": true,
+            "matchedOn": "active_supplier_product_and_cost"
+          }
+        ],
+        "warnings": []
+      },
+      {
+        "lineId": "s10-l06",
+        "productNameRead": "Pisang Raja",
+        "qtyRead": 1.72,
+        "totalRead": 43000,
+        "confidence": "confirmed",
+        "selectedProductId": "a17f5e9c-dee4-5f39-a0ab-bcc99345ddd2",
+        "candidates": [
+          {
+            "productId": "a17f5e9c-dee4-5f39-a0ab-bcc99345ddd2",
+            "name": "Pisang Raja Bulu",
+            "expectedTotal": 43000,
+            "totalDelta": 0,
+            "totalMatches": true,
+            "matchedOn": "active_supplier_product_and_cost"
+          }
+        ],
+        "warnings": []
+      },
+      {
+        "lineId": "s10-l07",
+        "productNameRead": "Selada Air",
+        "qtyRead": 0.25,
+        "totalRead": 9000,
+        "confidence": "confirmed",
+        "selectedProductId": "19951f33-bfce-50f1-b35b-045fcad65017",
+        "candidates": [
+          {
+            "productId": "19951f33-bfce-50f1-b35b-045fcad65017",
+            "name": "Selada Air",
+            "expectedTotal": 9000,
+            "totalDelta": 0,
+            "totalMatches": true,
+            "matchedOn": "active_supplier_product_and_cost"
+          }
+        ],
+        "warnings": []
+      },
+      {
+        "lineId": "s10-l08",
+        "productNameRead": "Bit",
+        "qtyRead": 0.6,
+        "totalRead": 22800,
+        "confidence": "confirmed",
+        "selectedProductId": "241f5520-f0ce-5bda-a5a7-39b5d2abd0d6",
+        "candidates": [
+          {
+            "productId": "241f5520-f0ce-5bda-a5a7-39b5d2abd0d6",
+            "name": "Bit Merah",
+            "expectedTotal": 22800,
+            "totalDelta": 0,
+            "totalMatches": true,
+            "matchedOn": "active_supplier_product_and_cost"
+          }
+        ],
+        "warnings": []
+      },
+      {
+        "lineId": "s10-l09",
+        "productNameRead": "Brokoli",
+        "qtyRead": 0.31,
+        "totalRead": 16120,
+        "confidence": "confirmed",
+        "selectedProductId": "0bbdc2cf-a928-5df3-9c1e-15e1ccd212c2",
+        "candidates": [
+          {
+            "productId": "0bbdc2cf-a928-5df3-9c1e-15e1ccd212c2",
+            "name": "Broccoli",
+            "expectedTotal": 16120,
+            "totalDelta": 0,
+            "totalMatches": true,
+            "matchedOn": "active_supplier_product_and_cost"
+          }
+        ],
+        "warnings": []
+      },
+      {
+        "lineId": "s10-l10",
+        "productNameRead": "Kembang Kol",
+        "qtyRead": 0.4,
+        "totalRead": 17600,
+        "confidence": "confirmed",
+        "selectedProductId": "e064d98b-36c5-5ae2-9b85-1294d3b463eb",
+        "candidates": [
+          {
+            "productId": "e064d98b-36c5-5ae2-9b85-1294d3b463eb",
+            "name": "Kembang Kol",
+            "expectedTotal": 17600,
+            "totalDelta": 0,
+            "totalMatches": true,
+            "matchedOn": "active_supplier_product_and_cost"
+          }
+        ],
+        "warnings": []
+      },
+      {
+        "lineId": "s10-l11",
+        "productNameRead": "Labusiam",
+        "qtyRead": 0.5,
+        "totalRead": 14000,
+        "confidence": "confirmed",
+        "selectedProductId": "e5c5ca78-901c-5e4f-b4af-44e9437ed6e7",
+        "candidates": [
+          {
+            "productId": "e5c5ca78-901c-5e4f-b4af-44e9437ed6e7",
+            "name": "Labu Siam",
+            "expectedTotal": 14000,
+            "totalDelta": 0,
+            "totalMatches": true,
+            "matchedOn": "active_supplier_product_and_cost"
+          }
+        ],
+        "warnings": []
+      },
+      {
+        "lineId": "s10-l12",
+        "productNameRead": "Wortel",
+        "qtyRead": 0.5,
+        "totalRead": 15000,
+        "confidence": "confirmed",
+        "selectedProductId": "8c3ef21e-febb-52e4-8f04-be3865c99073",
+        "candidates": [
+          {
+            "productId": "8c3ef21e-febb-52e4-8f04-be3865c99073",
+            "name": "Wortel",
+            "expectedTotal": 15000,
+            "totalDelta": 0,
+            "totalMatches": true,
+            "matchedOn": "active_supplier_product_and_cost"
+          }
+        ],
+        "warnings": []
+      },
+      {
+        "lineId": "s10-l13",
+        "productNameRead": "Jagung Manis",
+        "qtyRead": 1.25,
+        "totalRead": 37500,
+        "confidence": "confirmed",
+        "selectedProductId": "dc3006fa-40b7-5b8f-bea1-c2ada363e57d",
+        "candidates": [
+          {
+            "productId": "dc3006fa-40b7-5b8f-bea1-c2ada363e57d",
+            "name": "Jagung Manis",
+            "expectedTotal": 37500,
+            "totalDelta": 0,
+            "totalMatches": true,
+            "matchedOn": "active_supplier_product_and_cost"
+          }
+        ],
+        "warnings": []
+      },
+      {
+        "lineId": "s10-l14",
+        "productNameRead": "Sl Head",
+        "qtyRead": 0.54,
+        "totalRead": 23760,
+        "confidence": "confirmed",
+        "selectedProductId": "368f4a64-9736-5ce6-b48d-17c4c166c9a2",
+        "candidates": [
+          {
+            "productId": "368f4a64-9736-5ce6-b48d-17c4c166c9a2",
+            "name": "Selada Head",
+            "expectedTotal": 23760,
+            "totalDelta": 0,
+            "totalMatches": true,
+            "matchedOn": "active_supplier_product_and_cost"
+          }
+        ],
+        "warnings": []
+      }
+    ],
+    "summary": {
+      "totalLines": 14,
+      "selected": 14,
+      "withCostDiscrepancy": 0
+    }
+  }
+}
+

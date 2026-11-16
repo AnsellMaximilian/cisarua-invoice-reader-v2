@@ -53,7 +53,7 @@ export function buildSupplierDirectReview({ source, supplier, customer, date, su
     lines: draftLines,
     supplierDeliveryFee: { status: "provisional", amount: supplierFee, note: "Imported from reviewed supplier slip; confirm during supplier reconciliation." },
     customerDeliveryCharge: customerCharge,
-    customerDeliveryDescription: "Biaya pengantaran supplier langsung",
+    customerDeliveryDescription: "Biaya pengantaran langsung",
   };
   const supplierProductSubtotal = draftLines.reduce((sum, line) => sum + Number(line.supplierCost.totalAmount), 0);
   return {

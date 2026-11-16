@@ -1,0 +1,308 @@
+{
+  "schemaVersion": "rumah-sehat-v2-slip-review-v1",
+  "readyToImport": true,
+  "workflow": "supplier_direct_to_customer",
+  "source": {
+    "imageFile": "WhatsApp Image 2026-10-03 at 1.53.11 PM (2).jpeg",
+    "sourcePath": "incoming/WhatsApp Image 2026-10-03 at 1.53.11 PM (2).jpeg",
+    "slipIndex": 2
+  },
+  "extracted": {
+    "customerNameRead": "Lusy",
+    "addressRead": "Citra 6 Orange Heliconia H5 no. 7",
+    "date": "2026-10-01",
+    "slipTotalRead": 200000,
+    "slipTotalCertain": true,
+    "lines": [
+      {
+        "lineId": "s08-l01",
+        "productNameRead": "Telur Kampung",
+        "quantityRead": 50,
+        "totalRead": 200000
+      }
+    ],
+    "excludedOrNotReceived": []
+  },
+  "resolved": {
+    "supplier": {
+      "id": "19f80084-3483-5e26-97f4-58884573bbde",
+      "name": "Cisarua"
+    },
+    "customer": {
+      "id": "7d6f5f42-8fe5-5eab-ae7e-2ea821b6eddc",
+      "name": "Lusy",
+      "legacyCustomerId": 74,
+      "aliases": [],
+      "addresses": [
+        "Citra 6 Orange Heliconia h5 No 7 Jakarta Barat"
+      ],
+      "nameRead": "Lusy"
+    }
+  },
+  "customerResolutionEvidence": {
+    "nameRead": "Lusy",
+    "addressRead": null,
+    "confidence": "high",
+    "suggestedCustomerId": "7d6f5f42-8fe5-5eab-ae7e-2ea821b6eddc",
+    "candidates": [
+      {
+        "customerId": "7d6f5f42-8fe5-5eab-ae7e-2ea821b6eddc",
+        "legacyCustomerId": 74,
+        "fullName": "Lusy",
+        "aliases": [],
+        "addresses": [
+          "Citra 6 Orange Heliconia h5 No 7 Jakarta Barat"
+        ],
+        "matchedOn": "canonical_name",
+        "matchedText": "Lusy",
+        "nameScore": 1,
+        "addressScore": 0,
+        "score": 1
+      },
+      {
+        "customerId": "124ccc4c-a0d5-50b5-9e62-9faad62897b6",
+        "legacyCustomerId": 570,
+        "fullName": "Lusi",
+        "aliases": [],
+        "addresses": [],
+        "matchedOn": "canonical_name",
+        "matchedText": "Lusi",
+        "nameScore": 0.75,
+        "addressScore": 0,
+        "score": 0.75
+      },
+      {
+        "customerId": "d1c32766-b974-57b7-9e82-16a028b623b9",
+        "legacyCustomerId": 138,
+        "fullName": "Lise",
+        "aliases": [],
+        "addresses": [
+          "Taman Mediteranean Golf. Jalan Darmawangsa Golf. No.10. Lippo Karawaci"
+        ],
+        "matchedOn": "canonical_name",
+        "matchedText": "Lise",
+        "nameScore": 0.5,
+        "addressScore": 0,
+        "score": 0.5
+      },
+      {
+        "customerId": "b0cb1cc8-bd94-5dc9-bdb2-2b58322f71a9",
+        "legacyCustomerId": 448,
+        "fullName": "Ellisya",
+        "aliases": [],
+        "addresses": [],
+        "matchedOn": "canonical_name",
+        "matchedText": "Ellisya",
+        "nameScore": 0.4286,
+        "addressScore": 0,
+        "score": 0.4286
+      },
+      {
+        "customerId": "84c0666e-35a7-520f-b0e7-29a52c272793",
+        "legacyCustomerId": 446,
+        "fullName": "Elsye",
+        "aliases": [],
+        "addresses": [],
+        "matchedOn": "canonical_name",
+        "matchedText": "Elsye",
+        "nameScore": 0.4,
+        "addressScore": 0,
+        "score": 0.4
+      }
+    ],
+    "warnings": []
+  },
+  "productMatchingEvidence": {
+    "supplier": {
+      "id": "19f80084-3483-5e26-97f4-58884573bbde",
+      "name": "Cisarua"
+    },
+    "effectiveOn": "2026-10-01",
+    "lines": [
+      {
+        "lineId": "s08-l01",
+        "productNameRead": "Telur Ayam",
+        "qtyRead": 50,
+        "totalRead": 200000,
+        "confidence": "high",
+        "suggestedProductId": "06e07aa2-15cb-54b0-83a5-a57fe49bb985",
+        "candidates": [
+          {
+            "productId": "06e07aa2-15cb-54b0-83a5-a57fe49bb985",
+            "productCode": "legacy-rs-1062",
+            "name": "Telur Ayam",
+            "inputUnitCode": "unit",
+            "inputUnitLabel": "Satuan/paket",
+            "expectedUnitCost": "4000.000000",
+            "catalogPrice": "5000.000000",
+            "matchedOn": "canonical_name",
+            "matchedText": "Telur Ayam",
+            "nameScore": 1,
+            "costScore": 1,
+            "expectedTotal": 200000,
+            "totalDelta": 0,
+            "totalMatches": true,
+            "score": 1
+          },
+          {
+            "productId": "b48b3e09-39ba-5203-bc28-18b123ffae8b",
+            "productCode": "legacy-rs-654",
+            "name": "Jamur Tiram",
+            "inputUnitCode": "kg",
+            "inputUnitLabel": "Kilogram",
+            "expectedUnitCost": "44000.000000",
+            "catalogPrice": "70000.000000",
+            "matchedOn": "canonical_name",
+            "matchedText": "Jamur Tiram",
+            "nameScore": 0.4545,
+            "costScore": 0,
+            "expectedTotal": 2200000,
+            "totalDelta": 2000000,
+            "totalMatches": false,
+            "score": 0.3545
+          },
+          {
+            "productId": "835206b2-b93f-55d3-a000-81e87a28465f",
+            "productCode": "legacy-rs-589",
+            "name": "Pepaya",
+            "inputUnitCode": "kg",
+            "inputUnitLabel": "Kilogram",
+            "expectedUnitCost": "18000.000000",
+            "catalogPrice": "25000.000000",
+            "matchedOn": "canonical_name",
+            "matchedText": "Pepaya",
+            "nameScore": 0.4,
+            "costScore": 0,
+            "expectedTotal": 900000,
+            "totalDelta": 700000,
+            "totalMatches": false,
+            "score": 0.312
+          },
+          {
+            "productId": "e5c5ca78-901c-5e4f-b4af-44e9437ed6e7",
+            "productCode": "legacy-rs-597",
+            "name": "Labu Siam",
+            "inputUnitCode": "kg",
+            "inputUnitLabel": "Kilogram",
+            "expectedUnitCost": "28000.000000",
+            "catalogPrice": "40000.000000",
+            "matchedOn": "canonical_name",
+            "matchedText": "Labu Siam",
+            "nameScore": 0.4,
+            "costScore": 0,
+            "expectedTotal": 1400000,
+            "totalDelta": 1200000,
+            "totalMatches": false,
+            "score": 0.312
+          },
+          {
+            "productId": "7f281125-1996-5b0b-a889-0602ed36d188",
+            "productCode": "legacy-rs-622",
+            "name": "Timun Lokal",
+            "inputUnitCode": "kg",
+            "inputUnitLabel": "Kilogram",
+            "expectedUnitCost": "32000.000000",
+            "catalogPrice": "43000.000000",
+            "matchedOn": "canonical_name",
+            "matchedText": "Timun Lokal",
+            "nameScore": 0.3636,
+            "costScore": 0,
+            "expectedTotal": 1600000,
+            "totalDelta": 1400000,
+            "totalMatches": false,
+            "score": 0.2836
+          }
+        ],
+        "warnings": []
+      }
+    ],
+    "summary": {
+      "totalLines": 1,
+      "highConfidence": 1,
+      "needsReview": 0
+    }
+  },
+  "warnings": [],
+  "calculations": {
+    "supplierProductSubtotal": 200000,
+    "supplierDeliveryFee": 10000,
+    "supplierTotal": 210000,
+    "customerDeliveryCharge": 10000
+  },
+  "proposedDraft": {
+    "supplierDirectDraft": {
+      "schemaVersion": 1,
+      "supplierId": "19f80084-3483-5e26-97f4-58884573bbde",
+      "supplierName": "Cisarua",
+      "customerId": "7d6f5f42-8fe5-5eab-ae7e-2ea821b6eddc",
+      "customerName": "Lusy",
+      "occurred": {
+        "date": "2026-10-01",
+        "precision": "date"
+      },
+      "supplierReference": "WhatsApp Image 2026-10-03 at 1.53.11 PM (2).jpeg#2",
+      "note": "Handwritten product total Rp200000. Staff-confirmed OCR and identity review completed.",
+      "lines": [
+        {
+          "clientLineKey": "s08-l01",
+          "productId": "06e07aa2-15cb-54b0-83a5-a57fe49bb985",
+          "productName": "Telur Ayam",
+          "inputUnitCode": "unit",
+          "quantity": "50",
+          "supplierDescription": "Telur Ayam",
+          "supplierCost": {
+            "status": "provisional",
+            "totalAmount": "200000"
+          },
+          "customerPricing": {
+            "source": "catalog"
+          }
+        }
+      ],
+      "supplierDeliveryFee": {
+        "status": "provisional",
+        "amount": "10000",
+        "note": "Imported from reviewed supplier slip; confirm during supplier reconciliation."
+      },
+      "customerDeliveryCharge": "10000",
+      "customerDeliveryDescription": "Biaya pengantaran supplier langsung"
+    }
+  },
+  "supplierDirectDraft": {
+    "schemaVersion": 1,
+    "supplierId": "19f80084-3483-5e26-97f4-58884573bbde",
+    "supplierName": "Cisarua",
+    "customerId": "7d6f5f42-8fe5-5eab-ae7e-2ea821b6eddc",
+    "customerName": "Lusy",
+    "occurred": {
+      "date": "2026-10-01",
+      "precision": "date"
+    },
+    "supplierReference": "WhatsApp Image 2026-10-03 at 1.53.11 PM (2).jpeg#2",
+    "note": "Handwritten product total Rp200000. Staff-confirmed OCR and identity review completed.",
+    "lines": [
+      {
+        "clientLineKey": "s08-l01",
+        "productId": "06e07aa2-15cb-54b0-83a5-a57fe49bb985",
+        "productName": "Telur Ayam",
+        "inputUnitCode": "unit",
+        "quantity": "50",
+        "supplierDescription": "Telur Ayam",
+        "supplierCost": {
+          "status": "provisional",
+          "totalAmount": "200000"
+        },
+        "customerPricing": {
+          "source": "catalog"
+        }
+      }
+    ],
+    "supplierDeliveryFee": {
+      "status": "provisional",
+      "amount": "10000",
+      "note": "Imported from reviewed supplier slip; confirm during supplier reconciliation."
+    },
+    "customerDeliveryCharge": "10000",
+    "customerDeliveryDescription": "Biaya pengantaran supplier langsung"
+  }
+}

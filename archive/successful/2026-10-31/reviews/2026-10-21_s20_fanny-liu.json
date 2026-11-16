@@ -1,0 +1,172 @@
+{
+  "schemaVersion": "rumah-sehat-v2-slip-review-v1",
+  "readyToImport": true,
+  "source": {
+    "imageFile": "WhatsApp Image 2026-10-24 at 11.49.14 AM (2).jpeg",
+    "slipIndex": 2,
+    "fingerprint": "760196a110274fd8094414ecca5bcfa8601f5a79b815b57f3a4437edf7dc7ff1",
+    "sourcePath": "incoming/WhatsApp Image 2026-10-24 at 11.49.14 AM (2).jpeg"
+  },
+  "extracted": {
+    "customerNameRead": "Fanny Liu",
+    "lines": [
+      {
+        "lineId": "s20-l01",
+        "productNameRead": "Telur Kampung",
+        "quantityRead": 50,
+        "totalRead": 200000
+      }
+    ],
+    "date": "2026-10-21",
+    "slipTotalRead": 200000,
+    "slipTotalCertain": true,
+    "excludedOrNotReceived": []
+  },
+  "resolved": {
+    "supplier": {
+      "id": "19f80084-3483-5e26-97f4-58884573bbde",
+      "name": "Cisarua"
+    },
+    "customer": {
+      "id": "af9883a9-ea86-518e-af95-5869dfae916f",
+      "name": "Fanny Liu",
+      "legacyCustomerId": 416,
+      "aliases": [],
+      "addresses": [
+        "Pluit Putra kencana no 34, Jakarta Utara"
+      ],
+      "nameRead": "Fanny Liu"
+    }
+  },
+  "warnings": [],
+  "calculations": {
+    "supplierProductSubtotal": 200000,
+    "supplierDeliveryFee": 10000,
+    "supplierTotal": 210000,
+    "customerDeliveryCharge": 10000,
+    "handwrittenProductTotal": 200000,
+    "lineTotalSum": 200000,
+    "handwrittenMinusLineSum": 0
+  },
+  "proposedDraft": {
+    "supplierDirectDraft": {
+      "schemaVersion": 1,
+      "supplierId": "19f80084-3483-5e26-97f4-58884573bbde",
+      "supplierName": "Cisarua",
+      "customerId": "af9883a9-ea86-518e-af95-5869dfae916f",
+      "customerName": "Fanny Liu",
+      "occurred": {
+        "date": "2026-10-21",
+        "precision": "date"
+      },
+      "supplierReference": "WhatsApp Image 2026-10-24 at 11.49.14 AM (2).jpeg#2",
+      "note": "Handwritten product total Rp200000; line sum matches.",
+      "lines": [
+        {
+          "clientLineKey": "s20-l01",
+          "productId": "06e07aa2-15cb-54b0-83a5-a57fe49bb985",
+          "productName": "Telur Ayam",
+          "inputUnitCode": "unit",
+          "quantity": "50",
+          "supplierDescription": "Telur Kampung",
+          "supplierCost": {
+            "status": "provisional",
+            "totalAmount": "200000"
+          },
+          "customerPricing": {
+            "source": "catalog"
+          }
+        }
+      ],
+      "supplierDeliveryFee": {
+        "status": "provisional",
+        "amount": "10000",
+        "note": "Imported from reviewed supplier slip; confirm during supplier reconciliation."
+      },
+      "customerDeliveryCharge": "10000",
+      "customerDeliveryDescription": "Biaya pengantaran supplier langsung"
+    }
+  },
+  "supplierDirectDraft": {
+    "schemaVersion": 1,
+    "supplierId": "19f80084-3483-5e26-97f4-58884573bbde",
+    "supplierName": "Cisarua",
+    "customerId": "af9883a9-ea86-518e-af95-5869dfae916f",
+    "customerName": "Fanny Liu",
+    "occurred": {
+      "date": "2026-10-21",
+      "precision": "date"
+    },
+    "supplierReference": "WhatsApp Image 2026-10-24 at 11.49.14 AM (2).jpeg#2",
+    "note": "Handwritten product total Rp200000; line sum matches.",
+    "lines": [
+      {
+        "clientLineKey": "s20-l01",
+        "productId": "06e07aa2-15cb-54b0-83a5-a57fe49bb985",
+        "productName": "Telur Ayam",
+        "inputUnitCode": "unit",
+        "quantity": "50",
+        "supplierDescription": "Telur Kampung",
+        "supplierCost": {
+          "status": "provisional",
+          "totalAmount": "200000"
+        },
+        "customerPricing": {
+          "source": "catalog"
+        }
+      }
+    ],
+    "supplierDeliveryFee": {
+      "status": "provisional",
+      "amount": "10000",
+      "note": "Imported from reviewed supplier slip; confirm during supplier reconciliation."
+    },
+    "customerDeliveryCharge": "10000",
+    "customerDeliveryDescription": "Biaya pengantaran supplier langsung"
+  },
+  "workflow": "supplier_direct",
+  "staffConfirmations": [
+    "The handwritten line and slip total are Rp200,000."
+  ],
+  "customerResolutionEvidence": {
+    "handwrittenName": "Fanny Liu",
+    "selectedCustomerId": "af9883a9-ea86-518e-af95-5869dfae916f",
+    "selectedCustomerName": "Fanny Liu",
+    "legacyCustomerId": 416,
+    "confirmation": [
+      "The handwritten line and slip total are Rp200,000."
+    ]
+  },
+  "productMatchingEvidence": {
+    "effectiveOn": "2026-10-21",
+    "supplierId": "19f80084-3483-5e26-97f4-58884573bbde",
+    "supplierName": "Cisarua",
+    "lines": [
+      {
+        "lineId": "s20-l01",
+        "productNameRead": "Telur Kampung",
+        "qtyRead": 50,
+        "totalRead": 200000,
+        "confidence": "confirmed",
+        "selectedProductId": "06e07aa2-15cb-54b0-83a5-a57fe49bb985",
+        "candidates": [
+          {
+            "productId": "06e07aa2-15cb-54b0-83a5-a57fe49bb985",
+            "name": "Telur Ayam",
+            "expectedTotal": 200000,
+            "totalDelta": 0,
+            "totalMatches": true,
+            "matchedOn": "active_supplier_product_and_cost"
+          }
+        ],
+        "warnings": []
+      }
+    ],
+    "summary": {
+      "totalLines": 1,
+      "selected": 1,
+      "withCostDiscrepancy": 0
+    }
+  }
+}
+

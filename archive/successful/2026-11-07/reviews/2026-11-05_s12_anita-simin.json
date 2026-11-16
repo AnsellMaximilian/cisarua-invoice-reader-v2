@@ -1,0 +1,516 @@
+{
+  "schemaVersion": "rumah-sehat-v2-slip-review-v1",
+  "readyToImport": true,
+  "source": {
+    "imageFile": "WhatsApp Image 2026-11-07 at 10.49.33 AM.jpeg",
+    "slipIndex": 2,
+    "fingerprint": "afbaf6d6f4a3fd39ac689a985456e36552e06546abe3ea926cd20aa19cd04b6d",
+    "sourcePath": "incoming/WhatsApp Image 2026-11-07 at 10.49.33 AM.jpeg"
+  },
+  "extracted": {
+    "customerNameRead": "Anita S",
+    "addressRead": "Taman Surya 5 GG 4 No. 53",
+    "lines": [
+      {
+        "lineId": "s12-l01",
+        "productNameRead": "Ayam Kampung",
+        "quantityRead": 1,
+        "totalRead": 65000
+      },
+      {
+        "lineId": "s12-l02",
+        "productNameRead": "Bayam Merah",
+        "quantityRead": 0.2,
+        "totalRead": 8000
+      },
+      {
+        "lineId": "s12-l03",
+        "productNameRead": "Kale",
+        "quantityRead": 0.2,
+        "totalRead": 16000
+      },
+      {
+        "lineId": "s12-l04",
+        "productNameRead": "Buncis",
+        "quantityRead": 0.5,
+        "totalRead": 18000
+      },
+      {
+        "lineId": "s12-l05",
+        "productNameRead": "Selada K",
+        "quantityRead": 0.25,
+        "totalRead": 10000
+      },
+      {
+        "lineId": "s12-l06",
+        "productNameRead": "Brokoli",
+        "quantityRead": 0.64,
+        "totalRead": 33280
+      },
+      {
+        "lineId": "s12-l07",
+        "productNameRead": "Ubi Cilembu",
+        "quantityRead": 1,
+        "totalRead": 28000
+      }
+    ],
+    "date": "2026-11-05",
+    "slipTotalRead": 178280,
+    "slipTotalCertain": true,
+    "excludedOrNotReceived": []
+  },
+  "resolved": {
+    "supplier": {
+      "id": "19f80084-3483-5e26-97f4-58884573bbde",
+      "name": "Cisarua"
+    },
+    "customer": {
+      "id": "e03e3023-8221-52a7-b2e9-5b44777a70fc",
+      "name": "Anita Simin",
+      "legacyCustomerId": 179,
+      "aliases": [],
+      "addresses": [
+        "Taman Surya 5, Blok GG 4 No 53. Jakarta Barat"
+      ],
+      "nameRead": "Anita S"
+    }
+  },
+  "warnings": [],
+  "calculations": {
+    "supplierProductSubtotal": 178280,
+    "supplierDeliveryFee": 10000,
+    "supplierTotal": 188280,
+    "customerDeliveryCharge": 10000,
+    "handwrittenProductTotal": 178280,
+    "lineTotalSum": 178280,
+    "handwrittenMinusLineSum": 0
+  },
+  "proposedDraft": {
+    "supplierDirectDraft": {
+      "schemaVersion": 1,
+      "supplierId": "19f80084-3483-5e26-97f4-58884573bbde",
+      "supplierName": "Cisarua",
+      "customerId": "e03e3023-8221-52a7-b2e9-5b44777a70fc",
+      "customerName": "Anita Simin",
+      "occurred": {
+        "date": "2026-11-05",
+        "precision": "date"
+      },
+      "supplierReference": "WhatsApp Image 2026-11-07 at 10.49.33 AM.jpeg#2",
+      "note": "Handwritten product total Rp178280; line sum matches. Anita S resolves to Anita Simin.",
+      "lines": [
+        {
+          "clientLineKey": "s12-l01",
+          "productId": "6b1d1840-3ae4-5904-82da-95503d942de3",
+          "productName": "Ayam Kampung Organic",
+          "inputUnitCode": "unit",
+          "quantity": "1",
+          "supplierDescription": "Ayam Kampung",
+          "supplierCost": {
+            "status": "provisional",
+            "totalAmount": "65000"
+          },
+          "customerPricing": {
+            "source": "catalog"
+          }
+        },
+        {
+          "clientLineKey": "s12-l02",
+          "productId": "216a7799-6892-584a-893b-208ed50fcd8b",
+          "productName": "Bayam Merah",
+          "inputUnitCode": "kg",
+          "quantity": "0.2",
+          "supplierDescription": "Bayam Merah",
+          "supplierCost": {
+            "status": "provisional",
+            "totalAmount": "8000"
+          },
+          "customerPricing": {
+            "source": "catalog"
+          }
+        },
+        {
+          "clientLineKey": "s12-l03",
+          "productId": "653d3975-c991-5484-b28c-ea822990b3ae",
+          "productName": "Kale Keriting",
+          "inputUnitCode": "kg",
+          "quantity": "0.2",
+          "supplierDescription": "Kale",
+          "supplierCost": {
+            "status": "provisional",
+            "totalAmount": "16000"
+          },
+          "customerPricing": {
+            "source": "catalog"
+          }
+        },
+        {
+          "clientLineKey": "s12-l04",
+          "productId": "f542ed36-e83e-5d7a-936e-9cafc03354df",
+          "productName": "Buncis",
+          "inputUnitCode": "kg",
+          "quantity": "0.5",
+          "supplierDescription": "Buncis",
+          "supplierCost": {
+            "status": "provisional",
+            "totalAmount": "18000"
+          },
+          "customerPricing": {
+            "source": "catalog"
+          }
+        },
+        {
+          "clientLineKey": "s12-l05",
+          "productId": "29588173-a186-50b5-b49f-2c72805fcaef",
+          "productName": "Selada Keriting",
+          "inputUnitCode": "kg",
+          "quantity": "0.25",
+          "supplierDescription": "Selada K",
+          "supplierCost": {
+            "status": "provisional",
+            "totalAmount": "10000"
+          },
+          "customerPricing": {
+            "source": "catalog"
+          }
+        },
+        {
+          "clientLineKey": "s12-l06",
+          "productId": "0bbdc2cf-a928-5df3-9c1e-15e1ccd212c2",
+          "productName": "Broccoli",
+          "inputUnitCode": "kg",
+          "quantity": "0.64",
+          "supplierDescription": "Brokoli",
+          "supplierCost": {
+            "status": "provisional",
+            "totalAmount": "33280"
+          },
+          "customerPricing": {
+            "source": "catalog"
+          }
+        },
+        {
+          "clientLineKey": "s12-l07",
+          "productId": "f2422267-b801-5166-a99d-0ea552c8e4f7",
+          "productName": "Ubi Cilembu",
+          "inputUnitCode": "unit",
+          "quantity": "1",
+          "supplierDescription": "Ubi Cilembu",
+          "supplierCost": {
+            "status": "provisional",
+            "totalAmount": "28000"
+          },
+          "customerPricing": {
+            "source": "catalog"
+          }
+        }
+      ],
+      "supplierDeliveryFee": {
+        "status": "provisional",
+        "amount": "10000",
+        "note": "Imported from reviewed supplier slip; confirm during supplier reconciliation."
+      },
+      "customerDeliveryCharge": "10000",
+      "customerDeliveryDescription": "Biaya pengantaran langsung"
+    }
+  },
+  "supplierDirectDraft": {
+    "schemaVersion": 1,
+    "supplierId": "19f80084-3483-5e26-97f4-58884573bbde",
+    "supplierName": "Cisarua",
+    "customerId": "e03e3023-8221-52a7-b2e9-5b44777a70fc",
+    "customerName": "Anita Simin",
+    "occurred": {
+      "date": "2026-11-05",
+      "precision": "date"
+    },
+    "supplierReference": "WhatsApp Image 2026-11-07 at 10.49.33 AM.jpeg#2",
+    "note": "Handwritten product total Rp178280; line sum matches. Anita S resolves to Anita Simin.",
+    "lines": [
+      {
+        "clientLineKey": "s12-l01",
+        "productId": "6b1d1840-3ae4-5904-82da-95503d942de3",
+        "productName": "Ayam Kampung Organic",
+        "inputUnitCode": "unit",
+        "quantity": "1",
+        "supplierDescription": "Ayam Kampung",
+        "supplierCost": {
+          "status": "provisional",
+          "totalAmount": "65000"
+        },
+        "customerPricing": {
+          "source": "catalog"
+        }
+      },
+      {
+        "clientLineKey": "s12-l02",
+        "productId": "216a7799-6892-584a-893b-208ed50fcd8b",
+        "productName": "Bayam Merah",
+        "inputUnitCode": "kg",
+        "quantity": "0.2",
+        "supplierDescription": "Bayam Merah",
+        "supplierCost": {
+          "status": "provisional",
+          "totalAmount": "8000"
+        },
+        "customerPricing": {
+          "source": "catalog"
+        }
+      },
+      {
+        "clientLineKey": "s12-l03",
+        "productId": "653d3975-c991-5484-b28c-ea822990b3ae",
+        "productName": "Kale Keriting",
+        "inputUnitCode": "kg",
+        "quantity": "0.2",
+        "supplierDescription": "Kale",
+        "supplierCost": {
+          "status": "provisional",
+          "totalAmount": "16000"
+        },
+        "customerPricing": {
+          "source": "catalog"
+        }
+      },
+      {
+        "clientLineKey": "s12-l04",
+        "productId": "f542ed36-e83e-5d7a-936e-9cafc03354df",
+        "productName": "Buncis",
+        "inputUnitCode": "kg",
+        "quantity": "0.5",
+        "supplierDescription": "Buncis",
+        "supplierCost": {
+          "status": "provisional",
+          "totalAmount": "18000"
+        },
+        "customerPricing": {
+          "source": "catalog"
+        }
+      },
+      {
+        "clientLineKey": "s12-l05",
+        "productId": "29588173-a186-50b5-b49f-2c72805fcaef",
+        "productName": "Selada Keriting",
+        "inputUnitCode": "kg",
+        "quantity": "0.25",
+        "supplierDescription": "Selada K",
+        "supplierCost": {
+          "status": "provisional",
+          "totalAmount": "10000"
+        },
+        "customerPricing": {
+          "source": "catalog"
+        }
+      },
+      {
+        "clientLineKey": "s12-l06",
+        "productId": "0bbdc2cf-a928-5df3-9c1e-15e1ccd212c2",
+        "productName": "Broccoli",
+        "inputUnitCode": "kg",
+        "quantity": "0.64",
+        "supplierDescription": "Brokoli",
+        "supplierCost": {
+          "status": "provisional",
+          "totalAmount": "33280"
+        },
+        "customerPricing": {
+          "source": "catalog"
+        }
+      },
+      {
+        "clientLineKey": "s12-l07",
+        "productId": "f2422267-b801-5166-a99d-0ea552c8e4f7",
+        "productName": "Ubi Cilembu",
+        "inputUnitCode": "unit",
+        "quantity": "1",
+        "supplierDescription": "Ubi Cilembu",
+        "supplierCost": {
+          "status": "provisional",
+          "totalAmount": "28000"
+        },
+        "customerPricing": {
+          "source": "catalog"
+        }
+      }
+    ],
+    "supplierDeliveryFee": {
+      "status": "provisional",
+      "amount": "10000",
+      "note": "Imported from reviewed supplier slip; confirm during supplier reconciliation."
+    },
+    "customerDeliveryCharge": "10000",
+    "customerDeliveryDescription": "Biaya pengantaran langsung"
+  },
+  "workflow": "supplier_direct",
+  "staffConfirmations": [
+    "Operator context maps Anita S to Anita Simin."
+  ],
+  "customerResolutionEvidence": {
+    "handwrittenName": "Anita S",
+    "addressRead": "Taman Surya 5 GG 4 No. 53",
+    "selectedCustomerId": "e03e3023-8221-52a7-b2e9-5b44777a70fc",
+    "selectedCustomerName": "Anita Simin",
+    "confirmation": [
+      "Operator context maps Anita S to Anita Simin."
+    ]
+  },
+  "productMatchingEvidence": {
+    "effectiveOn": "2026-11-05",
+    "supplierId": "19f80084-3483-5e26-97f4-58884573bbde",
+    "supplierName": "Cisarua",
+    "lines": [
+      {
+        "lineId": "s12-l01",
+        "productNameRead": "Ayam Kampung",
+        "qtyRead": 1,
+        "totalRead": 65000,
+        "confidence": "confirmed",
+        "selectedProductId": "6b1d1840-3ae4-5904-82da-95503d942de3",
+        "selectedProductName": "Ayam Kampung Organic",
+        "candidates": [
+          {
+            "productId": "6b1d1840-3ae4-5904-82da-95503d942de3",
+            "name": "Ayam Kampung Organic",
+            "expectedUnitCost": 65000,
+            "expectedTotal": 65000,
+            "totalDelta": 0,
+            "totalMatches": true,
+            "matchedOn": "current_supplier_product_and_operator_context"
+          }
+        ],
+        "warnings": []
+      },
+      {
+        "lineId": "s12-l02",
+        "productNameRead": "Bayam Merah",
+        "qtyRead": 0.2,
+        "totalRead": 8000,
+        "confidence": "confirmed",
+        "selectedProductId": "216a7799-6892-584a-893b-208ed50fcd8b",
+        "selectedProductName": "Bayam Merah",
+        "candidates": [
+          {
+            "productId": "216a7799-6892-584a-893b-208ed50fcd8b",
+            "name": "Bayam Merah",
+            "expectedUnitCost": 40000,
+            "expectedTotal": 8000,
+            "totalDelta": 0,
+            "totalMatches": true,
+            "matchedOn": "current_supplier_product_and_operator_context"
+          }
+        ],
+        "warnings": []
+      },
+      {
+        "lineId": "s12-l03",
+        "productNameRead": "Kale",
+        "qtyRead": 0.2,
+        "totalRead": 16000,
+        "confidence": "confirmed",
+        "selectedProductId": "653d3975-c991-5484-b28c-ea822990b3ae",
+        "selectedProductName": "Kale Keriting",
+        "candidates": [
+          {
+            "productId": "653d3975-c991-5484-b28c-ea822990b3ae",
+            "name": "Kale Keriting",
+            "expectedUnitCost": 80000,
+            "expectedTotal": 16000,
+            "totalDelta": 0,
+            "totalMatches": true,
+            "matchedOn": "current_supplier_product_and_operator_context"
+          }
+        ],
+        "warnings": []
+      },
+      {
+        "lineId": "s12-l04",
+        "productNameRead": "Buncis",
+        "qtyRead": 0.5,
+        "totalRead": 18000,
+        "confidence": "confirmed",
+        "selectedProductId": "f542ed36-e83e-5d7a-936e-9cafc03354df",
+        "selectedProductName": "Buncis",
+        "candidates": [
+          {
+            "productId": "f542ed36-e83e-5d7a-936e-9cafc03354df",
+            "name": "Buncis",
+            "expectedUnitCost": 36000,
+            "expectedTotal": 18000,
+            "totalDelta": 0,
+            "totalMatches": true,
+            "matchedOn": "current_supplier_product_and_operator_context"
+          }
+        ],
+        "warnings": []
+      },
+      {
+        "lineId": "s12-l05",
+        "productNameRead": "Selada K",
+        "qtyRead": 0.25,
+        "totalRead": 10000,
+        "confidence": "confirmed",
+        "selectedProductId": "29588173-a186-50b5-b49f-2c72805fcaef",
+        "selectedProductName": "Selada Keriting",
+        "candidates": [
+          {
+            "productId": "29588173-a186-50b5-b49f-2c72805fcaef",
+            "name": "Selada Keriting",
+            "expectedUnitCost": 40000,
+            "expectedTotal": 10000,
+            "totalDelta": 0,
+            "totalMatches": true,
+            "matchedOn": "current_supplier_product_and_operator_context"
+          }
+        ],
+        "warnings": []
+      },
+      {
+        "lineId": "s12-l06",
+        "productNameRead": "Brokoli",
+        "qtyRead": 0.64,
+        "totalRead": 33280,
+        "confidence": "confirmed",
+        "selectedProductId": "0bbdc2cf-a928-5df3-9c1e-15e1ccd212c2",
+        "selectedProductName": "Broccoli",
+        "candidates": [
+          {
+            "productId": "0bbdc2cf-a928-5df3-9c1e-15e1ccd212c2",
+            "name": "Broccoli",
+            "expectedUnitCost": 52000,
+            "expectedTotal": 33280,
+            "totalDelta": 0,
+            "totalMatches": true,
+            "matchedOn": "current_supplier_product_and_operator_context"
+          }
+        ],
+        "warnings": []
+      },
+      {
+        "lineId": "s12-l07",
+        "productNameRead": "Ubi Cilembu",
+        "qtyRead": 1,
+        "totalRead": 28000,
+        "confidence": "confirmed",
+        "selectedProductId": "f2422267-b801-5166-a99d-0ea552c8e4f7",
+        "selectedProductName": "Ubi Cilembu",
+        "candidates": [
+          {
+            "productId": "f2422267-b801-5166-a99d-0ea552c8e4f7",
+            "name": "Ubi Cilembu",
+            "expectedUnitCost": 28000,
+            "expectedTotal": 28000,
+            "totalDelta": 0,
+            "totalMatches": true,
+            "matchedOn": "current_supplier_product_and_operator_context"
+          }
+        ],
+        "warnings": []
+      }
+    ],
+    "summary": {
+      "totalLines": 7,
+      "selected": 7,
+      "withCostDiscrepancy": 0
+    }
+  }
+}

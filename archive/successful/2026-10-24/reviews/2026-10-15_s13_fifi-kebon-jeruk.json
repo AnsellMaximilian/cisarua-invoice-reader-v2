@@ -1,0 +1,470 @@
+{
+  "schemaVersion": "rumah-sehat-v2-slip-review-v1",
+  "readyToImport": true,
+  "source": {
+    "imageFile": "WhatsApp Image 2026-10-17 at 3.55.31 PM (1).jpeg",
+    "slipIndex": 1,
+    "fingerprint": "263a98c10076e790a70faad281a12db261ee0a5b20601a719151d6c74a5b4721",
+    "sourcePath": "incoming/WhatsApp Image 2026-10-17 at 3.55.31 PM (1).jpeg"
+  },
+  "extracted": {
+    "customerNameRead": "Pipi",
+    "addressRead": null,
+    "date": "2026-10-15",
+    "slipTotalRead": 118000,
+    "slipTotalCertain": true,
+    "lines": [
+      {
+        "lineId": "s13-l01",
+        "productNameRead": "Tempe",
+        "quantity": 1,
+        "totalRead": 17000
+      },
+      {
+        "lineId": "s13-l02",
+        "productNameRead": "Tahu Putih",
+        "quantity": 1,
+        "totalRead": 30000
+      },
+      {
+        "lineId": "s13-l03",
+        "productNameRead": "Kale",
+        "quantity": 0.2,
+        "totalRead": 16000
+      },
+      {
+        "lineId": "s13-l04",
+        "productNameRead": "Lemon",
+        "quantity": 1,
+        "totalRead": 37000
+      },
+      {
+        "lineId": "s13-l05",
+        "productNameRead": "D. Ketumbar",
+        "quantity": 0.1,
+        "totalRead": 9000
+      },
+      {
+        "lineId": "s13-l06",
+        "productNameRead": "Seledri",
+        "quantity": 0.2,
+        "totalRead": 9000
+      }
+    ],
+    "excludedOrNotReceived": [
+      {
+        "productNameRead": "Selada Romaine",
+        "receivedRead": "X",
+        "reason": "marked not received"
+      },
+      {
+        "productNameRead": "Parsley",
+        "receivedRead": "X",
+        "reason": "marked not received"
+      }
+    ]
+  },
+  "resolved": {
+    "supplier": {
+      "id": "19f80084-3483-5e26-97f4-58884573bbde",
+      "name": "Cisarua"
+    },
+    "customer": {
+      "id": "fe7fd1d7-f249-537f-b17e-74f8a945dd2e",
+      "name": "Fifi Kebon Jeruk",
+      "legacyCustomerId": 424,
+      "aliases": [],
+      "addresses": [
+        "Taman Kebon Jeruk Intercon Blok K1 No. 25 - 26"
+      ],
+      "nameRead": "Fifi Kebon Jeruk"
+    }
+  },
+  "warnings": [],
+  "calculations": {
+    "supplierProductSubtotal": 118000,
+    "supplierDeliveryFee": 10000,
+    "supplierTotal": 128000,
+    "customerDeliveryCharge": 10000,
+    "handwrittenProductTotal": 118000,
+    "lineTotalSum": 118000,
+    "handwrittenMinusLineSum": 0
+  },
+  "proposedDraft": {
+    "supplierDirectDraft": {
+      "schemaVersion": 1,
+      "supplierId": "19f80084-3483-5e26-97f4-58884573bbde",
+      "supplierName": "Cisarua",
+      "customerId": "fe7fd1d7-f249-537f-b17e-74f8a945dd2e",
+      "customerName": "Fifi Kebon Jeruk",
+      "occurred": {
+        "date": "2026-10-15",
+        "precision": "date"
+      },
+      "supplierReference": "WhatsApp Image 2026-10-17 at 3.55.31 PM (1).jpeg#1",
+      "note": "Handwritten product total Rp118000; line sum matches. Excluded not-received markings: Selada Romaine, Parsley. Staff confirmed D. Ketumbar is Wansui and the received quantity is 0.1 kg.",
+      "lines": [
+        {
+          "clientLineKey": "s13-l01",
+          "productId": "8602d729-7cb2-5d7f-86ea-4f96ff2d6f3f",
+          "productName": "Tempe 400gr",
+          "inputUnitCode": "unit",
+          "quantity": "1",
+          "supplierDescription": "Tempe 400gr",
+          "supplierCost": {
+            "status": "provisional",
+            "totalAmount": "17000"
+          },
+          "customerPricing": {
+            "source": "catalog"
+          }
+        },
+        {
+          "clientLineKey": "s13-l02",
+          "productId": "cfb5a0ff-0df0-5d76-bcc4-75e451fc37a8",
+          "productName": "Tahu Putih",
+          "inputUnitCode": "unit",
+          "quantity": "1",
+          "supplierDescription": "Tahu Putih",
+          "supplierCost": {
+            "status": "provisional",
+            "totalAmount": "30000"
+          },
+          "customerPricing": {
+            "source": "catalog"
+          }
+        },
+        {
+          "clientLineKey": "s13-l03",
+          "productId": "653d3975-c991-5484-b28c-ea822990b3ae",
+          "productName": "Kale Keriting",
+          "inputUnitCode": "kg",
+          "quantity": "0.2",
+          "supplierDescription": "Kale Keriting",
+          "supplierCost": {
+            "status": "provisional",
+            "totalAmount": "16000"
+          },
+          "customerPricing": {
+            "source": "catalog"
+          }
+        },
+        {
+          "clientLineKey": "s13-l04",
+          "productId": "f090d374-e1a4-50ae-80f0-8401beb2364d",
+          "productName": "Lemon",
+          "inputUnitCode": "kg",
+          "quantity": "1",
+          "supplierDescription": "Lemon",
+          "supplierCost": {
+            "status": "provisional",
+            "totalAmount": "37000"
+          },
+          "customerPricing": {
+            "source": "catalog"
+          }
+        },
+        {
+          "clientLineKey": "s13-l05",
+          "productId": "0d2aa2f2-97e8-5fdd-8d38-237d4210f5fa",
+          "productName": "Wansui",
+          "inputUnitCode": "kg",
+          "quantity": "0.1",
+          "supplierDescription": "Wansui",
+          "supplierCost": {
+            "status": "provisional",
+            "totalAmount": "9000",
+            "overrideReason": "Handwritten supplier slip total differs from the current expected cost; admin review required."
+          },
+          "customerPricing": {
+            "source": "catalog"
+          }
+        },
+        {
+          "clientLineKey": "s13-l06",
+          "productId": "fbdcc325-684e-54f8-b471-acd821b6e89b",
+          "productName": "Seledri",
+          "inputUnitCode": "kg",
+          "quantity": "0.2",
+          "supplierDescription": "Seledri",
+          "supplierCost": {
+            "status": "provisional",
+            "totalAmount": "9000"
+          },
+          "customerPricing": {
+            "source": "catalog"
+          }
+        }
+      ],
+      "supplierDeliveryFee": {
+        "status": "provisional",
+        "amount": "10000",
+        "note": "Imported from reviewed supplier slip; confirm during supplier reconciliation."
+      },
+      "customerDeliveryCharge": "10000",
+      "customerDeliveryDescription": "Biaya pengantaran supplier langsung"
+    }
+  },
+  "supplierDirectDraft": {
+    "schemaVersion": 1,
+    "supplierId": "19f80084-3483-5e26-97f4-58884573bbde",
+    "supplierName": "Cisarua",
+    "customerId": "fe7fd1d7-f249-537f-b17e-74f8a945dd2e",
+    "customerName": "Fifi Kebon Jeruk",
+    "occurred": {
+      "date": "2026-10-15",
+      "precision": "date"
+    },
+    "supplierReference": "WhatsApp Image 2026-10-17 at 3.55.31 PM (1).jpeg#1",
+    "note": "Handwritten product total Rp118000; line sum matches. Excluded not-received markings: Selada Romaine, Parsley. Staff confirmed D. Ketumbar is Wansui and the received quantity is 0.1 kg.",
+    "lines": [
+      {
+        "clientLineKey": "s13-l01",
+        "productId": "8602d729-7cb2-5d7f-86ea-4f96ff2d6f3f",
+        "productName": "Tempe 400gr",
+        "inputUnitCode": "unit",
+        "quantity": "1",
+        "supplierDescription": "Tempe 400gr",
+        "supplierCost": {
+          "status": "provisional",
+          "totalAmount": "17000"
+        },
+        "customerPricing": {
+          "source": "catalog"
+        }
+      },
+      {
+        "clientLineKey": "s13-l02",
+        "productId": "cfb5a0ff-0df0-5d76-bcc4-75e451fc37a8",
+        "productName": "Tahu Putih",
+        "inputUnitCode": "unit",
+        "quantity": "1",
+        "supplierDescription": "Tahu Putih",
+        "supplierCost": {
+          "status": "provisional",
+          "totalAmount": "30000"
+        },
+        "customerPricing": {
+          "source": "catalog"
+        }
+      },
+      {
+        "clientLineKey": "s13-l03",
+        "productId": "653d3975-c991-5484-b28c-ea822990b3ae",
+        "productName": "Kale Keriting",
+        "inputUnitCode": "kg",
+        "quantity": "0.2",
+        "supplierDescription": "Kale Keriting",
+        "supplierCost": {
+          "status": "provisional",
+          "totalAmount": "16000"
+        },
+        "customerPricing": {
+          "source": "catalog"
+        }
+      },
+      {
+        "clientLineKey": "s13-l04",
+        "productId": "f090d374-e1a4-50ae-80f0-8401beb2364d",
+        "productName": "Lemon",
+        "inputUnitCode": "kg",
+        "quantity": "1",
+        "supplierDescription": "Lemon",
+        "supplierCost": {
+          "status": "provisional",
+          "totalAmount": "37000"
+        },
+        "customerPricing": {
+          "source": "catalog"
+        }
+      },
+      {
+        "clientLineKey": "s13-l05",
+        "productId": "0d2aa2f2-97e8-5fdd-8d38-237d4210f5fa",
+        "productName": "Wansui",
+        "inputUnitCode": "kg",
+        "quantity": "0.1",
+        "supplierDescription": "Wansui",
+        "supplierCost": {
+          "status": "provisional",
+          "totalAmount": "9000",
+          "overrideReason": "Handwritten supplier slip total differs from the current expected cost; admin review required."
+        },
+        "customerPricing": {
+          "source": "catalog"
+        }
+      },
+      {
+        "clientLineKey": "s13-l06",
+        "productId": "fbdcc325-684e-54f8-b471-acd821b6e89b",
+        "productName": "Seledri",
+        "inputUnitCode": "kg",
+        "quantity": "0.2",
+        "supplierDescription": "Seledri",
+        "supplierCost": {
+          "status": "provisional",
+          "totalAmount": "9000"
+        },
+        "customerPricing": {
+          "source": "catalog"
+        }
+      }
+    ],
+    "supplierDeliveryFee": {
+      "status": "provisional",
+      "amount": "10000",
+      "note": "Imported from reviewed supplier slip; confirm during supplier reconciliation."
+    },
+    "customerDeliveryCharge": "10000",
+    "customerDeliveryDescription": "Biaya pengantaran supplier langsung"
+  },
+  "workflow": "supplier_direct",
+  "staffConfirmations": [
+    "Staff-confirmed the poorly written name Pipi is Fifi Kebon Jeruk.",
+    "Staff-confirmed D. Ketumbar means Wansui and the received quantity is 0.1 kg."
+  ],
+  "customerResolutionEvidence": {
+    "handwrittenName": "Pipi",
+    "addressRead": null,
+    "selectedCustomerId": "fe7fd1d7-f249-537f-b17e-74f8a945dd2e",
+    "selectedCustomerName": "Fifi Kebon Jeruk",
+    "legacyCustomerId": 424,
+    "confirmation": [
+      "Staff-confirmed the poorly written name Pipi is Fifi Kebon Jeruk.",
+      "Staff-confirmed D. Ketumbar means Wansui and the received quantity is 0.1 kg."
+    ]
+  },
+  "productMatchingEvidence": {
+    "effectiveOn": "2026-10-15",
+    "supplierId": "19f80084-3483-5e26-97f4-58884573bbde",
+    "supplierName": "Cisarua",
+    "lines": [
+      {
+        "lineId": "s13-l01",
+        "productNameRead": "Tempe",
+        "qtyRead": 1,
+        "totalRead": 17000,
+        "confidence": "high",
+        "selectedProductId": "8602d729-7cb2-5d7f-86ea-4f96ff2d6f3f",
+        "candidates": [
+          {
+            "productId": "8602d729-7cb2-5d7f-86ea-4f96ff2d6f3f",
+            "name": "Tempe 400gr",
+            "expectedUnitCost": "17000",
+            "expectedTotal": 17000,
+            "totalDelta": 0,
+            "totalMatches": true,
+            "matchedOn": "operator_confirmation"
+          }
+        ],
+        "warnings": []
+      },
+      {
+        "lineId": "s13-l02",
+        "productNameRead": "Tahu Putih",
+        "qtyRead": 1,
+        "totalRead": 30000,
+        "confidence": "high",
+        "selectedProductId": "cfb5a0ff-0df0-5d76-bcc4-75e451fc37a8",
+        "candidates": [
+          {
+            "productId": "cfb5a0ff-0df0-5d76-bcc4-75e451fc37a8",
+            "name": "Tahu Putih",
+            "expectedUnitCost": "30000",
+            "expectedTotal": 30000,
+            "totalDelta": 0,
+            "totalMatches": true,
+            "matchedOn": "canonical_name"
+          }
+        ],
+        "warnings": []
+      },
+      {
+        "lineId": "s13-l03",
+        "productNameRead": "Kale",
+        "qtyRead": 0.2,
+        "totalRead": 16000,
+        "confidence": "high",
+        "selectedProductId": "653d3975-c991-5484-b28c-ea822990b3ae",
+        "candidates": [
+          {
+            "productId": "653d3975-c991-5484-b28c-ea822990b3ae",
+            "name": "Kale Keriting",
+            "expectedUnitCost": "80000",
+            "expectedTotal": 16000,
+            "totalDelta": 0,
+            "totalMatches": true,
+            "matchedOn": "operator_confirmation"
+          }
+        ],
+        "warnings": []
+      },
+      {
+        "lineId": "s13-l04",
+        "productNameRead": "Lemon",
+        "qtyRead": 1,
+        "totalRead": 37000,
+        "confidence": "high",
+        "selectedProductId": "f090d374-e1a4-50ae-80f0-8401beb2364d",
+        "candidates": [
+          {
+            "productId": "f090d374-e1a4-50ae-80f0-8401beb2364d",
+            "name": "Lemon",
+            "expectedUnitCost": "37000",
+            "expectedTotal": 37000,
+            "totalDelta": 0,
+            "totalMatches": true,
+            "matchedOn": "canonical_name"
+          }
+        ],
+        "warnings": []
+      },
+      {
+        "lineId": "s13-l05",
+        "productNameRead": "D. Ketumbar",
+        "qtyRead": 0.1,
+        "totalRead": 9000,
+        "confidence": "operator_confirmed",
+        "selectedProductId": "0d2aa2f2-97e8-5fdd-8d38-237d4210f5fa",
+        "candidates": [
+          {
+            "productId": "0d2aa2f2-97e8-5fdd-8d38-237d4210f5fa",
+            "name": "Wansui",
+            "expectedUnitCost": "90000",
+            "expectedTotal": 9000,
+            "totalDelta": 0,
+            "totalMatches": true,
+            "matchedOn": "operator_confirmation"
+          }
+        ],
+        "warnings": []
+      },
+      {
+        "lineId": "s13-l06",
+        "productNameRead": "Seledri",
+        "qtyRead": 0.2,
+        "totalRead": 9000,
+        "confidence": "high",
+        "selectedProductId": "fbdcc325-684e-54f8-b471-acd821b6e89b",
+        "candidates": [
+          {
+            "productId": "fbdcc325-684e-54f8-b471-acd821b6e89b",
+            "name": "Seledri",
+            "expectedUnitCost": "45000",
+            "expectedTotal": 9000,
+            "totalDelta": 0,
+            "totalMatches": true,
+            "matchedOn": "canonical_name"
+          }
+        ],
+        "warnings": []
+      }
+    ],
+    "summary": {
+      "totalLines": 6,
+      "selected": 6,
+      "withCostDiscrepancy": 0
+    }
+  }
+}
+

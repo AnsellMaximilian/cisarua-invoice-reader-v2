@@ -1,0 +1,1069 @@
+{
+  "schemaVersion": "rumah-sehat-v2-slip-review-v1",
+  "readyToImport": true,
+  "source": {
+    "imageFile": "WhatsApp Image 2026-10-10 at 7.08.02 PM.jpeg",
+    "sourcePath": "incoming/WhatsApp Image 2026-10-10 at 7.08.02 PM.jpeg",
+    "slipIndex": 1
+  },
+  "extracted": {
+    "customerNameRead": "Natassya",
+    "addressRead": "Lembaga Lebak A1 no. 6A, Puri Cinere",
+    "date": "2026-10-06",
+    "slipTotalRead": 204000,
+    "slipTotalCertain": true,
+    "lines": [
+      {
+        "lineId": "s07-l01",
+        "productNameRead": "Ikan Nila",
+        "quantity": 2,
+        "totalRead": 120000
+      },
+      {
+        "lineId": "s07-l02",
+        "productNameRead": "Ceciwis",
+        "quantity": 0.6,
+        "totalRead": 30000
+      },
+      {
+        "lineId": "s07-l03",
+        "productNameRead": "Selada Air",
+        "quantity": 1.5,
+        "totalRead": 54000
+      }
+    ],
+    "excludedOrNotReceived": [
+      {
+        "productNameRead": "Ubi Ungu",
+        "orderedQuantityRead": 2,
+        "receivedRead": "X",
+        "reason": "marked not received"
+      }
+    ]
+  },
+  "resolved": {
+    "supplier": {
+      "id": "19f80084-3483-5e26-97f4-58884573bbde",
+      "name": "Cisarua"
+    },
+    "customer": {
+      "id": "3eaf30d6-c0b2-578c-b811-6209d7b1b370",
+      "name": "Natasha - Nat",
+      "legacyCustomerId": 366,
+      "aliases": [
+        "Natassya"
+      ],
+      "addresses": [
+        "Kelapa Gading"
+      ],
+      "nameRead": "Natasha - Nat"
+    }
+  },
+  "warnings": [],
+  "calculations": {
+    "supplierProductSubtotal": 204000,
+    "supplierDeliveryFee": 10000,
+    "supplierTotal": 214000,
+    "customerDeliveryCharge": 10000,
+    "handwrittenProductTotal": 204000,
+    "lineTotalSum": 204000,
+    "handwrittenMinusLineSum": 0
+  },
+  "proposedDraft": {
+    "supplierDirectDraft": {
+      "schemaVersion": 1,
+      "supplierId": "19f80084-3483-5e26-97f4-58884573bbde",
+      "supplierName": "Cisarua",
+      "customerId": "3eaf30d6-c0b2-578c-b811-6209d7b1b370",
+      "customerName": "Natasha - Nat",
+      "occurred": {
+        "date": "2026-10-06",
+        "precision": "date"
+      },
+      "supplierReference": "WhatsApp Image 2026-10-10 at 7.08.02 PM.jpeg#1",
+      "note": "Handwritten product total Rp204000; line sum matches. Staff confirmed Natassya is Natasha - Nat, legacy 366. Excluded not-received markings: Ubi Ungu.",
+      "lines": [
+        {
+          "clientLineKey": "s07-l01",
+          "productId": "fb2fae85-dff9-5f8f-84f5-dc4ac1a6b4ad",
+          "productName": "Ikan Nila Organik",
+          "inputUnitCode": "unit",
+          "quantity": "2",
+          "supplierDescription": "Ikan Nila Organik",
+          "supplierCost": {
+            "status": "provisional",
+            "totalAmount": "120000"
+          },
+          "customerPricing": {
+            "source": "catalog"
+          }
+        },
+        {
+          "clientLineKey": "s07-l02",
+          "productId": "18388b2f-2c24-5143-860c-e0f576e4063c",
+          "productName": "Tunas Kol (Ceciwis)",
+          "inputUnitCode": "kg",
+          "quantity": "0.6",
+          "supplierDescription": "Tunas Kol (Ceciwis)",
+          "supplierCost": {
+            "status": "provisional",
+            "totalAmount": "30000"
+          },
+          "customerPricing": {
+            "source": "catalog"
+          }
+        },
+        {
+          "clientLineKey": "s07-l03",
+          "productId": "19951f33-bfce-50f1-b35b-045fcad65017",
+          "productName": "Selada Air",
+          "inputUnitCode": "kg",
+          "quantity": "1.5",
+          "supplierDescription": "Selada Air",
+          "supplierCost": {
+            "status": "provisional",
+            "totalAmount": "54000"
+          },
+          "customerPricing": {
+            "source": "catalog"
+          }
+        }
+      ],
+      "supplierDeliveryFee": {
+        "status": "provisional",
+        "amount": "10000",
+        "note": "Imported from reviewed supplier slip; confirm during supplier reconciliation."
+      },
+      "customerDeliveryCharge": "10000",
+      "customerDeliveryDescription": "Biaya pengantaran supplier langsung"
+    }
+  },
+  "supplierDirectDraft": {
+    "schemaVersion": 1,
+    "supplierId": "19f80084-3483-5e26-97f4-58884573bbde",
+    "supplierName": "Cisarua",
+    "customerId": "3eaf30d6-c0b2-578c-b811-6209d7b1b370",
+    "customerName": "Natasha - Nat",
+    "occurred": {
+      "date": "2026-10-06",
+      "precision": "date"
+    },
+    "supplierReference": "WhatsApp Image 2026-10-10 at 7.08.02 PM.jpeg#1",
+    "note": "Handwritten product total Rp204000; line sum matches. Staff confirmed Natassya is Natasha - Nat, legacy 366. Excluded not-received markings: Ubi Ungu.",
+    "lines": [
+      {
+        "clientLineKey": "s07-l01",
+        "productId": "fb2fae85-dff9-5f8f-84f5-dc4ac1a6b4ad",
+        "productName": "Ikan Nila Organik",
+        "inputUnitCode": "unit",
+        "quantity": "2",
+        "supplierDescription": "Ikan Nila Organik",
+        "supplierCost": {
+          "status": "provisional",
+          "totalAmount": "120000"
+        },
+        "customerPricing": {
+          "source": "catalog"
+        }
+      },
+      {
+        "clientLineKey": "s07-l02",
+        "productId": "18388b2f-2c24-5143-860c-e0f576e4063c",
+        "productName": "Tunas Kol (Ceciwis)",
+        "inputUnitCode": "kg",
+        "quantity": "0.6",
+        "supplierDescription": "Tunas Kol (Ceciwis)",
+        "supplierCost": {
+          "status": "provisional",
+          "totalAmount": "30000"
+        },
+        "customerPricing": {
+          "source": "catalog"
+        }
+      },
+      {
+        "clientLineKey": "s07-l03",
+        "productId": "19951f33-bfce-50f1-b35b-045fcad65017",
+        "productName": "Selada Air",
+        "inputUnitCode": "kg",
+        "quantity": "1.5",
+        "supplierDescription": "Selada Air",
+        "supplierCost": {
+          "status": "provisional",
+          "totalAmount": "54000"
+        },
+        "customerPricing": {
+          "source": "catalog"
+        }
+      }
+    ],
+    "supplierDeliveryFee": {
+      "status": "provisional",
+      "amount": "10000",
+      "note": "Imported from reviewed supplier slip; confirm during supplier reconciliation."
+    },
+    "customerDeliveryCharge": "10000",
+    "customerDeliveryDescription": "Biaya pengantaran supplier langsung"
+  },
+  "workflow": "supplier_direct",
+  "staffConfirmations": [
+    "Staff confirmed Natassya is Natasha - Nat, legacy 366."
+  ],
+  "customerResolutionEvidence": {
+    "handwrittenQuery": {
+      "nameRead": "Natassya",
+      "addressRead": "Lembaga Lebak A1 no. 6A, Puri Cinere",
+      "confidence": "medium",
+      "suggestedCustomerId": null,
+      "candidates": [
+        {
+          "customerId": "3eaf30d6-c0b2-578c-b811-6209d7b1b370",
+          "legacyCustomerId": 366,
+          "fullName": "Natasha - Nat",
+          "aliases": [
+            "Natassya"
+          ],
+          "addresses": [
+            "Kelapa Gading"
+          ],
+          "matchedOn": "alias",
+          "matchedText": "Natassya",
+          "nameScore": 1,
+          "addressScore": 0.2353,
+          "score": 0.9082
+        },
+        {
+          "customerId": "e39398c0-c941-5394-b7ab-578e8b8ebbd1",
+          "legacyCustomerId": 295,
+          "fullName": "Natasha",
+          "aliases": [],
+          "addresses": [
+            "Terogong Kecil C 43"
+          ],
+          "matchedOn": "canonical_name",
+          "matchedText": "Natasha",
+          "nameScore": 0.75,
+          "addressScore": 0.1765,
+          "score": 0.6812
+        },
+        {
+          "customerId": "f33747d7-8bf9-5ecd-97a3-92385cf519ce",
+          "legacyCustomerId": 170,
+          "fullName": "Natalia",
+          "aliases": [],
+          "addresses": [
+            "Taman Diponegoro. Gunung Pelangi No 27. Lippo Karawaci"
+          ],
+          "matchedOn": "canonical_name",
+          "matchedText": "Natalia",
+          "nameScore": 0.625,
+          "addressScore": 0.2115,
+          "score": 0.5754
+        },
+        {
+          "customerId": "c3b5e864-f671-52b3-860b-5569c3053eb2",
+          "legacyCustomerId": 159,
+          "fullName": "Linda Massie",
+          "aliases": [],
+          "addresses": [
+            "Kembang Asri I blok B4 No 11. Puri Indah"
+          ],
+          "matchedOn": "canonical_name",
+          "matchedText": "Linda Massie",
+          "nameScore": 0.4167,
+          "addressScore": 0.5385,
+          "score": 0.4313
+        },
+        {
+          "customerId": "de2ad54a-a212-5186-a00b-432bd1608c53",
+          "legacyCustomerId": 431,
+          "fullName": "Ika Natalya",
+          "aliases": [],
+          "addresses": [
+            "Jade Utara No 51"
+          ],
+          "matchedOn": "canonical_name",
+          "matchedText": "Ika Natalya",
+          "nameScore": 0.4545,
+          "addressScore": 0.2353,
+          "score": 0.4282
+        },
+        {
+          "customerId": "4dcdbac9-2cf0-5638-936b-ac9f03057b0b",
+          "legacyCustomerId": 493,
+          "fullName": "Nita Susilo",
+          "aliases": [],
+          "addresses": [
+            "a/n Ibu Nita Tupan Jl. Jade Utara no. 61 Cluster Jade Pondok Hijau Golf Gading Serpong. Kecamatan Kelapa Dua Kelurahan Kelapa Dua Tangerang 15810."
+          ],
+          "matchedOn": "canonical_name",
+          "matchedText": "Nita Susilo",
+          "nameScore": 0.4545,
+          "addressScore": 0.169,
+          "score": 0.4203
+        },
+        {
+          "customerId": "21d71bb6-517d-59eb-933c-86af82ba65db",
+          "legacyCustomerId": 212,
+          "fullName": "Yunitasari",
+          "aliases": [],
+          "addresses": [
+            "Giri Loka 2 blok Q no 53. BSD sektor IV Tangerang Selatan"
+          ],
+          "matchedOn": "canonical_name",
+          "matchedText": "Yunitasari",
+          "nameScore": 0.4,
+          "addressScore": 0.2857,
+          "score": 0.3863
+        },
+        {
+          "customerId": "b9e133ec-9f28-55a0-b0c2-22ab38037d2e",
+          "legacyCustomerId": 96,
+          "fullName": "Anas",
+          "aliases": [],
+          "addresses": [
+            "Sutera Asri 2 No 11A. Alam Sutera."
+          ],
+          "matchedOn": "canonical_name",
+          "matchedText": "Anas",
+          "nameScore": 0.375,
+          "addressScore": 0.3235,
+          "score": 0.3688
+        },
+        {
+          "customerId": "b607741a-6c30-553e-bb46-81eae72e5b3a",
+          "legacyCustomerId": 208,
+          "fullName": "Nita",
+          "aliases": [],
+          "addresses": [
+            "Pondok Hijau Golf. Crown Selatan 3 No 20. Gading Serpong"
+          ],
+          "matchedOn": "canonical_name",
+          "matchedText": "Nita",
+          "nameScore": 0.375,
+          "addressScore": 0.2407,
+          "score": 0.3589
+        },
+        {
+          "customerId": "801bbb84-102b-5144-adb4-344b47742619",
+          "legacyCustomerId": 286,
+          "fullName": "Elissa",
+          "aliases": [],
+          "addresses": [
+            "Tanam Mediteranean Golf Jl. Jimbaran Golf No. 18"
+          ],
+          "matchedOn": "canonical_name",
+          "matchedText": "Elissa",
+          "nameScore": 0.375,
+          "addressScore": 0.2391,
+          "score": 0.3587
+        }
+      ],
+      "warnings": [
+        "Customer was not auto-selected; review the ranked candidates."
+      ]
+    },
+    "confirmedIdentityQuery": {
+      "nameRead": "Natasha - Nat",
+      "addressRead": null,
+      "confidence": "high",
+      "suggestedCustomerId": "3eaf30d6-c0b2-578c-b811-6209d7b1b370",
+      "candidates": [
+        {
+          "customerId": "3eaf30d6-c0b2-578c-b811-6209d7b1b370",
+          "legacyCustomerId": 366,
+          "fullName": "Natasha - Nat",
+          "aliases": [
+            "Natassya"
+          ],
+          "addresses": [
+            "Kelapa Gading"
+          ],
+          "matchedOn": "canonical_name",
+          "matchedText": "Natasha - Nat",
+          "nameScore": 1,
+          "addressScore": 0,
+          "score": 1
+        },
+        {
+          "customerId": "e39398c0-c941-5394-b7ab-578e8b8ebbd1",
+          "legacyCustomerId": 295,
+          "fullName": "Natasha",
+          "aliases": [],
+          "addresses": [
+            "Terogong Kecil C 43"
+          ],
+          "matchedOn": "canonical_name",
+          "matchedText": "Natasha",
+          "nameScore": 0.9164,
+          "addressScore": 0,
+          "score": 0.9164
+        },
+        {
+          "customerId": "f33747d7-8bf9-5ecd-97a3-92385cf519ce",
+          "legacyCustomerId": 170,
+          "fullName": "Natalia",
+          "aliases": [],
+          "addresses": [
+            "Taman Diponegoro. Gunung Pelangi No 27. Lippo Karawaci"
+          ],
+          "matchedOn": "canonical_name",
+          "matchedText": "Natalia",
+          "nameScore": 0.4545,
+          "addressScore": 0,
+          "score": 0.4545
+        },
+        {
+          "customerId": "34d4abc4-5944-5586-a837-ef02eb39b214",
+          "legacyCustomerId": 438,
+          "fullName": "Martha Saumata",
+          "aliases": [],
+          "addresses": [],
+          "matchedOn": "canonical_name",
+          "matchedText": "Martha Saumata",
+          "nameScore": 0.4286,
+          "addressScore": 0,
+          "score": 0.4286
+        },
+        {
+          "customerId": "1a3de57e-a854-58a2-9d3a-458711d4cca2",
+          "legacyCustomerId": 55,
+          "fullName": "Nathalie Hie",
+          "aliases": [],
+          "addresses": [
+            "Jeruk Mas Barat 3 blok D3 No. 11 Intercon"
+          ],
+          "matchedOn": "canonical_name",
+          "matchedText": "Nathalie Hie",
+          "nameScore": 0.4167,
+          "addressScore": 0,
+          "score": 0.4167
+        },
+        {
+          "customerId": "b79f95fa-ba31-5b18-a9db-6a14e2bd98bd",
+          "legacyCustomerId": 524,
+          "fullName": "Ira Tjandradinata",
+          "aliases": [],
+          "addresses": [],
+          "matchedOn": "canonical_name",
+          "matchedText": "Ira Tjandradinata",
+          "nameScore": 0.4118,
+          "addressScore": 0,
+          "score": 0.4118
+        },
+        {
+          "customerId": "f24b7259-7486-5bde-a682-4a07c0f1c43d",
+          "legacyCustomerId": 654,
+          "fullName": "Andrea Anak Anas",
+          "aliases": [],
+          "addresses": [],
+          "matchedOn": "canonical_name",
+          "matchedText": "Andrea Anak Anas",
+          "nameScore": 0.375,
+          "addressScore": 0,
+          "score": 0.375
+        },
+        {
+          "customerId": "142f25d6-d880-5dc3-a50f-5aa79e54baba",
+          "legacyCustomerId": 86,
+          "fullName": "Hannah",
+          "aliases": [],
+          "addresses": [
+            "Perumahan Citra 1 Ext Blok AA 4 No 3. Kalideres"
+          ],
+          "matchedOn": "canonical_name",
+          "matchedText": "Hannah",
+          "nameScore": 0.3636,
+          "addressScore": 0,
+          "score": 0.3636
+        },
+        {
+          "customerId": "ac1ff83b-f5a3-5d20-9915-958fa68adfcd",
+          "legacyCustomerId": 374,
+          "fullName": "Mariana",
+          "aliases": [],
+          "addresses": [
+            "Aquamarine utara no 2"
+          ],
+          "matchedOn": "canonical_name",
+          "matchedText": "Mariana",
+          "nameScore": 0.3636,
+          "addressScore": 0,
+          "score": 0.3636
+        },
+        {
+          "customerId": "67d46e58-f507-5639-b501-dd9d73563974",
+          "legacyCustomerId": 317,
+          "fullName": "Mariyana",
+          "aliases": [],
+          "addresses": [
+            "Aquamarine Utara No. 2"
+          ],
+          "matchedOn": "canonical_name",
+          "matchedText": "Mariyana",
+          "nameScore": 0.3636,
+          "addressScore": 0,
+          "score": 0.3636
+        }
+      ],
+      "warnings": []
+    }
+  },
+  "productMatchingEvidence": {
+    "supplier": {
+      "id": "19f80084-3483-5e26-97f4-58884573bbde",
+      "name": "Cisarua"
+    },
+    "effectiveOn": "2026-10-06",
+    "lines": [
+      {
+        "lineId": "s07-l01",
+        "productNameRead": "Ikan Nila",
+        "qtyRead": 2,
+        "totalRead": 120000,
+        "confidence": "high",
+        "suggestedProductId": "fb2fae85-dff9-5f8f-84f5-dc4ac1a6b4ad",
+        "candidates": [
+          {
+            "productId": "fb2fae85-dff9-5f8f-84f5-dc4ac1a6b4ad",
+            "productCode": "legacy-rs-678",
+            "name": "Ikan Nila Organik",
+            "inputUnitCode": "unit",
+            "inputUnitLabel": "Satuan/paket",
+            "expectedUnitCost": "60000.000000",
+            "catalogPrice": "70000.000000",
+            "matchedOn": "canonical_name",
+            "matchedText": "Ikan Nila Organik",
+            "nameScore": 0.9035,
+            "costScore": 1,
+            "expectedTotal": 120000,
+            "totalDelta": 0,
+            "totalMatches": true,
+            "score": 0.9248
+          },
+          {
+            "productId": "fe3b2e5d-3d7f-5d78-945e-a8c1defc0b77",
+            "productCode": "legacy-rs-677",
+            "name": "Ayam Broiler",
+            "inputUnitCode": "unit",
+            "inputUnitLabel": "Satuan/paket",
+            "expectedUnitCost": "60000.000000",
+            "catalogPrice": "72000.000000",
+            "matchedOn": "canonical_name",
+            "matchedText": "Ayam Broiler",
+            "nameScore": 0.3333,
+            "costScore": 1,
+            "expectedTotal": 120000,
+            "totalDelta": 0,
+            "totalMatches": true,
+            "score": 0.48
+          },
+          {
+            "productId": "53912977-b3a7-580d-8075-11fb507290dc",
+            "productCode": "legacy-rs-684",
+            "name": "Paprika Hijau",
+            "inputUnitCode": "kg",
+            "inputUnitLabel": "Kilogram",
+            "expectedUnitCost": "66000.000000",
+            "catalogPrice": "75000.000000",
+            "matchedOn": "canonical_name",
+            "matchedText": "Paprika Hijau",
+            "nameScore": 0.3846,
+            "costScore": 0.6364,
+            "expectedTotal": 132000,
+            "totalDelta": 12000,
+            "totalMatches": false,
+            "score": 0.44
+          },
+          {
+            "productId": "67f6583a-f2f0-568f-985c-55ee7ccf23e1",
+            "productCode": "legacy-rs-670",
+            "name": "Kacang Hijau",
+            "inputUnitCode": "kg",
+            "inputUnitLabel": "Kilogram",
+            "expectedUnitCost": "52000.000000",
+            "catalogPrice": "57000.000000",
+            "matchedOn": "canonical_name",
+            "matchedText": "Kacang Hijau",
+            "nameScore": 0.4167,
+            "costScore": 0.3846,
+            "expectedTotal": 104000,
+            "totalDelta": 16000,
+            "totalMatches": false,
+            "score": 0.4096
+          },
+          {
+            "productId": "17b7ead9-0077-5a32-ac47-b2944b05de4d",
+            "productCode": "legacy-rs-1043",
+            "name": "Sayap Broiler",
+            "inputUnitCode": "unit",
+            "inputUnitLabel": "Satuan/paket",
+            "expectedUnitCost": "55000.000000",
+            "catalogPrice": "70000.000000",
+            "matchedOn": "canonical_name",
+            "matchedText": "Sayap Broiler",
+            "nameScore": 0.3077,
+            "costScore": 0.6364,
+            "expectedTotal": 110000,
+            "totalDelta": 10000,
+            "totalMatches": false,
+            "score": 0.38
+          },
+          {
+            "productId": "01f8d7f4-6f0d-5b9f-b764-abc42f7e551e",
+            "productCode": "legacy-rs-672",
+            "name": "Jahe Gajah",
+            "inputUnitCode": "kg",
+            "inputUnitLabel": "Kilogram",
+            "expectedUnitCost": "60000.000000",
+            "catalogPrice": "75000.000000",
+            "matchedOn": "canonical_name",
+            "matchedText": "Jahe Gajah",
+            "nameScore": 0.2,
+            "costScore": 1,
+            "expectedTotal": 120000,
+            "totalDelta": 0,
+            "totalMatches": true,
+            "score": 0.376
+          },
+          {
+            "productId": "462136c7-d728-5782-9cfb-b94fbc36b672",
+            "productCode": "legacy-rs-686",
+            "name": "Paprika Merah",
+            "inputUnitCode": "kg",
+            "inputUnitLabel": "Kilogram",
+            "expectedUnitCost": "67000.000000",
+            "catalogPrice": "75000.000000",
+            "matchedOn": "canonical_name",
+            "matchedText": "Paprika Merah",
+            "nameScore": 0.3077,
+            "costScore": 0.5821,
+            "expectedTotal": 134000,
+            "totalDelta": 14000,
+            "totalMatches": false,
+            "score": 0.3681
+          },
+          {
+            "productId": "6b1d1840-3ae4-5904-82da-95503d942de3",
+            "productCode": "legacy-rs-683",
+            "name": "Ayam Kampung Organic",
+            "inputUnitCode": "unit",
+            "inputUnitLabel": "Satuan/paket",
+            "expectedUnitCost": "65000.000000",
+            "catalogPrice": "80000.000000",
+            "matchedOn": "canonical_name",
+            "matchedText": "Ayam Kampung Organic",
+            "nameScore": 0.25,
+            "costScore": 0.6923,
+            "expectedTotal": 130000,
+            "totalDelta": 10000,
+            "totalMatches": false,
+            "score": 0.3473
+          },
+          {
+            "productId": "6bb6701b-aa7c-5612-8119-d84e62ec0e58",
+            "productCode": "legacy-rs-639",
+            "name": "Kailan",
+            "inputUnitCode": "kg",
+            "inputUnitLabel": "Kilogram",
+            "expectedUnitCost": "40000.000000",
+            "catalogPrice": "52000.000000",
+            "matchedOn": "canonical_name",
+            "matchedText": "Kailan",
+            "nameScore": 0.4444,
+            "costScore": 0,
+            "expectedTotal": 80000,
+            "totalDelta": 40000,
+            "totalMatches": false,
+            "score": 0.3467
+          },
+          {
+            "productId": "86c0a0c7-ebfb-5209-8d12-33c56cf05120",
+            "productCode": "legacy-rs-681",
+            "name": "Bawang Putih",
+            "inputUnitCode": "kg",
+            "inputUnitLabel": "Kilogram",
+            "expectedUnitCost": "66000.000000",
+            "catalogPrice": "80000.000000",
+            "matchedOn": "canonical_name",
+            "matchedText": "Bawang Putih",
+            "nameScore": 0.25,
+            "costScore": 0.6364,
+            "expectedTotal": 132000,
+            "totalDelta": 12000,
+            "totalMatches": false,
+            "score": 0.335
+          }
+        ],
+        "warnings": []
+      },
+      {
+        "lineId": "s07-l02",
+        "productNameRead": "Ceciwis",
+        "qtyRead": 0.6,
+        "totalRead": 30000,
+        "confidence": "high",
+        "suggestedProductId": "18388b2f-2c24-5143-860c-e0f576e4063c",
+        "candidates": [
+          {
+            "productId": "18388b2f-2c24-5143-860c-e0f576e4063c",
+            "productCode": "legacy-rs-660",
+            "name": "Tunas Kol (Ceciwis)",
+            "inputUnitCode": "kg",
+            "inputUnitLabel": "Kilogram",
+            "expectedUnitCost": "50000.000000",
+            "catalogPrice": "60000.000000",
+            "matchedOn": "canonical_name",
+            "matchedText": "Tunas Kol (Ceciwis)",
+            "nameScore": 0.8894,
+            "costScore": 1,
+            "expectedTotal": 30000,
+            "totalDelta": 0,
+            "totalMatches": true,
+            "score": 0.9137
+          },
+          {
+            "productId": "027d73b8-2fb5-5e0a-b6a4-aebbc7f8e810",
+            "productCode": "legacy-rs-1010",
+            "name": "Jeruk Nipis",
+            "inputUnitCode": "kg",
+            "inputUnitLabel": "Kilogram",
+            "expectedUnitCost": "44000.000000",
+            "catalogPrice": "50000.000000",
+            "matchedOn": "canonical_name",
+            "matchedText": "Jeruk Nipis",
+            "nameScore": 0.3636,
+            "costScore": 0.4545,
+            "expectedTotal": 26400,
+            "totalDelta": 3600,
+            "totalMatches": false,
+            "score": 0.3836
+          },
+          {
+            "productId": "34194509-7fa0-52d4-b2ff-e1543e720b14",
+            "productCode": "legacy-rs-658",
+            "name": "Daun Ginseng",
+            "inputUnitCode": "kg",
+            "inputUnitLabel": "Kilogram",
+            "expectedUnitCost": "50000.000000",
+            "catalogPrice": "60000.000000",
+            "matchedOn": "canonical_name",
+            "matchedText": "Daun Ginseng",
+            "nameScore": 0.1667,
+            "costScore": 1,
+            "expectedTotal": 30000,
+            "totalDelta": 0,
+            "totalMatches": true,
+            "score": 0.35
+          },
+          {
+            "productId": "76ec61e8-d60f-5aeb-9dba-fadf9a8f9836",
+            "productCode": "legacy-rs-673",
+            "name": "Jeruk Limo",
+            "inputUnitCode": "kg",
+            "inputUnitLabel": "Kilogram",
+            "expectedUnitCost": "52000.000000",
+            "catalogPrice": "62000.000000",
+            "matchedOn": "canonical_name",
+            "matchedText": "Jeruk Limo",
+            "nameScore": 0.2,
+            "costScore": 0.8462,
+            "expectedTotal": 31200,
+            "totalDelta": 1200,
+            "totalMatches": false,
+            "score": 0.3422
+          },
+          {
+            "productId": "6b1c9786-c7f6-5682-86fd-ab198c6a2bb4",
+            "productCode": "legacy-rs-648",
+            "name": "Caisim",
+            "inputUnitCode": "kg",
+            "inputUnitLabel": "Kilogram",
+            "expectedUnitCost": "40000.000000",
+            "catalogPrice": "60000.000000",
+            "matchedOn": "canonical_name",
+            "matchedText": "Caisim",
+            "nameScore": 0.4286,
+            "costScore": 0,
+            "expectedTotal": 24000,
+            "totalDelta": 6000,
+            "totalMatches": false,
+            "score": 0.3343
+          },
+          {
+            "productId": "05cb70a7-fe8b-5b73-b374-05170b5a1a48",
+            "productCode": "legacy-rs-987",
+            "name": "Kenikir",
+            "inputUnitCode": "kg",
+            "inputUnitLabel": "Kilogram",
+            "expectedUnitCost": "40000.000000",
+            "catalogPrice": "50000.000000",
+            "matchedOn": "canonical_name",
+            "matchedText": "Kenikir",
+            "nameScore": 0.4286,
+            "costScore": 0,
+            "expectedTotal": 24000,
+            "totalDelta": 6000,
+            "totalMatches": false,
+            "score": 0.3343
+          },
+          {
+            "productId": "5ab42941-d2af-57b8-ae06-f139e1c0d06f",
+            "productCode": "legacy-rs-676",
+            "name": "Seledri Stick",
+            "inputUnitCode": "kg",
+            "inputUnitLabel": "Kilogram",
+            "expectedUnitCost": "55000.000000",
+            "catalogPrice": "72500.000000",
+            "matchedOn": "canonical_name",
+            "matchedText": "Seledri Stick",
+            "nameScore": 0.2308,
+            "costScore": 0.6364,
+            "expectedTotal": 33000,
+            "totalDelta": 3000,
+            "totalMatches": false,
+            "score": 0.32
+          },
+          {
+            "productId": "67f6583a-f2f0-568f-985c-55ee7ccf23e1",
+            "productCode": "legacy-rs-670",
+            "name": "Kacang Hijau",
+            "inputUnitCode": "kg",
+            "inputUnitLabel": "Kilogram",
+            "expectedUnitCost": "52000.000000",
+            "catalogPrice": "57000.000000",
+            "matchedOn": "canonical_name",
+            "matchedText": "Kacang Hijau",
+            "nameScore": 0.1667,
+            "costScore": 0.8462,
+            "expectedTotal": 31200,
+            "totalDelta": 1200,
+            "totalMatches": false,
+            "score": 0.3162
+          },
+          {
+            "productId": "4fffbb34-c3e7-538b-8f6e-29c0ce26e3e2",
+            "productCode": "legacy-rs-642",
+            "name": "Selada Romaine",
+            "inputUnitCode": "kg",
+            "inputUnitLabel": "Kilogram",
+            "expectedUnitCost": "48000.000000",
+            "catalogPrice": "70000.000000",
+            "matchedOn": "canonical_name",
+            "matchedText": "Selada Romaine",
+            "nameScore": 0.1429,
+            "costScore": 0.8333,
+            "expectedTotal": 28800,
+            "totalDelta": 1200,
+            "totalMatches": false,
+            "score": 0.2948
+          },
+          {
+            "productId": "4e656e17-f659-53ac-af70-45abda618f4b",
+            "productCode": "legacy-rs-655",
+            "name": "Tomat Cherry",
+            "inputUnitCode": "kg",
+            "inputUnitLabel": "Kilogram",
+            "expectedUnitCost": "52000.000000",
+            "catalogPrice": "66000.000000",
+            "matchedOn": "canonical_name",
+            "matchedText": "Tomat Cherry",
+            "nameScore": 0.0833,
+            "costScore": 0.8462,
+            "expectedTotal": 31200,
+            "totalDelta": 1200,
+            "totalMatches": false,
+            "score": 0.2512
+          }
+        ],
+        "warnings": []
+      },
+      {
+        "lineId": "s07-l03",
+        "productNameRead": "Selada Air",
+        "qtyRead": 1.5,
+        "totalRead": 54000,
+        "confidence": "high",
+        "suggestedProductId": "19951f33-bfce-50f1-b35b-045fcad65017",
+        "candidates": [
+          {
+            "productId": "19951f33-bfce-50f1-b35b-045fcad65017",
+            "productCode": "legacy-rs-629",
+            "name": "Selada Air",
+            "inputUnitCode": "kg",
+            "inputUnitLabel": "Kilogram",
+            "expectedUnitCost": "36000.000000",
+            "catalogPrice": "48000.000000",
+            "matchedOn": "canonical_name",
+            "matchedText": "Selada Air",
+            "nameScore": 1,
+            "costScore": 1,
+            "expectedTotal": 54000,
+            "totalDelta": 0,
+            "totalMatches": true,
+            "score": 1
+          },
+          {
+            "productId": "368f4a64-9736-5ce6-b48d-17c4c166c9a2",
+            "productCode": "legacy-rs-665",
+            "name": "Selada Head",
+            "inputUnitCode": "kg",
+            "inputUnitLabel": "Kilogram",
+            "expectedUnitCost": "44000.000000",
+            "catalogPrice": "60000.000000",
+            "matchedOn": "canonical_name",
+            "matchedText": "Selada Head",
+            "nameScore": 0.6364,
+            "costScore": 0.2727,
+            "expectedTotal": 66000,
+            "totalDelta": 12000,
+            "totalMatches": false,
+            "score": 0.5564
+          },
+          {
+            "productId": "29588173-a186-50b5-b49f-2c72805fcaef",
+            "productCode": "legacy-rs-635",
+            "name": "Selada Keriting",
+            "inputUnitCode": "kg",
+            "inputUnitLabel": "Kilogram",
+            "expectedUnitCost": "40000.000000",
+            "catalogPrice": "55000.000000",
+            "matchedOn": "canonical_name",
+            "matchedText": "Selada Keriting",
+            "nameScore": 0.5333,
+            "costScore": 0.6,
+            "expectedTotal": 60000,
+            "totalDelta": 6000,
+            "totalMatches": false,
+            "score": 0.548
+          },
+          {
+            "productId": "3e41fdc8-9277-5a3a-bc22-56878b7b6644",
+            "productCode": "legacy-rs-643",
+            "name": "Selada Siomak",
+            "inputUnitCode": "kg",
+            "inputUnitLabel": "Kilogram",
+            "expectedUnitCost": "44000.000000",
+            "catalogPrice": "55000.000000",
+            "matchedOn": "canonical_name",
+            "matchedText": "Selada Siomak",
+            "nameScore": 0.6154,
+            "costScore": 0.2727,
+            "expectedTotal": 66000,
+            "totalDelta": 12000,
+            "totalMatches": false,
+            "score": 0.54
+          },
+          {
+            "productId": "4fffbb34-c3e7-538b-8f6e-29c0ce26e3e2",
+            "productCode": "legacy-rs-642",
+            "name": "Selada Romaine",
+            "inputUnitCode": "kg",
+            "inputUnitLabel": "Kilogram",
+            "expectedUnitCost": "48000.000000",
+            "catalogPrice": "70000.000000",
+            "matchedOn": "canonical_name",
+            "matchedText": "Selada Romaine",
+            "nameScore": 0.6429,
+            "costScore": 0,
+            "expectedTotal": 72000,
+            "totalDelta": 18000,
+            "totalMatches": false,
+            "score": 0.5014
+          },
+          {
+            "productId": "e89773a5-5aab-5624-9c42-79a708912f7c",
+            "productCode": "legacy-rs-633",
+            "name": "Edamame",
+            "inputUnitCode": "kg",
+            "inputUnitLabel": "Kilogram",
+            "expectedUnitCost": "38000.000000",
+            "catalogPrice": "52000.000000",
+            "matchedOn": "canonical_name",
+            "matchedText": "Edamame",
+            "nameScore": 0.4,
+            "costScore": 0.7895,
+            "expectedTotal": 57000,
+            "totalDelta": 3000,
+            "totalMatches": false,
+            "score": 0.4857
+          },
+          {
+            "productId": "fbdcc325-684e-54f8-b471-acd821b6e89b",
+            "productCode": "legacy-rs-667",
+            "name": "Seledri",
+            "inputUnitCode": "kg",
+            "inputUnitLabel": "Kilogram",
+            "expectedUnitCost": "45000.000000",
+            "catalogPrice": "58000.000000",
+            "matchedOn": "canonical_name",
+            "matchedText": "Seledri",
+            "nameScore": 0.5,
+            "costScore": 0.2,
+            "expectedTotal": 67500,
+            "totalDelta": 13500,
+            "totalMatches": false,
+            "score": 0.434
+          },
+          {
+            "productId": "d3a352b5-49d5-5251-aeb2-5672828da4b0",
+            "productCode": "legacy-rs-617",
+            "name": "Kacang Merah Kulit",
+            "inputUnitCode": "kg",
+            "inputUnitLabel": "Kilogram",
+            "expectedUnitCost": "36000.000000",
+            "catalogPrice": "46000.000000",
+            "matchedOn": "canonical_name",
+            "matchedText": "Kacang Merah Kulit",
+            "nameScore": 0.2222,
+            "costScore": 1,
+            "expectedTotal": 54000,
+            "totalDelta": 0,
+            "totalMatches": true,
+            "score": 0.3933
+          },
+          {
+            "productId": "05cb70a7-fe8b-5b73-b374-05170b5a1a48",
+            "productCode": "legacy-rs-987",
+            "name": "Kenikir",
+            "inputUnitCode": "kg",
+            "inputUnitLabel": "Kilogram",
+            "expectedUnitCost": "40000.000000",
+            "catalogPrice": "50000.000000",
+            "matchedOn": "canonical_name",
+            "matchedText": "Kenikir",
+            "nameScore": 0.3,
+            "costScore": 0.6,
+            "expectedTotal": 60000,
+            "totalDelta": 6000,
+            "totalMatches": false,
+            "score": 0.366
+          },
+          {
+            "productId": "5ab42941-d2af-57b8-ae06-f139e1c0d06f",
+            "productCode": "legacy-rs-676",
+            "name": "Seledri Stick",
+            "inputUnitCode": "kg",
+            "inputUnitLabel": "Kilogram",
+            "expectedUnitCost": "55000.000000",
+            "catalogPrice": "72500.000000",
+            "matchedOn": "canonical_name",
+            "matchedText": "Seledri Stick",
+            "nameScore": 0.4615,
+            "costScore": 0,
+            "expectedTotal": 82500,
+            "totalDelta": 28500,
+            "totalMatches": false,
+            "score": 0.36
+          }
+        ],
+        "warnings": []
+      }
+    ],
+    "summary": {
+      "totalLines": 3,
+      "highConfidence": 3,
+      "needsReview": 0
+    }
+  }
+}

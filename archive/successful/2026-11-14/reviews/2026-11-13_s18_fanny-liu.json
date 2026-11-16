@@ -1,0 +1,400 @@
+{
+  "schemaVersion": "rumah-sehat-v2-slip-review-v1",
+  "readyToImport": true,
+  "source": {
+    "imageFile": "WhatsApp Image 2026-11-14 at 12.48.09 PM (1).jpeg",
+    "slipIndex": 2,
+    "fingerprint": "952f30f127096a5fe99894263bef411689d394b8560d59ef44cc1fd956ae1bb8",
+    "sourcePath": "incoming/WhatsApp Image 2026-11-14 at 12.48.09 PM (1).jpeg"
+  },
+  "extracted": {
+    "customerNameRead": "Fanny Liu",
+    "lines": [
+      {
+        "lineId": "s18-l01",
+        "productNameRead": "Telur Kampung",
+        "quantityRead": 60,
+        "totalRead": 240000
+      }
+    ],
+    "addressRead": null,
+    "date": "2026-11-13",
+    "slipTotalRead": 240000,
+    "excludedOrNotReceived": []
+  },
+  "resolved": {
+    "supplier": {
+      "id": "19f80084-3483-5e26-97f4-58884573bbde",
+      "name": "Cisarua"
+    },
+    "customer": {
+      "id": "af9883a9-ea86-518e-af95-5869dfae916f",
+      "name": "Fanny Liu",
+      "legacyCustomerId": 416,
+      "aliases": [],
+      "addresses": [
+        "Pluit Putra kencana no 34, Jakarta Utara"
+      ],
+      "nameRead": "Fanny Liu"
+    }
+  },
+  "warnings": [],
+  "calculations": {
+    "supplierProductSubtotal": 240000,
+    "supplierDeliveryFee": 10000,
+    "supplierTotal": 250000,
+    "customerDeliveryCharge": 10000,
+    "handwrittenProductTotal": 240000,
+    "lineTotalSum": 240000,
+    "handwrittenMinusLineSum": 0
+  },
+  "proposedDraft": {
+    "supplierDirectDraft": {
+      "schemaVersion": 1,
+      "supplierId": "19f80084-3483-5e26-97f4-58884573bbde",
+      "supplierName": "Cisarua",
+      "customerId": "af9883a9-ea86-518e-af95-5869dfae916f",
+      "customerName": "Fanny Liu",
+      "occurred": {
+        "date": "2026-11-13",
+        "precision": "date"
+      },
+      "supplierReference": "WhatsApp Image 2026-11-14 at 12.48.09 PM (1).jpeg#2",
+      "note": "Handwritten product total Rp240000; received-line sum Rp240000.",
+      "lines": [
+        {
+          "clientLineKey": "s18-l01",
+          "productId": "06e07aa2-15cb-54b0-83a5-a57fe49bb985",
+          "productName": "Telur Ayam",
+          "inputUnitCode": "unit",
+          "quantity": "60",
+          "supplierDescription": "Telur Kampung",
+          "supplierCost": {
+            "status": "provisional",
+            "totalAmount": "240000"
+          },
+          "customerPricing": {
+            "source": "catalog"
+          }
+        }
+      ],
+      "supplierDeliveryFee": {
+        "status": "provisional",
+        "amount": "10000",
+        "note": "Imported from reviewed supplier slip; confirm during supplier reconciliation."
+      },
+      "customerDeliveryCharge": "10000",
+      "customerDeliveryDescription": "Biaya pengantaran langsung"
+    }
+  },
+  "supplierDirectDraft": {
+    "schemaVersion": 1,
+    "supplierId": "19f80084-3483-5e26-97f4-58884573bbde",
+    "supplierName": "Cisarua",
+    "customerId": "af9883a9-ea86-518e-af95-5869dfae916f",
+    "customerName": "Fanny Liu",
+    "occurred": {
+      "date": "2026-11-13",
+      "precision": "date"
+    },
+    "supplierReference": "WhatsApp Image 2026-11-14 at 12.48.09 PM (1).jpeg#2",
+    "note": "Handwritten product total Rp240000; received-line sum Rp240000.",
+    "lines": [
+      {
+        "clientLineKey": "s18-l01",
+        "productId": "06e07aa2-15cb-54b0-83a5-a57fe49bb985",
+        "productName": "Telur Ayam",
+        "inputUnitCode": "unit",
+        "quantity": "60",
+        "supplierDescription": "Telur Kampung",
+        "supplierCost": {
+          "status": "provisional",
+          "totalAmount": "240000"
+        },
+        "customerPricing": {
+          "source": "catalog"
+        }
+      }
+    ],
+    "supplierDeliveryFee": {
+      "status": "provisional",
+      "amount": "10000",
+      "note": "Imported from reviewed supplier slip; confirm during supplier reconciliation."
+    },
+    "customerDeliveryCharge": "10000",
+    "customerDeliveryDescription": "Biaya pengantaran langsung"
+  },
+  "workflow": "supplier_direct",
+  "customerResolutionEvidence": {
+    "raw": {
+      "nameRead": "Fanny Liu",
+      "addressRead": null,
+      "confidence": "high",
+      "suggestedCustomerId": "af9883a9-ea86-518e-af95-5869dfae916f",
+      "candidates": [
+        {
+          "customerId": "af9883a9-ea86-518e-af95-5869dfae916f",
+          "legacyCustomerId": 416,
+          "fullName": "Fanny Liu",
+          "aliases": [],
+          "addresses": [
+            "Pluit Putra kencana no 34, Jakarta Utara"
+          ],
+          "matchedOn": "canonical_name",
+          "matchedText": "Fanny Liu",
+          "nameScore": 1,
+          "addressScore": 0,
+          "score": 1
+        },
+        {
+          "customerId": "38bd86f9-72d8-5163-97a2-4c0435d697ee",
+          "legacyCustomerId": 513,
+          "fullName": "Fenny Lukito",
+          "aliases": [],
+          "addresses": [],
+          "matchedOn": "canonical_name",
+          "matchedText": "Fenny Lukito",
+          "nameScore": 0.5833,
+          "addressScore": 0,
+          "score": 0.5833
+        },
+        {
+          "customerId": "cbcbff3a-af90-55ad-90ad-78e12478fb81",
+          "legacyCustomerId": 46,
+          "fullName": "Fanny Kosasih",
+          "aliases": [],
+          "addresses": [
+            "Green Ville Blok AY No 12. Jakarta Barat"
+          ],
+          "matchedOn": "canonical_name",
+          "matchedText": "Fanny Kosasih",
+          "nameScore": 0.5385,
+          "addressScore": 0,
+          "score": 0.5385
+        },
+        {
+          "customerId": "34eafe2e-f42a-5869-bae1-798403b3ebd3",
+          "legacyCustomerId": 16,
+          "fullName": "Fenny Wijaya",
+          "aliases": [],
+          "addresses": [
+            "Taman Kebon Jeruk Intercon Block C4 No 9"
+          ],
+          "matchedOn": "canonical_name",
+          "matchedText": "Fenny Wijaya",
+          "nameScore": 0.5,
+          "addressScore": 0,
+          "score": 0.5
+        },
+        {
+          "customerId": "97fa1570-0c32-564f-b727-67d108cdc996",
+          "legacyCustomerId": 487,
+          "fullName": "Yenny Linardi",
+          "aliases": [],
+          "addresses": [],
+          "matchedOn": "canonical_name",
+          "matchedText": "Yenny Linardi",
+          "nameScore": 0.4615,
+          "addressScore": 0,
+          "score": 0.4615
+        }
+      ],
+      "warnings": []
+    },
+    "interpreted": {
+      "nameRead": "Fanny Liu",
+      "addressRead": null,
+      "confidence": "high",
+      "suggestedCustomerId": "af9883a9-ea86-518e-af95-5869dfae916f",
+      "candidates": [
+        {
+          "customerId": "af9883a9-ea86-518e-af95-5869dfae916f",
+          "legacyCustomerId": 416,
+          "fullName": "Fanny Liu",
+          "aliases": [],
+          "addresses": [
+            "Pluit Putra kencana no 34, Jakarta Utara"
+          ],
+          "matchedOn": "canonical_name",
+          "matchedText": "Fanny Liu",
+          "nameScore": 1,
+          "addressScore": 0,
+          "score": 1
+        },
+        {
+          "customerId": "38bd86f9-72d8-5163-97a2-4c0435d697ee",
+          "legacyCustomerId": 513,
+          "fullName": "Fenny Lukito",
+          "aliases": [],
+          "addresses": [],
+          "matchedOn": "canonical_name",
+          "matchedText": "Fenny Lukito",
+          "nameScore": 0.5833,
+          "addressScore": 0,
+          "score": 0.5833
+        },
+        {
+          "customerId": "cbcbff3a-af90-55ad-90ad-78e12478fb81",
+          "legacyCustomerId": 46,
+          "fullName": "Fanny Kosasih",
+          "aliases": [],
+          "addresses": [
+            "Green Ville Blok AY No 12. Jakarta Barat"
+          ],
+          "matchedOn": "canonical_name",
+          "matchedText": "Fanny Kosasih",
+          "nameScore": 0.5385,
+          "addressScore": 0,
+          "score": 0.5385
+        },
+        {
+          "customerId": "34eafe2e-f42a-5869-bae1-798403b3ebd3",
+          "legacyCustomerId": 16,
+          "fullName": "Fenny Wijaya",
+          "aliases": [],
+          "addresses": [
+            "Taman Kebon Jeruk Intercon Block C4 No 9"
+          ],
+          "matchedOn": "canonical_name",
+          "matchedText": "Fenny Wijaya",
+          "nameScore": 0.5,
+          "addressScore": 0,
+          "score": 0.5
+        },
+        {
+          "customerId": "97fa1570-0c32-564f-b727-67d108cdc996",
+          "legacyCustomerId": 487,
+          "fullName": "Yenny Linardi",
+          "aliases": [],
+          "addresses": [],
+          "matchedOn": "canonical_name",
+          "matchedText": "Yenny Linardi",
+          "nameScore": 0.4615,
+          "addressScore": 0,
+          "score": 0.4615
+        }
+      ],
+      "warnings": []
+    },
+    "selectedCustomerId": "af9883a9-ea86-518e-af95-5869dfae916f",
+    "interpretation": null
+  },
+  "productMatchingEvidence": {
+    "supplier": {
+      "id": "19f80084-3483-5e26-97f4-58884573bbde",
+      "name": "Cisarua"
+    },
+    "effectiveOn": "2026-11-13",
+    "lines": [
+      {
+        "lineId": "s18-l01",
+        "productNameRead": "Telur Ayam",
+        "qtyRead": 60,
+        "totalRead": 240000,
+        "confidence": "high",
+        "suggestedProductId": "06e07aa2-15cb-54b0-83a5-a57fe49bb985",
+        "candidates": [
+          {
+            "productId": "06e07aa2-15cb-54b0-83a5-a57fe49bb985",
+            "productCode": "legacy-rs-1062",
+            "name": "Telur Ayam",
+            "inputUnitCode": "unit",
+            "inputUnitLabel": "Satuan/paket",
+            "expectedUnitCost": "4000.000000",
+            "catalogPrice": "5000.000000",
+            "matchedOn": "canonical_name",
+            "matchedText": "Telur Ayam",
+            "nameScore": 1,
+            "costScore": 1,
+            "expectedTotal": 240000,
+            "totalDelta": 0,
+            "totalMatches": true,
+            "score": 1
+          },
+          {
+            "productId": "b48b3e09-39ba-5203-bc28-18b123ffae8b",
+            "productCode": "legacy-rs-654",
+            "name": "Jamur Tiram",
+            "inputUnitCode": "kg",
+            "inputUnitLabel": "Kilogram",
+            "expectedUnitCost": "44000.000000",
+            "catalogPrice": "70000.000000",
+            "matchedOn": "canonical_name",
+            "matchedText": "Jamur Tiram",
+            "nameScore": 0.4545,
+            "costScore": 0,
+            "expectedTotal": 2640000,
+            "totalDelta": 2400000,
+            "totalMatches": false,
+            "score": 0.3545
+          },
+          {
+            "productId": "835206b2-b93f-55d3-a000-81e87a28465f",
+            "productCode": "legacy-rs-589",
+            "name": "Pepaya",
+            "inputUnitCode": "kg",
+            "inputUnitLabel": "Kilogram",
+            "expectedUnitCost": "18000.000000",
+            "catalogPrice": "25000.000000",
+            "matchedOn": "canonical_name",
+            "matchedText": "Pepaya",
+            "nameScore": 0.4,
+            "costScore": 0,
+            "expectedTotal": 1080000,
+            "totalDelta": 840000,
+            "totalMatches": false,
+            "score": 0.312
+          },
+          {
+            "productId": "e5c5ca78-901c-5e4f-b4af-44e9437ed6e7",
+            "productCode": "legacy-rs-597",
+            "name": "Labu Siam",
+            "inputUnitCode": "kg",
+            "inputUnitLabel": "Kilogram",
+            "expectedUnitCost": "28000.000000",
+            "catalogPrice": "40000.000000",
+            "matchedOn": "canonical_name",
+            "matchedText": "Labu Siam",
+            "nameScore": 0.4,
+            "costScore": 0,
+            "expectedTotal": 1680000,
+            "totalDelta": 1440000,
+            "totalMatches": false,
+            "score": 0.312
+          },
+          {
+            "productId": "7f281125-1996-5b0b-a889-0602ed36d188",
+            "productCode": "legacy-rs-622",
+            "name": "Timun Lokal",
+            "inputUnitCode": "kg",
+            "inputUnitLabel": "Kilogram",
+            "expectedUnitCost": "32000.000000",
+            "catalogPrice": "43000.000000",
+            "matchedOn": "canonical_name",
+            "matchedText": "Timun Lokal",
+            "nameScore": 0.3636,
+            "costScore": 0,
+            "expectedTotal": 1920000,
+            "totalDelta": 1680000,
+            "totalMatches": false,
+            "score": 0.2836
+          }
+        ],
+        "warnings": []
+      }
+    ],
+    "summary": {
+      "totalLines": 1,
+      "highConfidence": 1,
+      "needsReview": 0
+    }
+  },
+  "operatorInterpretations": [
+    {
+      "lineId": "s18-l01",
+      "raw": "Telur Kampung",
+      "matchingQuery": "Telur Ayam",
+      "basis": "Operator context and visible supplier wording; effective V2 match returned by MCP."
+    }
+  ]
+}

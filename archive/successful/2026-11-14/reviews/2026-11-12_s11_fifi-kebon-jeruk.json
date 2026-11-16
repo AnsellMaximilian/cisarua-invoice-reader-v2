@@ -1,0 +1,936 @@
+{
+  "schemaVersion": "rumah-sehat-v2-slip-review-v1",
+  "readyToImport": true,
+  "source": {
+    "imageFile": "WhatsApp Image 2026-11-14 at 12.48.08 PM (2).jpeg",
+    "slipIndex": 1,
+    "fingerprint": "5525780f5261470fe48a854813c81b354d1e48ce739b8b72c8e71842d3f553f7",
+    "sourcePath": "incoming/WhatsApp Image 2026-11-14 at 12.48.08 PM (2).jpeg"
+  },
+  "extracted": {
+    "customerNameRead": "Fifi",
+    "lines": [
+      {
+        "lineId": "s11-l01",
+        "productNameRead": "Tempe",
+        "quantityRead": 1,
+        "totalRead": 17000
+      },
+      {
+        "lineId": "s11-l02",
+        "productNameRead": "Tahu Putih",
+        "quantityRead": 1,
+        "totalRead": 30000
+      },
+      {
+        "lineId": "s11-l03",
+        "productNameRead": "Kale",
+        "quantityRead": 0.2,
+        "totalRead": 16000
+      },
+      {
+        "lineId": "s11-l04",
+        "productNameRead": "D Ketumbar",
+        "quantityRead": 0.2,
+        "totalRead": 18000
+      },
+      {
+        "lineId": "s11-l05",
+        "productNameRead": "Seledri",
+        "quantityRead": 0.26,
+        "totalRead": 11700
+      }
+    ],
+    "addressRead": "Taman Kebon Jeruk Intercon blok K1 no. 25-26",
+    "date": "2026-11-12",
+    "slipTotalRead": 92700,
+    "excludedOrNotReceived": [
+      "Selada Romaine marked X",
+      "Lemon marked X",
+      "Parsley marked X"
+    ]
+  },
+  "resolved": {
+    "supplier": {
+      "id": "19f80084-3483-5e26-97f4-58884573bbde",
+      "name": "Cisarua"
+    },
+    "customer": {
+      "id": "fe7fd1d7-f249-537f-b17e-74f8a945dd2e",
+      "name": "Fifi Kebon Jeruk",
+      "legacyCustomerId": 424,
+      "aliases": [],
+      "addresses": [
+        "Taman Kebon Jeruk Intercon Blok K1 No. 25 - 26"
+      ],
+      "nameRead": "Fifi"
+    }
+  },
+  "warnings": [],
+  "calculations": {
+    "supplierProductSubtotal": 92700,
+    "supplierDeliveryFee": 10000,
+    "supplierTotal": 102700,
+    "customerDeliveryCharge": 10000,
+    "handwrittenProductTotal": 92700,
+    "lineTotalSum": 92700,
+    "handwrittenMinusLineSum": 0
+  },
+  "proposedDraft": {
+    "supplierDirectDraft": {
+      "schemaVersion": 1,
+      "supplierId": "19f80084-3483-5e26-97f4-58884573bbde",
+      "supplierName": "Cisarua",
+      "customerId": "fe7fd1d7-f249-537f-b17e-74f8a945dd2e",
+      "customerName": "Fifi Kebon Jeruk",
+      "occurred": {
+        "date": "2026-11-12",
+        "precision": "date"
+      },
+      "supplierReference": "WhatsApp Image 2026-11-14 at 12.48.08 PM (2).jpeg#1",
+      "note": "Handwritten product total Rp92700; received-line sum Rp92700.",
+      "lines": [
+        {
+          "clientLineKey": "s11-l01",
+          "productId": "8602d729-7cb2-5d7f-86ea-4f96ff2d6f3f",
+          "productName": "Tempe 400gr",
+          "inputUnitCode": "unit",
+          "quantity": "1",
+          "supplierDescription": "Tempe",
+          "supplierCost": {
+            "status": "provisional",
+            "totalAmount": "17000"
+          },
+          "customerPricing": {
+            "source": "catalog"
+          }
+        },
+        {
+          "clientLineKey": "s11-l02",
+          "productId": "cfb5a0ff-0df0-5d76-bcc4-75e451fc37a8",
+          "productName": "Tahu Putih",
+          "inputUnitCode": "unit",
+          "quantity": "1",
+          "supplierDescription": "Tahu Putih",
+          "supplierCost": {
+            "status": "provisional",
+            "totalAmount": "30000"
+          },
+          "customerPricing": {
+            "source": "catalog"
+          }
+        },
+        {
+          "clientLineKey": "s11-l03",
+          "productId": "653d3975-c991-5484-b28c-ea822990b3ae",
+          "productName": "Kale Keriting",
+          "inputUnitCode": "kg",
+          "quantity": "0.2",
+          "supplierDescription": "Kale",
+          "supplierCost": {
+            "status": "provisional",
+            "totalAmount": "16000"
+          },
+          "customerPricing": {
+            "source": "catalog"
+          }
+        },
+        {
+          "clientLineKey": "s11-l04",
+          "productId": "0d2aa2f2-97e8-5fdd-8d38-237d4210f5fa",
+          "productName": "Wansui",
+          "inputUnitCode": "kg",
+          "quantity": "0.2",
+          "supplierDescription": "D Ketumbar",
+          "supplierCost": {
+            "status": "provisional",
+            "totalAmount": "18000"
+          },
+          "customerPricing": {
+            "source": "catalog"
+          }
+        },
+        {
+          "clientLineKey": "s11-l05",
+          "productId": "fbdcc325-684e-54f8-b471-acd821b6e89b",
+          "productName": "Seledri",
+          "inputUnitCode": "kg",
+          "quantity": "0.26",
+          "supplierDescription": "Seledri",
+          "supplierCost": {
+            "status": "provisional",
+            "totalAmount": "11700"
+          },
+          "customerPricing": {
+            "source": "catalog"
+          }
+        }
+      ],
+      "supplierDeliveryFee": {
+        "status": "provisional",
+        "amount": "10000",
+        "note": "Imported from reviewed supplier slip; confirm during supplier reconciliation."
+      },
+      "customerDeliveryCharge": "10000",
+      "customerDeliveryDescription": "Biaya pengantaran langsung"
+    }
+  },
+  "supplierDirectDraft": {
+    "schemaVersion": 1,
+    "supplierId": "19f80084-3483-5e26-97f4-58884573bbde",
+    "supplierName": "Cisarua",
+    "customerId": "fe7fd1d7-f249-537f-b17e-74f8a945dd2e",
+    "customerName": "Fifi Kebon Jeruk",
+    "occurred": {
+      "date": "2026-11-12",
+      "precision": "date"
+    },
+    "supplierReference": "WhatsApp Image 2026-11-14 at 12.48.08 PM (2).jpeg#1",
+    "note": "Handwritten product total Rp92700; received-line sum Rp92700.",
+    "lines": [
+      {
+        "clientLineKey": "s11-l01",
+        "productId": "8602d729-7cb2-5d7f-86ea-4f96ff2d6f3f",
+        "productName": "Tempe 400gr",
+        "inputUnitCode": "unit",
+        "quantity": "1",
+        "supplierDescription": "Tempe",
+        "supplierCost": {
+          "status": "provisional",
+          "totalAmount": "17000"
+        },
+        "customerPricing": {
+          "source": "catalog"
+        }
+      },
+      {
+        "clientLineKey": "s11-l02",
+        "productId": "cfb5a0ff-0df0-5d76-bcc4-75e451fc37a8",
+        "productName": "Tahu Putih",
+        "inputUnitCode": "unit",
+        "quantity": "1",
+        "supplierDescription": "Tahu Putih",
+        "supplierCost": {
+          "status": "provisional",
+          "totalAmount": "30000"
+        },
+        "customerPricing": {
+          "source": "catalog"
+        }
+      },
+      {
+        "clientLineKey": "s11-l03",
+        "productId": "653d3975-c991-5484-b28c-ea822990b3ae",
+        "productName": "Kale Keriting",
+        "inputUnitCode": "kg",
+        "quantity": "0.2",
+        "supplierDescription": "Kale",
+        "supplierCost": {
+          "status": "provisional",
+          "totalAmount": "16000"
+        },
+        "customerPricing": {
+          "source": "catalog"
+        }
+      },
+      {
+        "clientLineKey": "s11-l04",
+        "productId": "0d2aa2f2-97e8-5fdd-8d38-237d4210f5fa",
+        "productName": "Wansui",
+        "inputUnitCode": "kg",
+        "quantity": "0.2",
+        "supplierDescription": "D Ketumbar",
+        "supplierCost": {
+          "status": "provisional",
+          "totalAmount": "18000"
+        },
+        "customerPricing": {
+          "source": "catalog"
+        }
+      },
+      {
+        "clientLineKey": "s11-l05",
+        "productId": "fbdcc325-684e-54f8-b471-acd821b6e89b",
+        "productName": "Seledri",
+        "inputUnitCode": "kg",
+        "quantity": "0.26",
+        "supplierDescription": "Seledri",
+        "supplierCost": {
+          "status": "provisional",
+          "totalAmount": "11700"
+        },
+        "customerPricing": {
+          "source": "catalog"
+        }
+      }
+    ],
+    "supplierDeliveryFee": {
+      "status": "provisional",
+      "amount": "10000",
+      "note": "Imported from reviewed supplier slip; confirm during supplier reconciliation."
+    },
+    "customerDeliveryCharge": "10000",
+    "customerDeliveryDescription": "Biaya pengantaran langsung"
+  },
+  "workflow": "supplier_direct",
+  "customerResolutionEvidence": {
+    "raw": {
+      "nameRead": "Fifi",
+      "addressRead": "Taman Kebon Jeruk Intercon blok K1 no. 25-26",
+      "confidence": "low",
+      "suggestedCustomerId": null,
+      "candidates": [
+        {
+          "customerId": "8dd101d3-e508-557d-91a6-5c792ab0f0aa",
+          "legacyCustomerId": 25,
+          "fullName": "Fifi",
+          "aliases": [],
+          "addresses": [
+            "Fiordini 2/92 Illago"
+          ],
+          "matchedOn": "canonical_name",
+          "matchedText": "Fifi",
+          "nameScore": 1,
+          "addressScore": 0.1628,
+          "score": 0.8995
+        },
+        {
+          "customerId": "fe7fd1d7-f249-537f-b17e-74f8a945dd2e",
+          "legacyCustomerId": 424,
+          "fullName": "Fifi Kebon Jeruk",
+          "aliases": [],
+          "addresses": [
+            "Taman Kebon Jeruk Intercon Blok K1 No. 25 - 26"
+          ],
+          "matchedOn": "canonical_name",
+          "matchedText": "Fifi Kebon Jeruk",
+          "nameScore": 0.87,
+          "addressScore": 1,
+          "score": 0.8856
+        },
+        {
+          "customerId": "0f1df9f1-83fa-5e7b-96f3-b6f6926f5e34",
+          "legacyCustomerId": 273,
+          "fullName": "Fifi Susanto",
+          "aliases": [],
+          "addresses": [],
+          "matchedOn": "canonical_name",
+          "matchedText": "Fifi Susanto",
+          "nameScore": 0.88,
+          "addressScore": 0,
+          "score": 0.7744
+        },
+        {
+          "customerId": "ed05a2d7-9274-5d2b-a42f-0c81d1bb5e90",
+          "legacyCustomerId": 161,
+          "fullName": "Fiani",
+          "aliases": [],
+          "addresses": [
+            "The Springs. Goldfinch Selatan No 27. Gading Serpong"
+          ],
+          "matchedOn": "canonical_name",
+          "matchedText": "Fiani",
+          "nameScore": 0.6,
+          "addressScore": 0.18,
+          "score": 0.5496
+        },
+        {
+          "customerId": "d2db45b7-933e-56aa-a7d0-27553d577a5e",
+          "legacyCustomerId": 294,
+          "fullName": "Nini",
+          "aliases": [],
+          "addresses": [
+            "Jalan Raya Rawa Buntu Perum Delatinos Cluster Caribbean Islands Blok K2 No. 3 BSD CITY"
+          ],
+          "matchedOn": "canonical_name",
+          "matchedText": "Nini",
+          "nameScore": 0.5,
+          "addressScore": 0.3529,
+          "score": 0.4824
+        }
+      ],
+      "warnings": [
+        "Customer was not auto-selected; review the ranked candidates."
+      ]
+    },
+    "interpreted": {
+      "nameRead": "Fifi Kebon Jeruk",
+      "addressRead": null,
+      "confidence": "high",
+      "suggestedCustomerId": "fe7fd1d7-f249-537f-b17e-74f8a945dd2e",
+      "candidates": [
+        {
+          "customerId": "fe7fd1d7-f249-537f-b17e-74f8a945dd2e",
+          "legacyCustomerId": 424,
+          "fullName": "Fifi Kebon Jeruk",
+          "aliases": [],
+          "addresses": [
+            "Taman Kebon Jeruk Intercon Blok K1 No. 25 - 26"
+          ],
+          "matchedOn": "canonical_name",
+          "matchedText": "Fifi Kebon Jeruk",
+          "nameScore": 1,
+          "addressScore": 0,
+          "score": 1
+        },
+        {
+          "customerId": "8dd101d3-e508-557d-91a6-5c792ab0f0aa",
+          "legacyCustomerId": 25,
+          "fullName": "Fifi",
+          "aliases": [],
+          "addresses": [
+            "Fiordini 2/92 Illago"
+          ],
+          "matchedOn": "canonical_name",
+          "matchedText": "Fifi",
+          "nameScore": 0.87,
+          "addressScore": 0,
+          "score": 0.87
+        },
+        {
+          "customerId": "0f1df9f1-83fa-5e7b-96f3-b6f6926f5e34",
+          "legacyCustomerId": 273,
+          "fullName": "Fifi Susanto",
+          "aliases": [],
+          "addresses": [],
+          "matchedOn": "canonical_name",
+          "matchedText": "Fifi Susanto",
+          "nameScore": 0.375,
+          "addressScore": 0,
+          "score": 0.375
+        },
+        {
+          "customerId": "fdd5ac9b-2e1b-5f1d-af0f-d4e03da36851",
+          "legacyCustomerId": 367,
+          "fullName": "Titin Klender",
+          "aliases": [],
+          "addresses": [
+            "Jakarta Timur"
+          ],
+          "matchedOn": "canonical_name",
+          "matchedText": "Titin Klender",
+          "nameScore": 0.375,
+          "addressScore": 0,
+          "score": 0.375
+        },
+        {
+          "customerId": "396d35ac-c770-5db5-aad2-3b26c659efdf",
+          "legacyCustomerId": 421,
+          "fullName": "Vivi Hendra",
+          "aliases": [],
+          "addresses": [],
+          "matchedOn": "canonical_name",
+          "matchedText": "Vivi Hendra",
+          "nameScore": 0.375,
+          "addressScore": 0,
+          "score": 0.375
+        }
+      ],
+      "warnings": []
+    },
+    "selectedCustomerId": "fe7fd1d7-f249-537f-b17e-74f8a945dd2e",
+    "interpretation": "Fifi Kebon Jeruk"
+  },
+  "productMatchingEvidence": {
+    "supplier": {
+      "id": "19f80084-3483-5e26-97f4-58884573bbde",
+      "name": "Cisarua"
+    },
+    "effectiveOn": "2026-11-12",
+    "lines": [
+      {
+        "lineId": "s11-l01",
+        "productNameRead": "Tempe",
+        "qtyRead": 1,
+        "totalRead": 17000,
+        "confidence": "high",
+        "suggestedProductId": "8602d729-7cb2-5d7f-86ea-4f96ff2d6f3f",
+        "candidates": [
+          {
+            "productId": "8602d729-7cb2-5d7f-86ea-4f96ff2d6f3f",
+            "productCode": "legacy-rs-588",
+            "name": "Tempe 400gr",
+            "inputUnitCode": "unit",
+            "inputUnitLabel": "Satuan/paket",
+            "expectedUnitCost": "17000.000000",
+            "catalogPrice": "26000.000000",
+            "matchedOn": "canonical_name",
+            "matchedText": "Tempe 400gr",
+            "nameScore": 0.8945,
+            "costScore": 1,
+            "expectedTotal": 17000,
+            "totalDelta": 0,
+            "totalMatches": true,
+            "score": 0.9177
+          },
+          {
+            "productId": "22c9f15d-fe9e-5607-bebf-fafbc227fa3b",
+            "productCode": "legacy-rs-612",
+            "name": "Tomat",
+            "inputUnitCode": "kg",
+            "inputUnitLabel": "Kilogram",
+            "expectedUnitCost": "32000.000000",
+            "catalogPrice": "42000.000000",
+            "matchedOn": "canonical_name",
+            "matchedText": "Tomat",
+            "nameScore": 0.4,
+            "costScore": 0,
+            "expectedTotal": 32000,
+            "totalDelta": 15000,
+            "totalMatches": false,
+            "score": 0.312
+          },
+          {
+            "productId": "f090d374-e1a4-50ae-80f0-8401beb2364d",
+            "productCode": "legacy-rs-637",
+            "name": "Lemon",
+            "inputUnitCode": "kg",
+            "inputUnitLabel": "Kilogram",
+            "expectedUnitCost": "37000.000000",
+            "catalogPrice": "48000.000000",
+            "matchedOn": "canonical_name",
+            "matchedText": "Lemon",
+            "nameScore": 0.4,
+            "costScore": 0,
+            "expectedTotal": 37000,
+            "totalDelta": 20000,
+            "totalMatches": false,
+            "score": 0.312
+          },
+          {
+            "productId": "835206b2-b93f-55d3-a000-81e87a28465f",
+            "productCode": "legacy-rs-589",
+            "name": "Pepaya",
+            "inputUnitCode": "kg",
+            "inputUnitLabel": "Kilogram",
+            "expectedUnitCost": "18000.000000",
+            "catalogPrice": "25000.000000",
+            "matchedOn": "canonical_name",
+            "matchedText": "Pepaya",
+            "nameScore": 0.1667,
+            "costScore": 0.7778,
+            "expectedTotal": 18000,
+            "totalDelta": 1000,
+            "totalMatches": false,
+            "score": 0.3011
+          },
+          {
+            "productId": "a0d28702-bf3b-5b44-993a-da373921522c",
+            "productCode": "legacy-rs-590",
+            "name": "Pisang Ambon",
+            "inputUnitCode": "kg",
+            "inputUnitLabel": "Kilogram",
+            "expectedUnitCost": "18000.000000",
+            "catalogPrice": "25000.000000",
+            "matchedOn": "canonical_name",
+            "matchedText": "Pisang Ambon",
+            "nameScore": 0.0833,
+            "costScore": 0.7778,
+            "expectedTotal": 18000,
+            "totalDelta": 1000,
+            "totalMatches": false,
+            "score": 0.2361
+          }
+        ],
+        "warnings": []
+      },
+      {
+        "lineId": "s11-l02",
+        "productNameRead": "Tahu Putih",
+        "qtyRead": 1,
+        "totalRead": 30000,
+        "confidence": "high",
+        "suggestedProductId": "cfb5a0ff-0df0-5d76-bcc4-75e451fc37a8",
+        "candidates": [
+          {
+            "productId": "cfb5a0ff-0df0-5d76-bcc4-75e451fc37a8",
+            "productCode": "legacy-rs-611",
+            "name": "Tahu Putih",
+            "inputUnitCode": "unit",
+            "inputUnitLabel": "Satuan/paket",
+            "expectedUnitCost": "30000.000000",
+            "catalogPrice": "38000.000000",
+            "matchedOn": "canonical_name",
+            "matchedText": "Tahu Putih",
+            "nameScore": 1,
+            "costScore": 1,
+            "expectedTotal": 30000,
+            "totalDelta": 0,
+            "totalMatches": true,
+            "score": 1
+          },
+          {
+            "productId": "b4e9d275-c2b5-585f-9c9e-e91cfdd75800",
+            "productCode": "legacy-rs-595",
+            "name": "Sawi Putih",
+            "inputUnitCode": "kg",
+            "inputUnitLabel": "Kilogram",
+            "expectedUnitCost": "32000.000000",
+            "catalogPrice": "45000.000000",
+            "matchedOn": "canonical_name",
+            "matchedText": "Sawi Putih",
+            "nameScore": 0.7,
+            "costScore": 0.75,
+            "expectedTotal": 32000,
+            "totalDelta": 2000,
+            "totalMatches": false,
+            "score": 0.711
+          },
+          {
+            "productId": "15113276-9494-53e8-a49f-51331fd86a88",
+            "productCode": "legacy-rs-620",
+            "name": "Tahu Kuning",
+            "inputUnitCode": "unit",
+            "inputUnitLabel": "Satuan/paket",
+            "expectedUnitCost": "32000.000000",
+            "catalogPrice": "37000.000000",
+            "matchedOn": "canonical_name",
+            "matchedText": "Tahu Kuning",
+            "nameScore": 0.6364,
+            "costScore": 0.75,
+            "expectedTotal": 32000,
+            "totalDelta": 2000,
+            "totalMatches": false,
+            "score": 0.6614
+          },
+          {
+            "productId": "629f27c1-4491-5a0a-be07-8c91609d3988",
+            "productCode": "legacy-rs-627",
+            "name": "Kol Putih",
+            "inputUnitCode": "kg",
+            "inputUnitLabel": "Kilogram",
+            "expectedUnitCost": "32000.000000",
+            "catalogPrice": "42000.000000",
+            "matchedOn": "canonical_name",
+            "matchedText": "Kol Putih",
+            "nameScore": 0.6,
+            "costScore": 0.75,
+            "expectedTotal": 32000,
+            "totalDelta": 2000,
+            "totalMatches": false,
+            "score": 0.633
+          },
+          {
+            "productId": "f132d827-8ce1-5c7a-ad54-2eb6e5cb2ff7",
+            "productCode": "legacy-rs-592",
+            "name": "Beras Putih",
+            "inputUnitCode": "unit",
+            "inputUnitLabel": "Satuan/paket",
+            "expectedUnitCost": "29000.000000",
+            "catalogPrice": "35000.000000",
+            "matchedOn": "canonical_name",
+            "matchedText": "Beras Putih",
+            "nameScore": 0.5455,
+            "costScore": 0.8621,
+            "expectedTotal": 29000,
+            "totalDelta": 1000,
+            "totalMatches": false,
+            "score": 0.6151
+          }
+        ],
+        "warnings": []
+      },
+      {
+        "lineId": "s11-l03",
+        "productNameRead": "Kale",
+        "qtyRead": 0.2,
+        "totalRead": 16000,
+        "confidence": "high",
+        "suggestedProductId": "653d3975-c991-5484-b28c-ea822990b3ae",
+        "candidates": [
+          {
+            "productId": "653d3975-c991-5484-b28c-ea822990b3ae",
+            "productCode": "legacy-rs-691",
+            "name": "Kale Keriting",
+            "inputUnitCode": "kg",
+            "inputUnitLabel": "Kilogram",
+            "expectedUnitCost": "80000.000000",
+            "catalogPrice": "100000.000000",
+            "matchedOn": "canonical_name",
+            "matchedText": "Kale Keriting",
+            "nameScore": 0.8769,
+            "costScore": 1,
+            "expectedTotal": 16000,
+            "totalDelta": 0,
+            "totalMatches": true,
+            "score": 0.904
+          },
+          {
+            "productId": "4121a3a1-d171-5c5e-a90d-9d26b7b07b6d",
+            "productCode": "legacy-rs-692",
+            "name": "Kale Toscano",
+            "inputUnitCode": "kg",
+            "inputUnitLabel": "Kilogram",
+            "expectedUnitCost": "75000.000000",
+            "catalogPrice": "101250.000000",
+            "matchedOn": "canonical_name",
+            "matchedText": "Kale Toscano",
+            "nameScore": 0.88,
+            "costScore": 0.7333,
+            "expectedTotal": 15000,
+            "totalDelta": 1000,
+            "totalMatches": false,
+            "score": 0.8477
+          },
+          {
+            "productId": "e345fe1b-55fc-5bc4-be69-d32d707808d8",
+            "productCode": "legacy-rs-694",
+            "name": "Kemangi",
+            "inputUnitCode": "kg",
+            "inputUnitLabel": "Kilogram",
+            "expectedUnitCost": "80000.000000",
+            "catalogPrice": "90000.000000",
+            "matchedOn": "canonical_name",
+            "matchedText": "Kemangi",
+            "nameScore": 0.2857,
+            "costScore": 1,
+            "expectedTotal": 16000,
+            "totalDelta": 0,
+            "totalMatches": true,
+            "score": 0.4429
+          },
+          {
+            "productId": "6bb6701b-aa7c-5612-8119-d84e62ec0e58",
+            "productCode": "legacy-rs-639",
+            "name": "Kailan",
+            "inputUnitCode": "kg",
+            "inputUnitLabel": "Kilogram",
+            "expectedUnitCost": "40000.000000",
+            "catalogPrice": "52000.000000",
+            "matchedOn": "canonical_name",
+            "matchedText": "Kailan",
+            "nameScore": 0.5,
+            "costScore": 0,
+            "expectedTotal": 8000,
+            "totalDelta": 8000,
+            "totalMatches": false,
+            "score": 0.39
+          },
+          {
+            "productId": "94595720-1a18-5513-8d09-ace2a3a5bbfd",
+            "productCode": "legacy-rs-610",
+            "name": "Pare",
+            "inputUnitCode": "kg",
+            "inputUnitLabel": "Kilogram",
+            "expectedUnitCost": "30000.000000",
+            "catalogPrice": "40000.000000",
+            "matchedOn": "canonical_name",
+            "matchedText": "Pare",
+            "nameScore": 0.5,
+            "costScore": 0,
+            "expectedTotal": 6000,
+            "totalDelta": 10000,
+            "totalMatches": false,
+            "score": 0.39
+          }
+        ],
+        "warnings": []
+      },
+      {
+        "lineId": "s11-l04",
+        "productNameRead": "Wansui",
+        "qtyRead": 0.2,
+        "totalRead": 18000,
+        "confidence": "high",
+        "suggestedProductId": "0d2aa2f2-97e8-5fdd-8d38-237d4210f5fa",
+        "candidates": [
+          {
+            "productId": "0d2aa2f2-97e8-5fdd-8d38-237d4210f5fa",
+            "productCode": "legacy-rs-688",
+            "name": "Wansui",
+            "inputUnitCode": "kg",
+            "inputUnitLabel": "Kilogram",
+            "expectedUnitCost": "90000.000000",
+            "catalogPrice": "120000.000000",
+            "matchedOn": "canonical_name",
+            "matchedText": "Wansui",
+            "nameScore": 1,
+            "costScore": 1,
+            "expectedTotal": 18000,
+            "totalDelta": 0,
+            "totalMatches": true,
+            "score": 1
+          },
+          {
+            "productId": "578c2151-3931-5d43-b87b-aaf4ae118a7a",
+            "productCode": "legacy-rs-1009",
+            "name": "Cabe Hijau",
+            "inputUnitCode": "kg",
+            "inputUnitLabel": "Kilogram",
+            "expectedUnitCost": "90000.000000",
+            "catalogPrice": "110000.000000",
+            "matchedOn": "canonical_name",
+            "matchedText": "Cabe Hijau",
+            "nameScore": 0.2,
+            "costScore": 1,
+            "expectedTotal": 18000,
+            "totalDelta": 0,
+            "totalMatches": true,
+            "score": 0.376
+          },
+          {
+            "productId": "78e89ab1-ce0a-5e09-84d5-ffa99e123426",
+            "productCode": "legacy-rs-690",
+            "name": "Cabe Kriting",
+            "inputUnitCode": "kg",
+            "inputUnitLabel": "Kilogram",
+            "expectedUnitCost": "90000.000000",
+            "catalogPrice": "110000.000000",
+            "matchedOn": "canonical_name",
+            "matchedText": "Cabe Kriting",
+            "nameScore": 0.1538,
+            "costScore": 1,
+            "expectedTotal": 18000,
+            "totalDelta": 0,
+            "totalMatches": true,
+            "score": 0.34
+          },
+          {
+            "productId": "e345fe1b-55fc-5bc4-be69-d32d707808d8",
+            "productCode": "legacy-rs-694",
+            "name": "Kemangi",
+            "inputUnitCode": "kg",
+            "inputUnitLabel": "Kilogram",
+            "expectedUnitCost": "80000.000000",
+            "catalogPrice": "90000.000000",
+            "matchedOn": "canonical_name",
+            "matchedText": "Kemangi",
+            "nameScore": 0.2857,
+            "costScore": 0.5,
+            "expectedTotal": 16000,
+            "totalDelta": 2000,
+            "totalMatches": false,
+            "score": 0.3329
+          },
+          {
+            "productId": "86c0a0c7-ebfb-5209-8d12-33c56cf05120",
+            "productCode": "legacy-rs-681",
+            "name": "Bawang Putih",
+            "inputUnitCode": "kg",
+            "inputUnitLabel": "Kilogram",
+            "expectedUnitCost": "66000.000000",
+            "catalogPrice": "80000.000000",
+            "matchedOn": "canonical_name",
+            "matchedText": "Bawang Putih",
+            "nameScore": 0.4167,
+            "costScore": 0,
+            "expectedTotal": 13200,
+            "totalDelta": 4800,
+            "totalMatches": false,
+            "score": 0.325
+          }
+        ],
+        "warnings": []
+      },
+      {
+        "lineId": "s11-l05",
+        "productNameRead": "Seledri",
+        "qtyRead": 0.26,
+        "totalRead": 11700,
+        "confidence": "high",
+        "suggestedProductId": "fbdcc325-684e-54f8-b471-acd821b6e89b",
+        "candidates": [
+          {
+            "productId": "fbdcc325-684e-54f8-b471-acd821b6e89b",
+            "productCode": "legacy-rs-667",
+            "name": "Seledri",
+            "inputUnitCode": "kg",
+            "inputUnitLabel": "Kilogram",
+            "expectedUnitCost": "45000.000000",
+            "catalogPrice": "58000.000000",
+            "matchedOn": "canonical_name",
+            "matchedText": "Seledri",
+            "nameScore": 1,
+            "costScore": 1,
+            "expectedTotal": 11700,
+            "totalDelta": 0,
+            "totalMatches": true,
+            "score": 1
+          },
+          {
+            "productId": "5ab42941-d2af-57b8-ae06-f139e1c0d06f",
+            "productCode": "legacy-rs-676",
+            "name": "Seledri Stick",
+            "inputUnitCode": "kg",
+            "inputUnitLabel": "Kilogram",
+            "expectedUnitCost": "55000.000000",
+            "catalogPrice": "72500.000000",
+            "matchedOn": "canonical_name",
+            "matchedText": "Seledri Stick",
+            "nameScore": 0.9046,
+            "costScore": 0.2727,
+            "expectedTotal": 14300,
+            "totalDelta": 2600,
+            "totalMatches": false,
+            "score": 0.7656
+          },
+          {
+            "productId": "3e41fdc8-9277-5a3a-bc22-56878b7b6644",
+            "productCode": "legacy-rs-643",
+            "name": "Selada Siomak",
+            "inputUnitCode": "kg",
+            "inputUnitLabel": "Kilogram",
+            "expectedUnitCost": "44000.000000",
+            "catalogPrice": "55000.000000",
+            "matchedOn": "canonical_name",
+            "matchedText": "Selada Siomak",
+            "nameScore": 0.3846,
+            "costScore": 0.9091,
+            "expectedTotal": 11440,
+            "totalDelta": 260,
+            "totalMatches": false,
+            "score": 0.5
+          },
+          {
+            "productId": "4fffbb34-c3e7-538b-8f6e-29c0ce26e3e2",
+            "productCode": "legacy-rs-642",
+            "name": "Selada Romaine",
+            "inputUnitCode": "kg",
+            "inputUnitLabel": "Kilogram",
+            "expectedUnitCost": "48000.000000",
+            "catalogPrice": "70000.000000",
+            "matchedOn": "canonical_name",
+            "matchedText": "Selada Romaine",
+            "nameScore": 0.4286,
+            "costScore": 0.75,
+            "expectedTotal": 12480,
+            "totalDelta": 780,
+            "totalMatches": false,
+            "score": 0.4993
+          },
+          {
+            "productId": "368f4a64-9736-5ce6-b48d-17c4c166c9a2",
+            "productCode": "legacy-rs-665",
+            "name": "Selada Head",
+            "inputUnitCode": "kg",
+            "inputUnitLabel": "Kilogram",
+            "expectedUnitCost": "44000.000000",
+            "catalogPrice": "60000.000000",
+            "matchedOn": "canonical_name",
+            "matchedText": "Selada Head",
+            "nameScore": 0.3636,
+            "costScore": 0.9091,
+            "expectedTotal": 11440,
+            "totalDelta": 260,
+            "totalMatches": false,
+            "score": 0.4836
+          }
+        ],
+        "warnings": []
+      }
+    ],
+    "summary": {
+      "totalLines": 5,
+      "highConfidence": 5,
+      "needsReview": 0
+    }
+  },
+  "operatorInterpretations": [
+    {
+      "lineId": "s11-l04",
+      "raw": "D Ketumbar",
+      "matchingQuery": "Wansui",
+      "basis": "Operator context and visible supplier wording; effective V2 match returned by MCP."
+    }
+  ]
+}

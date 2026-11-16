@@ -1,0 +1,513 @@
+{
+  "schemaVersion": "rumah-sehat-v2-slip-review-v1",
+  "readyToImport": true,
+  "source": {
+    "imageFile": "WhatsApp Image 2026-10-17 at 3.55.32 PM (1).jpeg",
+    "slipIndex": 1,
+    "fingerprint": "e0c4feee54f0b1962de850ba971977e04c46c9647b221f6b125d9f70cb27c9e6",
+    "sourcePath": "incoming/WhatsApp Image 2026-10-17 at 3.55.32 PM (1).jpeg"
+  },
+  "extracted": {
+    "customerNameRead": "Isabella",
+    "addressRead": "PIK gardening",
+    "date": "2026-10-16",
+    "slipTotalRead": 175680,
+    "slipTotalCertain": true,
+    "lines": [
+      {
+        "lineId": "s19-l01",
+        "productNameRead": "Pisang Ambon",
+        "quantity": 1.1,
+        "totalRead": 19800
+      },
+      {
+        "lineId": "s19-l02",
+        "productNameRead": "Kangkung",
+        "quantity": 0.4,
+        "totalRead": 16000
+      },
+      {
+        "lineId": "s19-l03",
+        "productNameRead": "Kembang Kol",
+        "quantity": 0.62,
+        "totalRead": 27280
+      },
+      {
+        "lineId": "s19-l04",
+        "productNameRead": "Timun Jepang",
+        "quantity": 1.62,
+        "totalRead": 55080
+      },
+      {
+        "lineId": "s19-l05",
+        "productNameRead": "Wansui",
+        "quantity": 0.2,
+        "totalRead": 18000
+      },
+      {
+        "lineId": "s19-l06",
+        "productNameRead": "Sawi Putih",
+        "quantity": 0.36,
+        "totalRead": 11520
+      },
+      {
+        "lineId": "s19-l07",
+        "productNameRead": "Talas Benteng",
+        "quantity": 1,
+        "totalRead": 28000
+      }
+    ],
+    "excludedOrNotReceived": []
+  },
+  "resolved": {
+    "supplier": {
+      "id": "19f80084-3483-5e26-97f4-58884573bbde",
+      "name": "Cisarua"
+    },
+    "customer": {
+      "id": "72e7b953-1d74-544a-ae90-cf95a08c54f2",
+      "name": "Isabella - Lala",
+      "legacyCustomerId": 194,
+      "aliases": [],
+      "addresses": [
+        "Jalan Janur Hijau XI TR1/10, Kelapa Gading"
+      ],
+      "nameRead": "Isabella - Lala"
+    }
+  },
+  "warnings": [],
+  "calculations": {
+    "supplierProductSubtotal": 175680,
+    "supplierDeliveryFee": 10000,
+    "supplierTotal": 185680,
+    "customerDeliveryCharge": 10000,
+    "handwrittenProductTotal": 175680,
+    "lineTotalSum": 175680,
+    "handwrittenMinusLineSum": 0
+  },
+  "proposedDraft": {
+    "supplierDirectDraft": {
+      "schemaVersion": 1,
+      "supplierId": "19f80084-3483-5e26-97f4-58884573bbde",
+      "supplierName": "Cisarua",
+      "customerId": "72e7b953-1d74-544a-ae90-cf95a08c54f2",
+      "customerName": "Isabella - Lala",
+      "occurred": {
+        "date": "2026-10-16",
+        "precision": "date"
+      },
+      "supplierReference": "WhatsApp Image 2026-10-17 at 3.55.32 PM (1).jpeg#1",
+      "note": "Handwritten product total Rp175680; line sum matches.",
+      "lines": [
+        {
+          "clientLineKey": "s19-l01",
+          "productId": "a0d28702-bf3b-5b44-993a-da373921522c",
+          "productName": "Pisang Ambon",
+          "inputUnitCode": "kg",
+          "quantity": "1.1",
+          "supplierDescription": "Pisang Ambon",
+          "supplierCost": {
+            "status": "provisional",
+            "totalAmount": "19800"
+          },
+          "customerPricing": {
+            "source": "catalog"
+          }
+        },
+        {
+          "clientLineKey": "s19-l02",
+          "productId": "dcf2b87b-097a-5abd-8cea-98efc5c8e3a2",
+          "productName": "Kangkung",
+          "inputUnitCode": "kg",
+          "quantity": "0.4",
+          "supplierDescription": "Kangkung",
+          "supplierCost": {
+            "status": "provisional",
+            "totalAmount": "16000"
+          },
+          "customerPricing": {
+            "source": "catalog"
+          }
+        },
+        {
+          "clientLineKey": "s19-l03",
+          "productId": "e064d98b-36c5-5ae2-9b85-1294d3b463eb",
+          "productName": "Kembang Kol",
+          "inputUnitCode": "kg",
+          "quantity": "0.62",
+          "supplierDescription": "Kembang Kol",
+          "supplierCost": {
+            "status": "provisional",
+            "totalAmount": "27280"
+          },
+          "customerPricing": {
+            "source": "catalog"
+          }
+        },
+        {
+          "clientLineKey": "s19-l04",
+          "productId": "d22ce659-2cdc-5731-8c96-8d58e9b9a6eb",
+          "productName": "Timun Jepang",
+          "inputUnitCode": "kg",
+          "quantity": "1.62",
+          "supplierDescription": "Timun Jepang",
+          "supplierCost": {
+            "status": "provisional",
+            "totalAmount": "55080"
+          },
+          "customerPricing": {
+            "source": "catalog"
+          }
+        },
+        {
+          "clientLineKey": "s19-l05",
+          "productId": "0d2aa2f2-97e8-5fdd-8d38-237d4210f5fa",
+          "productName": "Wansui",
+          "inputUnitCode": "kg",
+          "quantity": "0.2",
+          "supplierDescription": "Wansui",
+          "supplierCost": {
+            "status": "provisional",
+            "totalAmount": "18000"
+          },
+          "customerPricing": {
+            "source": "catalog"
+          }
+        },
+        {
+          "clientLineKey": "s19-l06",
+          "productId": "b4e9d275-c2b5-585f-9c9e-e91cfdd75800",
+          "productName": "Sawi Putih",
+          "inputUnitCode": "kg",
+          "quantity": "0.36",
+          "supplierDescription": "Sawi Putih",
+          "supplierCost": {
+            "status": "provisional",
+            "totalAmount": "11520"
+          },
+          "customerPricing": {
+            "source": "catalog"
+          }
+        },
+        {
+          "clientLineKey": "s19-l07",
+          "productId": "a5b4ee65-4e63-55a5-bfcd-2ad4e54d1f2d",
+          "productName": "Talas Belitung",
+          "inputUnitCode": "unit",
+          "quantity": "1",
+          "supplierDescription": "Talas Belitung",
+          "supplierCost": {
+            "status": "provisional",
+            "totalAmount": "28000"
+          },
+          "customerPricing": {
+            "source": "catalog"
+          }
+        }
+      ],
+      "supplierDeliveryFee": {
+        "status": "provisional",
+        "amount": "10000",
+        "note": "Imported from reviewed supplier slip; confirm during supplier reconciliation."
+      },
+      "customerDeliveryCharge": "10000",
+      "customerDeliveryDescription": "Biaya pengantaran supplier langsung"
+    }
+  },
+  "supplierDirectDraft": {
+    "schemaVersion": 1,
+    "supplierId": "19f80084-3483-5e26-97f4-58884573bbde",
+    "supplierName": "Cisarua",
+    "customerId": "72e7b953-1d74-544a-ae90-cf95a08c54f2",
+    "customerName": "Isabella - Lala",
+    "occurred": {
+      "date": "2026-10-16",
+      "precision": "date"
+    },
+    "supplierReference": "WhatsApp Image 2026-10-17 at 3.55.32 PM (1).jpeg#1",
+    "note": "Handwritten product total Rp175680; line sum matches.",
+    "lines": [
+      {
+        "clientLineKey": "s19-l01",
+        "productId": "a0d28702-bf3b-5b44-993a-da373921522c",
+        "productName": "Pisang Ambon",
+        "inputUnitCode": "kg",
+        "quantity": "1.1",
+        "supplierDescription": "Pisang Ambon",
+        "supplierCost": {
+          "status": "provisional",
+          "totalAmount": "19800"
+        },
+        "customerPricing": {
+          "source": "catalog"
+        }
+      },
+      {
+        "clientLineKey": "s19-l02",
+        "productId": "dcf2b87b-097a-5abd-8cea-98efc5c8e3a2",
+        "productName": "Kangkung",
+        "inputUnitCode": "kg",
+        "quantity": "0.4",
+        "supplierDescription": "Kangkung",
+        "supplierCost": {
+          "status": "provisional",
+          "totalAmount": "16000"
+        },
+        "customerPricing": {
+          "source": "catalog"
+        }
+      },
+      {
+        "clientLineKey": "s19-l03",
+        "productId": "e064d98b-36c5-5ae2-9b85-1294d3b463eb",
+        "productName": "Kembang Kol",
+        "inputUnitCode": "kg",
+        "quantity": "0.62",
+        "supplierDescription": "Kembang Kol",
+        "supplierCost": {
+          "status": "provisional",
+          "totalAmount": "27280"
+        },
+        "customerPricing": {
+          "source": "catalog"
+        }
+      },
+      {
+        "clientLineKey": "s19-l04",
+        "productId": "d22ce659-2cdc-5731-8c96-8d58e9b9a6eb",
+        "productName": "Timun Jepang",
+        "inputUnitCode": "kg",
+        "quantity": "1.62",
+        "supplierDescription": "Timun Jepang",
+        "supplierCost": {
+          "status": "provisional",
+          "totalAmount": "55080"
+        },
+        "customerPricing": {
+          "source": "catalog"
+        }
+      },
+      {
+        "clientLineKey": "s19-l05",
+        "productId": "0d2aa2f2-97e8-5fdd-8d38-237d4210f5fa",
+        "productName": "Wansui",
+        "inputUnitCode": "kg",
+        "quantity": "0.2",
+        "supplierDescription": "Wansui",
+        "supplierCost": {
+          "status": "provisional",
+          "totalAmount": "18000"
+        },
+        "customerPricing": {
+          "source": "catalog"
+        }
+      },
+      {
+        "clientLineKey": "s19-l06",
+        "productId": "b4e9d275-c2b5-585f-9c9e-e91cfdd75800",
+        "productName": "Sawi Putih",
+        "inputUnitCode": "kg",
+        "quantity": "0.36",
+        "supplierDescription": "Sawi Putih",
+        "supplierCost": {
+          "status": "provisional",
+          "totalAmount": "11520"
+        },
+        "customerPricing": {
+          "source": "catalog"
+        }
+      },
+      {
+        "clientLineKey": "s19-l07",
+        "productId": "a5b4ee65-4e63-55a5-bfcd-2ad4e54d1f2d",
+        "productName": "Talas Belitung",
+        "inputUnitCode": "unit",
+        "quantity": "1",
+        "supplierDescription": "Talas Belitung",
+        "supplierCost": {
+          "status": "provisional",
+          "totalAmount": "28000"
+        },
+        "customerPricing": {
+          "source": "catalog"
+        }
+      }
+    ],
+    "supplierDeliveryFee": {
+      "status": "provisional",
+      "amount": "10000",
+      "note": "Imported from reviewed supplier slip; confirm during supplier reconciliation."
+    },
+    "customerDeliveryCharge": "10000",
+    "customerDeliveryDescription": "Biaya pengantaran supplier langsung"
+  },
+  "workflow": "supplier_direct",
+  "staffConfirmations": [
+    "Staff-confirmed Isabella is Isabella - Lala.",
+    "Staff-confirmed Talas Benteng is Talas Belitung."
+  ],
+  "customerResolutionEvidence": {
+    "handwrittenName": "Isabella",
+    "addressRead": "PIK gardening",
+    "selectedCustomerId": "72e7b953-1d74-544a-ae90-cf95a08c54f2",
+    "selectedCustomerName": "Isabella - Lala",
+    "legacyCustomerId": 194,
+    "confirmation": [
+      "Staff-confirmed Isabella is Isabella - Lala.",
+      "Staff-confirmed Talas Benteng is Talas Belitung."
+    ]
+  },
+  "productMatchingEvidence": {
+    "effectiveOn": "2026-10-16",
+    "supplierId": "19f80084-3483-5e26-97f4-58884573bbde",
+    "supplierName": "Cisarua",
+    "lines": [
+      {
+        "lineId": "s19-l01",
+        "productNameRead": "Pisang Ambon",
+        "qtyRead": 1.1,
+        "totalRead": 19800,
+        "confidence": "high",
+        "selectedProductId": "a0d28702-bf3b-5b44-993a-da373921522c",
+        "candidates": [
+          {
+            "productId": "a0d28702-bf3b-5b44-993a-da373921522c",
+            "name": "Pisang Ambon",
+            "expectedUnitCost": "18000",
+            "expectedTotal": 19800,
+            "totalDelta": 0,
+            "totalMatches": true,
+            "matchedOn": "canonical_name"
+          }
+        ],
+        "warnings": []
+      },
+      {
+        "lineId": "s19-l02",
+        "productNameRead": "Kangkung",
+        "qtyRead": 0.4,
+        "totalRead": 16000,
+        "confidence": "high",
+        "selectedProductId": "dcf2b87b-097a-5abd-8cea-98efc5c8e3a2",
+        "candidates": [
+          {
+            "productId": "dcf2b87b-097a-5abd-8cea-98efc5c8e3a2",
+            "name": "Kangkung",
+            "expectedUnitCost": "40000",
+            "expectedTotal": 16000,
+            "totalDelta": 0,
+            "totalMatches": true,
+            "matchedOn": "canonical_name"
+          }
+        ],
+        "warnings": []
+      },
+      {
+        "lineId": "s19-l03",
+        "productNameRead": "Kembang Kol",
+        "qtyRead": 0.62,
+        "totalRead": 27280,
+        "confidence": "high",
+        "selectedProductId": "e064d98b-36c5-5ae2-9b85-1294d3b463eb",
+        "candidates": [
+          {
+            "productId": "e064d98b-36c5-5ae2-9b85-1294d3b463eb",
+            "name": "Kembang Kol",
+            "expectedUnitCost": "44000",
+            "expectedTotal": 27280,
+            "totalDelta": 0,
+            "totalMatches": true,
+            "matchedOn": "canonical_name"
+          }
+        ],
+        "warnings": []
+      },
+      {
+        "lineId": "s19-l04",
+        "productNameRead": "Timun Jepang",
+        "qtyRead": 1.62,
+        "totalRead": 55080,
+        "confidence": "high",
+        "selectedProductId": "d22ce659-2cdc-5731-8c96-8d58e9b9a6eb",
+        "candidates": [
+          {
+            "productId": "d22ce659-2cdc-5731-8c96-8d58e9b9a6eb",
+            "name": "Timun Jepang",
+            "expectedUnitCost": "34000",
+            "expectedTotal": 55080,
+            "totalDelta": 0,
+            "totalMatches": true,
+            "matchedOn": "canonical_name"
+          }
+        ],
+        "warnings": []
+      },
+      {
+        "lineId": "s19-l05",
+        "productNameRead": "Wansui",
+        "qtyRead": 0.2,
+        "totalRead": 18000,
+        "confidence": "high",
+        "selectedProductId": "0d2aa2f2-97e8-5fdd-8d38-237d4210f5fa",
+        "candidates": [
+          {
+            "productId": "0d2aa2f2-97e8-5fdd-8d38-237d4210f5fa",
+            "name": "Wansui",
+            "expectedUnitCost": "90000",
+            "expectedTotal": 18000,
+            "totalDelta": 0,
+            "totalMatches": true,
+            "matchedOn": "canonical_name"
+          }
+        ],
+        "warnings": []
+      },
+      {
+        "lineId": "s19-l06",
+        "productNameRead": "Sawi Putih",
+        "qtyRead": 0.36,
+        "totalRead": 11520,
+        "confidence": "high",
+        "selectedProductId": "b4e9d275-c2b5-585f-9c9e-e91cfdd75800",
+        "candidates": [
+          {
+            "productId": "b4e9d275-c2b5-585f-9c9e-e91cfdd75800",
+            "name": "Sawi Putih",
+            "expectedUnitCost": "32000",
+            "expectedTotal": 11520,
+            "totalDelta": 0,
+            "totalMatches": true,
+            "matchedOn": "canonical_name"
+          }
+        ],
+        "warnings": []
+      },
+      {
+        "lineId": "s19-l07",
+        "productNameRead": "Talas Benteng",
+        "qtyRead": 1,
+        "totalRead": 28000,
+        "confidence": "operator_confirmed",
+        "selectedProductId": "a5b4ee65-4e63-55a5-bfcd-2ad4e54d1f2d",
+        "candidates": [
+          {
+            "productId": "a5b4ee65-4e63-55a5-bfcd-2ad4e54d1f2d",
+            "name": "Talas Belitung",
+            "expectedUnitCost": "28000",
+            "expectedTotal": 28000,
+            "totalDelta": 0,
+            "totalMatches": true,
+            "matchedOn": "operator_confirmation"
+          }
+        ],
+        "warnings": []
+      }
+    ],
+    "summary": {
+      "totalLines": 7,
+      "selected": 7,
+      "withCostDiscrepancy": 0
+    }
+  }
+}
+

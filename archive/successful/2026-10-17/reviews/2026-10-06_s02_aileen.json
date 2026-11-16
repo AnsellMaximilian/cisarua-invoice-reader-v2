@@ -1,0 +1,904 @@
+{
+  "schemaVersion": "rumah-sehat-v2-slip-review-v1",
+  "readyToImport": true,
+  "source": {
+    "imageFile": "WhatsApp Image 2026-10-10 at 7.08.01 PM.jpeg",
+    "sourcePath": "incoming/WhatsApp Image 2026-10-10 at 7.08.01 PM.jpeg",
+    "slipIndex": 2
+  },
+  "extracted": {
+    "customerNameRead": "Aileen",
+    "addressRead": "Kby Lama",
+    "date": "2026-10-06",
+    "slipTotalRead": 145000,
+    "slipTotalCertain": true,
+    "lines": [
+      {
+        "lineId": "s02-l01",
+        "productNameRead": "Telur Kampung",
+        "quantity": 10,
+        "totalRead": 40000
+      },
+      {
+        "lineId": "s02-l02",
+        "productNameRead": "Telur Negeri",
+        "quantity": 30,
+        "totalRead": 90000
+      },
+      {
+        "lineId": "s02-l03",
+        "productNameRead": "Wortel",
+        "quantity": 0.5,
+        "totalRead": 15000
+      }
+    ],
+    "excludedOrNotReceived": []
+  },
+  "resolved": {
+    "supplier": {
+      "id": "19f80084-3483-5e26-97f4-58884573bbde",
+      "name": "Cisarua"
+    },
+    "customer": {
+      "id": "58b47bae-0576-570a-ade5-fb3b886f8472",
+      "name": "Aileen",
+      "legacyCustomerId": 436,
+      "aliases": [],
+      "addresses": [
+        "Taman Golf Imperial Drive 20 Lippo Karawaci"
+      ],
+      "nameRead": "Aileen"
+    }
+  },
+  "warnings": [],
+  "calculations": {
+    "supplierProductSubtotal": 145000,
+    "supplierDeliveryFee": 10000,
+    "supplierTotal": 155000,
+    "customerDeliveryCharge": 10000,
+    "handwrittenProductTotal": 145000,
+    "lineTotalSum": 145000,
+    "handwrittenMinusLineSum": 0
+  },
+  "proposedDraft": {
+    "supplierDirectDraft": {
+      "schemaVersion": 1,
+      "supplierId": "19f80084-3483-5e26-97f4-58884573bbde",
+      "supplierName": "Cisarua",
+      "customerId": "58b47bae-0576-570a-ade5-fb3b886f8472",
+      "customerName": "Aileen",
+      "occurred": {
+        "date": "2026-10-06",
+        "precision": "date"
+      },
+      "supplierReference": "WhatsApp Image 2026-10-10 at 7.08.01 PM.jpeg#2",
+      "note": "Handwritten product total Rp145000; line sum matches.",
+      "lines": [
+        {
+          "clientLineKey": "s02-l01",
+          "productId": "06e07aa2-15cb-54b0-83a5-a57fe49bb985",
+          "productName": "Telur Ayam",
+          "inputUnitCode": "unit",
+          "quantity": "10",
+          "supplierDescription": "Telur Ayam",
+          "supplierCost": {
+            "status": "provisional",
+            "totalAmount": "40000"
+          },
+          "customerPricing": {
+            "source": "catalog"
+          }
+        },
+        {
+          "clientLineKey": "s02-l02",
+          "productId": "70c8bbbc-1bb6-563a-a27a-9ff958f01824",
+          "productName": "Telur Negri Organik",
+          "inputUnitCode": "unit",
+          "quantity": "30",
+          "supplierDescription": "Telur Negri Organik",
+          "supplierCost": {
+            "status": "provisional",
+            "totalAmount": "90000"
+          },
+          "customerPricing": {
+            "source": "catalog"
+          }
+        },
+        {
+          "clientLineKey": "s02-l03",
+          "productId": "8c3ef21e-febb-52e4-8f04-be3865c99073",
+          "productName": "Wortel",
+          "inputUnitCode": "kg",
+          "quantity": "0.5",
+          "supplierDescription": "Wortel",
+          "supplierCost": {
+            "status": "provisional",
+            "totalAmount": "15000"
+          },
+          "customerPricing": {
+            "source": "catalog"
+          }
+        }
+      ],
+      "supplierDeliveryFee": {
+        "status": "provisional",
+        "amount": "10000",
+        "note": "Imported from reviewed supplier slip; confirm during supplier reconciliation."
+      },
+      "customerDeliveryCharge": "10000",
+      "customerDeliveryDescription": "Biaya pengantaran supplier langsung"
+    }
+  },
+  "supplierDirectDraft": {
+    "schemaVersion": 1,
+    "supplierId": "19f80084-3483-5e26-97f4-58884573bbde",
+    "supplierName": "Cisarua",
+    "customerId": "58b47bae-0576-570a-ade5-fb3b886f8472",
+    "customerName": "Aileen",
+    "occurred": {
+      "date": "2026-10-06",
+      "precision": "date"
+    },
+    "supplierReference": "WhatsApp Image 2026-10-10 at 7.08.01 PM.jpeg#2",
+    "note": "Handwritten product total Rp145000; line sum matches.",
+    "lines": [
+      {
+        "clientLineKey": "s02-l01",
+        "productId": "06e07aa2-15cb-54b0-83a5-a57fe49bb985",
+        "productName": "Telur Ayam",
+        "inputUnitCode": "unit",
+        "quantity": "10",
+        "supplierDescription": "Telur Ayam",
+        "supplierCost": {
+          "status": "provisional",
+          "totalAmount": "40000"
+        },
+        "customerPricing": {
+          "source": "catalog"
+        }
+      },
+      {
+        "clientLineKey": "s02-l02",
+        "productId": "70c8bbbc-1bb6-563a-a27a-9ff958f01824",
+        "productName": "Telur Negri Organik",
+        "inputUnitCode": "unit",
+        "quantity": "30",
+        "supplierDescription": "Telur Negri Organik",
+        "supplierCost": {
+          "status": "provisional",
+          "totalAmount": "90000"
+        },
+        "customerPricing": {
+          "source": "catalog"
+        }
+      },
+      {
+        "clientLineKey": "s02-l03",
+        "productId": "8c3ef21e-febb-52e4-8f04-be3865c99073",
+        "productName": "Wortel",
+        "inputUnitCode": "kg",
+        "quantity": "0.5",
+        "supplierDescription": "Wortel",
+        "supplierCost": {
+          "status": "provisional",
+          "totalAmount": "15000"
+        },
+        "customerPricing": {
+          "source": "catalog"
+        }
+      }
+    ],
+    "supplierDeliveryFee": {
+      "status": "provisional",
+      "amount": "10000",
+      "note": "Imported from reviewed supplier slip; confirm during supplier reconciliation."
+    },
+    "customerDeliveryCharge": "10000",
+    "customerDeliveryDescription": "Biaya pengantaran supplier langsung"
+  },
+  "workflow": "supplier_direct",
+  "customerResolutionEvidence": {
+    "nameRead": "Aileen",
+    "addressRead": "Kby Lama",
+    "confidence": "medium",
+    "suggestedCustomerId": null,
+    "candidates": [
+      {
+        "customerId": "58b47bae-0576-570a-ade5-fb3b886f8472",
+        "legacyCustomerId": 436,
+        "fullName": "Aileen",
+        "aliases": [],
+        "addresses": [
+          "Taman Golf Imperial Drive 20 Lippo Karawaci"
+        ],
+        "matchedOn": "canonical_name",
+        "matchedText": "Aileen",
+        "nameScore": 1,
+        "addressScore": 0.093,
+        "score": 0.8912
+      },
+      {
+        "customerId": "120e1cf2-495c-5a8d-9979-8e2e90f2a8d3",
+        "legacyCustomerId": 226,
+        "fullName": "Maureen",
+        "aliases": [],
+        "addresses": [],
+        "matchedOn": "canonical_name",
+        "matchedText": "Maureen",
+        "nameScore": 0.5714,
+        "addressScore": 0,
+        "score": 0.5029
+      },
+      {
+        "customerId": "29055312-8d7e-5908-8e47-d8bbd28a43f0",
+        "legacyCustomerId": 422,
+        "fullName": "Alan",
+        "aliases": [],
+        "addresses": [
+          "Jl. Gunung Merak No. 23, Taman Bromo, Lippo Karawaci, Tangerang 15810"
+        ],
+        "matchedOn": "canonical_name",
+        "matchedText": "Alan",
+        "nameScore": 0.5,
+        "addressScore": 0.0938,
+        "score": 0.4513
+      },
+      {
+        "customerId": "14d3348b-7281-53ad-bedb-bd485d967426",
+        "legacyCustomerId": 253,
+        "fullName": "Ayen",
+        "aliases": [],
+        "addresses": [
+          "Jalan Taman Palem Lestari Blok D10 No 53 Cengkareng"
+        ],
+        "matchedOn": "canonical_name",
+        "matchedText": "Ayen",
+        "nameScore": 0.5,
+        "addressScore": 0.0784,
+        "score": 0.4494
+      },
+      {
+        "customerId": "4091bc22-30c5-544e-a0f2-c6c77b15f143",
+        "legacyCustomerId": 56,
+        "fullName": "Acien",
+        "aliases": [],
+        "addresses": [
+          "Phinisi permai 6 no 10 Pantai Indah Kapuk Jakarta Utara"
+        ],
+        "matchedOn": "canonical_name",
+        "matchedText": "Acien",
+        "nameScore": 0.5,
+        "addressScore": 0.0727,
+        "score": 0.4487
+      },
+      {
+        "customerId": "48baedc2-1a7a-500a-9657-e68dd3e0dd1d",
+        "legacyCustomerId": 325,
+        "fullName": "Helen",
+        "aliases": [],
+        "addresses": [
+          "jl Indraloka gang VIII no. 13 rt 009 / rw 06 Wijaya Kusuma Jakarta Barat 11460"
+        ],
+        "matchedOn": "canonical_name",
+        "matchedText": "Helen",
+        "nameScore": 0.5,
+        "addressScore": 0.0667,
+        "score": 0.448
+      },
+      {
+        "customerId": "804d7385-ff43-557a-b24a-ae31e038b740",
+        "legacyCustomerId": 227,
+        "fullName": "Alin",
+        "aliases": [],
+        "addresses": [],
+        "matchedOn": "canonical_name",
+        "matchedText": "Alin",
+        "nameScore": 0.5,
+        "addressScore": 0,
+        "score": 0.44
+      },
+      {
+        "customerId": "2ed3629b-f85c-5c66-b54b-f07d0d95cc47",
+        "legacyCustomerId": 612,
+        "fullName": "Milin",
+        "aliases": [],
+        "addresses": [],
+        "matchedOn": "canonical_name",
+        "matchedText": "Milin",
+        "nameScore": 0.5,
+        "addressScore": 0,
+        "score": 0.44
+      },
+      {
+        "customerId": "44e646b5-799f-566a-abb6-ca4787fb5bb0",
+        "legacyCustomerId": 91,
+        "fullName": "Marinee",
+        "aliases": [],
+        "addresses": [
+          "Taman Golf No. 339. Lippo Karawaci"
+        ],
+        "matchedOn": "canonical_name",
+        "matchedText": "Marinee",
+        "nameScore": 0.4286,
+        "addressScore": 0.125,
+        "score": 0.3921
+      },
+      {
+        "customerId": "29e594c7-93f1-594b-8343-ec5f034d92db",
+        "legacyCustomerId": 246,
+        "fullName": "Willyan",
+        "aliases": [],
+        "addresses": [
+          "Goldfinch Selatan No. 68 The Spring, Gading Serpong"
+        ],
+        "matchedOn": "canonical_name",
+        "matchedText": "Willyan",
+        "nameScore": 0.4286,
+        "addressScore": 0.0816,
+        "score": 0.3869
+      }
+    ],
+    "warnings": [
+      "Customer was not auto-selected; review the ranked candidates."
+    ]
+  },
+  "productMatchingEvidence": {
+    "supplier": {
+      "id": "19f80084-3483-5e26-97f4-58884573bbde",
+      "name": "Cisarua"
+    },
+    "effectiveOn": "2026-10-06",
+    "lines": [
+      {
+        "lineId": "s02-l01",
+        "productNameRead": "Telur Kampung",
+        "qtyRead": 10,
+        "totalRead": 40000,
+        "confidence": "low",
+        "suggestedProductId": null,
+        "candidates": [
+          {
+            "productId": "06e07aa2-15cb-54b0-83a5-a57fe49bb985",
+            "productCode": "legacy-rs-1062",
+            "name": "Telur Ayam",
+            "inputUnitCode": "unit",
+            "inputUnitLabel": "Satuan/paket",
+            "expectedUnitCost": "4000.000000",
+            "catalogPrice": "5000.000000",
+            "matchedOn": "canonical_name",
+            "matchedText": "Telur Ayam",
+            "nameScore": 0.5385,
+            "costScore": 1,
+            "expectedTotal": 40000,
+            "totalDelta": 0,
+            "totalMatches": true,
+            "score": 0.64
+          },
+          {
+            "productId": "15113276-9494-53e8-a49f-51331fd86a88",
+            "productCode": "legacy-rs-620",
+            "name": "Tahu Kuning",
+            "inputUnitCode": "unit",
+            "inputUnitLabel": "Satuan/paket",
+            "expectedUnitCost": "32000.000000",
+            "catalogPrice": "37000.000000",
+            "matchedOn": "canonical_name",
+            "matchedText": "Tahu Kuning",
+            "nameScore": 0.4615,
+            "costScore": 0,
+            "expectedTotal": 320000,
+            "totalDelta": 280000,
+            "totalMatches": false,
+            "score": 0.36
+          },
+          {
+            "productId": "d22ce659-2cdc-5731-8c96-8d58e9b9a6eb",
+            "productCode": "legacy-rs-625",
+            "name": "Timun Jepang",
+            "inputUnitCode": "kg",
+            "inputUnitLabel": "Kilogram",
+            "expectedUnitCost": "34000.000000",
+            "catalogPrice": "45000.000000",
+            "matchedOn": "canonical_name",
+            "matchedText": "Timun Jepang",
+            "nameScore": 0.4615,
+            "costScore": 0,
+            "expectedTotal": 340000,
+            "totalDelta": 300000,
+            "totalMatches": false,
+            "score": 0.36
+          },
+          {
+            "productId": "a5b4ee65-4e63-55a5-bfcd-2ad4e54d1f2d",
+            "productCode": "legacy-rs-606",
+            "name": "Talas Belitung",
+            "inputUnitCode": "unit",
+            "inputUnitLabel": "Satuan/paket",
+            "expectedUnitCost": "28000.000000",
+            "catalogPrice": "33000.000000",
+            "matchedOn": "canonical_name",
+            "matchedText": "Talas Belitung",
+            "nameScore": 0.4286,
+            "costScore": 0,
+            "expectedTotal": 280000,
+            "totalDelta": 240000,
+            "totalMatches": false,
+            "score": 0.3343
+          },
+          {
+            "productId": "29588173-a186-50b5-b49f-2c72805fcaef",
+            "productCode": "legacy-rs-635",
+            "name": "Selada Keriting",
+            "inputUnitCode": "kg",
+            "inputUnitLabel": "Kilogram",
+            "expectedUnitCost": "40000.000000",
+            "catalogPrice": "55000.000000",
+            "matchedOn": "canonical_name",
+            "matchedText": "Selada Keriting",
+            "nameScore": 0.4,
+            "costScore": 0,
+            "expectedTotal": 400000,
+            "totalDelta": 360000,
+            "totalMatches": false,
+            "score": 0.312
+          },
+          {
+            "productId": "53be9183-6302-5eb8-b106-a9cdc43dc69b",
+            "productCode": "legacy-rs-621",
+            "name": "Terong Ungu",
+            "inputUnitCode": "kg",
+            "inputUnitLabel": "Kilogram",
+            "expectedUnitCost": "32000.000000",
+            "catalogPrice": "42000.000000",
+            "matchedOn": "canonical_name",
+            "matchedText": "Terong Ungu",
+            "nameScore": 0.3846,
+            "costScore": 0,
+            "expectedTotal": 320000,
+            "totalDelta": 280000,
+            "totalMatches": false,
+            "score": 0.3
+          },
+          {
+            "productId": "be5bd210-16a3-5124-82f0-db8b4d3359de",
+            "productCode": "legacy-rs-649",
+            "name": "Daun Bawang",
+            "inputUnitCode": "kg",
+            "inputUnitLabel": "Kilogram",
+            "expectedUnitCost": "40000.000000",
+            "catalogPrice": "55000.000000",
+            "matchedOn": "canonical_name",
+            "matchedText": "Daun Bawang",
+            "nameScore": 0.3846,
+            "costScore": 0,
+            "expectedTotal": 400000,
+            "totalDelta": 360000,
+            "totalMatches": false,
+            "score": 0.3
+          },
+          {
+            "productId": "4fffbb34-c3e7-538b-8f6e-29c0ce26e3e2",
+            "productCode": "legacy-rs-642",
+            "name": "Selada Romaine",
+            "inputUnitCode": "kg",
+            "inputUnitLabel": "Kilogram",
+            "expectedUnitCost": "48000.000000",
+            "catalogPrice": "70000.000000",
+            "matchedOn": "canonical_name",
+            "matchedText": "Selada Romaine",
+            "nameScore": 0.3571,
+            "costScore": 0,
+            "expectedTotal": 480000,
+            "totalDelta": 440000,
+            "totalMatches": false,
+            "score": 0.2786
+          },
+          {
+            "productId": "70c8bbbc-1bb6-563a-a27a-9ff958f01824",
+            "productCode": "legacy-rs-1063",
+            "name": "Telur Negri Organik",
+            "inputUnitCode": "unit",
+            "inputUnitLabel": "Satuan/paket",
+            "expectedUnitCost": "3000.000000",
+            "catalogPrice": "3700.000000",
+            "matchedOn": "canonical_name",
+            "matchedText": "Telur Negri Organik",
+            "nameScore": 0.35,
+            "costScore": 0,
+            "expectedTotal": 30000,
+            "totalDelta": 10000,
+            "totalMatches": false,
+            "score": 0.273
+          },
+          {
+            "productId": "6b1d1840-3ae4-5904-82da-95503d942de3",
+            "productCode": "legacy-rs-683",
+            "name": "Ayam Kampung Organic",
+            "inputUnitCode": "unit",
+            "inputUnitLabel": "Satuan/paket",
+            "expectedUnitCost": "65000.000000",
+            "catalogPrice": "80000.000000",
+            "matchedOn": "canonical_name",
+            "matchedText": "Ayam Kampung Organic",
+            "nameScore": 0.35,
+            "costScore": 0,
+            "expectedTotal": 650000,
+            "totalDelta": 610000,
+            "totalMatches": false,
+            "score": 0.273
+          }
+        ],
+        "warnings": [
+          "Product was not auto-selected."
+        ]
+      },
+      {
+        "lineId": "s02-l02",
+        "productNameRead": "Telur Negeri",
+        "qtyRead": 30,
+        "totalRead": 90000,
+        "confidence": "high",
+        "suggestedProductId": "70c8bbbc-1bb6-563a-a27a-9ff958f01824",
+        "candidates": [
+          {
+            "productId": "70c8bbbc-1bb6-563a-a27a-9ff958f01824",
+            "productCode": "legacy-rs-1063",
+            "name": "Telur Negri Organik",
+            "inputUnitCode": "unit",
+            "inputUnitLabel": "Satuan/paket",
+            "expectedUnitCost": "3000.000000",
+            "catalogPrice": "3700.000000",
+            "matchedOn": "canonical_name",
+            "matchedText": "Telur Negri Organik",
+            "nameScore": 0.912,
+            "costScore": 1,
+            "expectedTotal": 90000,
+            "totalDelta": 0,
+            "totalMatches": true,
+            "score": 0.9314
+          },
+          {
+            "productId": "06e07aa2-15cb-54b0-83a5-a57fe49bb985",
+            "productCode": "legacy-rs-1062",
+            "name": "Telur Ayam",
+            "inputUnitCode": "unit",
+            "inputUnitLabel": "Satuan/paket",
+            "expectedUnitCost": "4000.000000",
+            "catalogPrice": "5000.000000",
+            "matchedOn": "canonical_name",
+            "matchedText": "Telur Ayam",
+            "nameScore": 0.5,
+            "costScore": 0,
+            "expectedTotal": 120000,
+            "totalDelta": 30000,
+            "totalMatches": false,
+            "score": 0.39
+          },
+          {
+            "productId": "fbdcc325-684e-54f8-b471-acd821b6e89b",
+            "productCode": "legacy-rs-667",
+            "name": "Seledri",
+            "inputUnitCode": "kg",
+            "inputUnitLabel": "Kilogram",
+            "expectedUnitCost": "45000.000000",
+            "catalogPrice": "58000.000000",
+            "matchedOn": "canonical_name",
+            "matchedText": "Seledri",
+            "nameScore": 0.4167,
+            "costScore": 0,
+            "expectedTotal": 1350000,
+            "totalDelta": 1260000,
+            "totalMatches": false,
+            "score": 0.325
+          },
+          {
+            "productId": "8602d729-7cb2-5d7f-86ea-4f96ff2d6f3f",
+            "productCode": "legacy-rs-588",
+            "name": "Tempe 400gr",
+            "inputUnitCode": "unit",
+            "inputUnitLabel": "Satuan/paket",
+            "expectedUnitCost": "17000.000000",
+            "catalogPrice": "26000.000000",
+            "matchedOn": "canonical_name",
+            "matchedText": "Tempe 400gr",
+            "nameScore": 0.3333,
+            "costScore": 0,
+            "expectedTotal": 510000,
+            "totalDelta": 420000,
+            "totalMatches": false,
+            "score": 0.26
+          },
+          {
+            "productId": "1feb473a-6d29-568b-8e97-73fd16d06fc2",
+            "productCode": "legacy-rs-607",
+            "name": "Beras Meru",
+            "inputUnitCode": "unit",
+            "inputUnitLabel": "Satuan/paket",
+            "expectedUnitCost": "32000.000000",
+            "catalogPrice": "39000.000000",
+            "matchedOn": "canonical_name",
+            "matchedText": "Beras Meru",
+            "nameScore": 0.3333,
+            "costScore": 0,
+            "expectedTotal": 960000,
+            "totalDelta": 870000,
+            "totalMatches": false,
+            "score": 0.26
+          },
+          {
+            "productId": "d22ce659-2cdc-5731-8c96-8d58e9b9a6eb",
+            "productCode": "legacy-rs-625",
+            "name": "Timun Jepang",
+            "inputUnitCode": "kg",
+            "inputUnitLabel": "Kilogram",
+            "expectedUnitCost": "34000.000000",
+            "catalogPrice": "45000.000000",
+            "matchedOn": "canonical_name",
+            "matchedText": "Timun Jepang",
+            "nameScore": 0.3333,
+            "costScore": 0,
+            "expectedTotal": 1020000,
+            "totalDelta": 930000,
+            "totalMatches": false,
+            "score": 0.26
+          },
+          {
+            "productId": "29588173-a186-50b5-b49f-2c72805fcaef",
+            "productCode": "legacy-rs-635",
+            "name": "Selada Keriting",
+            "inputUnitCode": "kg",
+            "inputUnitLabel": "Kilogram",
+            "expectedUnitCost": "40000.000000",
+            "catalogPrice": "55000.000000",
+            "matchedOn": "canonical_name",
+            "matchedText": "Selada Keriting",
+            "nameScore": 0.3333,
+            "costScore": 0,
+            "expectedTotal": 1200000,
+            "totalDelta": 1110000,
+            "totalMatches": false,
+            "score": 0.26
+          },
+          {
+            "productId": "027d73b8-2fb5-5e0a-b6a4-aebbc7f8e810",
+            "productCode": "legacy-rs-1010",
+            "name": "Jeruk Nipis",
+            "inputUnitCode": "kg",
+            "inputUnitLabel": "Kilogram",
+            "expectedUnitCost": "44000.000000",
+            "catalogPrice": "50000.000000",
+            "matchedOn": "canonical_name",
+            "matchedText": "Jeruk Nipis",
+            "nameScore": 0.3333,
+            "costScore": 0,
+            "expectedTotal": 1320000,
+            "totalDelta": 1230000,
+            "totalMatches": false,
+            "score": 0.26
+          },
+          {
+            "productId": "e345fe1b-55fc-5bc4-be69-d32d707808d8",
+            "productCode": "legacy-rs-694",
+            "name": "Kemangi",
+            "inputUnitCode": "kg",
+            "inputUnitLabel": "Kilogram",
+            "expectedUnitCost": "80000.000000",
+            "catalogPrice": "90000.000000",
+            "matchedOn": "canonical_name",
+            "matchedText": "Kemangi",
+            "nameScore": 0.3333,
+            "costScore": 0,
+            "expectedTotal": 2400000,
+            "totalDelta": 2310000,
+            "totalMatches": false,
+            "score": 0.26
+          },
+          {
+            "productId": "a5b4ee65-4e63-55a5-bfcd-2ad4e54d1f2d",
+            "productCode": "legacy-rs-606",
+            "name": "Talas Belitung",
+            "inputUnitCode": "unit",
+            "inputUnitLabel": "Satuan/paket",
+            "expectedUnitCost": "28000.000000",
+            "catalogPrice": "33000.000000",
+            "matchedOn": "canonical_name",
+            "matchedText": "Talas Belitung",
+            "nameScore": 0.2857,
+            "costScore": 0,
+            "expectedTotal": 840000,
+            "totalDelta": 750000,
+            "totalMatches": false,
+            "score": 0.2229
+          }
+        ],
+        "warnings": []
+      },
+      {
+        "lineId": "s02-l03",
+        "productNameRead": "Wortel",
+        "qtyRead": 0.5,
+        "totalRead": 15000,
+        "confidence": "high",
+        "suggestedProductId": "8c3ef21e-febb-52e4-8f04-be3865c99073",
+        "candidates": [
+          {
+            "productId": "8c3ef21e-febb-52e4-8f04-be3865c99073",
+            "productCode": "legacy-rs-613",
+            "name": "Wortel",
+            "inputUnitCode": "kg",
+            "inputUnitLabel": "Kilogram",
+            "expectedUnitCost": "30000.000000",
+            "catalogPrice": "40000.000000",
+            "matchedOn": "canonical_name",
+            "matchedText": "Wortel",
+            "nameScore": 1,
+            "costScore": 1,
+            "expectedTotal": 15000,
+            "totalDelta": 0,
+            "totalMatches": true,
+            "score": 1
+          },
+          {
+            "productId": "94595720-1a18-5513-8d09-ace2a3a5bbfd",
+            "productCode": "legacy-rs-610",
+            "name": "Pare",
+            "inputUnitCode": "kg",
+            "inputUnitLabel": "Kilogram",
+            "expectedUnitCost": "30000.000000",
+            "catalogPrice": "40000.000000",
+            "matchedOn": "canonical_name",
+            "matchedText": "Pare",
+            "nameScore": 0.3333,
+            "costScore": 1,
+            "expectedTotal": 15000,
+            "totalDelta": 0,
+            "totalMatches": true,
+            "score": 0.48
+          },
+          {
+            "productId": "02ae31af-edc4-54e1-bd4b-1a42cb131744",
+            "productCode": "legacy-rs-593",
+            "name": "Sereh",
+            "inputUnitCode": "kg",
+            "inputUnitLabel": "Kilogram",
+            "expectedUnitCost": "32000.000000",
+            "catalogPrice": "40000.000000",
+            "matchedOn": "canonical_name",
+            "matchedText": "Sereh",
+            "nameScore": 0.3333,
+            "costScore": 0.75,
+            "expectedTotal": 16000,
+            "totalDelta": 1000,
+            "totalMatches": false,
+            "score": 0.425
+          },
+          {
+            "productId": "629f27c1-4491-5a0a-be07-8c91609d3988",
+            "productCode": "legacy-rs-627",
+            "name": "Kol Putih",
+            "inputUnitCode": "kg",
+            "inputUnitLabel": "Kilogram",
+            "expectedUnitCost": "32000.000000",
+            "catalogPrice": "42000.000000",
+            "matchedOn": "canonical_name",
+            "matchedText": "Kol Putih",
+            "nameScore": 0.2222,
+            "costScore": 0.75,
+            "expectedTotal": 16000,
+            "totalDelta": 1000,
+            "totalMatches": false,
+            "score": 0.3383
+          },
+          {
+            "productId": "d4559261-6693-550f-9657-b43a51817967",
+            "productCode": "legacy-rs-596",
+            "name": "Beras Merah",
+            "inputUnitCode": "unit",
+            "inputUnitLabel": "Satuan/paket",
+            "expectedUnitCost": "31000.000000",
+            "catalogPrice": "39000.000000",
+            "matchedOn": "canonical_name",
+            "matchedText": "Beras Merah",
+            "nameScore": 0.1818,
+            "costScore": 0.871,
+            "expectedTotal": 15500,
+            "totalDelta": 500,
+            "totalMatches": false,
+            "score": 0.3334
+          },
+          {
+            "productId": "f132d827-8ce1-5c7a-ad54-2eb6e5cb2ff7",
+            "productCode": "legacy-rs-592",
+            "name": "Beras Putih",
+            "inputUnitCode": "unit",
+            "inputUnitLabel": "Satuan/paket",
+            "expectedUnitCost": "29000.000000",
+            "catalogPrice": "35000.000000",
+            "matchedOn": "canonical_name",
+            "matchedText": "Beras Putih",
+            "nameScore": 0.1818,
+            "costScore": 0.8621,
+            "expectedTotal": 14500,
+            "totalDelta": 500,
+            "totalMatches": false,
+            "score": 0.3315
+          },
+          {
+            "productId": "b9c6bba5-e72c-5fe5-9fa7-6d21771e7d06",
+            "productCode": "legacy-rs-598",
+            "name": "Beras Coklat",
+            "inputUnitCode": "unit",
+            "inputUnitLabel": "Satuan/paket",
+            "expectedUnitCost": "31000.000000",
+            "catalogPrice": "39000.000000",
+            "matchedOn": "canonical_name",
+            "matchedText": "Beras Coklat",
+            "nameScore": 0.1667,
+            "costScore": 0.871,
+            "expectedTotal": 15500,
+            "totalDelta": 500,
+            "totalMatches": false,
+            "score": 0.3216
+          },
+          {
+            "productId": "1feb473a-6d29-568b-8e97-73fd16d06fc2",
+            "productCode": "legacy-rs-607",
+            "name": "Beras Meru",
+            "inputUnitCode": "unit",
+            "inputUnitLabel": "Satuan/paket",
+            "expectedUnitCost": "32000.000000",
+            "catalogPrice": "39000.000000",
+            "matchedOn": "canonical_name",
+            "matchedText": "Beras Meru",
+            "nameScore": 0.2,
+            "costScore": 0.75,
+            "expectedTotal": 16000,
+            "totalDelta": 1000,
+            "totalMatches": false,
+            "score": 0.321
+          },
+          {
+            "productId": "b4e9d275-c2b5-585f-9c9e-e91cfdd75800",
+            "productCode": "legacy-rs-595",
+            "name": "Sawi Putih",
+            "inputUnitCode": "kg",
+            "inputUnitLabel": "Kilogram",
+            "expectedUnitCost": "32000.000000",
+            "catalogPrice": "45000.000000",
+            "matchedOn": "canonical_name",
+            "matchedText": "Sawi Putih",
+            "nameScore": 0.2,
+            "costScore": 0.75,
+            "expectedTotal": 16000,
+            "totalDelta": 1000,
+            "totalMatches": false,
+            "score": 0.321
+          },
+          {
+            "productId": "c3c63545-3486-54d4-aaa3-584eb744c741",
+            "productCode": "legacy-rs-599",
+            "name": "Lobak Putih",
+            "inputUnitCode": "kg",
+            "inputUnitLabel": "Kilogram",
+            "expectedUnitCost": "28000.000000",
+            "catalogPrice": "38000.000000",
+            "matchedOn": "canonical_name",
+            "matchedText": "Lobak Putih",
+            "nameScore": 0.1818,
+            "costScore": 0.7143,
+            "expectedTotal": 14000,
+            "totalDelta": 1000,
+            "totalMatches": false,
+            "score": 0.299
+          }
+        ],
+        "warnings": []
+      }
+    ],
+    "summary": {
+      "totalLines": 3,
+      "highConfidence": 2,
+      "needsReview": 1
+    }
+  }
+}

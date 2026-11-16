@@ -1,0 +1,170 @@
+{
+  "schemaVersion": "rumah-sehat-v2-slip-review-v1",
+  "readyToImport": true,
+  "source": {
+    "imageFile": "WhatsApp Image 2026-10-31 at 1.18.39 PM (2).jpeg",
+    "slipIndex": 2,
+    "fingerprint": "7f2add0c4dc61671cc4dfbe7b9e76a150c36df1ebbeea0a68e3585f10bbf3e92",
+    "sourcePath": "incoming/WhatsApp Image 2026-10-31 at 1.18.39 PM (2).jpeg"
+  },
+  "extracted": {
+    "customerNameRead": "Andrea",
+    "lines": [
+      {
+        "lineId": "s12-l01",
+        "productNameRead": "Telur Kampung",
+        "quantityRead": 20,
+        "totalRead": 80000
+      }
+    ],
+    "date": "2026-10-29",
+    "slipTotalRead": 80000,
+    "slipTotalCertain": true,
+    "excludedOrNotReceived": []
+  },
+  "resolved": {
+    "supplier": {
+      "id": "19f80084-3483-5e26-97f4-58884573bbde",
+      "name": "Cisarua"
+    },
+    "customer": {
+      "id": "f24b7259-7486-5bde-a682-4a07c0f1c43d",
+      "name": "Andrea Anak Anas",
+      "legacyCustomerId": 654,
+      "aliases": [],
+      "addresses": [],
+      "nameRead": "Andrea"
+    }
+  },
+  "warnings": [],
+  "calculations": {
+    "supplierProductSubtotal": 80000,
+    "supplierDeliveryFee": 10000,
+    "supplierTotal": 90000,
+    "customerDeliveryCharge": 10000,
+    "handwrittenProductTotal": 80000,
+    "lineTotalSum": 80000,
+    "handwrittenMinusLineSum": 0
+  },
+  "proposedDraft": {
+    "supplierDirectDraft": {
+      "schemaVersion": 1,
+      "supplierId": "19f80084-3483-5e26-97f4-58884573bbde",
+      "supplierName": "Cisarua",
+      "customerId": "f24b7259-7486-5bde-a682-4a07c0f1c43d",
+      "customerName": "Andrea Anak Anas",
+      "occurred": {
+        "date": "2026-10-29",
+        "precision": "date"
+      },
+      "supplierReference": "WhatsApp Image 2026-10-31 at 1.18.39 PM (2).jpeg#2",
+      "note": "Handwritten product total Rp80000; line sum matches. Staff instructed this slip to remain assigned to Andrea Anak Anas despite the Puri Park Residence address.",
+      "lines": [
+        {
+          "clientLineKey": "s12-l01",
+          "productId": "06e07aa2-15cb-54b0-83a5-a57fe49bb985",
+          "productName": "Telur Ayam",
+          "inputUnitCode": "unit",
+          "quantity": "20",
+          "supplierDescription": "Telur Kampung",
+          "supplierCost": {
+            "status": "provisional",
+            "totalAmount": "80000"
+          },
+          "customerPricing": {
+            "source": "catalog"
+          }
+        }
+      ],
+      "supplierDeliveryFee": {
+        "status": "provisional",
+        "amount": "10000",
+        "note": "Imported from reviewed supplier slip; confirm during supplier reconciliation."
+      },
+      "customerDeliveryCharge": "10000",
+      "customerDeliveryDescription": "Biaya pengantaran langsung"
+    }
+  },
+  "supplierDirectDraft": {
+    "schemaVersion": 1,
+    "supplierId": "19f80084-3483-5e26-97f4-58884573bbde",
+    "supplierName": "Cisarua",
+    "customerId": "f24b7259-7486-5bde-a682-4a07c0f1c43d",
+    "customerName": "Andrea Anak Anas",
+    "occurred": {
+      "date": "2026-10-29",
+      "precision": "date"
+    },
+    "supplierReference": "WhatsApp Image 2026-10-31 at 1.18.39 PM (2).jpeg#2",
+    "note": "Handwritten product total Rp80000; line sum matches. Staff instructed this slip to remain assigned to Andrea Anak Anas despite the Puri Park Residence address.",
+    "lines": [
+      {
+        "clientLineKey": "s12-l01",
+        "productId": "06e07aa2-15cb-54b0-83a5-a57fe49bb985",
+        "productName": "Telur Ayam",
+        "inputUnitCode": "unit",
+        "quantity": "20",
+        "supplierDescription": "Telur Kampung",
+        "supplierCost": {
+          "status": "provisional",
+          "totalAmount": "80000"
+        },
+        "customerPricing": {
+          "source": "catalog"
+        }
+      }
+    ],
+    "supplierDeliveryFee": {
+      "status": "provisional",
+      "amount": "10000",
+      "note": "Imported from reviewed supplier slip; confirm during supplier reconciliation."
+    },
+    "customerDeliveryCharge": "10000",
+    "customerDeliveryDescription": "Biaya pengantaran langsung"
+  },
+  "workflow": "supplier_direct",
+  "staffConfirmations": [
+    "Staff instructed this slip to remain assigned to Andrea Anak Anas despite the Puri Park Residence address."
+  ],
+  "customerResolutionEvidence": {
+    "handwrittenName": "Andrea",
+    "selectedCustomerId": "f24b7259-7486-5bde-a682-4a07c0f1c43d",
+    "selectedCustomerName": "Andrea Anak Anas",
+    "legacyCustomerId": 654,
+    "confirmation": [
+      "Staff instructed this slip to remain assigned to Andrea Anak Anas despite the Puri Park Residence address."
+    ]
+  },
+  "productMatchingEvidence": {
+    "effectiveOn": "2026-10-29",
+    "supplierId": "19f80084-3483-5e26-97f4-58884573bbde",
+    "supplierName": "Cisarua",
+    "lines": [
+      {
+        "lineId": "s12-l01",
+        "productNameRead": "Telur Kampung",
+        "qtyRead": 20,
+        "totalRead": 80000,
+        "confidence": "confirmed",
+        "selectedProductId": "06e07aa2-15cb-54b0-83a5-a57fe49bb985",
+        "candidates": [
+          {
+            "productId": "06e07aa2-15cb-54b0-83a5-a57fe49bb985",
+            "name": "Telur Ayam",
+            "expectedTotal": 80000,
+            "totalDelta": 0,
+            "totalMatches": true,
+            "matchedOn": "active_supplier_product_and_cost"
+          }
+        ],
+        "warnings": []
+      }
+    ],
+    "summary": {
+      "totalLines": 1,
+      "selected": 1,
+      "withCostDiscrepancy": 0
+    }
+  }
+}
+

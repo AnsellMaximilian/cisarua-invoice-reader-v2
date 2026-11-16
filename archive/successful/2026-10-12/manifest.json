@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "status": "imported_successfully",
+  "confirmedOn": "2026-10-12",
+  "confirmation": "Staff explicitly confirmed all current slips were correct and imported successfully.",
+  "reviewCount": 21,
+  "sourceCount": 10,
+  "reviews": [
+    { "name": "2026-09-29_s18_prillia.json", "sha256": "02af459f292f50aedc8ee3fce3deae53d5b0119c4b965e596b4dbdef6e254219", "bytes": 62557 },
+    { "name": "2026-09-29_s19_aileen.json", "sha256": "572e37b8b16a066850d7f2688c008ba922ed192372ceb86dd009bdd05ee8d53b", "bytes": 36243 },
+    { "name": "2026-09-30_s01_lise.json", "sha256": "7724e75d1cf4d81f5fdd24acc606f8b542be8794610f09c62f8c67dcf8854ed6", "bytes": 75590 },
+    { "name": "2026-09-30_s02_ibu-hamid.json", "sha256": "f11b72ebc07cc7ed9a7f2683e19308da0aad3db3aac4e9857a91fe2b246d3bd6", "bytes": 93522 },
+    { "name": "2026-09-30_s03_zaq.json", "sha256": "e8b2c4c73c05d36c4b14a185fd64ad88143a426fc2ad86763b46da5322ca2b65", "bytes": 45067 },
+    { "name": "2026-09-30_s04_adriani.json", "sha256": "fabc9eaa584ef64505cfb6dec8fd6c61cba1cb4c64401c0cbaf3a3571dd1ea76", "bytes": 58036 },
+    { "name": "2026-09-30_s05_florence.json", "sha256": "0ff8bf7e546b7faa6309032c6c758f4bf398b6e232d57963818d461dda528d0f", "bytes": 35983 },
+    { "name": "2026-09-30_s06_agnes.json", "sha256": "d0bdfb5764e4610d0a3b65767bb50423cf0eb4ee85c9f7403d5bae7b5c313823", "bytes": 22682 },
+    { "name": "2026-09-30_s07_ireny.json", "sha256": "001f1bceaf0bec4bf4cd8fbe955028bd7a4f47c98d5694540e206bce66041f02", "bytes": 9638 },
+    { "name": "2026-09-30_s10_ibu-chi-chi.json", "sha256": "19ecca677fcb5b1e1ef0ccf58d5e966983d73eb435d09b07a2622b174c94f2a1", "bytes": 120719 },
+    { "name": "2026-09-30_s11_wei.json", "sha256": "de39caa6098b65b54bffaecfeea5914195ec8b5c2c75b00fd7a9579f66e8f7a6", "bytes": 9528 },
+    { "name": "2026-10-01_s08_lusy.json", "sha256": "61ef92d01beddc715ebda4e9b91685b88847d5f23f66881bf32a1f2caa393bff", "bytes": 9549 },
+    { "name": "2026-10-01_s09_fanny-liu.json", "sha256": "8cb3830e7c2e6c55b12a4adc1565043610780b1313cb2f08cd265e7e5777af01", "bytes": 27373 },
+    { "name": "2026-10-01_s12_vera.json", "sha256": "ccd8e24f1d73e3cf7974f4d3a786c94fa2173a500d3b2e887752421b68bf644d", "bytes": 75326 },
+    { "name": "2026-10-01_s13_sani.json", "sha256": "d83f50d6ed27f229442de216ca8abe3972515f353b529998a9dbd6ad0c2f2c1c", "bytes": 18399 },
+    { "name": "2026-10-01_s14_anita-s.json", "sha256": "d364a0270bbd6f413ae49eb6692571920dcd664686e7acc0f6551ceac9023907", "bytes": 40602 },
+    { "name": "2026-10-01_s16_anas.json", "sha256": "af659cc652c743b01b9d0ea5cbd3e964634333438bac9129f5ba89a71a5c6425", "bytes": 22897 },
+    { "name": "2026-10-01_s17_andrea.json", "sha256": "ec28905f93dc2314c2cb418372376695dd7dfd790b22350c3c7694862d7b523b", "bytes": 18552 },
+    { "name": "2026-10-02_s15_kiky.json", "sha256": "3a68b47ab83d4cca265ee973226dbb22a39e9a5765355264bf5344bf440c5533", "bytes": 71208 },
+    { "name": "2026-10-02_s20_ferlina.json", "sha256": "290e654ba70269d00337263132c48dae6ab1e0c28bce48f52d2ef81b3b48e2ce", "bytes": 79959 },
+    { "name": "2026-10-02_s21_dianita.json", "sha256": "1aece6516f737860b8dcf066ba8c1e38ba5405cc208def1003e493ac6baa5a10", "bytes": 49183 }
+  ],
+  "sources": [
+    { "name": "WhatsApp Image 2026-10-03 at 1.53.10 PM (1).jpeg", "sha256": "15d750e1e991e6a6f29a7934b6d45e63736ac2d7eb3b5ac2f082cecf5040ff9d", "bytes": 145789 },
+    { "name": "WhatsApp Image 2026-10-03 at 1.53.10 PM (2).jpeg", "sha256": "27688ca60bd0c67337958c792287a7d283a9b8acf254e377a4b29d37b05fa96c", "bytes": 112855 },
+    { "name": "WhatsApp Image 2026-10-03 at 1.53.11 PM (1).jpeg", "sha256": "88d7ca7fa50a2c0cf0551a4080ba8bb5b50debc230b5c1286c1e7d76c1419f41", "bytes": 134803 },
+    { "name": "WhatsApp Image 2026-10-03 at 1.53.11 PM (2).jpeg", "sha256": "dfe15f9d08ec761c92cc5fc5d14728173f296affd7eafc67ec2888b1464867cd", "bytes": 122825 },
+    { "name": "WhatsApp Image 2026-10-03 at 1.53.11 PM.jpeg", "sha256": "564d4a54cd1cf0d1dc4cae21d40e0cec4681c48258e1b369aaa453641661fbf3", "bytes": 131208 },
+    { "name": "WhatsApp Image 2026-10-03 at 1.53.12 PM (1).jpeg", "sha256": "2992ee48ab38e85b16e15ee6c1dd4831cc05b25487a45beb65f6382003a646ad", "bytes": 144603 },
+    { "name": "WhatsApp Image 2026-10-03 at 1.53.12 PM (2).jpeg", "sha256": "b85ca7c8104b21f582dd0dc28398eb36f9c6b636669abb60bc090c5fb020badb", "bytes": 161361 },
+    { "name": "WhatsApp Image 2026-10-03 at 1.53.12 PM.jpeg", "sha256": "c21103b1ab72ea2801c9d4f6af95d0fc1369a7644afbc924150431c28374c443", "bytes": 115431 },
+    { "name": "WhatsApp Image 2026-10-03 at 4.23.04 PM.jpeg", "sha256": "01e300d3c37614a0604f6b84c74b753968ac58122eeebe352d61880bd3e19518", "bytes": 126376 },
+    { "name": "WhatsApp Image 2026-10-03 at 4.23.05 PM.jpeg", "sha256": "a1e28f77947010c39d479d34579539d5c6f5b78f09d7ca5c14d926bf5e087393", "bytes": 153189 }
+  ]
+}

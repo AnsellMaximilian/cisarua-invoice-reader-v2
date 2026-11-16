@@ -1,0 +1,1340 @@
+{
+  "schemaVersion": "rumah-sehat-v2-slip-review-v1",
+  "readyToImport": true,
+  "source": {
+    "imageFile": "WhatsApp Image 2026-10-10 at 7.08.04 PM (1).jpeg",
+    "sourcePath": "incoming/WhatsApp Image 2026-10-10 at 7.08.04 PM (1).jpeg",
+    "slipIndex": 2
+  },
+  "extracted": {
+    "customerNameRead": "Yenti",
+    "addressRead": "DMO, Tmn. Kencana LB 11",
+    "date": "2026-10-08",
+    "slipTotalRead": 109680,
+    "slipTotalCertain": true,
+    "lines": [
+      {
+        "lineId": "s16-l01",
+        "productNameRead": "Ikan Nila Hitam",
+        "quantity": 1,
+        "totalRead": 60000
+      },
+      {
+        "lineId": "s16-l02",
+        "productNameRead": "Caisim",
+        "quantity": 0.2,
+        "totalRead": 8000
+      },
+      {
+        "lineId": "s16-l03",
+        "productNameRead": "Horenso",
+        "quantity": 0.2,
+        "totalRead": 11000
+      },
+      {
+        "lineId": "s16-l04",
+        "productNameRead": "Brokoli",
+        "quantity": 0.34,
+        "totalRead": 17680
+      },
+      {
+        "lineId": "s16-l05",
+        "productNameRead": "Tomat Cherry",
+        "quantity": 0.25,
+        "totalRead": 13000
+      }
+    ],
+    "excludedOrNotReceived": []
+  },
+  "resolved": {
+    "supplier": {
+      "id": "19f80084-3483-5e26-97f4-58884573bbde",
+      "name": "Cisarua"
+    },
+    "customer": {
+      "id": "a1349402-1a12-5eb9-a5eb-3ac6d6234b47",
+      "name": "Yenti",
+      "legacyCustomerId": 72,
+      "aliases": [],
+      "addresses": [
+        "Daan Mogot Baru, kompleks Jl. Kintamani Timur I Blok LB no. 11"
+      ],
+      "nameRead": "Yenti"
+    }
+  },
+  "warnings": [],
+  "calculations": {
+    "supplierProductSubtotal": 109680,
+    "supplierDeliveryFee": 10000,
+    "supplierTotal": 119680,
+    "customerDeliveryCharge": 10000,
+    "handwrittenProductTotal": 109680,
+    "lineTotalSum": 109680,
+    "handwrittenMinusLineSum": 0
+  },
+  "proposedDraft": {
+    "supplierDirectDraft": {
+      "schemaVersion": 1,
+      "supplierId": "19f80084-3483-5e26-97f4-58884573bbde",
+      "supplierName": "Cisarua",
+      "customerId": "a1349402-1a12-5eb9-a5eb-3ac6d6234b47",
+      "customerName": "Yenti",
+      "occurred": {
+        "date": "2026-10-08",
+        "precision": "date"
+      },
+      "supplierReference": "WhatsApp Image 2026-10-10 at 7.08.04 PM (1).jpeg#2",
+      "note": "Handwritten product total Rp109680; line sum matches.",
+      "lines": [
+        {
+          "clientLineKey": "s16-l01",
+          "productId": "fb2fae85-dff9-5f8f-84f5-dc4ac1a6b4ad",
+          "productName": "Ikan Nila Organik",
+          "inputUnitCode": "unit",
+          "quantity": "1",
+          "supplierDescription": "Ikan Nila Organik",
+          "supplierCost": {
+            "status": "provisional",
+            "totalAmount": "60000"
+          },
+          "customerPricing": {
+            "source": "catalog"
+          }
+        },
+        {
+          "clientLineKey": "s16-l02",
+          "productId": "6b1c9786-c7f6-5682-86fd-ab198c6a2bb4",
+          "productName": "Caisim",
+          "inputUnitCode": "kg",
+          "quantity": "0.2",
+          "supplierDescription": "Caisim",
+          "supplierCost": {
+            "status": "provisional",
+            "totalAmount": "8000"
+          },
+          "customerPricing": {
+            "source": "catalog"
+          }
+        },
+        {
+          "clientLineKey": "s16-l03",
+          "productId": "e692c0d0-eed7-5a74-a55e-1d27e583f215",
+          "productName": "Spinach/Horenzo",
+          "inputUnitCode": "kg",
+          "quantity": "0.2",
+          "supplierDescription": "Spinach/Horenzo",
+          "supplierCost": {
+            "status": "provisional",
+            "totalAmount": "11000"
+          },
+          "customerPricing": {
+            "source": "catalog"
+          }
+        },
+        {
+          "clientLineKey": "s16-l04",
+          "productId": "0bbdc2cf-a928-5df3-9c1e-15e1ccd212c2",
+          "productName": "Broccoli",
+          "inputUnitCode": "kg",
+          "quantity": "0.34",
+          "supplierDescription": "Broccoli",
+          "supplierCost": {
+            "status": "provisional",
+            "totalAmount": "17680"
+          },
+          "customerPricing": {
+            "source": "catalog"
+          }
+        },
+        {
+          "clientLineKey": "s16-l05",
+          "productId": "4e656e17-f659-53ac-af70-45abda618f4b",
+          "productName": "Tomat Cherry",
+          "inputUnitCode": "kg",
+          "quantity": "0.25",
+          "supplierDescription": "Tomat Cherry",
+          "supplierCost": {
+            "status": "provisional",
+            "totalAmount": "13000"
+          },
+          "customerPricing": {
+            "source": "catalog"
+          }
+        }
+      ],
+      "supplierDeliveryFee": {
+        "status": "provisional",
+        "amount": "10000",
+        "note": "Imported from reviewed supplier slip; confirm during supplier reconciliation."
+      },
+      "customerDeliveryCharge": "10000",
+      "customerDeliveryDescription": "Biaya pengantaran supplier langsung"
+    }
+  },
+  "supplierDirectDraft": {
+    "schemaVersion": 1,
+    "supplierId": "19f80084-3483-5e26-97f4-58884573bbde",
+    "supplierName": "Cisarua",
+    "customerId": "a1349402-1a12-5eb9-a5eb-3ac6d6234b47",
+    "customerName": "Yenti",
+    "occurred": {
+      "date": "2026-10-08",
+      "precision": "date"
+    },
+    "supplierReference": "WhatsApp Image 2026-10-10 at 7.08.04 PM (1).jpeg#2",
+    "note": "Handwritten product total Rp109680; line sum matches.",
+    "lines": [
+      {
+        "clientLineKey": "s16-l01",
+        "productId": "fb2fae85-dff9-5f8f-84f5-dc4ac1a6b4ad",
+        "productName": "Ikan Nila Organik",
+        "inputUnitCode": "unit",
+        "quantity": "1",
+        "supplierDescription": "Ikan Nila Organik",
+        "supplierCost": {
+          "status": "provisional",
+          "totalAmount": "60000"
+        },
+        "customerPricing": {
+          "source": "catalog"
+        }
+      },
+      {
+        "clientLineKey": "s16-l02",
+        "productId": "6b1c9786-c7f6-5682-86fd-ab198c6a2bb4",
+        "productName": "Caisim",
+        "inputUnitCode": "kg",
+        "quantity": "0.2",
+        "supplierDescription": "Caisim",
+        "supplierCost": {
+          "status": "provisional",
+          "totalAmount": "8000"
+        },
+        "customerPricing": {
+          "source": "catalog"
+        }
+      },
+      {
+        "clientLineKey": "s16-l03",
+        "productId": "e692c0d0-eed7-5a74-a55e-1d27e583f215",
+        "productName": "Spinach/Horenzo",
+        "inputUnitCode": "kg",
+        "quantity": "0.2",
+        "supplierDescription": "Spinach/Horenzo",
+        "supplierCost": {
+          "status": "provisional",
+          "totalAmount": "11000"
+        },
+        "customerPricing": {
+          "source": "catalog"
+        }
+      },
+      {
+        "clientLineKey": "s16-l04",
+        "productId": "0bbdc2cf-a928-5df3-9c1e-15e1ccd212c2",
+        "productName": "Broccoli",
+        "inputUnitCode": "kg",
+        "quantity": "0.34",
+        "supplierDescription": "Broccoli",
+        "supplierCost": {
+          "status": "provisional",
+          "totalAmount": "17680"
+        },
+        "customerPricing": {
+          "source": "catalog"
+        }
+      },
+      {
+        "clientLineKey": "s16-l05",
+        "productId": "4e656e17-f659-53ac-af70-45abda618f4b",
+        "productName": "Tomat Cherry",
+        "inputUnitCode": "kg",
+        "quantity": "0.25",
+        "supplierDescription": "Tomat Cherry",
+        "supplierCost": {
+          "status": "provisional",
+          "totalAmount": "13000"
+        },
+        "customerPricing": {
+          "source": "catalog"
+        }
+      }
+    ],
+    "supplierDeliveryFee": {
+      "status": "provisional",
+      "amount": "10000",
+      "note": "Imported from reviewed supplier slip; confirm during supplier reconciliation."
+    },
+    "customerDeliveryCharge": "10000",
+    "customerDeliveryDescription": "Biaya pengantaran supplier langsung"
+  },
+  "workflow": "supplier_direct",
+  "customerResolutionEvidence": {
+    "nameRead": "Yenti",
+    "addressRead": "DMO, Tmn. Kencana LB 11",
+    "confidence": "medium",
+    "suggestedCustomerId": null,
+    "candidates": [
+      {
+        "customerId": "a1349402-1a12-5eb9-a5eb-3ac6d6234b47",
+        "legacyCustomerId": 72,
+        "fullName": "Yenti",
+        "aliases": [],
+        "addresses": [
+          "Daan Mogot Baru, kompleks Jl. Kintamani Timur I Blok LB no. 11"
+        ],
+        "matchedOn": "canonical_name",
+        "matchedText": "Yenti",
+        "nameScore": 1,
+        "addressScore": 0.2712,
+        "score": 0.9125
+      },
+      {
+        "customerId": "8882e726-38c6-539c-9938-45f74e9d219d",
+        "legacyCustomerId": 299,
+        "fullName": "Yenti (Lea)",
+        "aliases": [],
+        "addresses": [
+          "Curug"
+        ],
+        "matchedOn": "canonical_name",
+        "matchedText": "Yenti (Lea)",
+        "nameScore": 0.9067,
+        "addressScore": 0.0476,
+        "score": 0.8036
+      },
+      {
+        "customerId": "026b715b-7c9d-56a9-9492-a6f3dd41d8a5",
+        "legacyCustomerId": 266,
+        "fullName": "Yenni",
+        "aliases": [],
+        "addresses": [],
+        "matchedOn": "canonical_name",
+        "matchedText": "Yenni",
+        "nameScore": 0.8,
+        "addressScore": 0,
+        "score": 0.704
+      },
+      {
+        "customerId": "883e006d-e577-5603-9a69-d8c72f6f8f2b",
+        "legacyCustomerId": 418,
+        "fullName": "Yenita",
+        "aliases": [],
+        "addresses": [],
+        "matchedOn": "canonical_name",
+        "matchedText": "Yenita",
+        "nameScore": 0.6667,
+        "addressScore": 0,
+        "score": 0.5867
+      },
+      {
+        "customerId": "d32ac1f7-41e5-5f85-bdad-5a51d0e03259",
+        "legacyCustomerId": 324,
+        "fullName": "Esti",
+        "aliases": [],
+        "addresses": [
+          "Jl Melati No. 6 Durentiga (Blkg KFC Basmar Plaza) Jakarta Selatan 12760"
+        ],
+        "matchedOn": "canonical_name",
+        "matchedText": "Esti",
+        "nameScore": 0.6,
+        "addressScore": 0.1912,
+        "score": 0.5509
+      },
+      {
+        "customerId": "92d8b387-6739-5628-89e1-63b6bd1b1c42",
+        "legacyCustomerId": 26,
+        "fullName": "Yessi",
+        "aliases": [],
+        "addresses": [
+          "Jl Kelapa Lilin 7 blok ni3 no 10 kelapa gading jakarta utara"
+        ],
+        "matchedOn": "canonical_name",
+        "matchedText": "Yessi",
+        "nameScore": 0.6,
+        "addressScore": 0.1667,
+        "score": 0.548
+      },
+      {
+        "customerId": "6383795a-b268-55af-86c5-c8b245f055d2",
+        "legacyCustomerId": 198,
+        "fullName": "Yetty",
+        "aliases": [],
+        "addresses": [
+          "Jalan Kelapa Puan XXI Blok AH 8, No.9, Sektor 1A, Gading Serpong"
+        ],
+        "matchedOn": "canonical_name",
+        "matchedText": "Yetty",
+        "nameScore": 0.6,
+        "addressScore": 0.1311,
+        "score": 0.5437
+      },
+      {
+        "customerId": "cbcda774-bb2d-5eb0-bf64-cbe896c0f1a1",
+        "legacyCustomerId": 290,
+        "fullName": "Yani",
+        "aliases": [],
+        "addresses": [
+          "Vanda"
+        ],
+        "matchedOn": "canonical_name",
+        "matchedText": "Yani",
+        "nameScore": 0.6,
+        "addressScore": 0.0952,
+        "score": 0.5394
+      },
+      {
+        "customerId": "b4bdfac4-74ea-55ed-8c01-2f78a1cf21cc",
+        "legacyCustomerId": 551,
+        "fullName": "Kanti",
+        "aliases": [],
+        "addresses": [],
+        "matchedOn": "canonical_name",
+        "matchedText": "Kanti",
+        "nameScore": 0.6,
+        "addressScore": 0,
+        "score": 0.528
+      },
+      {
+        "customerId": "e2641c9b-7c66-5e88-95a5-f8a24c8651b4",
+        "legacyCustomerId": 60,
+        "fullName": "Yenling",
+        "aliases": [],
+        "addresses": [
+          "Taman Golf Barat No.11, Lippo Karawaci"
+        ],
+        "matchedOn": "canonical_name",
+        "matchedText": "Yenling",
+        "nameScore": 0.5714,
+        "addressScore": 0.1892,
+        "score": 0.5256
+      }
+    ],
+    "warnings": [
+      "Customer was not auto-selected; review the ranked candidates."
+    ]
+  },
+  "productMatchingEvidence": {
+    "supplier": {
+      "id": "19f80084-3483-5e26-97f4-58884573bbde",
+      "name": "Cisarua"
+    },
+    "effectiveOn": "2026-10-08",
+    "lines": [
+      {
+        "lineId": "s16-l01",
+        "productNameRead": "Ikan Nila Hitam",
+        "qtyRead": 1,
+        "totalRead": 60000,
+        "confidence": "medium",
+        "suggestedProductId": null,
+        "candidates": [
+          {
+            "productId": "fb2fae85-dff9-5f8f-84f5-dc4ac1a6b4ad",
+            "productCode": "legacy-rs-678",
+            "name": "Ikan Nila Organik",
+            "inputUnitCode": "unit",
+            "inputUnitLabel": "Satuan/paket",
+            "expectedUnitCost": "60000.000000",
+            "catalogPrice": "70000.000000",
+            "matchedOn": "canonical_name",
+            "matchedText": "Ikan Nila Organik",
+            "nameScore": 0.6471,
+            "costScore": 1,
+            "expectedTotal": 60000,
+            "totalDelta": 0,
+            "totalMatches": true,
+            "score": 0.7247
+          },
+          {
+            "productId": "53912977-b3a7-580d-8075-11fb507290dc",
+            "productCode": "legacy-rs-684",
+            "name": "Paprika Hijau",
+            "inputUnitCode": "kg",
+            "inputUnitLabel": "Kilogram",
+            "expectedUnitCost": "66000.000000",
+            "catalogPrice": "75000.000000",
+            "matchedOn": "canonical_name",
+            "matchedText": "Paprika Hijau",
+            "nameScore": 0.4667,
+            "costScore": 0.6364,
+            "expectedTotal": 66000,
+            "totalDelta": 6000,
+            "totalMatches": false,
+            "score": 0.504
+          },
+          {
+            "productId": "67f6583a-f2f0-568f-985c-55ee7ccf23e1",
+            "productCode": "legacy-rs-670",
+            "name": "Kacang Hijau",
+            "inputUnitCode": "kg",
+            "inputUnitLabel": "Kilogram",
+            "expectedUnitCost": "52000.000000",
+            "catalogPrice": "57000.000000",
+            "matchedOn": "canonical_name",
+            "matchedText": "Kacang Hijau",
+            "nameScore": 0.4667,
+            "costScore": 0.3846,
+            "expectedTotal": 52000,
+            "totalDelta": 8000,
+            "totalMatches": false,
+            "score": 0.4486
+          },
+          {
+            "productId": "462136c7-d728-5782-9cfb-b94fbc36b672",
+            "productCode": "legacy-rs-686",
+            "name": "Paprika Merah",
+            "inputUnitCode": "kg",
+            "inputUnitLabel": "Kilogram",
+            "expectedUnitCost": "67000.000000",
+            "catalogPrice": "75000.000000",
+            "matchedOn": "canonical_name",
+            "matchedText": "Paprika Merah",
+            "nameScore": 0.3333,
+            "costScore": 0.5821,
+            "expectedTotal": 67000,
+            "totalDelta": 7000,
+            "totalMatches": false,
+            "score": 0.3881
+          },
+          {
+            "productId": "fe3b2e5d-3d7f-5d78-945e-a8c1defc0b77",
+            "productCode": "legacy-rs-677",
+            "name": "Ayam Broiler",
+            "inputUnitCode": "unit",
+            "inputUnitLabel": "Satuan/paket",
+            "expectedUnitCost": "60000.000000",
+            "catalogPrice": "72000.000000",
+            "matchedOn": "canonical_name",
+            "matchedText": "Ayam Broiler",
+            "nameScore": 0.2,
+            "costScore": 1,
+            "expectedTotal": 60000,
+            "totalDelta": 0,
+            "totalMatches": true,
+            "score": 0.376
+          },
+          {
+            "productId": "01f8d7f4-6f0d-5b9f-b764-abc42f7e551e",
+            "productCode": "legacy-rs-672",
+            "name": "Jahe Gajah",
+            "inputUnitCode": "kg",
+            "inputUnitLabel": "Kilogram",
+            "expectedUnitCost": "60000.000000",
+            "catalogPrice": "75000.000000",
+            "matchedOn": "canonical_name",
+            "matchedText": "Jahe Gajah",
+            "nameScore": 0.2,
+            "costScore": 1,
+            "expectedTotal": 60000,
+            "totalDelta": 0,
+            "totalMatches": true,
+            "score": 0.376
+          },
+          {
+            "productId": "86c0a0c7-ebfb-5209-8d12-33c56cf05120",
+            "productCode": "legacy-rs-681",
+            "name": "Bawang Putih",
+            "inputUnitCode": "kg",
+            "inputUnitLabel": "Kilogram",
+            "expectedUnitCost": "66000.000000",
+            "catalogPrice": "80000.000000",
+            "matchedOn": "canonical_name",
+            "matchedText": "Bawang Putih",
+            "nameScore": 0.2667,
+            "costScore": 0.6364,
+            "expectedTotal": 66000,
+            "totalDelta": 6000,
+            "totalMatches": false,
+            "score": 0.348
+          },
+          {
+            "productId": "a1624301-ae3c-586a-9852-26411992ea6c",
+            "productCode": "legacy-rs-675",
+            "name": "Kol Merah",
+            "inputUnitCode": "kg",
+            "inputUnitLabel": "Kilogram",
+            "expectedUnitCost": "54000.000000",
+            "catalogPrice": "65000.000000",
+            "matchedOn": "canonical_name",
+            "matchedText": "Kol Merah",
+            "nameScore": 0.2667,
+            "costScore": 0.5556,
+            "expectedTotal": 54000,
+            "totalDelta": 6000,
+            "totalMatches": false,
+            "score": 0.3302
+          },
+          {
+            "productId": "cf6ba5c0-eaff-5fac-b343-3259ea85d0c2",
+            "productCode": "legacy-rs-679",
+            "name": "Jahe Merah",
+            "inputUnitCode": "kg",
+            "inputUnitLabel": "Kilogram",
+            "expectedUnitCost": "64000.000000",
+            "catalogPrice": "80000.000000",
+            "matchedOn": "canonical_name",
+            "matchedText": "Jahe Merah",
+            "nameScore": 0.2,
+            "costScore": 0.75,
+            "expectedTotal": 64000,
+            "totalDelta": 4000,
+            "totalMatches": false,
+            "score": 0.321
+          },
+          {
+            "productId": "52aed7ec-cba5-5947-ab31-c9c6abc983f2",
+            "productCode": "legacy-rs-631",
+            "name": "Kol Hijau",
+            "inputUnitCode": "kg",
+            "inputUnitLabel": "Kilogram",
+            "expectedUnitCost": "32000.000000",
+            "catalogPrice": "42000.000000",
+            "matchedOn": "canonical_name",
+            "matchedText": "Kol Hijau",
+            "nameScore": 0.4,
+            "costScore": 0,
+            "expectedTotal": 32000,
+            "totalDelta": 28000,
+            "totalMatches": false,
+            "score": 0.312
+          }
+        ],
+        "warnings": [
+          "Product was not auto-selected."
+        ]
+      },
+      {
+        "lineId": "s16-l02",
+        "productNameRead": "Caisim",
+        "qtyRead": 0.2,
+        "totalRead": 8000,
+        "confidence": "high",
+        "suggestedProductId": "6b1c9786-c7f6-5682-86fd-ab198c6a2bb4",
+        "candidates": [
+          {
+            "productId": "6b1c9786-c7f6-5682-86fd-ab198c6a2bb4",
+            "productCode": "legacy-rs-648",
+            "name": "Caisim",
+            "inputUnitCode": "kg",
+            "inputUnitLabel": "Kilogram",
+            "expectedUnitCost": "40000.000000",
+            "catalogPrice": "60000.000000",
+            "matchedOn": "canonical_name",
+            "matchedText": "Caisim",
+            "nameScore": 1,
+            "costScore": 1,
+            "expectedTotal": 8000,
+            "totalDelta": 0,
+            "totalMatches": true,
+            "score": 1
+          },
+          {
+            "productId": "6bb6701b-aa7c-5612-8119-d84e62ec0e58",
+            "productCode": "legacy-rs-639",
+            "name": "Kailan",
+            "inputUnitCode": "kg",
+            "inputUnitLabel": "Kilogram",
+            "expectedUnitCost": "40000.000000",
+            "catalogPrice": "52000.000000",
+            "matchedOn": "canonical_name",
+            "matchedText": "Kailan",
+            "nameScore": 0.3333,
+            "costScore": 1,
+            "expectedTotal": 8000,
+            "totalDelta": 0,
+            "totalMatches": true,
+            "score": 0.48
+          },
+          {
+            "productId": "05cb70a7-fe8b-5b73-b374-05170b5a1a48",
+            "productCode": "legacy-rs-987",
+            "name": "Kenikir",
+            "inputUnitCode": "kg",
+            "inputUnitLabel": "Kilogram",
+            "expectedUnitCost": "40000.000000",
+            "catalogPrice": "50000.000000",
+            "matchedOn": "canonical_name",
+            "matchedText": "Kenikir",
+            "nameScore": 0.2857,
+            "costScore": 1,
+            "expectedTotal": 8000,
+            "totalDelta": 0,
+            "totalMatches": true,
+            "score": 0.4429
+          },
+          {
+            "productId": "41b1d5d2-c164-5d2a-ab86-92d981daad04",
+            "productCode": "legacy-rs-650",
+            "name": "Daun Singkong",
+            "inputUnitCode": "kg",
+            "inputUnitLabel": "Kilogram",
+            "expectedUnitCost": "40000.000000",
+            "catalogPrice": "48000.000000",
+            "matchedOn": "canonical_name",
+            "matchedText": "Daun Singkong",
+            "nameScore": 0.2308,
+            "costScore": 1,
+            "expectedTotal": 8000,
+            "totalDelta": 0,
+            "totalMatches": true,
+            "score": 0.4
+          },
+          {
+            "productId": "3e41fdc8-9277-5a3a-bc22-56878b7b6644",
+            "productCode": "legacy-rs-643",
+            "name": "Selada Siomak",
+            "inputUnitCode": "kg",
+            "inputUnitLabel": "Kilogram",
+            "expectedUnitCost": "44000.000000",
+            "catalogPrice": "55000.000000",
+            "matchedOn": "canonical_name",
+            "matchedText": "Selada Siomak",
+            "nameScore": 0.3077,
+            "costScore": 0.6364,
+            "expectedTotal": 8800,
+            "totalDelta": 800,
+            "totalMatches": false,
+            "score": 0.38
+          },
+          {
+            "productId": "29588173-a186-50b5-b49f-2c72805fcaef",
+            "productCode": "legacy-rs-635",
+            "name": "Selada Keriting",
+            "inputUnitCode": "kg",
+            "inputUnitLabel": "Kilogram",
+            "expectedUnitCost": "40000.000000",
+            "catalogPrice": "55000.000000",
+            "matchedOn": "canonical_name",
+            "matchedText": "Selada Keriting",
+            "nameScore": 0.2,
+            "costScore": 1,
+            "expectedTotal": 8000,
+            "totalDelta": 0,
+            "totalMatches": true,
+            "score": 0.376
+          },
+          {
+            "productId": "cc64524c-4c46-59b6-ad3e-b411b3376bf3",
+            "productCode": "legacy-rs-646",
+            "name": "Bayam Hijau",
+            "inputUnitCode": "kg",
+            "inputUnitLabel": "Kilogram",
+            "expectedUnitCost": "40000.000000",
+            "catalogPrice": "60000.000000",
+            "matchedOn": "canonical_name",
+            "matchedText": "Bayam Hijau",
+            "nameScore": 0.1818,
+            "costScore": 1,
+            "expectedTotal": 8000,
+            "totalDelta": 0,
+            "totalMatches": true,
+            "score": 0.3618
+          },
+          {
+            "productId": "216a7799-6892-584a-893b-208ed50fcd8b",
+            "productCode": "legacy-rs-647",
+            "name": "Bayam Merah",
+            "inputUnitCode": "kg",
+            "inputUnitLabel": "Kilogram",
+            "expectedUnitCost": "40000.000000",
+            "catalogPrice": "60000.000000",
+            "matchedOn": "canonical_name",
+            "matchedText": "Bayam Merah",
+            "nameScore": 0.1818,
+            "costScore": 1,
+            "expectedTotal": 8000,
+            "totalDelta": 0,
+            "totalMatches": true,
+            "score": 0.3618
+          },
+          {
+            "productId": "683c8da2-b4c9-5060-a473-d9cca96f746c",
+            "productCode": "legacy-rs-616",
+            "name": "Buncis Baby",
+            "inputUnitCode": "kg",
+            "inputUnitLabel": "Kilogram",
+            "expectedUnitCost": "40000.000000",
+            "catalogPrice": "55000.000000",
+            "matchedOn": "canonical_name",
+            "matchedText": "Buncis Baby",
+            "nameScore": 0.1818,
+            "costScore": 1,
+            "expectedTotal": 8000,
+            "totalDelta": 0,
+            "totalMatches": true,
+            "score": 0.3618
+          },
+          {
+            "productId": "b48b3e09-39ba-5203-bc28-18b123ffae8b",
+            "productCode": "legacy-rs-654",
+            "name": "Jamur Tiram",
+            "inputUnitCode": "kg",
+            "inputUnitLabel": "Kilogram",
+            "expectedUnitCost": "44000.000000",
+            "catalogPrice": "70000.000000",
+            "matchedOn": "canonical_name",
+            "matchedText": "Jamur Tiram",
+            "nameScore": 0.2727,
+            "costScore": 0.6364,
+            "expectedTotal": 8800,
+            "totalDelta": 800,
+            "totalMatches": false,
+            "score": 0.3527
+          }
+        ],
+        "warnings": []
+      },
+      {
+        "lineId": "s16-l03",
+        "productNameRead": "Horenso",
+        "qtyRead": 0.2,
+        "totalRead": 11000,
+        "confidence": "low",
+        "suggestedProductId": null,
+        "candidates": [
+          {
+            "productId": "e692c0d0-eed7-5a74-a55e-1d27e583f215",
+            "productCode": "legacy-rs-668",
+            "name": "Spinach/Horenzo",
+            "inputUnitCode": "kg",
+            "inputUnitLabel": "Kilogram",
+            "expectedUnitCost": "55000.000000",
+            "catalogPrice": "70000.000000",
+            "matchedOn": "canonical_name",
+            "matchedText": "Spinach/Horenzo",
+            "nameScore": 0.4,
+            "costScore": 1,
+            "expectedTotal": 11000,
+            "totalDelta": 0,
+            "totalMatches": true,
+            "score": 0.532
+          },
+          {
+            "productId": "a1624301-ae3c-586a-9852-26411992ea6c",
+            "productCode": "legacy-rs-675",
+            "name": "Kol Merah",
+            "inputUnitCode": "kg",
+            "inputUnitLabel": "Kilogram",
+            "expectedUnitCost": "54000.000000",
+            "catalogPrice": "65000.000000",
+            "matchedOn": "canonical_name",
+            "matchedText": "Kol Merah",
+            "nameScore": 0.2222,
+            "costScore": 0.9259,
+            "expectedTotal": 10800,
+            "totalDelta": 200,
+            "totalMatches": false,
+            "score": 0.377
+          },
+          {
+            "productId": "5ab42941-d2af-57b8-ae06-f139e1c0d06f",
+            "productCode": "legacy-rs-676",
+            "name": "Seledri Stick",
+            "inputUnitCode": "kg",
+            "inputUnitLabel": "Kilogram",
+            "expectedUnitCost": "55000.000000",
+            "catalogPrice": "72500.000000",
+            "matchedOn": "canonical_name",
+            "matchedText": "Seledri Stick",
+            "nameScore": 0.1538,
+            "costScore": 1,
+            "expectedTotal": 11000,
+            "totalDelta": 0,
+            "totalMatches": true,
+            "score": 0.34
+          },
+          {
+            "productId": "76ec61e8-d60f-5aeb-9dba-fadf9a8f9836",
+            "productCode": "legacy-rs-673",
+            "name": "Jeruk Limo",
+            "inputUnitCode": "kg",
+            "inputUnitLabel": "Kilogram",
+            "expectedUnitCost": "52000.000000",
+            "catalogPrice": "62000.000000",
+            "matchedOn": "canonical_name",
+            "matchedText": "Jeruk Limo",
+            "nameScore": 0.2,
+            "costScore": 0.7692,
+            "expectedTotal": 10400,
+            "totalDelta": 600,
+            "totalMatches": false,
+            "score": 0.3252
+          },
+          {
+            "productId": "4e656e17-f659-53ac-af70-45abda618f4b",
+            "productCode": "legacy-rs-655",
+            "name": "Tomat Cherry",
+            "inputUnitCode": "kg",
+            "inputUnitLabel": "Kilogram",
+            "expectedUnitCost": "52000.000000",
+            "catalogPrice": "66000.000000",
+            "matchedOn": "canonical_name",
+            "matchedText": "Tomat Cherry",
+            "nameScore": 0.1667,
+            "costScore": 0.7692,
+            "expectedTotal": 10400,
+            "totalDelta": 600,
+            "totalMatches": false,
+            "score": 0.2992
+          },
+          {
+            "productId": "79cc60ea-71de-57dd-8643-8d039591e9ba",
+            "productCode": "legacy-rs-671",
+            "name": "Sawi Pagoda",
+            "inputUnitCode": "kg",
+            "inputUnitLabel": "Kilogram",
+            "expectedUnitCost": "55000.000000",
+            "catalogPrice": "65000.000000",
+            "matchedOn": "canonical_name",
+            "matchedText": "Sawi Pagoda",
+            "nameScore": 0.0909,
+            "costScore": 1,
+            "expectedTotal": 11000,
+            "totalDelta": 0,
+            "totalMatches": true,
+            "score": 0.2909
+          },
+          {
+            "productId": "fb2fae85-dff9-5f8f-84f5-dc4ac1a6b4ad",
+            "productCode": "legacy-rs-678",
+            "name": "Ikan Nila Organik",
+            "inputUnitCode": "unit",
+            "inputUnitLabel": "Satuan/paket",
+            "expectedUnitCost": "60000.000000",
+            "catalogPrice": "70000.000000",
+            "matchedOn": "canonical_name",
+            "matchedText": "Ikan Nila Organik",
+            "nameScore": 0.1765,
+            "costScore": 0.6667,
+            "expectedTotal": 12000,
+            "totalDelta": 1000,
+            "totalMatches": false,
+            "score": 0.2843
+          },
+          {
+            "productId": "17b7ead9-0077-5a32-ac47-b2944b05de4d",
+            "productCode": "legacy-rs-1043",
+            "name": "Sayap Broiler",
+            "inputUnitCode": "unit",
+            "inputUnitLabel": "Satuan/paket",
+            "expectedUnitCost": "55000.000000",
+            "catalogPrice": "70000.000000",
+            "matchedOn": "canonical_name",
+            "matchedText": "Sayap Broiler",
+            "nameScore": 0.0769,
+            "costScore": 1,
+            "expectedTotal": 11000,
+            "totalDelta": 0,
+            "totalMatches": true,
+            "score": 0.28
+          },
+          {
+            "productId": "34194509-7fa0-52d4-b2ff-e1543e720b14",
+            "productCode": "legacy-rs-658",
+            "name": "Daun Ginseng",
+            "inputUnitCode": "kg",
+            "inputUnitLabel": "Kilogram",
+            "expectedUnitCost": "50000.000000",
+            "catalogPrice": "60000.000000",
+            "matchedOn": "canonical_name",
+            "matchedText": "Daun Ginseng",
+            "nameScore": 0.1667,
+            "costScore": 0.6,
+            "expectedTotal": 10000,
+            "totalDelta": 1000,
+            "totalMatches": false,
+            "score": 0.262
+          },
+          {
+            "productId": "cf6ba5c0-eaff-5fac-b343-3259ea85d0c2",
+            "productCode": "legacy-rs-679",
+            "name": "Jahe Merah",
+            "inputUnitCode": "kg",
+            "inputUnitLabel": "Kilogram",
+            "expectedUnitCost": "64000.000000",
+            "catalogPrice": "80000.000000",
+            "matchedOn": "canonical_name",
+            "matchedText": "Jahe Merah",
+            "nameScore": 0.2,
+            "costScore": 0.4375,
+            "expectedTotal": 12800,
+            "totalDelta": 1800,
+            "totalMatches": false,
+            "score": 0.2522
+          }
+        ],
+        "warnings": [
+          "Product was not auto-selected."
+        ]
+      },
+      {
+        "lineId": "s16-l04",
+        "productNameRead": "Brokoli",
+        "qtyRead": 0.34,
+        "totalRead": 17680,
+        "confidence": "high",
+        "suggestedProductId": "0bbdc2cf-a928-5df3-9c1e-15e1ccd212c2",
+        "candidates": [
+          {
+            "productId": "0bbdc2cf-a928-5df3-9c1e-15e1ccd212c2",
+            "productCode": "legacy-rs-669",
+            "name": "Broccoli",
+            "inputUnitCode": "kg",
+            "inputUnitLabel": "Kilogram",
+            "expectedUnitCost": "52000.000000",
+            "catalogPrice": "65000.000000",
+            "matchedOn": "canonical_name",
+            "matchedText": "Broccoli",
+            "nameScore": 1,
+            "costScore": 1,
+            "expectedTotal": 17680,
+            "totalDelta": 0,
+            "totalMatches": true,
+            "score": 1
+          },
+          {
+            "productId": "76ec61e8-d60f-5aeb-9dba-fadf9a8f9836",
+            "productCode": "legacy-rs-673",
+            "name": "Jeruk Limo",
+            "inputUnitCode": "kg",
+            "inputUnitLabel": "Kilogram",
+            "expectedUnitCost": "52000.000000",
+            "catalogPrice": "62000.000000",
+            "matchedOn": "canonical_name",
+            "matchedText": "Jeruk Limo",
+            "nameScore": 0.4,
+            "costScore": 1,
+            "expectedTotal": 17680,
+            "totalDelta": 0,
+            "totalMatches": true,
+            "score": 0.532
+          },
+          {
+            "productId": "18388b2f-2c24-5143-860c-e0f576e4063c",
+            "productCode": "legacy-rs-660",
+            "name": "Tunas Kol (Ceciwis)",
+            "inputUnitCode": "kg",
+            "inputUnitLabel": "Kilogram",
+            "expectedUnitCost": "50000.000000",
+            "catalogPrice": "60000.000000",
+            "matchedOn": "canonical_name",
+            "matchedText": "Tunas Kol (Ceciwis)",
+            "nameScore": 0.2353,
+            "costScore": 0.84,
+            "expectedTotal": 17000,
+            "totalDelta": 680,
+            "totalMatches": false,
+            "score": 0.3683
+          },
+          {
+            "productId": "17b7ead9-0077-5a32-ac47-b2944b05de4d",
+            "productCode": "legacy-rs-1043",
+            "name": "Sayap Broiler",
+            "inputUnitCode": "unit",
+            "inputUnitLabel": "Satuan/paket",
+            "expectedUnitCost": "55000.000000",
+            "catalogPrice": "70000.000000",
+            "matchedOn": "canonical_name",
+            "matchedText": "Sayap Broiler",
+            "nameScore": 0.2308,
+            "costScore": 0.7818,
+            "expectedTotal": 18700,
+            "totalDelta": 1020,
+            "totalMatches": false,
+            "score": 0.352
+          },
+          {
+            "productId": "fe3b2e5d-3d7f-5d78-945e-a8c1defc0b77",
+            "productCode": "legacy-rs-677",
+            "name": "Ayam Broiler",
+            "inputUnitCode": "unit",
+            "inputUnitLabel": "Satuan/paket",
+            "expectedUnitCost": "60000.000000",
+            "catalogPrice": "72000.000000",
+            "matchedOn": "canonical_name",
+            "matchedText": "Ayam Broiler",
+            "nameScore": 0.25,
+            "costScore": 0.4667,
+            "expectedTotal": 20400,
+            "totalDelta": 2720,
+            "totalMatches": false,
+            "score": 0.2977
+          },
+          {
+            "productId": "5ab42941-d2af-57b8-ae06-f139e1c0d06f",
+            "productCode": "legacy-rs-676",
+            "name": "Seledri Stick",
+            "inputUnitCode": "kg",
+            "inputUnitLabel": "Kilogram",
+            "expectedUnitCost": "55000.000000",
+            "catalogPrice": "72500.000000",
+            "matchedOn": "canonical_name",
+            "matchedText": "Seledri Stick",
+            "nameScore": 0.1538,
+            "costScore": 0.7818,
+            "expectedTotal": 18700,
+            "totalDelta": 1020,
+            "totalMatches": false,
+            "score": 0.292
+          },
+          {
+            "productId": "67f6583a-f2f0-568f-985c-55ee7ccf23e1",
+            "productCode": "legacy-rs-670",
+            "name": "Kacang Hijau",
+            "inputUnitCode": "kg",
+            "inputUnitLabel": "Kilogram",
+            "expectedUnitCost": "52000.000000",
+            "catalogPrice": "57000.000000",
+            "matchedOn": "canonical_name",
+            "matchedText": "Kacang Hijau",
+            "nameScore": 0.0833,
+            "costScore": 1,
+            "expectedTotal": 17680,
+            "totalDelta": 0,
+            "totalMatches": true,
+            "score": 0.285
+          },
+          {
+            "productId": "027d73b8-2fb5-5e0a-b6a4-aebbc7f8e810",
+            "productCode": "legacy-rs-1010",
+            "name": "Jeruk Nipis",
+            "inputUnitCode": "kg",
+            "inputUnitLabel": "Kilogram",
+            "expectedUnitCost": "44000.000000",
+            "catalogPrice": "50000.000000",
+            "matchedOn": "canonical_name",
+            "matchedText": "Jeruk Nipis",
+            "nameScore": 0.2727,
+            "costScore": 0.2727,
+            "expectedTotal": 14960,
+            "totalDelta": 2720,
+            "totalMatches": false,
+            "score": 0.2727
+          },
+          {
+            "productId": "e064d98b-36c5-5ae2-9b85-1294d3b463eb",
+            "productCode": "legacy-rs-664",
+            "name": "Kembang Kol",
+            "inputUnitCode": "kg",
+            "inputUnitLabel": "Kilogram",
+            "expectedUnitCost": "44000.000000",
+            "catalogPrice": "56000.000000",
+            "matchedOn": "canonical_name",
+            "matchedText": "Kembang Kol",
+            "nameScore": 0.2727,
+            "costScore": 0.2727,
+            "expectedTotal": 14960,
+            "totalDelta": 2720,
+            "totalMatches": false,
+            "score": 0.2727
+          },
+          {
+            "productId": "b9c6bba5-e72c-5fe5-9fa7-6d21771e7d06",
+            "productCode": "legacy-rs-598",
+            "name": "Beras Coklat",
+            "inputUnitCode": "unit",
+            "inputUnitLabel": "Satuan/paket",
+            "expectedUnitCost": "31000.000000",
+            "catalogPrice": "39000.000000",
+            "matchedOn": "canonical_name",
+            "matchedText": "Beras Coklat",
+            "nameScore": 0.3333,
+            "costScore": 0,
+            "expectedTotal": 10540,
+            "totalDelta": 7140,
+            "totalMatches": false,
+            "score": 0.26
+          }
+        ],
+        "warnings": []
+      },
+      {
+        "lineId": "s16-l05",
+        "productNameRead": "Tomat Cherry",
+        "qtyRead": 0.25,
+        "totalRead": 13000,
+        "confidence": "high",
+        "suggestedProductId": "4e656e17-f659-53ac-af70-45abda618f4b",
+        "candidates": [
+          {
+            "productId": "4e656e17-f659-53ac-af70-45abda618f4b",
+            "productCode": "legacy-rs-655",
+            "name": "Tomat Cherry",
+            "inputUnitCode": "kg",
+            "inputUnitLabel": "Kilogram",
+            "expectedUnitCost": "52000.000000",
+            "catalogPrice": "66000.000000",
+            "matchedOn": "canonical_name",
+            "matchedText": "Tomat Cherry",
+            "nameScore": 1,
+            "costScore": 1,
+            "expectedTotal": 13000,
+            "totalDelta": 0,
+            "totalMatches": true,
+            "score": 1
+          },
+          {
+            "productId": "22c9f15d-fe9e-5607-bebf-fafbc227fa3b",
+            "productCode": "legacy-rs-612",
+            "name": "Tomat",
+            "inputUnitCode": "kg",
+            "inputUnitLabel": "Kilogram",
+            "expectedUnitCost": "32000.000000",
+            "catalogPrice": "42000.000000",
+            "matchedOn": "canonical_name",
+            "matchedText": "Tomat",
+            "nameScore": 0.89,
+            "costScore": 0,
+            "expectedTotal": 8000,
+            "totalDelta": 5000,
+            "totalMatches": false,
+            "score": 0.6942
+          },
+          {
+            "productId": "a1624301-ae3c-586a-9852-26411992ea6c",
+            "productCode": "legacy-rs-675",
+            "name": "Kol Merah",
+            "inputUnitCode": "kg",
+            "inputUnitLabel": "Kilogram",
+            "expectedUnitCost": "54000.000000",
+            "catalogPrice": "65000.000000",
+            "matchedOn": "canonical_name",
+            "matchedText": "Kol Merah",
+            "nameScore": 0.3333,
+            "costScore": 0.8519,
+            "expectedTotal": 13500,
+            "totalDelta": 500,
+            "totalMatches": false,
+            "score": 0.4474
+          },
+          {
+            "productId": "18388b2f-2c24-5143-860c-e0f576e4063c",
+            "productCode": "legacy-rs-660",
+            "name": "Tunas Kol (Ceciwis)",
+            "inputUnitCode": "kg",
+            "inputUnitLabel": "Kilogram",
+            "expectedUnitCost": "50000.000000",
+            "catalogPrice": "60000.000000",
+            "matchedOn": "canonical_name",
+            "matchedText": "Tunas Kol (Ceciwis)",
+            "nameScore": 0.2353,
+            "costScore": 0.84,
+            "expectedTotal": 12500,
+            "totalDelta": 500,
+            "totalMatches": false,
+            "score": 0.3683
+          },
+          {
+            "productId": "67f6583a-f2f0-568f-985c-55ee7ccf23e1",
+            "productCode": "legacy-rs-670",
+            "name": "Kacang Hijau",
+            "inputUnitCode": "kg",
+            "inputUnitLabel": "Kilogram",
+            "expectedUnitCost": "52000.000000",
+            "catalogPrice": "57000.000000",
+            "matchedOn": "canonical_name",
+            "matchedText": "Kacang Hijau",
+            "nameScore": 0.1667,
+            "costScore": 1,
+            "expectedTotal": 13000,
+            "totalDelta": 0,
+            "totalMatches": true,
+            "score": 0.35
+          },
+          {
+            "productId": "e692c0d0-eed7-5a74-a55e-1d27e583f215",
+            "productCode": "legacy-rs-668",
+            "name": "Spinach/Horenzo",
+            "inputUnitCode": "kg",
+            "inputUnitLabel": "Kilogram",
+            "expectedUnitCost": "55000.000000",
+            "catalogPrice": "70000.000000",
+            "matchedOn": "canonical_name",
+            "matchedText": "Spinach/Horenzo",
+            "nameScore": 0.2,
+            "costScore": 0.7818,
+            "expectedTotal": 13750,
+            "totalDelta": 750,
+            "totalMatches": false,
+            "score": 0.328
+          },
+          {
+            "productId": "7b66d34f-3a81-5699-9ed3-522cab6f77c2",
+            "productCode": "legacy-rs-641",
+            "name": "Lobak Merah",
+            "inputUnitCode": "kg",
+            "inputUnitLabel": "Kilogram",
+            "expectedUnitCost": "38000.000000",
+            "catalogPrice": "47000.000000",
+            "matchedOn": "canonical_name",
+            "matchedText": "Lobak Merah",
+            "nameScore": 0.4167,
+            "costScore": 0,
+            "expectedTotal": 9500,
+            "totalDelta": 3500,
+            "totalMatches": false,
+            "score": 0.325
+          },
+          {
+            "productId": "17b7ead9-0077-5a32-ac47-b2944b05de4d",
+            "productCode": "legacy-rs-1043",
+            "name": "Sayap Broiler",
+            "inputUnitCode": "unit",
+            "inputUnitLabel": "Satuan/paket",
+            "expectedUnitCost": "55000.000000",
+            "catalogPrice": "70000.000000",
+            "matchedOn": "canonical_name",
+            "matchedText": "Sayap Broiler",
+            "nameScore": 0.1538,
+            "costScore": 0.7818,
+            "expectedTotal": 13750,
+            "totalDelta": 750,
+            "totalMatches": false,
+            "score": 0.292
+          },
+          {
+            "productId": "76ec61e8-d60f-5aeb-9dba-fadf9a8f9836",
+            "productCode": "legacy-rs-673",
+            "name": "Jeruk Limo",
+            "inputUnitCode": "kg",
+            "inputUnitLabel": "Kilogram",
+            "expectedUnitCost": "52000.000000",
+            "catalogPrice": "62000.000000",
+            "matchedOn": "canonical_name",
+            "matchedText": "Jeruk Limo",
+            "nameScore": 0.0833,
+            "costScore": 1,
+            "expectedTotal": 13000,
+            "totalDelta": 0,
+            "totalMatches": true,
+            "score": 0.285
+          },
+          {
+            "productId": "216a7799-6892-584a-893b-208ed50fcd8b",
+            "productCode": "legacy-rs-647",
+            "name": "Bayam Merah",
+            "inputUnitCode": "kg",
+            "inputUnitLabel": "Kilogram",
+            "expectedUnitCost": "40000.000000",
+            "catalogPrice": "60000.000000",
+            "matchedOn": "canonical_name",
+            "matchedText": "Bayam Merah",
+            "nameScore": 0.3333,
+            "costScore": 0,
+            "expectedTotal": 10000,
+            "totalDelta": 3000,
+            "totalMatches": false,
+            "score": 0.26
+          }
+        ],
+        "warnings": []
+      }
+    ],
+    "summary": {
+      "totalLines": 5,
+      "highConfidence": 3,
+      "needsReview": 2
+    }
+  }
+}
